@@ -1,0 +1,17 @@
+{
+  "rabbitscams": {
+    "default": "https://partner-destination.com/rabbitscams",
+    "IN": "https://in.partner-destination.com/rabbitscams",
+    "US": "https://us.partner-destination.com/rabbitscams"
+  },
+  "/out/google": {
+    "default": "https://google.com",
+    "IN": "https://google.co.in",
+    "CA": "https://google.ca",
+    "FR": "https://google.fr"
+  },
+  "/out/github": {
+    "default": "https://github.com",
+    "IN": "https://github.co.in"
+  }
+}
