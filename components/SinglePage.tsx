@@ -110,21 +110,20 @@ export default function SinglePage({
               <div className="flex flex-col gap-2">
                 {/* Hero image */}
                 <div className="block w-full md:w-[300px] rounded-md overflow-hidden">
-                  <Image
+                  <img
                     className="w-full h-full object-cover"
-                    src={getImageUrl(site.hero)}
+                    src={`${SERVER_URL}${site.hero}`}
                     width={300}
                     height={100}
                     alt={`${site.title} hero image`}
-                    priority
                   />
                 </div>
 
                 {/* Logo */}
                 <div className="flex justify-center mt-[-35px]">
                   <div className="h-[45px] w-auto shadow rounded-full bg-white py-[6px] px-[20px]">
-                    <Image
-                      src={getImageUrl(site.logo)}
+                    <img
+                      src={`${SERVER_URL}${site.logo}`}
                       width={100}
                       height={100}
                       className="h-full object-contain"
@@ -254,7 +253,7 @@ export default function SinglePage({
               </div>
 
               <div className="block h-[300px] rounded-md overflow-hidden">
-                <Image
+                <img
                   src={getImageUrl(site.hero)}
                   className="h-full w-full object-cover"
                   width={600}
@@ -293,7 +292,7 @@ export default function SinglePage({
               
               <div className="block h-[300px] rounded-md overflow-hidden">
                 <Image
-                  src={getImageUrl(site.hero)}
+                  src={`${SERVER_URL}${site.hero}`}
                   className="h-full w-full object-cover"
                   width={600}
                   height={300}

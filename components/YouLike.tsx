@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import { useTranslations } from "next-intl"; 
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import { useLocale } from "next-intl";
@@ -16,10 +16,7 @@ const Slider: any = dynamic(() => import("react-slick"), { ssr: false });
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-
 const SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL;
-
-
 
 // Site / Card types
 interface SiteFull {
@@ -68,7 +65,7 @@ const PrevArrow = ({ onClick }: { onClick?: () => void }) => (
 // Card Component
 const Card = ({ hero, logo, title, visitUrl, reviewUrl, rating }: CardData) => {
   const locale = useLocale();
-  const t = useTranslations(); 
+  const t = useTranslations();
   const heroSrc = hero?.startsWith("http") ? hero : `${SERVER_URL}${hero}`;
   const logoSrc = logo?.startsWith("http") ? logo : `${SERVER_URL}${logo}`;
   return (
@@ -78,7 +75,7 @@ const Card = ({ hero, logo, title, visitUrl, reviewUrl, rating }: CardData) => {
         className="mx-auto w-[116px] aspect-square rounded-full bg-[#fafafa] p-[6px] overflow-hidden"
       >
         {hero ? (
-          <Image
+          <img
             src={heroSrc}
             width={100}
             height={100}
@@ -92,7 +89,13 @@ const Card = ({ hero, logo, title, visitUrl, reviewUrl, rating }: CardData) => {
 
       <Link href={visitUrl || "#"} className="mx-auto h-[35px]">
         {logo ? (
-          <Image src={logoSrc} width={100} height={100} className="h-full w-auto" alt={`${title} logo image`} />
+          <Image
+            src={logoSrc}
+            width={100}
+            height={100}
+            className="h-full w-auto"
+            alt={`${title} logo image`}
+          />
         ) : (
           <div className="h-full w-[80px] bg-gray-50" />
         )}
@@ -143,7 +146,10 @@ export default function YouLike({ category }: YouLikeProps) {
 
   // Filter + map to CardData (make sure to include rating)
   const filteredCards: CardData[] = sites
-    .filter((site) => Array.isArray(site.categories) && site.categories.includes(category))
+    .filter(
+      (site) =>
+        Array.isArray(site.categories) && site.categories.includes(category)
+    )
     .map((site) => ({
       hero: site.hero,
       logo: site.logo,
@@ -185,7 +191,9 @@ export default function YouLike({ category }: YouLikeProps) {
   return (
     <section className="bg-white py-[40px] relative">
       <div className="px-[15px] mx-auto w-full max-w-[1030px]">
-        <h3 className="text-black text-[27px] font-bold uppercase mb-5">You Might Like</h3>
+        <h3 className="text-black text-[27px] font-bold uppercase mb-5">
+          You Might Like
+        </h3>
 
         <Slider {...settings}>
           {filteredCards.map((card, index) => (
