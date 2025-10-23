@@ -41,6 +41,7 @@ interface CardData {
   visitUrl?: string;
   reviewUrl?: string;
   rating: number;
+  slug: string;
 }
 
 // Custom Arrow Components
@@ -63,7 +64,7 @@ const PrevArrow = ({ onClick }: { onClick?: () => void }) => (
 );
 
 // Card Component
-const Card = ({ hero, logo, title, visitUrl, reviewUrl, rating }: CardData) => {
+const Card = ({ hero, logo, title, visitUrl, reviewUrl, rating, slug }: CardData) => {
   const locale = useLocale();
   const t = useTranslations();
   const heroSrc = hero?.startsWith("http") ? hero : `${SERVER_URL}${hero}`;
@@ -71,7 +72,7 @@ const Card = ({ hero, logo, title, visitUrl, reviewUrl, rating }: CardData) => {
   return (
     <div className="flex flex-col gap-3 shadow-md border border-slate-100 bg-white rounded-sm p-[14px]">
       <Link
-        href={visitUrl || "#"}
+        href={visitUrl || "/"}
         className="mx-auto w-[116px] aspect-square rounded-full bg-[#fafafa] p-[6px] overflow-hidden"
       >
         {hero ? (
@@ -87,9 +88,9 @@ const Card = ({ hero, logo, title, visitUrl, reviewUrl, rating }: CardData) => {
         )}
       </Link>
 
-      <Link href={visitUrl || "#"} className="mx-auto h-[35px]">
+      <Link href={visitUrl || "/"} className="mx-auto h-[35px]">
         {logo ? (
-          <Image
+          <img
             src={logoSrc}
             width={100}
             height={100}
@@ -102,16 +103,16 @@ const Card = ({ hero, logo, title, visitUrl, reviewUrl, rating }: CardData) => {
       </Link>
 
       <Link
-        href={visitUrl || "#"}
+        href={visitUrl || "/"}
         className="block mt-1 text-[13px] text-white uppercase font-medium rounded-md bg-black text-center py-[6px]"
       >
         Visit {title}
       </Link>
 
-      <Link
-        href={reviewUrl || "#"}
-        className="text-black underline uppercase text-[12px] hover:text-[var(--primary)] mx-auto"
-      >
+        <Link
+          href={`/${locale}/sites/${slug}`}
+          className="text-black underline uppercase text-[12px] hover:text-[var(--primary)] mx-auto"
+        >
         {t("readReview")}
       </Link>
 
@@ -157,6 +158,7 @@ export default function YouLike({ category }: YouLikeProps) {
       visitUrl: site.link,
       reviewUrl: `/reviews/${site.slug}`, // keep your expected review URL pattern
       rating: site.rating ?? 0, // <-- pass rating here
+      slug: site.slug, // <-- pass slug here
     }));
 
   const settings = {
