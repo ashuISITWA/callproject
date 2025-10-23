@@ -155,7 +155,7 @@ export default function SinglePage({
                   <div className="w-auto self-start flex gap-2 items-center border border-green-500 py-[2px] px-[6px] rounded-full mx-auto">
                     <span className="bg-green-500 aspect-square h-[8px] rounded-full"></span>
                     <span className="text-[12px] text-green-500">
-                      {site.performers}
+                      {site.performers} {tr("performersText")}
                     </span>
                   </div>
                 </div>
