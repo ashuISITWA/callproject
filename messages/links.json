@@ -1,17 +1,152 @@
 {
-  "rabbitscams": {
-    "default": "https://partner-destination.com/rabbitscams",
-    "IN": "https://in.partner-destination.com/rabbitscams",
-    "US": "https://us.partner-destination.com/rabbitscams"
+  "links": {
+    "google": {
+      "global": "https://google.com",
+      "countries": {
+        "IN": "https://google.co.in",
+        "CA": "https://google.ca",
+        "UK": "https://google.co.uk",
+        "AU": "https://google.com.au",
+        "DE": "https://google.de",
+        "FR": "https://google.fr",
+        "JP": "https://google.co.jp",
+        "BR": "https://google.com.br",
+        "MX": "https://google.com.mx",
+        "ES": "https://google.es",
+        "IT": "https://google.it",
+        "NL": "https://google.nl",
+        "RU": "https://google.ru",
+        "CN": "https://google.cn",
+        "KR": "https://google.co.kr"
+      },
+      "metadata": {
+        "title": "Google Search",
+        "description": "Search the world's information",
+        "category": "search",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "youtube": {
+      "global": "https://youtube.com",
+      "countries": {
+        "IN": "https://youtube.co.in",
+        "UK": "https://youtube.co.uk",
+        "CA": "https://youtube.ca",
+        "AU": "https://youtube.com.au",
+        "DE": "https://youtube.de",
+        "FR": "https://youtube.fr",
+        "JP": "https://youtube.co.jp",
+        "BR": "https://youtube.com.br",
+        "MX": "https://youtube.com.mx",
+        "ES": "https://youtube.es",
+        "IT": "https://youtube.it",
+        "NL": "https://youtube.nl",
+        "RU": "https://youtube.ru",
+        "CN": "https://youtube.cn",
+        "KR": "https://youtube.co.kr"
+      },
+      "metadata": {
+        "title": "YouTube",
+        "description": "Watch and share videos",
+        "category": "video",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "facebook": {
+      "global": "https://facebook.com",
+      "countries": {
+        "IN": "https://facebook.com",
+        "CA": "https://facebook.com",
+        "UK": "https://facebook.com",
+        "AU": "https://facebook.com",
+        "DE": "https://facebook.com",
+        "FR": "https://facebook.com",
+        "JP": "https://facebook.com",
+        "BR": "https://facebook.com",
+        "MX": "https://facebook.com",
+        "ES": "https://facebook.com",
+        "IT": "https://facebook.com",
+        "NL": "https://facebook.com",
+        "RU": "https://facebook.com",
+        "CN": "https://facebook.com",
+        "KR": "https://facebook.com"
+      },
+      "metadata": {
+        "title": "Facebook",
+        "description": "Connect with friends and family",
+        "category": "social",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "amazon": {
+      "global": "https://amazon.com",
+      "countries": {
+        "IN": "https://amazon.in",
+        "CA": "https://amazon.ca",
+        "UK": "https://amazon.co.uk",
+        "AU": "https://amazon.com.au",
+        "DE": "https://amazon.de",
+        "FR": "https://amazon.fr",
+        "JP": "https://amazon.co.jp",
+        "BR": "https://amazon.com.br",
+        "MX": "https://amazon.com.mx",
+        "ES": "https://amazon.es",
+        "IT": "https://amazon.it",
+        "NL": "https://amazon.nl",
+        "RU": "https://amazon.ru",
+        "CN": "https://amazon.cn",
+        "KR": "https://amazon.co.kr"
+      },
+      "metadata": {
+        "title": "Amazon",
+        "description": "Shop online for millions of products",
+        "category": "shopping",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "netflix": {
+      "global": "https://netflix.com",
+      "countries": {
+        "IN": "https://netflix.com/in",
+        "CA": "https://netflix.com/ca",
+        "UK": "https://netflix.com/gb",
+        "AU": "https://netflix.com/au",
+        "DE": "https://netflix.com/de",
+        "FR": "https://netflix.com/fr",
+        "JP": "https://netflix.com/jp",
+        "BR": "https://netflix.com/br",
+        "MX": "https://netflix.com/mx",
+        "ES": "https://netflix.com/es",
+        "IT": "https://netflix.com/it",
+        "NL": "https://netflix.com/nl",
+        "RU": "https://netflix.com/ru",
+        "CN": "https://netflix.com/cn",
+        "KR": "https://netflix.com/kr"
+      },
+      "metadata": {
+        "title": "Netflix",
+        "description": "Watch TV shows and movies online",
+        "category": "streaming",
+        "enabled": true,
+        "tracking": true
+      }
+    }
   },
-  "/out/google": {
-    "default": "https://google.com",
-    "IN": "https://google.co.in",
-    "CA": "https://google.ca",
-    "FR": "https://google.fr"
-  },
-  "/out/github": {
-    "default": "https://github.com",
-    "IN": "https://github.co.in"
+  "config": {
+    "defaultCountry": "US",
+    "fallbackStrategy": "global",
+    "trackingEnabled": true,
+    "analytics": {
+      "enabled": true,
+      "provider": "vercel"
+    },
+    "cache": {
+      "enabled": true,
+      "ttl": 3600
+    }
   }
 }
