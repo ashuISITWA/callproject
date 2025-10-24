@@ -3,7 +3,7 @@ import Shortcuts from "@/components/Shortcuts";
 import WeTested from "@/components/WeTested";
 import YouLike from "@/components/YouLike";
 import HeroBanner from "@/components/banners/HeroBanner";
-import VerticalList from "@/components/VerticalList";
+
 import FreechatPageClient from "./freechatpageclient";
 import FreeChatGrid from "./freechatgrid";
 
