@@ -83,8 +83,8 @@ export default function SinglePage({
     ? slugMessages.features
     : [];
 
-  // ✅ Final visit URL
-  const effectiveUrl = visitUrl || site.link || "/";
+  // ✅ Final visit URL - Use redirect system
+  const effectiveUrl = visitUrl || `/out/${site.slug}` || "/";
 
   // ✅ Helper function to get full image URL
   const getImageUrl = (imagePath: string) => {

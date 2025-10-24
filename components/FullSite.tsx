@@ -156,7 +156,7 @@ export default function FullSite() {
                     {/* Visit button */}
                     <div className="shrink-0">
                       <Link
-                        href={site.link}
+                        href={`/out/${site.slug}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="block text-[13px] text-white uppercase font-medium rounded-md bg-black text-center py-[12px] px-[30px]"
@@ -281,7 +281,7 @@ export default function FullSite() {
                           {/* Visit button */}
                           <div className="shrink-0">
                             <Link
-                              href={site.link}
+                              href={`/out/${site.slug}`}
                               target="_blank"
                               rel="noopener noreferrer"
                               className="block text-[13px] text-white uppercase font-medium rounded-md bg-black text-center py-[12px] px-[30px]"

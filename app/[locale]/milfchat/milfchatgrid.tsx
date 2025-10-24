@@ -144,7 +144,7 @@ export default function MilfChatGrid({ category, siteKey }: Props) {
                             <Link
                               target="_blank"
                               rel="noopener noreferrer"
-                              href={site.link}
+                              href={`/out/${site.slug}`}
                               className="inline-block text-[13px] text-white uppercase font-medium rounded-md bg-black text-center py-[6px] transition-colors w-full md:w-[192px]"
                             >
                               Visit {site.title}

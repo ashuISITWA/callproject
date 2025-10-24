@@ -161,6 +161,114 @@
         "enabled": true,
         "tracking": true
       }
+    },
+    "liveflirt": {
+      "global": "https://liveflirt.com",
+      "countries": {
+        "IN": "https://liveflirt.in",
+        "CA": "https://liveflirt.ca",
+        "UK": "https://liveflirt.co.uk",
+        "AU": "https://liveflirt.com.au",
+        "DE": "https://liveflirt.de",
+        "FR": "https://liveflirt.fr",
+        "JP": "https://liveflirt.co.jp",
+        "BR": "https://liveflirt.com.br",
+        "MX": "https://liveflirt.com.mx",
+        "ES": "https://liveflirt.es",
+        "IT": "https://liveflirt.it",
+        "NL": "https://liveflirt.nl",
+        "RU": "https://liveflirt.ru",
+        "CN": "https://liveflirt.cn",
+        "KR": "https://liveflirt.co.kr"
+      },
+      "metadata": {
+        "title": "LiveFlirt",
+        "description": "Live cam site with 8,000+ performers",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "camvibe": {
+      "global": "https://camvibe.com",
+      "countries": {
+        "IN": "https://camvibe.in",
+        "CA": "https://camvibe.ca",
+        "UK": "https://camvibe.co.uk",
+        "AU": "https://camvibe.com.au",
+        "DE": "https://camvibe.de",
+        "FR": "https://camvibe.fr",
+        "JP": "https://camvibe.co.jp",
+        "BR": "https://camvibe.com.br",
+        "MX": "https://camvibe.com.mx",
+        "ES": "https://camvibe.es",
+        "IT": "https://camvibe.it",
+        "NL": "https://camvibe.nl",
+        "RU": "https://camvibe.ru",
+        "CN": "https://camvibe.cn",
+        "KR": "https://camvibe.co.kr"
+      },
+      "metadata": {
+        "title": "CamVibe",
+        "description": "Premium cam site with 4,500+ performers",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "streamstar": {
+      "global": "https://streamstar.com",
+      "countries": {
+        "IN": "https://streamstar.in",
+        "CA": "https://streamstar.ca",
+        "UK": "https://streamstar.co.uk",
+        "AU": "https://streamstar.com.au",
+        "DE": "https://streamstar.de",
+        "FR": "https://streamstar.fr",
+        "JP": "https://streamstar.co.jp",
+        "BR": "https://streamstar.com.br",
+        "MX": "https://streamstar.com.mx",
+        "ES": "https://streamstar.es",
+        "IT": "https://streamstar.it",
+        "NL": "https://streamstar.nl",
+        "RU": "https://streamstar.ru",
+        "CN": "https://streamstar.cn",
+        "KR": "https://streamstar.co.kr"
+      },
+      "metadata": {
+        "title": "StreamStar",
+        "description": "Live streaming platform with 7,000+ performers",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "flirtzone": {
+      "global": "https://flirtzone.com",
+      "countries": {
+        "IN": "https://flirtzone.in",
+        "CA": "https://flirtzone.ca",
+        "UK": "https://flirtzone.co.uk",
+        "AU": "https://flirtzone.com.au",
+        "DE": "https://flirtzone.de",
+        "FR": "https://flirtzone.fr",
+        "JP": "https://flirtzone.co.jp",
+        "BR": "https://flirtzone.com.br",
+        "MX": "https://flirtzone.com.mx",
+        "ES": "https://flirtzone.es",
+        "IT": "https://flirtzone.it",
+        "NL": "https://flirtzone.nl",
+        "RU": "https://flirtzone.ru",
+        "CN": "https://flirtzone.cn",
+        "KR": "https://flirtzone.co.kr"
+      },
+      "metadata": {
+        "title": "FlirtZone",
+        "description": "Interactive cam site with 5,500+ performers",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     }
   },
   "config": {

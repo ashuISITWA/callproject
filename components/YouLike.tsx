@@ -155,7 +155,7 @@ export default function YouLike({ category }: YouLikeProps) {
       hero: site.hero,
       logo: site.logo,
       title: site.title,
-      visitUrl: site.link,
+      visitUrl: `/out/${site.slug}`, // Use redirect system instead of direct link
       reviewUrl: `/reviews/${site.slug}`, // keep your expected review URL pattern
       rating: site.rating ?? 0, // <-- pass rating here
       slug: site.slug, // <-- pass slug here
