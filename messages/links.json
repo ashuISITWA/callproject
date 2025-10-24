@@ -134,6 +134,33 @@
         "enabled": true,
         "tracking": true
       }
+    },
+    "rabbitscams": {
+      "global": "https://google.com",
+      "countries": {
+        "IN": "https://google.co.in",
+        "CA": "https://google.ca",
+        "UK": "https://google.co.uk",
+        "AU": "https://google.com.au",
+        "DE": "https://google.de",
+        "FR": "https://google.fr",
+        "JP": "https://google.co.jp",
+        "BR": "https://google.com.br",
+        "MX": "https://google.com.mx",
+        "ES": "https://google.es",
+        "IT": "https://google.it",
+        "NL": "https://google.nl",
+        "RU": "https://google.ru",
+        "CN": "https://google.cn",
+        "KR": "https://google.co.kr"
+      },
+      "metadata": {
+        "title": "RabbitsCams",
+        "description": "Premium cam site with 6,000+ performers",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     }
   },
   "config": {
