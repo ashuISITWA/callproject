@@ -136,9 +136,9 @@
       }
     },
     "rabbitscams": {
-      "global": "https://google.com",
+      "global": "https://www.amazon.in",
       "countries": {
-        "IN": "https://google.co.in",
+        "IN": "https://www.amazon.in",
         "CA": "https://google.ca",
         "UK": "https://google.co.uk",
         "AU": "https://google.com.au",
