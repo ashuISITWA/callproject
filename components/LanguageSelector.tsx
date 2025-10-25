@@ -10,7 +10,9 @@ const SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL;
 
 const languages = [
   { code: "en", name: "English", flag:  `${SERVER_URL}/flags/en.svg` },
-  { code: "fr", name: "Français", flag: `${SERVER_URL}/flags/fr.svg`},
+  { code: "fr", name: "Français", flag: `${SERVER_URL}/flags/fr.svg`}, 
+  { code: "de", name: "Deutsch", flag: `${SERVER_URL}/flags/de.svg`},
+  { code: "es", name: "Español", flag: `${SERVER_URL}/flags/es.svg`},
 ];
 
 export default function LanguageSelector() {

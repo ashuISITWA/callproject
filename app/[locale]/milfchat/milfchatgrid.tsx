@@ -101,7 +101,7 @@ export default function MilfChatGrid({ category, siteKey }: Props) {
                                 href={`/${locale}/sites/${site.slug}`}
                                 className="text-black underline uppercase text-[12px] hover:text-[var(--primary)]"
                               >
-                               {t2("readReview")}
+                                {t2("readReview")}
                               </Link>
                             </div>
                           </div>
@@ -110,28 +110,36 @@ export default function MilfChatGrid({ category, siteKey }: Props) {
                         <div className="flex flex-col lg:flex-row lg:items-center justify-between grow p-4 gap-3">
                           <div className="flex-1 flex flex-col items-start gap-3">
                             <div className="text-sm space-y-1">
-                              {siteFeatures.slice(0, 3).map((feature: string, i: number) => (
-                                <div
-                                  key={i}
-                                  className="flex items-center gap-2 truncate w-[280px]"
-                                >
-                                  <Check size={14} className="shrink-0" />
-                                  {feature}
-                                </div>
-                              ))}
-                              {siteFeatures.slice(3, 4).map((feature: string, i: number) => (
-                                <div
-                                  key={i}
-                                  className="flex items-center gap-2 truncate w-[280px]"
-                                >
-                                  <DollarSign
-                                    size={13}
-                                    className="text-yellow-500 shrink-0"
-                                  />
+                              {siteFeatures
+                                .slice(0, 3)
+                                .map((feature: string, i: number) => (
+                                  <div
+                                    key={i}
+                                    className="flex items-center gap-2 "
+                                  >
+                                    <Check size={14} className="shrink-0" />
+                                    <span className="truncate w-[280px]">
+                                      {feature}
+                                    </span>
+                                  </div>
+                                ))}
+                              {siteFeatures
+                                .slice(3, 4)
+                                .map((feature: string, i: number) => (
+                                  <div
+                                    key={i}
+                                    className="flex items-center gap-2 truncate w-[280px]"
+                                  >
+                                    <DollarSign
+                                      size={13}
+                                      className="text-yellow-500 shrink-0"
+                                    />
 
-                                  {feature}
-                                </div>
-                              ))}
+                                    <span className="truncate w-[280px]">
+                                      {feature}
+                                    </span>
+                                  </div>
+                                ))}
                             </div>
                             <div className="w-auto self-start flex gap-2 items-center border border-green-500 py-[2px] px-[6px] rounded-full">
                               <span className="bg-green-500 aspect-square h-[8px] rounded-full"></span>
@@ -242,7 +250,7 @@ export default function MilfChatGrid({ category, siteKey }: Props) {
                               href={`/${locale}/sites/${site.slug}`}
                               className="text-black underline uppercase text-[12px] hover:text-[var(--primary)]"
                             >
-                        {t2("readReview")}
+                              {t2("readReview")}
                             </Link>
                           </div>
                           <Link

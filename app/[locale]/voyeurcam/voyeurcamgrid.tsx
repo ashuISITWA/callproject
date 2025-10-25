@@ -115,23 +115,23 @@ export default function VoyeurCamGrid({ category, siteKey }: Props) {
                            {siteFeatures.slice(0, 3).map((feature: string, i: number) => (
                           <div
                             key={i}
-                            className="flex items-center gap-2 truncate w-[280px]"
+                            className="flex items-center gap-2 "
                           >
                             <Check size={14} className="shrink-0" />
-                            {feature}
+                            <span className="truncate w-[280px]">{feature}</span>
                           </div>
                         ))}
                             {siteFeatures.slice(3, 4).map((feature: string, i: number) => (
                           <div
                             key={i}
-                            className="flex items-center gap-2 truncate w-[280px]"
+                            className="flex items-center gap-2 "
                           >
                             <DollarSign
                               size={13}
                               className="text-yellow-500 shrink-0"
                             />
 
-                            {feature}
+                            <span className="truncate w-[280px]">{feature}</span>
                           </div>
                         ))}
                       </div>

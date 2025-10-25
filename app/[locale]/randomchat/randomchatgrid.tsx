@@ -111,25 +111,25 @@ export default function RandomChatGrid({ category, siteKey }: Props) {
                           <div className="text-sm space-y-1">
                           {siteFeatures.slice(0, 3).map((feature: string, i: number) => (
                               <div
-                                key={i}
-                                className="flex items-center gap-2 truncate w-[280px]"
-                              >
-                                <Check size={14} className="shrink-0" />
-                                {feature}
-                              </div>
+                            key={i}
+                            className="flex items-center gap-2 "
+                          >
+                            <Check size={14} className="shrink-0" />
+                            <span className="truncate w-[280px]">{feature}</span>
+                          </div>
                             ))}
                             {siteFeatures.slice(3, 4).map((feature: string, i: number) => (
                               <div
-                                key={i}
-                                className="flex items-center gap-2 truncate w-[280px]"
-                              >
-                                <DollarSign
-                                  size={13}
-                                  className="text-yellow-500 shrink-0"
-                                />
+                            key={i}
+                            className="flex items-center gap-2 "
+                          >
+                            <DollarSign
+                              size={13}
+                              className="text-yellow-500 shrink-0"
+                            />
 
-                                {feature}
-                              </div>
+                            <span className="truncate w-[280px]">{feature}</span>
+                          </div>
                             ))}
                           </div>
                           <div className="w-auto self-start flex gap-2 items-center border border-green-500 py-[2px] px-[6px] rounded-full">
