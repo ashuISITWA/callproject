@@ -18,6 +18,13 @@
         "RU": "https://google.ru",
         "CN": "https://google.cn",
         "KR": "https://google.co.kr"
+      },
+      "metadata": {
+        "title": "Rabbit Scams",
+        "description": "Premium adult cam site with live performers",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
       }
     },
     "liveflirt": {
@@ -38,6 +45,13 @@
         "RU": "https://liveflirt.ru",
         "CN": "https://liveflirt.cn",
         "KR": "https://liveflirt.co.kr"
+      },
+      "metadata": {
+        "title": "Live Flirt",
+        "description": "Interactive adult cam platform with live chat",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
       }
     },
     "camvibe": {
@@ -58,6 +72,13 @@
         "RU": "https://camvibe.ru",
         "CN": "https://camvibe.cn",
         "KR": "https://camvibe.co.kr"
+      },
+      "metadata": {
+        "title": "Cam Vibe",
+        "description": "High-quality adult cam streaming platform",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
       }
     },
     "streamstar": {
@@ -78,6 +99,13 @@
         "RU": "https://streamstar.ru",
         "CN": "https://streamstar.cn",
         "KR": "https://streamstar.co.kr"
+      },
+      "metadata": {
+        "title": "Stream Star",
+        "description": "Premium adult streaming service with HD quality",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
       }
     },
     "flirtzone": {
@@ -98,6 +126,13 @@
         "RU": "https://flirtzone.ru",
         "CN": "https://flirtzone.cn",
         "KR": "https://flirtzone.co.kr"
+      },
+      "metadata": {
+        "title": "Flirt Zone",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
       }
     }
   },
