@@ -90,6 +90,7 @@ function getRedirectUrl(slug: string, country: string): string | null {
 export function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
+  // Handle /out/ redirects for external links
   if (pathname.startsWith('/out/')) {
     const slug = pathname.slice(5); // "/out/" → 5 chars
     
@@ -122,9 +123,19 @@ export function middleware(req: NextRequest) {
     return new NextResponse('Link not found', { status: 404 });
   }
 
+  // Handle root path - redirect to default locale
+  if (pathname === '/') {
+    const url = req.nextUrl.clone();
+    url.pathname = '/en';
+    return NextResponse.redirect(url);
+  }
+
   return NextResponse.next();
 }
 
 export const config = {
-  matcher: '/out/:path*',
+  matcher: [
+    '/',
+    '/out/:path*',
+  ],
 };
