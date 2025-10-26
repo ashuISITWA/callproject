@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useMessages, useTranslations } from "next-intl";
+import { useTranslations, useLocale, useMessages } from "next-intl";
 import { Check } from "lucide-react";
 import camSites from "@/data/sites.json";
 
@@ -37,7 +37,6 @@ export default function SinglePage({
 }: SinglePageProps) {
   const tr = useTranslations();
   const messages = useMessages() as any;
-
   // ✅ Handle undefined pageKey
   if (!pageKey) {
     return (
@@ -155,7 +154,7 @@ export default function SinglePage({
                   <div className="w-auto self-start flex gap-2 items-center border border-green-500 py-[2px] px-[6px] rounded-full mx-auto">
                     <span className="bg-green-500 aspect-square h-[8px] rounded-full"></span>
                     <span className="text-[12px] text-green-500">
-                      {site.performers} {tr("performersText")}
+                      {site.performers.trim()}{" "}{tr("performersText")}
                     </span>
                   </div>
                 </div>

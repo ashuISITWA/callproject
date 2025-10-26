@@ -101,8 +101,8 @@ export default function Header() {
                 <Link
                   key={key}
                   href={`/${locale}${href}`} 
-                  className={`text-[14px] py-[10px] text-white border-b-4 hover:text-[var(--primary)] ${
-                    isActive ? "border-[var(--primary)]" : "border-transparent"
+                  className={`text-[14px] py-[10px] text-white hover:text-[var(--accent)] ${
+                    isActive ? "border-[var(--primary)] text-[var(--accent)]" : "border-transparent "
                   }`}
                 >
                   {t(key)} 
@@ -130,7 +130,7 @@ export default function Header() {
                   key={key}
                   href={`/${locale}${href}`} // ✅ locale + real href
                   className={`text-[14px] py-[10px] hover:text-[var(--accent)] ${
-                    isActive ? "text-[var(--accent)]" : "text-white"
+                    isActive ? "text-[var(--accent)] hover:text-[var(--accent)]" : "text-white hover:text-[var(--accent)]"
                   }`}
                 >
                   {t(key)} {/* ✅ translated label */}

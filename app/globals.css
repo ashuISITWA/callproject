@@ -120,7 +120,7 @@
   --sidebar-ring: oklch(0.556 0 0);
   --primary:#1d2659;
   --secondary:#3A4CA8;
-  --accent:#F4B400; 
+  --accent:#F4B400;
 }
 
 @layer base {
