@@ -27,8 +27,8 @@ export default function FetishChatPageclient() {
           </div>
           <div className="shrink-0">
             <div className="inline-block w-[300px] rounded-md overflow-hidden">
-              <Image
-                src={t("image")}
+              <img
+                src={`${SERVER_URL}${t("image")}`}
                 className="w-full"
                 width={300}
                 height={300}

@@ -55,8 +55,8 @@ export default function CamPost({
             </div>
           </div>
 
-          <Image
-            src={hero}
+          <img
+            src={`${SERVER_URL}${hero}`}
             width={500}
             height={500}
             alt={title}
@@ -70,7 +70,7 @@ export default function CamPost({
                 {index + 1}
               </h1>
               <div className="w-[192px]">
-                <Image src={logo} width={192} height={50} alt={`${title} logo`} className="w-full" />
+                <img src={`${SERVER_URL}${logo}`} width={192} height={50} alt={`${title} logo`} className="w-full" />
               </div>
               <Link
                 href={reviewUrl}

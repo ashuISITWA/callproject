@@ -73,7 +73,7 @@ export default function TopChatGrid({ category, siteKey }: Props) {
 
                       <div className="absolute bottom-0 left-0 right-0 z-[10] backdrop-blur-[10px] bg-white/50 p-2 flex flex-col">
                         <div className="flex justify-between items-center gap-2">
-                          <h2 className="text-black aspect-square w-[40px] bg-white group-hover:bg-black group-hover:text-white rounded-full text-center leading-[35px] font-semibold text-[16px] grid place-items-center">
+                          <h2 className="text-black aspect-square w-[40px] bg-white group-hover:bg-black group-hover:text-white rounded-full text-center leading-[35px] font-semibold text-[16px] grid place-items-center shrink-0">
                             <span className="relative">
                               {index === 0 && (
                                 <Crown
@@ -110,7 +110,7 @@ export default function TopChatGrid({ category, siteKey }: Props) {
                             .map((feature: string, i: number) => (
                               <div key={i} className="flex items-center gap-2 ">
                                 <Check size={14} className="shrink-0" />
-                                <span className="truncate w-[280px]">
+                                <span className="truncate w-[180px] md:w-[280px]">
                                   {feature}
                                 </span>
                               </div>
@@ -120,14 +120,14 @@ export default function TopChatGrid({ category, siteKey }: Props) {
                             .map((feature: string, i: number) => (
                               <div
                                 key={i}
-                                className="flex items-center gap-2 truncate w-[280px]"
+                                className="flex items-center gap-2 truncate w-[180px] md:w-[280px]"
                               >
                                 <DollarSign
                                   size={13}
                                   className="text-yellow-500 shrink-0"
                                 />
 
-                                <span className="truncate w-[280px]">
+                                <span className="truncate w-[180px] md:w-[280px]">
                                   {feature}
                                 </span>
                               </div>
@@ -213,7 +213,7 @@ export default function TopChatGrid({ category, siteKey }: Props) {
                     </div>
                     <div className="absolute bottom-0 left-0 right-0 z-[10] backdrop-blur-[10px] bg-white/50 p-2 flex flex-col">
                       <div className="flex justify-between items-center gap-2">
-                        <h2 className="text-black aspect-square w-[40px] bg-white group-hover:bg-black group-hover:text-white rounded-full text-center leading-[35px] font-semibold text-[16px] grid place-items-center">
+                        <h2 className="text-black aspect-square w-[40px] bg-white group-hover:bg-black group-hover:text-white rounded-full text-center leading-[35px] font-semibold text-[16px] grid place-items-center shrink-0">
                           <span className="relative">
                             {index === 0 && (
                               <Crown

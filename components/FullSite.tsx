@@ -89,7 +89,7 @@ export default function FullSite() {
                             <span>{index + 1}</span>
                           </span>
                         </h2>
-                        <Image
+                        <img
                           src={getImageUrl(site.hero)}
                           alt={site.title}
                           width={500}
@@ -102,7 +102,7 @@ export default function FullSite() {
                     {/* Logo + Review Link */}
                     <div className="shrink-0 w-[200px] text-center">
                       <div className="h-[30px] mx-auto table">
-                        <Image
+                        <img
                           src={getImageUrl(site.logo)}
                           width={192}
                           height={50}
@@ -214,7 +214,7 @@ export default function FullSite() {
                                   <span>{index + 1}</span>
                                 </span>
                               </h2>
-                              <Image
+                              <img
                                 src={getImageUrl(site.hero)}
                                 alt={site.title}
                                 width={500}
@@ -227,7 +227,7 @@ export default function FullSite() {
                           {/* Logo + Review Link */}
                           <div className="shrink-0 w-[200px] text-center">
                             <div className="h-[30px] mx-auto table">
-                              <Image
+                              <img
                                 src={getImageUrl(site.logo)}
                                 width={192}
                                 height={50}

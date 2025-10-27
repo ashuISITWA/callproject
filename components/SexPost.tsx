@@ -35,8 +35,8 @@ export default function SexPost({
             <span className="">{index + 1}</span>
             </span>
           </h2>
-          <Image
-            src={hero}
+          <img
+            src={`${SERVER_URL}${hero}`}
             alt={title}
             width={500}
             height={281}
@@ -48,8 +48,8 @@ export default function SexPost({
       {/* Logo + review link */}
       <div className="shrink-0 w-[200px] text-center">
         <div className="h-[30px] mx-auto table">
-          <Image
-            src={logo}
+          <img
+           src={`${SERVER_URL}${site.logo}`}
             width={192}
             height={50}
             alt={`${title} logo`}

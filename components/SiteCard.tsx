@@ -3,6 +3,10 @@ import Image from "next/image";
 import { useTranslations } from "next-intl"; // ✅ Import this
 import { Site } from "@/lib/sites";
 
+const SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL;
+
+
+
 export default function SiteCard({ site }: { site: Site }) {
   const t = useTranslations(); 
 
@@ -10,7 +14,7 @@ export default function SiteCard({ site }: { site: Site }) {
     <div className="border rounded-md shadow-sm overflow-hidden">
       <div className="relative h-48 w-full">
         {site.image && (
-          <Image
+          <img
             src={site.image}
             alt={site.title}
             fill

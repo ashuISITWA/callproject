@@ -1,177 +1,50 @@
-"use client";
-import Image from "next/image";
-import Link from "next/link";
-import { Check, DollarSign, Crown } from "lucide-react";
-import { useSearchParams } from "next/navigation";
-import { useTranslations, useLocale, useMessages } from "next-intl";
-import camSites from "@/data/sites.json";
-import HeroBanner from "@/components/banners/HeroBanner";
+import SearchList from "./searchList";
+import type { Metadata } from "next";
+import messagesMap from "@/messages"; 
+import type { AppLocale } from "@/messages"; 
 
-const SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL;
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+
+  const safeLocale = (locale in messagesMap ? locale : "en") as AppLocale;
+  const messages = messagesMap[safeLocale];
+
+  const seoData = (messages.SEO as any)?.Search || {
+    Title: "Search - Find the Best Adult Chat Sites",
+    Description: "Search and discover the top adult chat sites, cam sites, and live sex chat platforms.",
+    Keywords: "search adult chat, find cam sites, adult sites search"
+  };
+
+  return {
+    title: seoData.Title,
+    description: seoData.Description,
+    keywords: seoData.Keywords,
+    openGraph: {
+      title: seoData.Title,
+      description: seoData.Description,
+      type: "website",
+      locale: safeLocale,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: seoData.Title,
+      description: seoData.Description,
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
+}
 
 export default function SearchPage() {
-  const searchParams = useSearchParams();
-  const locale = useLocale();
-  const t = useTranslations("SearchPage");
-  const tr = useTranslations(); 
-  const messages = useMessages(); // ✅ added this
-  const query = (searchParams.get("q") || "").trim();
-  const normalized = query.toLowerCase();
-
-  const results = normalized
-    ? camSites.filter((site) => {
-        const haystack = [site.title, site.slug, ...(site.categories || [])]
-          .filter(Boolean)
-          .join(" \n ")
-          .toLowerCase();
-        return haystack.includes(normalized);
-      })
-    : [];
-
   return (
     <>
-      <HeroBanner pageKey="searchBanner" subtitle={t("showing", { query })} />
-
-      <section className="block py-[40px] bg-[#fafafa] min-h-[80vh]">
-        <div className="w-full max-w-[1030px] mx-auto px-[15px]">
-          <div className="mb-5">
-            <h1 className="text-[22px] font-semibold text-black">
-              {t("title", { count: results.length })}
-            </h1>
-            <p className="text-[14px] text-slate-600">
-              {t("showing", { query })}
-            </p>
-          </div>
-
-          {results.length === 0 ? (
-            <div className="text-[14px] text-slate-700">
-              {query ? t("noResults") : t("noQuery")}
-            </div>
-          ) : (
-            <div className="flex flex-col gap-4">
-              {results.map((site, index) => {
-                const slugMessages =
-                  messages?.singlePageBySlug?.[site.slug] || {};
-
-                // Merge features: prefer slugMessages.features if it's an array
-                const siteFeatures = Array.isArray(slugMessages?.features)
-                  ? slugMessages.features
-                  : [];
-
-                const performers =
-                  (slugMessages?.performers as string) ||
-                  site.performers ||
-                  "10,000+ active users";
-
-                return (
-                  <div
-                    key={site.id ?? index}
-                    className="flex flex-wrap gap-4 items-center bg-white py-[15px] px-[20px] rounded-md grow md:grow-0 md:basis-[calc(25%-1rem)] justify-center md:justify-between shadow"
-                  >
-                    {/* Thumbnail with index */}
-                    <div className="grow md:grow-0 md:basis-[300px]">
-                      <div className="aspect-video w-full rounded-md overflow-hidden relative">
-                        <h2 className="text-black aspect-square w-[40px] absolute top-1/2 left-0 transform -translate-y-1/2 z-[3] bg-yellow-500 rounded-r-full text-center leading-[35px] font-semibold text-[14px] grid place-items-center">
-                          <span className="relative">
-                            {index === 0 && (
-                              <Crown
-                                size={13}
-                                className="absolute top-[-2px] left-1/2 -translate-x-1/2"
-                              />
-                            )}
-                            <span>{index + 1}</span>
-                          </span>
-                        </h2>
-                        <Image
-                          src={`${SERVER_URL}${site.hero}`}
-                          alt={site.title}
-                          width={500}
-                          height={281}
-                          className="h-full w-full object-cover"
-                        />
-                      </div>
-                    </div>
-
-                    {/* Logo + review link */}
-                    <div className="shrink-0 w-[200px] text-center">
-                      <div className="h-[30px] mx-auto table">
-                        <Image
-                          src={`${SERVER_URL}${site.logo}`}
-                          width={192}
-                          height={50}
-                          alt={`${site.title} logo`}
-                          className="h-full mx-auto"
-                        />
-                      </div>
-                      <Link
-                        href={`/${locale}/sites/${site.slug}`}
-                        className="text-black underline uppercase text-[12px] hover:text-[var(--primary)]"
-                      >
-                        {t("readReview")}
-                      </Link>
-                    </div>
-
-                    {/* Feature list */}
-                    <div className="grow">
-                      <div className="flex flex-col mx-auto w-auto">
-                        {siteFeatures
-                          .slice(0, 3)
-                          .map((feature: string, i: number) => (
-                            <div key={i} className="flex gap-1 items-center">
-                              <Check size={13} />
-                              <span className="text-[12px] text-black capitalize truncate w-[180px]">
-                                {feature}
-                              </span>
-                            </div>
-                          ))}
-
-                        {siteFeatures[3] && (
-                          <div className="flex gap-1 items-center">
-                            <DollarSign size={13} className="text-yellow-500" />
-                            <span className="text-[12px] text-black capitalize truncate w-[180px]">
-                              {siteFeatures[3]}
-                            </span>
-                          </div>
-                        )}
-
-                        {performers && (
-                          <div className="w-auto self-start flex gap-2 items-center border border-green-500 py-[2px] px-[6px] rounded-full mx-auto md:ml-0 mt-3">
-                            <span className="bg-green-500 aspect-square h-[8px] rounded-full"></span>
-                            <span className="text-[12px] text-green-500 truncate max-w-[180px]">
-                              {performers} {tr("performersText")}
-                            </span>
-                          </div>
-                        )}
-                      </div>
-                    </div>
-
-                    {/* Visit button */}
-                    <div className="shrink-0">
-                      <Link
-                        href={site.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="block text-[13px] text-white uppercase font-medium rounded-md bg-black text-center py-[12px] px-[30px]"
-                      >
-                        {t("visit", { title: site.title })}
-                      </Link>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          )}
-
-          <div className="mt-8">
-            <Link
-              href={`/${locale}/`}
-              className="text-[13px] text-black underline"
-            >
-              {t("backToHome")}
-            </Link>
-          </div>
-        </div>
-      </section>
+      <SearchList />
     </>
   );
 }

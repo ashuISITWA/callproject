@@ -62,8 +62,13 @@
     },
     "Sites": {
       "Title": "All Sites",
-      "Description": "Browse every top-rated cam and chat site we’ve reviewed—your one-stop shop.",
+      "Description": "Browse every top-rated cam and chat site we've reviewed—your one-stop shop.",
       "Keywords": "cam sites, chat platforms, reviews"
+    },
+    "Search": {
+      "Title": "Search - Find the Best Adult Chat Sites",
+      "Description": "Search and discover the top adult chat sites, cam sites, and live sex chat platforms.",
+      "Keywords": "search adult chat, find cam sites, adult sites search"
     }
   },
   "Header": {
@@ -84,43 +89,54 @@
       "button": "Go"
     }
   },
-  "Banner": {
+ "Banner": {
     "top10chat": {
-      "title": "Hottest Chat Sites 2025"
+      "title": "Top 10 Chat Sites 2025",
+      "subtitle": "Discover the highest-rated platforms for live interaction and community engagement this year."
     },
     "sexCams": {
-      "title": "Sex Cam Sites 2025"
+      "title": "Sex Cam Sites 2025",
+      "subtitle": "Explore the best live adult webcam experiences with models from around the world."
     },
     "freeChat": {
-      "title": "Free Chat Sites 2025"
+      "title": "Free Chat Sites 2025",
+      "subtitle": "Connect with new people instantly without any subscription fees or hidden costs."
     },
     "milfChat": {
-      "title": "MILF Chat Sites 2025"
+      "title": "MILF Chat Sites 2025",
+      "subtitle": "Find mature and experienced partners for exciting and sophisticated conversations."
     },
     "bbwChat": {
-      "title": "BBW Chat Sites 2025"
+      "title": "BBW Chat Sites 2025",
+      "subtitle": "Join a welcoming community that celebrates curvy figures and genuine connections."
     },
     "ebonyChat": {
-      "title": "Ebony Chat Sites 2025"
+      "title": "Ebony Chat Sites 2025",
+      "subtitle": "Immerse yourself in vibrant communities featuring beautiful ebony models and users."
     },
     "teenChat": {
-      "title": "Teen Chat Sites 2025"
+      "title": "Teen Chat Sites 2025",
+      "subtitle": "Meet a younger crowd in dynamic chat rooms designed for the next generation. (18+)"
     },
     "randomChat": {
-      "title": "Random Chat Sites 2025"
+      "title": "Random Chat Sites 2025",
+      "subtitle": "Experience the thrill of talking to random strangers with the click of a button."
     },
     "fetishChat": {
-      "title": "Fetish Chat Sites 2025"
+      "title": "Fetish Chat Sites 2025",
+      "subtitle": "Dive into niche communities catering to a wide variety of specific interests and kinks."
     },
     "voyeurCam": {
-      "title": "Voyeur Cam Sites 2025"
+      "title": "Voyeur Cam Sites 2025",
+      "subtitle": "Watch authentic, unscripted live streams from the comfort and privacy of your home."
     },
     "searchBanner": {
-      "title": "Searching for:"
+      "title": "Searching for:",
+      "subtitle": "Refine your search filters to find the perfect match or chat room for your preferences."
     }
   },
   "camPost": {
-    "readReview": "Read Full Review",
+    "readReview": "Read Review",
     "visit": "Visit {title}",
     "activeUsers": "Online now"
   },

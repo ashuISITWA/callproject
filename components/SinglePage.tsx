@@ -45,9 +45,9 @@ export default function SinglePage({
           <div className="flex flex-col gap-3 md:flex-row-reverse py-[60px]">
             <div className="grow bg-white p-[15px] rounded-md">
               <div className="flex flex-col gap-3">
-                <h2 className="text-[var(--primary)] text-[27px] md:text-[34px] font-bold">
+                <h1 className="text-[var(--primary)] text-[27px] md:text-[34px] font-bold">
                   Sites
-                </h2>
+                </h1>
                 <p className="text-black text-[18px]">
                   Please select a specific site to view its details.
                 </p>
@@ -218,9 +218,9 @@ export default function SinglePage({
           {/* MAIN CONTENT */}
           <div className="grow bg-white p-[15px] rounded-md">
             <div className="flex flex-col gap-3">
-              <h2 className="text-[var(--primary)] text-[27px] md:text-[34px] font-bold">
+              <h1 className="text-[var(--primary)] text-[27px] md:text-[34px] font-bold">
                 <span className="capitalize">{title}</span>{" "}
-              </h2>
+              </h1>
 
               <p className="text-black text-[18px]" id="top">
                 {getSlugText("toppara", { title })}
@@ -290,7 +290,7 @@ export default function SinglePage({
               </div>
               
               <div className="block h-[300px] rounded-md overflow-hidden">
-                <Image
+                <img
                   src={`${SERVER_URL}${site.hero}`}
                   className="h-full w-full object-cover"
                   width={600}

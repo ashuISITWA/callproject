@@ -14,7 +14,7 @@ export default async function SitePage({ params }: Props) {
     <main className="w-full max-w-3xl mx-auto p-4">
       <h1 className="text-3xl font-bold mb-4">{site.title}</h1>
       <div className="relative h-60 w-full mb-4">
-        {site.image && <Image src={site.image} alt={site.title} fill style={{ objectFit: "cover" }} />}
+        {site.image &&  src={site.image} alt={site.title} fill style={{ objectFit: "cover" }} />}
       </div>
       {site.excerpt && <p className="mb-4">{site.excerpt}</p>}
       {site.features && site.features.length > 0 && (
