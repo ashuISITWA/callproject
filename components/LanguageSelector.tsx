@@ -65,7 +65,7 @@ export default function LanguageSelector() {
                   language.code === locale ? "bg-gray-50 font-medium" : ""
                 }`}
               >
-                <Image
+                <img
                   src={language.flag}
                   alt={language.name}
                   width={18}

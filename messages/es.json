@@ -1,841 +1,1091 @@
 {
-    "metadata": {
-      "title": "Top Chats",
-      "description": "Tu punto de encuentro para las mejores páginas de chat en vivo",
-      "keywords": "chat en vivo, sitios de cams, cams para adultos"
-    },
-    "SEO": {
-      "Top10Chat": {
-        "Title": "Top 10 Sitios de Chat",
-        "Description": "Descubre los sitios de cams en vivo más calientes donde modelos reales ofrecen shows privados ardientes.",
-        "Keywords": "top sitios de chat, cams de sexo, chat en vivo, cams gratis"
-      },
-      "TeenChat": {
-        "Title": "Salas de Chat para Adolescentes",
-        "Description": "Entra en salas de chat llenas de vida para adolescentes y conéctate al instante con jóvenes divertidas y coquetas.",
-        "Keywords": "chat para adolescentes, cams jóvenes, salas gratis para teens"
-      },
-      "VoyeurCam": {
-        "Title": "Cámaras Voyeur",
-        "Description": "Mira momentos privados reales con los mejores sitios de cámaras voyeur en línea.",
-        "Keywords": "cámaras voyeur, cámaras ocultas, voyeur en vivo"
-      },
-      "SexCam": {
-        "Title": "Cámaras de Sexo",
-        "Description": "Disfruta de shows en vivo de primera y acércate a modelos hermosas en chats privados.",
-        "Keywords": "cámaras de sexo, sexo en vivo, cams gratis"
-      },
-      "RandomChat": {
-        "Title": "Chat Aleatorio",
-        "Description": "Conoce extraños al azar de todo el mundo: ¡gratis, rápido y lleno de sorpresas!",
-        "Keywords": "chat aleatorio, Chatroulette, videochat"
-      },
-      "MilfChat": {
-        "Title": "Chat con MILFs",
-        "Description": "Chatea con mujeres maduras sexys en los mejores sitios de cams MILF: en vivo y listas para divertirse.",
-        "Keywords": "chat con MILFs, cams maduras, chat con cougars"
-      },
-      "FreeChat": {
-        "Title": "Chat Gratis",
-        "Description": "Sin registro, sin cargos: entra directamente en chats en vivo gratis y diviértete.",
-        "Keywords": "chat gratis, videochat, salas en línea"
-      },
-      "FetishChat": {
-        "Title": "Chat Fetichista",
-        "Description": "Explora tus fetiches con cams salvajes y chats BDSM en vivo.",
-        "Keywords": "chat fetichista, cams kink, BDSM en vivo"
-      },
-      "EbonyChat": {
-        "Title": "Chat con Ebony",
-        "Description": "Conéctate con modelos negras deslumbrantes en salas de chat ebony calientes: ¡gratis para ver!",
-        "Keywords": "chat con ebony, cams negras, ebony en vivo"
-      },
-      "BbwChat": {
-        "Title": "Chat con BBW",
-        "Description": "Chatea en vivo con bellezas curvilíneas en los mejores sitios de cams plus-size.",
-        "Keywords": "chat con BBW, cams curvilíneas, live plus-size"
-      },
-      "Terms": {
-        "Title": "Términos de Uso",
-        "Description": "Nuestras reglas simples para mantener todo divertido, seguro y justo para todos.",
-        "Keywords": "términos, privacidad, acuerdo de usuario"
-      },
-      "Sites": {
-        "Title": "Todos los Sitios",
-        "Description": "Explora cada sitio de cams y chat mejor valorado que hemos probado: tu tienda todo en uno.",
-        "Keywords": "sitios de cams, plataformas de chat, reseñas"
-      }
-    },
-    "Header": {
-      "nav": {
-        "top10": "Top 10 Sitios",
-        "sexCams": "Cámaras de Sexo",
-        "freeChat": "Chat Gratis",
-        "milfChat": "Chat con MILFs",
-        "bbwChat": "Chat con BBW",
-        "ebonyChat": "Chat con Ebony",
-        "teenChat": "Chat para Teens",
-        "randomChat": "Chat Aleatorio",
-        "fetishChat": "Chat Fetichista",
-        "voyeurCam": "Cámara Voyeur"
-      },
-      "search": {
-        "placeholder": "Buscar todo…",
-        "button": "Ir"
-      }
-    },
-    "Banner": {
-      "top10chat": {
-        "title": "Sitios de Chat Más Calientes 2025"
-      },
-      "sexCams": {
-        "title": "Sitios de Cámaras de Sexo 2025"
-      },
-      "freeChat": {
-        "title": "Sitios de Chat Gratis 2025"
-      },
-      "milfChat": {
-        "title": "Sitios de Chat con MILFs 2025"
-      },
-      "bbwChat": {
-        "title": "Sitios de Chat con BBW 2025"
-      },
-      "ebonyChat": {
-        "title": "Sitios de Chat con Ebony 2025"
-      },
-      "teenChat": {
-        "title": "Sitios de Chat para Teens 2025"
-      },
-      "randomChat": {
-        "title": "Sitios de Chat Aleatorio 2025"
-      },
-      "fetishChat": {
-        "title": "Sitios de Chat Fetichista 2025"
-      },
-      "voyeurCam": {
-        "title": "Sitios de Cámaras Voyeur 2025"
-      },
-      "searchBanner": {
-        "title": "Buscando:"
-      }
-    },
-    "camPost": {
-      "readReview": "Leer reseña completa",
-      "visit": "Visitar {title}",
-      "activeUsers": "En línea ahora"
-    },
-    "getUpdateInbox": {
-      "title": "¿Las últimas ofertas en tu bandeja?",
-      "placeholder": "Tu correo",
-      "button": "¡Sí, apúntame!"
-    },
-"weTested": {
-  "topChats": {
-    "title": "Hemos probado cada sitio de chat por ti",
-    "intro1": "¿Anhelas charlar con mujeres impresionantes? ¡Nosotros lo hacemos posible! En TopChats.com encontrarás los mejores sitios de cámaras en vivo de la red, seleccionados a mano y verificados por calidad. Basta de saltar entre plataformas dudosas, evitando tarifas ocultas o sorpresas desagradables: hemos probado rigurosamente cada sitio de nuestra lista Top 10 para ofrecerte solo lo mejor.",
-    "intro2": "Encontrar el sitio de cámaras perfecto que te mantenga enganchado durante horas es pan comido con TopChats. Destacamos lo mejor de lo mejor con todos los detalles esenciales a simple vista. Descubre funciones destacadas, consulta nuestras confiables calificaciones por estrellas y decide en segundos. ¿Encontraste tu favorito? ¡Haz clic en nuestro enlace y comienza el chat en vivo con chicas hermosas al instante!",
-    "image": "/g1.jpeg",
-    "findTitle": "Descubre los sitios de cámaras en vivo definitivos",
-    "findDesc1": "Nuestra Top 10 no está grabada en piedra: los favoritos eternos se quedan, pero reemplazamos con mejores novatos en cuanto los encontramos. Nuestro equipo rastrea incansablemente la red en busca de nuevas joyas y te ofrece la información más actualizada. Marca TopChats como favorito y déjanos la caza: nunca más tendrás que buscar sitios de sex cams por tu cuenta.",
-    "findDesc2": "Con TopChats puedes:",
-    "findList": [
-      "Descubrir las plataformas de cámaras líderes en internet",
-      "Conocer a las estrellas de webcam más calientes del mundo",
-      "Explorar sitios con intimidad cam2cam",
-      "Disfrutar plataformas con shows XXX gratuitos",
-      "Navegar categorías como Free Chat, Teen Cams y más"
-    ],
-    "reviewTitle": "Sumérgete en nuestras reseñas detalladas de cámaras",
-    "reviewDesc": "No colocamos sitios al azar en la página principal: nos arremangamos, probamos cada rincón y escribimos reseñas brutales y honestas. Nuestros expertos diseccionan cada función y detalle para darte la imagen completa. Con nuestras ideas, eliges el sitio perfecto sin desperdiciar un solo clic.",
-    "opinionTitle": "Comparte tu opinión",
-    "opinionDesc1": "Tu voz moldea nuestras clasificaciones. Cuéntanos qué amas (u odias) y señala joyas ocultas. Escribe una reseña, califica un sitio o contáctanos: ¡adoramos tus comentarios para afilar nuestro filo y convertir TopChats en tu autoridad definitiva en cámaras!",
-    "opinionDesc2": "¿Necesitas ayuda o quieres ponerte en contacto?",
-    "opinionList": [
-      "Usa nuestro formulario de contacto",
-      "Envíanos un correo electrónico",
-      "Llama gratis: 1-855-722-2485"
-    ]
+  "metadata": {
+    "title": "Top Chats",
+    "description": "Tu punto de encuentro para las mejores páginas de chat en vivo",
+    "keywords": "chat en vivo, sitios de cams, cams para adultos"
   },
-  "sexCams": {
-    "title": "Mejores sitios de sex cams",
-    "paragraph1": "Las sex cams en vivo pueden convertirse rápidamente en tu adicción definitiva. Interactúa con chicas hermosas, dirige la acción e incluso controla su placer con propinas: tú manejas las vibraciones de su juguete y te sientas en la silla del director, decidiendo cada gemido, movimiento y clímax. En las cams, tú mandas; ¡es hora de desatar tus fantasías más salvajes!",
-    "paragraph2": "Nos sumergimos profundamente en cada plataforma para mostrarte exactamente qué te espera. TopChats tiene la misión de desenterrar los mejores sitios de sex cams de todos los tiempos, donde conectarás con intérpretes cautivadoras para sesiones calientes sin fin. Desde teens frescas hasta MILFs experimentadas, bellezas ebony, seductoras asiáticas, latinas ardientes y más: la variedad es irresistible.",
-    "image": "/g1.jpeg",
-    "heading1": "Experimenta todo tipo de shows de sex cams",
-    "paragraph3": "Las posibilidades de shows son ilimitadas. ¿Listo para subir del chat gratuito? Carga tokens y desbloquea emociones premium: sesiones privadas 1 a 1, shows grupales compartidos o modos espía discretos donde miras sin ser visto. Sea cual sea tu rollo, encontrarás una intérprete que enciende tus deseos.",
-    "paragraph4": "Espera shows ardientes como:",
-    "list1": [
-      "Teens traviesas y universitarias desatando su lado salvaje",
-      "Parejas reales en sexo en vivo crudo y apasionado",
-      "Lesbianas jugando con juguetes y pasión juguetona",
-      "Chicas girando la rueda para juegos interactivos atrevidos"
-    ],
-    "heading2": "Shows de cámaras para todos los presupuestos",
-    "paragraph5": "Cada intérprete quiere que te unas, por eso hay precios desde amigables con el bolsillo hasta exclusivos de lujo. Sumérgete con shows desde $0.99/min o date el gusto con actuaciones elite 1 a 1 por más de $10/min. Una cosa es segura: estas estrellas de cam ofrecen un valor impresionante por cada centavo.",
-    "heading3": "Sex cams en HD cristalino",
-    "paragraph6": "Nada mata el ambiente como el buffering o feeds borrosos. Por eso todas las páginas que recomendamos garantizan streams HD impecables y audio nítido: te sientes como si estuviera allí contigo, cada jadeo y temblor en detalles vívidos.",
-    "paragraph7": "Hoy en día, las intérpretes transmiten shows de alta calidad desde casa con facilidad e invierten en equipo profesional para que tu experiencia sea espectacular.",
-    "image": "/g2.jpeg",
-    "heading4": "Confía en nuestras reseñas expertas imparciales",
-    "paragraph8": "Abordamos cada nuevo sitio de sex cams con ojos frescos, probando cada función a fondo: sin atajos, sin sesgos. Nuestras reseñas completas y honestas te ayudan a encontrar la plataforma exacta para tu escape erótico. Siempre estamos cazando nuevas joyas para mantener nuestra lista al día. Tu tiempo es valioso; nos aseguramos de que se invierta bien.",
-    "heading5": "Sumérgete en el chat sexual en vivo en TopChats",
-    "paragraph9": "Las sex cams deben ser emocionantes y sin complicaciones: esa es nuestra promesa en TopChats. Olvídate de buscar sin fin; ya encontramos lo mejor. Dedica tu energía a conectar con chicas de cámara impresionantes de todo el mundo que harán realidad tus sueños más pervertidos a cualquier hora.",
-    "paragraph10": "Estas plataformas te mantendrán enganchado. Pronto tus intérpretes favoritas te saludarán por nombre con una sonrisa seductora. ¿Quién no ama el trato VIP con una dosis de XXX en vivo? ¡Deja de esperar: entra en un chat y que empiece la diversión!"
-  },
-  "freeChat": {
-    "title": "Mejores sitios de chat gratis",
-    "intro_paragraph_1": "Los sitios de cámaras hay a montones, pero ¿los gratuitos realmente buenos? Joyas raras. La calidad premium suele costar, pero no siempre. Hemos eliminado todas las conjeturas y curado los 10 mejores plataformas de chat gratuito en la web. Guarda la cartera y prepárate para diversión pura sin ataduras.",
-    "intro_paragraph_2": "¿Te preguntas por la trampa? No la hay. Estas cams gratuitas rivalizan con las de pago, con abundante desnudez y acción en vivo. Sin compromisos solo porque es gratis: TopChats te guía a la experiencia gratuita perfecta adaptada a ti.",
-    "image": "/g1.jpeg",
-    "discover_title": "Explora salas de chat gratuitas",
-    "discover_paragraph_1": "Algunas plataformas bloquean el chat gratuito tras muros de pago, las nuestras no. Prueba las aguas, vibra con un modelo o explora el sitio sin riesgo. Chatea 24/7 con tantas mujeres calientes como quieras: sin temporizadores, sin límites.",
-    "discover_paragraph_2": "Disfruta ventajas gratuitas como:",
-    "discover_list": [
-      "Modelos globales al alcance de un clic",
-      "Sesiones de striptease en vivo",
-      "De teens a seductoras maduras",
-      "Acción hardcore sin parar",
-      "Chat móvil sin interrupciones"
-    ],
-    "gorgeous_girls_title": "Chatea gratis con mujeres impresionantes",
-    "gorgeous_girls_paragraph": "«Gratis» no significa limitado. Estos sitios rebosan diversidad: teens hasta MILFs y abuelas, petite hasta BBW, pechos pequeños hasta enormes, todas las etnias: blancas, negras, latinas, asiáticas. Tu chica soñada te espera sin gastar un céntimo.",
-    "variety_title": "Saborea shows de cámaras gratuitos variados",
-    "variety_paragraph": "El chat gratuito lo ofrece todo: charla sucia, instrucciones para masturbarte, revelaciones fetichistas, parejas en vivo, juego con juguetes en solitario y más. ¿Desnudez? Garantizada. ¿Diversión? Ilimitada. Vive tu mejor vida sin gastar un euro.",
-    "top_sites_title": "Descubre nuestras plataformas gratuitas elite",
-    "top_sites_paragraph": "Si no es 100 % gratis, no está aquí: punto. El tiempo es dinero, por eso solo listamos sitios que valen el tuyo. Nuestras reseñas cubren calidad de webcam, número de intérpretes en línea, desnudez gratuita, contenido XXX extra y desventajas honestas. Cada recomendación gana nuestro sello mediante pruebas exhaustivas.",
-    "avoid_spending_title": "Coquetea libremente, sin cartera",
-    "avoid_spending_paragraph": "¿Por qué pagar para chatear si no quieres? Nuestra enorme selección de salas adultas sin costo te permite abrir pestañas infinitas sin culpa. ¿Nuevo en cams gratuitas o veterano? Nuestras ideas aseguran que cada elección te encante a ti y a tu presupuesto. ¡No esperes: empieza ahora a cazar a tu chica de fantasía!"
-  },
-  "milfCams": {
-    "title": "Sitios líderes de chat con MILFs",
-    "intro_paragraph_1": "Las MILFs aportan experiencia e insaciable deseo que las teens simplemente no pueden igualar: eso las hace únicas. ¿Anhelas seductoras maduras? TopChats destaca las mejores plataformas de MILF cams, repletas de mujeres calientes maduras listas para actuar en vivo solo para ti.",
-    "intro_paragraph_2": "De cougars curvilíneas a stunners petite, negras, blancas, latinas, europeas o norteamericanas: sea cual sea tu fantasía de más de 30, simplificamos la búsqueda de camgirls globales impresionantes listas para conectar.",
-    "image": "/g3.jpeg",
-    "discover_title": "Conoce a las estrellas MILF de cámaras más calientes",
-    "discover_paragraph_1": "Ninguna MILF es igual, y los sitios de cams tampoco deberían serlo. Priorizamos plataformas con enorme variedad de intérpretes para satisfacer todos los gustos. Chatea en inglés, español o más con damas que cautivan en tu idioma favorito.",
-    "discover_paragraph_2": "Aquí un adelanto de los placeres que te esperan:",
-    "discover_list_item_1": "Actuaciones con webcam HD",
-    "discover_list_item_2": "Interfaz optimizada para móviles",
-    "discover_list_item_3": "Salas de chat gratuitas",
-    "discover_list_item_4": "Línea diversa de MILFs",
-    "discover_list_item_5": "Opciones cam2cam",
-    "hd_webcams_title": "Shows HD con bellezas maduras",
-    "hd_webcams_paragraph": "Estas intérpretes MILF dominan cada detalle seductor: y el HD cristalino es obligatorio. Olvídate de streams granulados; disfruta imágenes nítidas, sonido inmersivo, fotos XXX gratuitas y juguetes controlados por propinas. ¡Nuestras reseñas lo revelan todo!",
-    "chat_247_title": "Conecta con MILFs sexys las 24 horas",
-    "chat_247_paragraph": "¿Sabes lo que quieres? Simplificamos la caza. Haz amistad con una MILF cautivadora, coquetea libremente o calienta en privado con cam2cam. Día y noche, alguien está en línea y listo. ¡Elige tu sitio y lánzate: así de fácil!"
-  },
-  "bbwCams": {
-    "title": "Sitios líderes de chat con BBWs",
-    "intro_paragraph_1": "¿Listo para sumergirte en voluptuosas BBWs? TopChats ofrece las plataformas de BBW cams más refinadas de la red, curadas por expertos para que saltes el ruido y aterrices directamente en sitios adaptados a tus deseos, haciendo que cada minuto y euro cuente.",
-    "intro_paragraph_2": "Nuestros especialistas examinan cada sitio al detalle y entregan reseñas transparentes con pros, contras y precios claros. Ya sea diversión freemium o brillo premium, te emparejamos con la experiencia BBW ideal.",
-    "image": "/g5.jpeg",
-    "reviews_title": "Reseñas transparentes de BBW cams",
-    "reviews_paragraph": "Rastreamos la red y luego nos sumergimos: visitamos shows, probamos registros, chateamos con intérpretes para asegurar que cada sitio brille. Una reseña de TopChats te equipa con:",
-    "reviews_list_item_1": "Talento BBW global",
-    "reviews_list_item_2": "Intimidad cam2cam",
-    "reviews_list_item_3": "Opciones freemium y premium",
-    "reviews_list_item_4": "Streaming HD",
-    "reviews_list_item_5": "Compatibilidad móvil/tablet",
-    "hd_webcams_title": "Vistas HD de diosas curvilíneas",
-    "hd_webcams_paragraph_1": "Conoce a docenas de BBWs jugosas de todo el mundo: ebony, latina, asiática, de Oriente Medio, blancas; rellenitas, super size, con culos enormes y tetas aún más grandes.",
-    "hd_webcams_paragraph_2": "La variedad es solo el comienzo. Exigimos claridad 720p+, lags mínimos y equipo profesional. Estas reinas curvilíneas invierten en tecnología top para una experiencia inmersiva inolvidable.",
-    "mobile_title": "Chat BBW en cualquier momento y lugar",
-    "mobile_paragraph": "El porno cabe en tu bolsillo: ¡y la acción BBW en vivo también! Nuestros sitios listados ofrecen interfaces móviles intuitivas para chatear sin esfuerzo desde teléfono o tablet. ¿Listo para conectar con intérpretes gruesas y cachondas? ¡Haz clic y comienza!"
-  },
-  "ebonyCams": {
-    "title": "Sitios elite de chat con ebony",
-    "intro_paragraph_1": "Las mujeres ebony irradian un atractivo embriagador: ojos oscuros, piel sedosa, pura magia. Demasiados sitios de cams escatiman en diversidad; nosotros no. TopChats cura lo mejor de lo mejor en plataformas de webcam ebony, para que elijas las bellezas negras definitivas.",
-    "intro_paragraph_2": "De caramelo a chocolate profundo: la selección es un banquete delicioso. Inicia el chat al instante y deja que estas stunners ebony electrifiquen tu mundo.",
-    "image": "/g5.jpeg",
-    "reviews_title": "Análisis profundos de sitios de cams",
-    "reviews_paragraph": "Cazar cams no debería ser un trabajo. Nosotros cargamos con la investigación: probamos funciones, vamos privados para que saltes directo al placer. Nuestras reseñas te dan confianza total.",
-    "features_paragraph": "Espera:",
-    "features_list_item_1": "Intérpretes ebony variadas",
-    "features_list_item_2": "Juego interactivo con juguetes",
-    "features_list_item_3": "Claridad HD",
-    "features_list_item_4": "Sesiones cam2cam",
-    "chat_all_day_title": "Chat ebony a cualquier hora",
-    "chat_all_day_paragraph_1": "Estamos obsesionados con la perfección. Nuestras selecciones garantizan altos números de intérpretes, para que patrullas al amanecer o coqueteos en el almuerzo siempre encuentren una ebony dispuesta para emociones privadas o grupales.",
-    "chat_all_day_paragraph_2": "La variedad reina: teens 18+ hasta MILFs maduras, delgadas hasta curvilíneas, amateurs hasta pornstars: cada tono de impresionante.",
-    "hd_webcams_title": "Streams ebony HD premium",
-    "hd_webcams_paragraph": "HD no es opcional. Marcamos sitios con feeds y audio superiores, perfectos para duelos cam2cam privados. ¡Abre los ojos al placer exquisito!"
-  },
-  "teenCams": {
-    "title": "Sitios prime de chat con teens",
-    "intro1": "Charlar con teens vibrantes y llenas de lujuria es pura adrenalina. ¿Encontrarlas? Complicado: hasta ahora. TopChats ha peinado la red y compilado la selección definitiva de cams teen, todo en un lugar conveniente.",
-    "intro2": "Pechos grandes, mentes pervertidas o encantos exóticos: conecta sin esfuerzo con hotties globales 18+. La mayoría de sitios son gratuitos y fáciles de usar. Prepárate para sex cams alucinantes con las estrellas jóvenes más irresistibles del planeta.",
-    "image": "/g1.jpeg",
-    "varietyTitle": "Un mundo de variedad en cams teen",
-    "varietyDesc": "Exigimos plataformas intuitivas e intérpretes diversas: todo tipo de cuerpo, color de pelo, etnia para satisfacer cualquier gusto.",
-    "varietyExpect": "Espera:",
-    "li1": "Chicas de todos los rincones del mundo",
-    "li2": "Amateurs junto a pornstars",
-    "li3": "Abundantes salas de chat gratuitas",
-    "li4": "Interacciones con juguetes inteligentes",
-    "li5": "Cientos en línea 24/7",
-    "meetTitle": "Más teens que en ningún otro lugar",
-    "meetDesc": "Diversión matutina o privados a medianoche: cientos de modelos esperan. Acceso gratuito significa conexiones instantáneas con una o varias chicas. Las posibilidades son infinitas.",
-    "hdTitle": "Acción teen HD de cerca",
-    "hdDesc": "La juventud no implica calidad amateur. Estas teens usan webcams HD profesionales, entregando imágenes y sonidos cristalinos que te hacen sentir a centímetros de distancia.",
-    "chatTitle": "Conecta con bellezas jóvenes juguetonas",
-    "chatDesc": "Actualiza tu feed diariamente o visita favoritas: estas teens 18+ amigables y de mente abierta dan la bienvenida a cualquier conversación. ¡Empieza hoy el chat con tu chica soñada!"
-  },
-  "randomCams": {
-    "title": "Mejores sitios de chat aleatorio",
-    "intro1": "¿Anhelas chats espontáneos con desconocidos? Innumerables sitios prometen emoción, pero pocos cumplen. TopChats filtra el caos y presenta las mejores plataformas de cams aleatorias para encontrar rápidamente tu pareja ideal.",
-    "intro2": "Somos cazadores incansables de talento fresco, calificamos y listamos novatos. Márkanos, suscríbete a nuestro boletín y mantente adelante con actualizaciones exclusivas y sorpresas.",
-    "image": "/g1.jpeg",
-    "findTitle": "Nuestro riguroso proceso de selección",
-    "findDesc": "Cada sitio tiene ventajas únicas: destacamos las 3 principales, usuarios promedio en línea y calificación por estrellas. Reseñas completas ofrecen análisis más profundos.",
-    "features": "Criterios clave incluyen:",
-    "li1": "Miles de usuarios activos",
-    "li2": "Filtros inteligentes de usuarios",
-    "li3": "Opciones de chat solo chicas",
-    "li4": "Cambios de cam ultrarrápidos",
-    "contributeTitle": "Moldea las clasificaciones",
-    "contributeDesc": "Tus reseñas y calificaciones refinan nuestra lista. Habla: escuchamos atentamente para coronar a los verdaderos campeones.",
-    "qualityTitle": "Solo calidad de webcam premium",
-    "qualityDesc": "¿Streams malos? Aquí no. Garantizamos HD top y audio para encuentros inmersivos.",
-    "exploreTitle": "Explora categorías emocionantes",
-    "exploreDesc": "Abraza lo aleatorio o guíalo suavemente: filtra por color de pelo, etnia y más mientras mantienes la emoción.",
-    "stayTitle": "Tu insider de cams aleatorias",
-    "stayDesc": "TopChats te mantiene al día con plataformas emergentes y tendencias. Márkanos para liderar la revolución del chat aleatorio."
-  },
-  "fetishCams": {
-    "title": "Sitios definitivos de chat fetichista",
-    "intro1": "BDSM, juegos de rol y fetiches no son tabú aquí. Explora nuestra selección elite de cams fetichistas: cuevas de roleplay, adoración de pies, bondage y más te esperan.",
-    "intro2": "Seleccionados a mano por revisores dedicados que probaron cada herramienta y detalle: solo las plataformas fetichistas más finas llegan a TopChats.",
-    "image": "/g1.jpeg",
-    "fantasiesTitle": "Cumplimiento de fetiches 24/7",
-    "fantasiesDesc": "Los fetiches son personales. Encontramos sitios que cubren cada nicho: S/M, aguas doradas, juegos de embarazo, con cientos en línea diariamente. Sumérgete; satisfacción garantizada.",
-    "fetishesInclude": "Fetiches destacados:",
-    "li1": "BDSM",
-    "li2": "Juego de roles",
-    "li3": "Fumar",
-    "li4": "Cosquillas",
-    "li5": "Pies",
-    "li6": "¡Y muchísimos más!",
-    "trustTitle": "Cams kinky que respaldamos",
-    "trustDesc": "Solo recomendamos sitios que amamos. Alta actividad, funciones únicas y pruebas exhaustivas garantizan experiencias excepcionales.",
-    "desiresTitle": "Espectáculos fetichistas en HD",
-    "desiresDesc": "La mala calidad mata la fantasía. Exigimos HD afilado como navaja para que cada detalle (brillo de látex, chasquido de látigo) se sienta real.",
-    "exploreTitle": "Desata tus fetiches ahora",
-    "exploreDesc": "De dominatrix en látex a chicas alt tatuadas: nuestras salas fetichistas transforman fantasías en realidad en vivo."
-  },
-  "voyeurCams": {
-    "title": "Sitios líderes de cams voyeur",
-    "intro1": "¿Alguna vez has fantaseado con espiar a parejas en sus momentos más íntimos? Hemos examinado las principales plataformas de cams voyeur, detallando funcionamiento, contenido y valor.",
-    "intro2": "Imagina una casa llena de jóvenes adultos calientes, cada habitación cableada para imagen y sonido. La vida diaria se vuelve ardiente: charlas de desayuno escalan a revolcones en el dormitorio, tríos y fiestas salvajes. Pasión cruda y sin guion se despliega 24/7.",
-    "image": "/g7.jpeg",
-    "listTitle": "Experiencias voyeur elite curadas",
-    "listDesc": "Satisface tu voyeur interior con:",
-    "li1": "Encuentros de parejas en el dormitorio",
-    "li2": "Momentos destacados archivados",
-    "li3": "Cams HD con audio cristalino",
-    "li4": "Vistas multi-cam",
-    "li5": "Grandes mansiones voyeur",
-    "li6": "Apartamentos privados equipados con cams",
-    "spyTitle": "Espía a parejas apasionadas en acción",
-    "spyDesc": "Priorizamos acción sexual sobre lo mundano. Visualización gratuita abunda, pero premium desbloquea escenas calientes bloqueadas: nuestras reseñas revelan si vale la pena.",
-    "mobileTitle": "Emociones voyeur en móvil 24/7",
-    "mobileDesc": "Tu teléfono se convierte en dispositivo espía. Sitios optimizados para móvil reflejan funciones de escritorio: multi-cam, zoom, navegación fluida. ¡Inicia tus aventuras de espionaje en cualquier lugar y momento!"
-  }
-},
-    "shortcuts": {
-      "title": "Enlaces Rápidos",
-      "links": {
-        "freeChat": "Chat Gratis",
-        "sexChatSites": "Chat de Sexo",
-        "mobileSexCams": "Cámaras Móviles",
-        "adultChat": "Chat para Adultos",
-        "teenChat": "Chat para Teens",
-        "chatRoomSites": "Salas de Chat",
-        "bigTitsChat": "Tetas Grandes",
-        "voyeurCam": "Cámara Voyeur",
-        "bdsmSites": "BDSM",
-        "rouletteChatSites": "Chat Roulette",
-        "sexCams": "Cámaras de Sexo",
-        "webcamChatSites": "Chat por Webcam",
-        "randomChat": "Chat Aleatorio",
-        "camGirls": "Chicas en Cams",
-        "bbwChat": "Chat con BBW",
-        "asianChatSites": "Chat Asiático",
-        "lesbianChat": "Chat Lésbico",
-        "latinaChat": "Chat con Latinas",
-        "milfChat": "Chat con MILFs",
-        "hairyCams": "Cámaras Peludas",
-        "amateurChat": "Chat Amateur",
-        "ebonyChat": "Chat con Ebony",
-        "fetishChat": "Chat Fetichista",
-        "transsexualCams": "Cámaras Trans",
-        "gayChatSites": "Chat Gay",
-        "webcamJobSites": "Trabajos en Webcam",
-        "analChat": "Chat Anal",
-        "smokingChatSites": "Cámaras de Fumar",
-        "masturbationChat": "Masturbación",
-        "arabChat": "Chat Árabe",
-        "dirtyTalkChat": "Dirty Talk",
-        "toyChat": "Juego con Juguetes",
-        "indianChatSites": "Chat Indio",
-        "findomSites": "Findom",
-        "footFetishSites": "Fetiche de Pies"
-      }
+  "SEO": {
+    "Top10Chat": {
+      "Title": "Top 10 Sitios de Chat",
+      "Description": "Descubre los sitios de cams en vivo más calientes donde modelos reales ofrecen shows privados ardientes.",
+      "Keywords": "top sitios de chat, cams de sexo, chat en vivo, cams gratis"
     },
-    "Footer": {
-      "navLinks": {
-        "Home": "Inicio",
-        "About us": "Sobre nosotros",
-        "Terms": "Términos",
-        "Cookies": "Cookies",
-        "Privacy": "Privacidad",
-        "Contact": "Contacto",
-        "Disclosure": "Divulgación",
-        "Sitemap": "Mapa del sitio",
-        "FAQ": "Preguntas frecuentes",
-        "Awards": "Premios"
-      },
-      "copyright": "© 2025 TopChats – Todos los derechos reservados"
+    "TeenChat": {
+      "Title": "Salas de Chat para Adolescentes",
+      "Description": "Entra en salas de chat llenas de vida para adolescentes y conéctate al instante con jóvenes divertidas y coquetas.",
+      "Keywords": "chat para adolescentes, cams jóvenes, salas gratis para teens"
     },
-    "viewMoreTitle": "Ver más",
-    "youLikeTitle": "También te podría gustar",
-    "readReview": "Leer reseña",
-    "performersText": "Intérpretes",
-    "singlePage": {
-      "contents": "Saltar a",
-      "overviewVerdict": "Veredicto rápido",
-      "featuresUserBenefits": "Qué obtienes",
-      "pricingHiddenFees": "Resumen de precios",
-      "drawbacksComplaints": "Los contras",
-      "verdict": "Conclusión",
-      "featureTitle": "Características clave",
-      "userBenefits": "Por qué te encantará",
-      "getMoreLikeThis": "¿Más como esto?",
-      "emailPlaceholder": "Tu correo",
-      "signMeUp": "¡Envíame ofertas!",
-      "watchCamsNow": "¡Ver cams ahora!",
-      "pricingTitle": "Precios y letra pequeña",
-      "drawbacksTitle": "¿Algún inconveniente?",
-      "visit": "Ir al sitio",
-      "review": "Reseña completa"
+    "VoyeurCam": {
+      "Title": "Cámaras Voyeur",
+      "Description": "Mira momentos privados reales con los mejores sitios de cámaras voyeur en línea.",
+      "Keywords": "cámaras voyeur, cámaras ocultas, voyeur en vivo"
     },
-      "singlePageBySlug": {
-        "rabbitscams": {
-          "toppara": "ofrece acceso juguetón y ultrarrápido a miles de salas de cámaras en vivo, que cargan en solo segundos sin retrasos de búfer.",
-          "secppara": "Con impresionantes modelos europeas de todo el continente, sesiones privadas interactivas Cam2Cam, extensas galerías de fotos y horarios detallados, RabbitsCams es tu destino definitivo para diversión espontánea y emocionante o para construir conexiones significativas y duraderas con artistas que realmente cautivan.",
-          "pricingDescription": "Disfruta de shows públicos gratuitos ilimitados llenos de provocación e interacción; compra créditos para desbloquear sesiones privadas exclusivas y experiencias personalizadas.",
-          "hiddenFees": "Ninguna detectada",
-          "drawbacksDescription": "Se requiere una cuenta gratuita rápida para el chat de texto y la interacción completa – solo 2 minutos de configuración con verificación por correo electrónico para un acceso fluido.",
-          "excerpt": "Bellezas europeas impresionantes, diseño elegante e intuitivo, streams en HD cristalino y navegación sin esfuerzo.",
-          "overview": "RabbitsCams ofrece vistas previas instantáneas en HD al pasar el ratón sobre las miniaturas, deslumbrantes bellezas europeas en claridad de pantalla completa, sesiones íntimas Cam2Cam y perfiles ricamente detallados con reseñas auténticas de usuarios. Shows públicos gratuitos, registro ultrarrápido para chat, shows privados basados en créditos flexibles y una experiencia móvil completamente fluida garantizan diversión sin esfuerzo y emocionante sin tarifas ocultas ni sorpresas. (58 palabras)",
-          "features": [
-            "Pasa el ratón sobre las miniaturas para vistas previas en vivo instantáneas sin entrar en la sala",
-            "Accede a álbumes de fotos extensos y videos grabados profesionalmente",
-            "Recibe alertas en tiempo real cuando tus favoritos se conectan o inician shows especiales",
-            "Explora categorías detalladas y filtros avanzados como edad, idioma y fetiches",
-            "Navega por perfiles de modelos detallados con reseñas y valoraciones reales de usuarios",
-            "Consulta horarios próximos y eventos exclusivos de estrellas porno con temporizadores de cuenta regresiva"
-          ],
-          "benefits": [
-            "Calidad HD tan nítida que parece que está justo en tu habitación",
-            "Lee reseñas reales y verificadas para dar propinas e interactuar con total confianza",
-            "Revive la emoción sin conexión con medios guardados descargables y colecciones personales",
-            "Nunca te pierdas un show de tus favoritos gracias a notificaciones push",
-            "Increíblemente acogedor y guiado para principiantes con tutoriales",
-            "Experiencia fluida y receptiva en cualquier dispositivo móvil, tableta o escritorio"
-          ]
-        },
-        "liveflirt": {
-          "toppara": "vibra con energía imparable y ofrece conexiones instantáneas y electrizantes a un vasto mundo de artistas diversos y apasionados de todos los rincones del planeta.",
-          "secppara": "Desde interacciones profundas Cam2Cam y galerías curadas hasta horarios precisos y eventos comunitarios vibrantes – LiveFlirt mantiene el ánimo al máximo, ofrece navegación sin esfuerzo y un ambiente acogedor para todos los que buscan emoción genuina.",
-          "pricingDescription": "Acceso público gratuito a todas las salas en vivo con provocación y coqueteo; se necesitan créditos para chats privados, propinas y desbloqueos de contenido exclusivo.",
-          "hiddenFees": "Ninguna",
-          "drawbacksDescription": "El chat de texto y la interacción completa requieren un registro gratuito rápido que toma menos de un minuto.",
-          "excerpt": "Vibrante, altamente interactivo y lleno de estrellas globales que brillan en cada categoría.",
-          "overview": "LiveFlirt trae estrellas internacionales en HD afilado como navaja con vistas previas instantáneas al pasar el ratón, conexiones inmersivas Cam2Cam y filtros inteligentes adaptados a tus preferencias. Acceso público gratuito, registro ultrarrápido, chats basados en créditos flexibles y un diseño móvil impecable crean una experiencia de diversión vibrante, inclusiva y emocionante sin sorpresas ni costos ocultos. (59 palabras)",
-          "features": [
-            "Vistas previas instantáneas al pasar el ratón sobre miniaturas con acción en vivo en tiempo real",
-            "Sumérgete en fotos curadas y colecciones de videos de alta calidad de los mejores artistas",
-            "Recibe notificaciones instantáneas cuando tus favoritos se conectan o inician sesiones especiales",
-            "Usa filtros inteligentes para coincidencias perfectas por tipo de cuerpo, etnia y fetiche",
-            "Ve perfiles detallados con valoraciones auténticas de usuarios e historial de comentarios",
-            "Planifica con antelación con horarios precisos y eventos especiales destacados"
-          ],
-          "benefits": [
-            "Experiencias HD profundamente inmersivas que te arrastran al momento",
-            "Aprovecha las opiniones y valoraciones de usuarios para decisiones más inteligentes y satisfactorias",
-            "Construye una biblioteca personal de contenido sin conexión para disfrutarlo en cualquier momento",
-            "Siempre atrapa a tus artistas preferidos en vivo con alertas oportunas",
-            "Interfaz súper intuitiva con consejos de incorporación para principiantes",
-            "Rendimiento impecable y tiempos de carga en smartphones y tabletas"
-          ]
-        },
-        "camvibe": {
-          "toppara": "ofrece un escape exclusivo y premium con navegación fluida y elegante y una interfaz lujosa diseñada para espectadores exigentes que buscan entretenimiento de primera clase.",
-          "secppara": "Modelos profesionales seleccionados por talento y carisma, streams en Ultra HD con iluminación de calidad de estudio y sesiones privadas Cam2Cam – CamVibe eleva cada interacción a un momento refinado e inolvidable de indulgencia.",
-          "pricingDescription": "Vistas previas gratuitas y provocación pública disponibles; se requieren créditos para funciones premium, shows privados e interacciones VIP.",
-          "hiddenFees": "Ninguna",
-          "drawbacksDescription": "Las ventajas premium de alto nivel y el contenido exclusivo requieren pago, pero el registro y la navegación básica son completamente gratuitos e instantáneos.",
-          "excerpt": "Actuaciones de élite en streams de calidad de estudio afilados como navajas con elegancia refinada.",
-          "overview": "CamVibe ofrece lujo Ultra HD impresionante con modelos profesionales, inmersión en pantalla completa, privacidad segura Cam2Cam y herramientas de búsqueda precisas. Vistas previas gratuitas, registro gratuito instantáneo, acceso premium basado en créditos flexible e interfaz móvil refinada ofrecen indulgencia elitista y sofisticada sin costos ocultos ni complicaciones. (56 palabras)",
-          "features": [
-            "Vistas previas de miniaturas en vivo de un vistazo con reproducción fluida al pasar el ratón",
-            "Galerías de medios extensas con sesiones fotográficas profesionales y clips",
-            "Alertas para modelos favoritos que se conectan o lanzan contenido exclusivo",
-            "Potentes herramientas de búsqueda avanzada con etiquetas múltiples y guardado de preferencias",
-            "Perfiles enriquecidos con valoraciones detalladas de usuarios e historial de actuaciones",
-            "Horarios exclusivos y eventos de alto perfil con opciones de RSVP"
-          ],
-          "benefits": [
-            "Claridad Ultra HD impresionante con iluminación cinematográfica y detalle",
-            "Las valoraciones y reseñas te ayudan a elegir artistas de manera inteligente y confiada",
-            "Guarda y disfruta tus momentos favoritos en una bóveda de medios privada",
-            "Planifica sesiones según tu vida con integración de calendario",
-            "Interfaz refinada y fácil de usar con modo oscuro y personalización",
-            "Optimizada para visualización móvil con calidad de streaming adaptativa"
-          ]
-        },
-        "streamstar": {
-          "toppara": "prioriza el acceso completamente gratuito y una optimización móvil superior en un entorno constantemente animado, 24/7, lleno de artistas frescos y acción en tiempo real.",
-          "secppara": "Shows públicos gratuitos con potencial de interacción total, opciones Cam2Cam para conexiones más cercanas y horarios detallados – StreamStar hace todo sencillo, divertido y accesible para usuarios en cualquier dispositivo o presupuesto.",
-          "pricingDescription": "Los shows públicos son 100 % gratuitos sin límites; los créditos ofrecen mejoras privadas asequibles, propinas y acceso a contenido premium.",
-          "hiddenFees": "Ninguna",
-          "drawbacksDescription": "Una cuenta gratuita desbloquea todas las funciones, incluido el chat y los favoritos – configuración instantánea sin pago.",
-          "excerpt": "Entretenimiento gratuito interminable con maestría móvil inigualable y accesibilidad global.",
-          "overview": "StreamStar ofrece shows públicos HD gratuitos ilimitados, vistas previas en tiempo real al pasar el ratón, artistas diversos desde aficionados hasta profesionales y alertas instantáneas. Mejoras con créditos asequibles, registro gratuito, filtros completos y rendimiento móvil de primera garantizan diversión relajada y en movimiento sin tarifas ocultas, anuncios ni interrupciones. (59 palabras)",
-          "features": [
-            "Pasa el ratón para vistas previas en tiempo real con fragmentos de sonido y estadísticas en vivo",
-            "Bibliotecas de fotos y videos actualizadas diariamente por modelos activos",
-            "Alertas instantáneas de favoritos por correo, app o notificación del navegador",
-            "Filtros completos incluyendo solo gratuito/público y calidad HD",
-            "Perfiles con valoraciones de usuarios, biografía y registros de actividad recientes",
-            "Horarios detallados y eventos con notificaciones de recordatorio"
-          ],
-          "benefits": [
-            "Streams HD vívidos y confiables que cargan al instante en cualquier conexión",
-            "Reseñas y valoraciones te guían hacia las mejores experiencias gratuitas y de pago",
-            "Accede al contenido guardado sin conexión a través de tu cuenta en cualquier momento",
-            "Mantente sincronizado con cada actuación gracias a alertas inteligentes",
-            "Sin esfuerzo para usuarios primerizos con recorridos guiados y consejos",
-            "Compatibilidad móvil excepcional con controles de un toque"
-          ]
-        },
-        "flirtzone": {
-          "toppara": "vive de emoción en tiempo real, conexiones sin esfuerzo y una comunidad juguetona donde la diversión interactiva y la química espontánea se encienden en cada clic.",
-          "secppara": "Juguetes interactivos con control en tiempo real, Cam2Cam para intimidad cara a cara y una comunidad floreciente de eventos – FlirtZone enciende pura alegría, fomenta amistades y convierte cada sesión en una aventura compartida.",
-          "pricingDescription": "Shows públicos completamente gratuitos con propinas recomendadas; créditos para propinas, shows privados y activaciones de juguetes.",
-          "hiddenFees": "Ninguna",
-          "drawbacksDescription": "Los juguetes interactivos y el control privado requieren créditos, pero el registro, la navegación y el chat público son completamente gratuitos.",
-          "excerpt": "Juguetón, altamente interactivo y lleno de vida con energía comunitaria vibrante.",
-          "overview": "FlirtZone enciende alegría con juguetes interactivos de última generación, streams HD vibrantes, intimidad Cam2Cam y eventos comunitarios animados. Shows públicos gratuitos, registro gratuito instantáneo, propinas y shows privados basados en créditos, filtros inteligentes y optimización móvil completa crean diversión juguetona y profundamente conectada sin sorpresas ni cargos ocultos. (58 palabras)",
-          "features": [
-            "Al pasar el ratón sobre miniaturas se muestra acción en vivo con sonido y conteo de espectadores",
-            "Desbloquea colecciones de medios exclusivas y contenido de club de fans",
-            "Recibe alertas en línea y notificaciones previas al show para favoritos",
-            "Refina búsquedas con filtros inteligentes y preferencias guardadas",
-            "Perfiles de modelos valorados con insignias y recompensas de lealtad",
-            "Horarios y eventos comunitarios con encuestas en vivo y juegos"
-          ],
-          "benefits": [
-            "Calidad HD rica y vibrante con vistas multiángulo en salas premium",
-            "Valoraciones y comentarios de usuarios para decisiones informadas y seguras",
-            "Disfruta de medios guardados sin conexión en tu galería personal",
-            "Anticípate a cada sesión con cuentas regresivas y recordatorios",
-            "Diseño intuitivo y acogedor con elementos gamificados",
-            "Completamente optimizado para móvil con navegación por deslizamiento y entrada por voz"
-          ]
-        },
-        "webcamworld": {
-          "toppara": "celebra a artistas aficionados auténticos en un espacio sin complicaciones y genuino donde personas reales comparten momentos sin guion, sin filtros ni fachadas.",
-          "secppara": "Cam2Cam para conexiones personales, galerías que muestran belleza cotidiana y horarios para shows regulares – WebcamWorld se mantiene real, sencillo y enfocado en la interacción humana auténtica en una zona libre de juicios.",
-          "pricingDescription": "Visualización pública gratuita sin restricciones; créditos económicos para chats privados, propinas y solicitudes personalizadas.",
-          "hiddenFees": "Ninguna",
-          "drawbacksDescription": "Las funciones premium como shows privados necesitan créditos, con registro gratuito y acceso público ilimitado incluido.",
-          "excerpt": "Aficionados auténticos en HD nítido, ofreciendo entretenimiento crudo y sin filtros diariamente.",
-          "overview": "WebcamWorld se mantiene real con streams HD de aficionados, vistas previas instantáneas al pasar el ratón, visualización pública gratuita y navegación simple y limpia. Créditos económicos para Cam2Cam, registro gratuito, filtros fáciles de usar y diseño apto para móviles ofrecen alegría genuina y sin drama sin tarifas ocultas ni ventas adicionales. (57 palabras)",
-          "features": [
-            "Vistas previas en vivo instantáneas con conteo de espectadores y actividad de chat",
-            "Galerías de medios llenas de fotos personales y clips caseros",
-            "Notificaciones de favoritos entregadas por app o correo electrónico",
-            "Filtrado fácil por nuevos modelos, chat gratuito o salas en tendencia",
-            "Perfiles con valoraciones, listas de deseos y comentarios recientes",
-            "Horarios próximos con enlaces directos para agregar al calendario"
-          ],
-          "benefits": [
-            "Autenticidad en alta definición real de artistas cotidianos",
-            "Comentarios y valoraciones de usuarios para decisiones mejores y confiables",
-            "Guarda momentos para más tarde en tu colección privada",
-            "Planifica tu visualización con horarios confiables y alertas",
-            "Navegación simple y sin adornos perfecta para visitas rápidas",
-            "Diseño apto para móviles con carga rápida y controles táctiles"
-          ]
-        },
-        "livepulse": {
-          "toppara": "pulsa con energía de alto octanaje, eventos en vivo las 24 horas y una destreza móvil inigualable que lleva la emoción a dondequiera que vayas.",
-          "secppara": "Cam2Cam para intimidad instantánea, acceso a medios para revivir momentos destacados y horarios detallados – LivePulse alimenta emoción sin parar con noches temáticas, concursos y una comunidad que nunca duerme.",
-          "pricingDescription": "Shows públicos gratuitos con acceso completo al chat; créditos para acceso privado, propinas y entradas a eventos.",
-          "hiddenFees": "Ninguna",
-          "drawbacksDescription": "Extras como shows privados o votos en concursos requieren créditos; el registro y el disfrute público son completamente gratuitos.",
-          "excerpt": "Dinámico, primero en móvil y lleno de eventos de alta energía diariamente.",
-          "overview": "LivePulse funciona con eventos HD de alta energía, talento diverso desde estrellas emergentes hasta veteranos, vistas previas rápidas y uso móvil fluido. Shows públicos gratuitos, registro gratuito, extras basados en créditos, alertas en tiempo real y filtros inteligentes mantienen la acción sin parar, accesible y emocionante sin tarifas ocultas. (56 palabras)",
-          "features": [
-            "Vistas previas rápidas con estadísticas en vivo y tablas de clasificación de propinas",
-            "Bibliotecas de medios incluyendo repeticiones de eventos y momentos destacados",
-            "Alertas en línea con preferencias de notificación personalizables",
-            "Filtros de búsqueda por tipo de evento, idioma y popularidad",
-            "Perfiles detallados con historial de actuaciones y clubes de fans",
-            "Horarios de eventos con temas, premios y reglas de participación"
-          ],
-          "benefits": [
-            "Energía HD electrizante que captura cada pulso del show",
-            "Valoraciones y tablas de clasificación para confiar en los artistas más populares",
-            "Reproducción sin conexión de eventos y grabaciones privadas",
-            "Diversión programada con cuentas regresivas y recordatorios automáticos",
-            "Diseño fácil de usar con unión a eventos con un clic",
-            "Flujo sin interrupciones en móviles con streaming de bitrate adaptativo"
-          ]
-        },
-        "camconnect": {
-          "toppara": "ofrece conexiones premium con juguetes interactivos de última generación, claridad Ultra HD y un enfoque en experiencias seguras y de alta gama para usuarios sofisticados.",
-          "secppara": "Completamente interactivo con sincronización de juguetes en tiempo real, Cam2Cam privado y encriptado y soporte de conserjería 24/7 – CamConnect irradia lujo, privacidad y excelencia tecnológica en cada detalle.",
-          "pricingDescription": "Vistas previas gratuitas y provocación pública; créditos más niveles de membresía opcionales para funciones mejoradas y acceso prioritario.",
-          "hiddenFees": "Ninguna",
-          "drawbacksDescription": "Los elementos premium como control de juguetes y salas VIP requieren pago; los básicos incluyendo registro y vistas previas son gratuitos.",
-          "excerpt": "Ultra HD interactivo premium con funciones de lujo y enfoque en privacidad.",
-          "overview": "CamConnect combina Ultra HD impresionante, control preciso de juguetes, Cam2Cam seguro y diseño elegante adaptado al lujo. Vistas previas gratuitas, acceso básico gratuito, mejoras con créditos o membresía, herramientas de búsqueda precisas y perfección móvil ofrecen indulgencia interactiva lujosa sin costos ocultos. (55 palabras)",
-          "features": [
-            "Vistas previas en vivo con ángulos de múltiples cámaras en salas premium",
-            "Acceso a medios incluyendo clips en 4K y repeticiones interactivas",
-            "Alertas de favoritos con notificaciones prioritarias para VIP",
-            "Búsqueda avanzada con sugerencias de coincidencia impulsadas por IA",
-            "Perfiles valorados con reseñas verificadas e insignias de lealtad",
-            "Horarios con reserva privada y sincronización de calendario"
-          ],
-          "benefits": [
-            "Ultra HD impresionante con iluminación de estudio y cero retraso",
-            "Guiado por valoraciones e insights de IA para coincidencias perfectas",
-            "Preserva favoritos en bóvedas personales encriptadas",
-            "Planifica sin esfuerzo con herramientas de reserva integradas",
-            "Interfaz elegante con temas y diseños personalizables",
-            "Perfección móvil con retroalimentación háptica y comandos de voz"
-          ]
-        },
-        "starlive": {
-          "toppara": "fomenta un espacio vibrante y centrado en la comunidad donde shows destacados, interacciones grupales y eventos impulsados por fans crean un verdadero sentido de pertenencia y emoción.",
-          "secppara": "Cam2Cam para momentos personales, eventos temáticos con premios y streams HD nítidos – StarLive irradia poder estelar, celebra a los artistas y construye comunidades de fans duraderas a través de experiencias compartidas.",
-          "pricingDescription": "Acceso público gratuito con propinas grupales; créditos para shows privados, contenido exclusivo y participación en eventos.",
-          "hiddenFees": "Ninguna",
-          "drawbacksDescription": "Extras como chats privados o entradas a eventos necesitan créditos; registro gratuito y disfrute público incluido.",
-          "excerpt": "Eventos HD impulsados por la comunidad con trato de estrella y recompensas para fans.",
-          "overview": "StarLive construye una comunidad próspera con streams HD nítidos, vistas previas instantáneas, intimidad Cam2Cam y eventos grupales con premios. Acceso público gratuito, registro gratuito, shows privados basados en créditos, filtros robustos e interfaz lista para móvil crean diversión atractiva, social y gratificante sin complicaciones. (56 palabras)",
-          "features": [
-            "Vistas previas instantáneas con fragmentos de chat en vivo y estadísticas de propinas",
-            "Colecciones de medios incluyendo momentos destacados votados por fans y repeticiones",
-            "Sistema de alertas con invitaciones a eventos grupales",
-            "Filtros robustos por popularidad, club de fans y estado del evento",
-            "Perfiles de usuario con insignias, niveles y roles comunitarios",
-            "Horarios de eventos con temas, concursos y tablas de clasificación"
-          ],
-          "benefits": [
-            "Visualización HD nítida con sincronización para múltiples espectadores",
-            "Valoraciones y votos de fans para confianza en las estrellas principales",
-            "Disfrute sin conexión de grabaciones de eventos y exclusivos",
-            "Mantente programado con calendario comunitario y RSVP",
-            "Interfaz atractiva con gamificación y desbloqueos de logros",
-            "Lista para móvil con encuestas en vivo y chat grupal"
-          ]
-        },
-        "vibeon": {
-          "toppara": "ofrece interactividad premium en Ultra HD impresionante con integración fluida de juguetes y un ecosistema lujoso diseñado para indulgencia sensorial definitiva.",
-          "secppara": "Integración de juguetes con retroalimentación háptica, Cam2Cam en calidad impecable y soporte las 24 horas – VibeOn define opulencia, innovación y placer personalizado en el mundo de las cámaras en vivo.",
-          "pricingDescription": "Vistas previas y acceso público gratuitos; créditos y niveles VIP para interactividad completa, soporte prioritario y ventajas exclusivas.",
-          "hiddenFees": "Ninguna",
-          "drawbacksDescription": "Enfoque en interactividad premium y funciones VIP; entrada gratuita, vistas previas y chat básico disponibles para todos.",
-          "excerpt": "HD interactivo lujoso con sincronización de juguetes de última generación y trato VIP.",
-          "overview": "VibeOn ofrece streams Ultra HD inigualables, control de juguetes en tiempo real, soporte dedicado 24/7 y diseño pulido. Vistas previas gratuitas, acceso con créditos o VIP, bibliotecas de medios guardadas y excelencia móvil entregan la experiencia interactiva de lujo definitiva sin tarifas ocultas. (54 palabras)",
-          "features": [
-            "Vistas previas de miniaturas con indicadores de estado de juguetes interactivos",
-            "Galerías de medios en 4K con contenido premium descargable",
-            "Alertas en línea con notificaciones de acceso temprano para VIP",
-            "Búsqueda de precisión con etiquetas de fetiche y puntuaciones de compatibilidad",
-            "Perfiles valorados con métricas de rendimiento y lealtad de fans",
-            "Horarios con sesiones privadas y eventos exclusivos para VIP"
-          ],
-          "benefits": [
-            "Ultra HD inigualable con iluminación adaptativa y cero distorsión",
-            "Valoraciones como tu guía más recomendaciones impulsadas por IA",
-            "Biblioteca de contenido guardado con acceso sin conexión y organización",
-            "Planificación perfecta con recordatorios automáticos y reservas",
-            "Diseño pulido con control por voz y modo oscuro",
-            "Excelencia móvil con sincronización háptica de juguetes y streaming de baja latencia"
-          ]
-        }
-      },
-    "SearchPage": {
-      "title": "Resultados de búsqueda ({count})",
-      "showing": "Coincidencias para \"{query}\"",
-      "noResults": "Nada encontrado: prueba otras palabras.",
-      "noQuery": "Escribe algo para buscar.",
-      "readReview": "Leer reseña",
-      "visit": "Visitar {title}",
-      "backToHome": "Volver al inicio",
-      "activeUsers": "+10.000 en línea"
+    "SexCam": {
+      "Title": "Cámaras de Sexo",
+      "Description": "Disfruta de shows en vivo de primera y acércate a modelos hermosas en chats privados.",
+      "Keywords": "cámaras de sexo, sexo en vivo, cams gratis"
+    },
+    "RandomChat": {
+      "Title": "Chat Aleatorio",
+      "Description": "Conoce extraños al azar de todo el mundo: ¡gratis, rápido y lleno de sorpresas!",
+      "Keywords": "chat aleatorio, Chatroulette, videochat"
+    },
+    "MilfChat": {
+      "Title": "Chat con MILFs",
+      "Description": "Chatea con mujeres maduras sexys en los mejores sitios de cams MILF: en vivo y listas para divertirse.",
+      "Keywords": "chat con MILFs, cams maduras, chat con cougars"
+    },
+    "FreeChat": {
+      "Title": "Chat Gratis",
+      "Description": "Sin registro, sin cargos: entra directamente en chats en vivo gratis y diviértete.",
+      "Keywords": "chat gratis, videochat, salas en línea"
+    },
+    "FetishChat": {
+      "Title": "Chat Fetichista",
+      "Description": "Explora tus fetiches con cams salvajes y chats BDSM en vivo.",
+      "Keywords": "chat fetichista, cams kink, BDSM en vivo"
+    },
+    "EbonyChat": {
+      "Title": "Chat con Ebony",
+      "Description": "Conéctate con modelos negras deslumbrantes en salas de chat ebony calientes: ¡gratis para ver!",
+      "Keywords": "chat con ebony, cams negras, ebony en vivo"
+    },
+    "BbwChat": {
+      "Title": "Chat con BBW",
+      "Description": "Chatea en vivo con bellezas curvilíneas en los mejores sitios de cams plus-size.",
+      "Keywords": "chat con BBW, cams curvilíneas, live plus-size"
     },
     "Terms": {
-      "title": "Términos de Uso",
-      "heading": "Nuestro acuerdo",
-      "lastUpdated": "Actualizado: 1 de octubre de 2018",
-  
-      "sections": {
-        "acceptance": {
-          "title": "Aceptación de los términos",
-          "content": [
-            "¡Hola! Este es el trato entre tú y 4th Whale Marketing Inc. (nosotros). Al usar TopChats.com —navegar, hacer clic o registrarte— estás diciendo \"sí\" a estas reglas y a nuestra política de privacidad (en topchats.com/privacy). Si no es lo tuyo, no hay problema: simplemente cierra la pestaña.",
-            "Debes tener más de 18 años y estar de acuerdo con contenido para adultos para estar aquí. Si no, este no es el lugar para ti."
-          ]
+      "Title": "Términos de Uso",
+      "Description": "Nuestras reglas simples para mantener todo divertido, seguro y justo para todos.",
+      "Keywords": "términos, privacidad, acuerdo de usuario"
+    },
+    "Sites": {
+      "Title": "Todos los Sitios",
+      "Description": "Explora cada sitio de cams y chat mejor valorado que hemos probado: tu tienda todo en uno.",
+      "Keywords": "sitios de cams, plataformas de chat, reseñas"
+    }
+  },
+  "Header": {
+    "nav": {
+      "top10": "Top 10 Sitios",
+      "sexCams": "Cámaras de Sexo",
+      "freeChat": "Chat Gratis",
+      "milfChat": "Chat con MILFs",
+      "bbwChat": "Chat con BBW",
+      "ebonyChat": "Chat con Ebony",
+      "teenChat": "Chat para Teens",
+      "randomChat": "Chat Aleatorio",
+      "fetishChat": "Chat Fetichista",
+      "voyeurCam": "Cámara Voyeur"
+    },
+    "search": {
+      "placeholder": "Buscar todo…",
+      "button": "Ir"
+    }
+  },
+  "Banner": {
+    "top10chat": {
+      "title": "Sitios de Chat Más Calientes 2025"
+    },
+    "sexCams": {
+      "title": "Sitios de Cámaras de Sexo 2025"
+    },
+    "freeChat": {
+      "title": "Sitios de Chat Gratis 2025"
+    },
+    "milfChat": {
+      "title": "Sitios de Chat con MILFs 2025"
+    },
+    "bbwChat": {
+      "title": "Sitios de Chat con BBW 2025"
+    },
+    "ebonyChat": {
+      "title": "Sitios de Chat con Ebony 2025"
+    },
+    "teenChat": {
+      "title": "Sitios de Chat para Teens 2025"
+    },
+    "randomChat": {
+      "title": "Sitios de Chat Aleatorio 2025"
+    },
+    "fetishChat": {
+      "title": "Sitios de Chat Fetichista 2025"
+    },
+    "voyeurCam": {
+      "title": "Sitios de Cámaras Voyeur 2025"
+    },
+    "searchBanner": {
+      "title": "Buscando:"
+    }
+  },
+  "camPost": {
+    "readReview": "Leer reseña completa",
+    "visit": "Visitar {title}",
+    "activeUsers": "En línea ahora"
+  },
+  "getUpdateInbox": {
+    "title": "¿Las últimas ofertas en tu bandeja?",
+    "placeholder": "Tu correo",
+    "button": "¡Sí, apúntame!"
+  },
+  "weTested": {
+    "topChats": {
+      "title": "Hemos probado cada sitio de chat por ti",
+      "intro1": "¿Anhelas charlar con mujeres impresionantes? ¡Nosotros lo hacemos posible! En TopChats.com encontrarás los mejores sitios de cámaras en vivo de la red, seleccionados a mano y verificados por calidad. Basta de saltar entre plataformas dudosas, evitando tarifas ocultas o sorpresas desagradables: hemos probado rigurosamente cada sitio de nuestra lista Top 10 para ofrecerte solo lo mejor.",
+      "intro2": "Encontrar el sitio de cámaras perfecto que te mantenga enganchado durante horas es pan comido con TopChats. Destacamos lo mejor de lo mejor con todos los detalles esenciales a simple vista. Descubre funciones destacadas, consulta nuestras confiables calificaciones por estrellas y decide en segundos. ¿Encontraste tu favorito? ¡Haz clic en nuestro enlace y comienza el chat en vivo con chicas hermosas al instante!",
+      "image": "/g1.jpeg",
+      "findTitle": "Descubre los sitios de cámaras en vivo definitivos",
+      "findDesc1": "Nuestra Top 10 no está grabada en piedra: los favoritos eternos se quedan, pero reemplazamos con mejores novatos en cuanto los encontramos. Nuestro equipo rastrea incansablemente la red en busca de nuevas joyas y te ofrece la información más actualizada. Marca TopChats como favorito y déjanos la caza: nunca más tendrás que buscar sitios de sex cams por tu cuenta.",
+      "findDesc2": "Con TopChats puedes:",
+      "findList": [
+        "Descubrir las plataformas de cámaras líderes en internet",
+        "Conocer a las estrellas de webcam más calientes del mundo",
+        "Explorar sitios con intimidad cam2cam",
+        "Disfrutar plataformas con shows XXX gratuitos",
+        "Navegar categorías como Free Chat, Teen Cams y más"
+      ],
+      "reviewTitle": "Sumérgete en nuestras reseñas detalladas de cámaras",
+      "reviewDesc": "No colocamos sitios al azar en la página principal: nos arremangamos, probamos cada rincón y escribimos reseñas brutales y honestas. Nuestros expertos diseccionan cada función y detalle para darte la imagen completa. Con nuestras ideas, eliges el sitio perfecto sin desperdiciar un solo clic.",
+      "opinionTitle": "Comparte tu opinión",
+      "opinionDesc1": "Tu voz moldea nuestras clasificaciones. Cuéntanos qué amas (u odias) y señala joyas ocultas. Escribe una reseña, califica un sitio o contáctanos: ¡adoramos tus comentarios para afilar nuestro filo y convertir TopChats en tu autoridad definitiva en cámaras!",
+      "opinionDesc2": "¿Necesitas ayuda o quieres ponerte en contacto?",
+      "opinionList": [
+        "Usa nuestro formulario de contacto",
+        "Envíanos un correo electrónico",
+        "Llama gratis: 1-855-722-2485"
+      ]
+    },
+    "sexCams": {
+      "title": "Mejores sitios de sex cams",
+      "paragraph1": "Las sex cams en vivo pueden convertirse rápidamente en tu adicción definitiva. Interactúa con chicas hermosas, dirige la acción e incluso controla su placer con propinas: tú manejas las vibraciones de su juguete y te sientas en la silla del director, decidiendo cada gemido, movimiento y clímax. En las cams, tú mandas; ¡es hora de desatar tus fantasías más salvajes!",
+      "paragraph2": "Nos sumergimos profundamente en cada plataforma para mostrarte exactamente qué te espera. TopChats tiene la misión de desenterrar los mejores sitios de sex cams de todos los tiempos, donde conectarás con intérpretes cautivadoras para sesiones calientes sin fin. Desde teens frescas hasta MILFs experimentadas, bellezas ebony, seductoras asiáticas, latinas ardientes y más: la variedad es irresistible.",
+      "image": "/g1.jpeg",
+      "heading1": "Experimenta todo tipo de shows de sex cams",
+      "paragraph3": "Las posibilidades de shows son ilimitadas. ¿Listo para subir del chat gratuito? Carga tokens y desbloquea emociones premium: sesiones privadas 1 a 1, shows grupales compartidos o modos espía discretos donde miras sin ser visto. Sea cual sea tu rollo, encontrarás una intérprete que enciende tus deseos.",
+      "paragraph4": "Espera shows ardientes como:",
+      "list1": [
+        "Teens traviesas y universitarias desatando su lado salvaje",
+        "Parejas reales en sexo en vivo crudo y apasionado",
+        "Lesbianas jugando con juguetes y pasión juguetona",
+        "Chicas girando la rueda para juegos interactivos atrevidos"
+      ],
+      "heading2": "Shows de cámaras para todos los presupuestos",
+      "paragraph5": "Cada intérprete quiere que te unas, por eso hay precios desde amigables con el bolsillo hasta exclusivos de lujo. Sumérgete con shows desde $0.99/min o date el gusto con actuaciones elite 1 a 1 por más de $10/min. Una cosa es segura: estas estrellas de cam ofrecen un valor impresionante por cada centavo.",
+      "heading3": "Sex cams en HD cristalino",
+      "paragraph6": "Nada mata el ambiente como el buffering o feeds borrosos. Por eso todas las páginas que recomendamos garantizan streams HD impecables y audio nítido: te sientes como si estuviera allí contigo, cada jadeo y temblor en detalles vívidos.",
+      "paragraph7": "Hoy en día, las intérpretes transmiten shows de alta calidad desde casa con facilidad e invierten en equipo profesional para que tu experiencia sea espectacular.",
+      "image": "/g2.jpeg",
+      "heading4": "Confía en nuestras reseñas expertas imparciales",
+      "paragraph8": "Abordamos cada nuevo sitio de sex cams con ojos frescos, probando cada función a fondo: sin atajos, sin sesgos. Nuestras reseñas completas y honestas te ayudan a encontrar la plataforma exacta para tu escape erótico. Siempre estamos cazando nuevas joyas para mantener nuestra lista al día. Tu tiempo es valioso; nos aseguramos de que se invierta bien.",
+      "heading5": "Sumérgete en el chat sexual en vivo en TopChats",
+      "paragraph9": "Las sex cams deben ser emocionantes y sin complicaciones: esa es nuestra promesa en TopChats. Olvídate de buscar sin fin; ya encontramos lo mejor. Dedica tu energía a conectar con chicas de cámara impresionantes de todo el mundo que harán realidad tus sueños más pervertidos a cualquier hora.",
+      "paragraph10": "Estas plataformas te mantendrán enganchado. Pronto tus intérpretes favoritas te saludarán por nombre con una sonrisa seductora. ¿Quién no ama el trato VIP con una dosis de XXX en vivo? ¡Deja de esperar: entra en un chat y que empiece la diversión!"
+    },
+    "freeChat": {
+      "title": "Mejores sitios de chat gratis",
+      "intro_paragraph_1": "Los sitios de cámaras hay a montones, pero ¿los gratuitos realmente buenos? Joyas raras. La calidad premium suele costar, pero no siempre. Hemos eliminado todas las conjeturas y curado los 10 mejores plataformas de chat gratuito en la web. Guarda la cartera y prepárate para diversión pura sin ataduras.",
+      "intro_paragraph_2": "¿Te preguntas por la trampa? No la hay. Estas cams gratuitas rivalizan con las de pago, con abundante desnudez y acción en vivo. Sin compromisos solo porque es gratis: TopChats te guía a la experiencia gratuita perfecta adaptada a ti.",
+      "image": "/g1.jpeg",
+      "discover_title": "Explora salas de chat gratuitas",
+      "discover_paragraph_1": "Algunas plataformas bloquean el chat gratuito tras muros de pago, las nuestras no. Prueba las aguas, vibra con un modelo o explora el sitio sin riesgo. Chatea 24/7 con tantas mujeres calientes como quieras: sin temporizadores, sin límites.",
+      "discover_paragraph_2": "Disfruta ventajas gratuitas como:",
+      "discover_list": [
+        "Modelos globales al alcance de un clic",
+        "Sesiones de striptease en vivo",
+        "De teens a seductoras maduras",
+        "Acción hardcore sin parar",
+        "Chat móvil sin interrupciones"
+      ],
+      "gorgeous_girls_title": "Chatea gratis con mujeres impresionantes",
+      "gorgeous_girls_paragraph": "«Gratis» no significa limitado. Estos sitios rebosan diversidad: teens hasta MILFs y abuelas, petite hasta BBW, pechos pequeños hasta enormes, todas las etnias: blancas, negras, latinas, asiáticas. Tu chica soñada te espera sin gastar un céntimo.",
+      "variety_title": "Saborea shows de cámaras gratuitos variados",
+      "variety_paragraph": "El chat gratuito lo ofrece todo: charla sucia, instrucciones para masturbarte, revelaciones fetichistas, parejas en vivo, juego con juguetes en solitario y más. ¿Desnudez? Garantizada. ¿Diversión? Ilimitada. Vive tu mejor vida sin gastar un euro.",
+      "top_sites_title": "Descubre nuestras plataformas gratuitas elite",
+      "top_sites_paragraph": "Si no es 100 % gratis, no está aquí: punto. El tiempo es dinero, por eso solo listamos sitios que valen el tuyo. Nuestras reseñas cubren calidad de webcam, número de intérpretes en línea, desnudez gratuita, contenido XXX extra y desventajas honestas. Cada recomendación gana nuestro sello mediante pruebas exhaustivas.",
+      "avoid_spending_title": "Coquetea libremente, sin cartera",
+      "avoid_spending_paragraph": "¿Por qué pagar para chatear si no quieres? Nuestra enorme selección de salas adultas sin costo te permite abrir pestañas infinitas sin culpa. ¿Nuevo en cams gratuitas o veterano? Nuestras ideas aseguran que cada elección te encante a ti y a tu presupuesto. ¡No esperes: empieza ahora a cazar a tu chica de fantasía!"
+    },
+    "milfCams": {
+      "title": "Sitios líderes de chat con MILFs",
+      "intro_paragraph_1": "Las MILFs aportan experiencia e insaciable deseo que las teens simplemente no pueden igualar: eso las hace únicas. ¿Anhelas seductoras maduras? TopChats destaca las mejores plataformas de MILF cams, repletas de mujeres calientes maduras listas para actuar en vivo solo para ti.",
+      "intro_paragraph_2": "De cougars curvilíneas a stunners petite, negras, blancas, latinas, europeas o norteamericanas: sea cual sea tu fantasía de más de 30, simplificamos la búsqueda de camgirls globales impresionantes listas para conectar.",
+      "image": "/g3.jpeg",
+      "discover_title": "Conoce a las estrellas MILF de cámaras más calientes",
+      "discover_paragraph_1": "Ninguna MILF es igual, y los sitios de cams tampoco deberían serlo. Priorizamos plataformas con enorme variedad de intérpretes para satisfacer todos los gustos. Chatea en inglés, español o más con damas que cautivan en tu idioma favorito.",
+      "discover_paragraph_2": "Aquí un adelanto de los placeres que te esperan:",
+      "discover_list_item_1": "Actuaciones con webcam HD",
+      "discover_list_item_2": "Interfaz optimizada para móviles",
+      "discover_list_item_3": "Salas de chat gratuitas",
+      "discover_list_item_4": "Línea diversa de MILFs",
+      "discover_list_item_5": "Opciones cam2cam",
+      "hd_webcams_title": "Shows HD con bellezas maduras",
+      "hd_webcams_paragraph": "Estas intérpretes MILF dominan cada detalle seductor: y el HD cristalino es obligatorio. Olvídate de streams granulados; disfruta imágenes nítidas, sonido inmersivo, fotos XXX gratuitas y juguetes controlados por propinas. ¡Nuestras reseñas lo revelan todo!",
+      "chat_247_title": "Conecta con MILFs sexys las 24 horas",
+      "chat_247_paragraph": "¿Sabes lo que quieres? Simplificamos la caza. Haz amistad con una MILF cautivadora, coquetea libremente o calienta en privado con cam2cam. Día y noche, alguien está en línea y listo. ¡Elige tu sitio y lánzate: así de fácil!"
+    },
+    "bbwCams": {
+      "title": "Sitios líderes de chat con BBWs",
+      "intro_paragraph_1": "¿Listo para sumergirte en voluptuosas BBWs? TopChats ofrece las plataformas de BBW cams más refinadas de la red, curadas por expertos para que saltes el ruido y aterrices directamente en sitios adaptados a tus deseos, haciendo que cada minuto y euro cuente.",
+      "intro_paragraph_2": "Nuestros especialistas examinan cada sitio al detalle y entregan reseñas transparentes con pros, contras y precios claros. Ya sea diversión freemium o brillo premium, te emparejamos con la experiencia BBW ideal.",
+      "image": "/g5.jpeg",
+      "reviews_title": "Reseñas transparentes de BBW cams",
+      "reviews_paragraph": "Rastreamos la red y luego nos sumergimos: visitamos shows, probamos registros, chateamos con intérpretes para asegurar que cada sitio brille. Una reseña de TopChats te equipa con:",
+      "reviews_list_item_1": "Talento BBW global",
+      "reviews_list_item_2": "Intimidad cam2cam",
+      "reviews_list_item_3": "Opciones freemium y premium",
+      "reviews_list_item_4": "Streaming HD",
+      "reviews_list_item_5": "Compatibilidad móvil/tablet",
+      "hd_webcams_title": "Vistas HD de diosas curvilíneas",
+      "hd_webcams_paragraph_1": "Conoce a docenas de BBWs jugosas de todo el mundo: ebony, latina, asiática, de Oriente Medio, blancas; rellenitas, super size, con culos enormes y tetas aún más grandes.",
+      "hd_webcams_paragraph_2": "La variedad es solo el comienzo. Exigimos claridad 720p+, lags mínimos y equipo profesional. Estas reinas curvilíneas invierten en tecnología top para una experiencia inmersiva inolvidable.",
+      "mobile_title": "Chat BBW en cualquier momento y lugar",
+      "mobile_paragraph": "El porno cabe en tu bolsillo: ¡y la acción BBW en vivo también! Nuestros sitios listados ofrecen interfaces móviles intuitivas para chatear sin esfuerzo desde teléfono o tablet. ¿Listo para conectar con intérpretes gruesas y cachondas? ¡Haz clic y comienza!"
+    },
+    "ebonyCams": {
+      "title": "Sitios elite de chat con ebony",
+      "intro_paragraph_1": "Las mujeres ebony irradian un atractivo embriagador: ojos oscuros, piel sedosa, pura magia. Demasiados sitios de cams escatiman en diversidad; nosotros no. TopChats cura lo mejor de lo mejor en plataformas de webcam ebony, para que elijas las bellezas negras definitivas.",
+      "intro_paragraph_2": "De caramelo a chocolate profundo: la selección es un banquete delicioso. Inicia el chat al instante y deja que estas stunners ebony electrifiquen tu mundo.",
+      "image": "/g5.jpeg",
+      "reviews_title": "Análisis profundos de sitios de cams",
+      "reviews_paragraph": "Cazar cams no debería ser un trabajo. Nosotros cargamos con la investigación: probamos funciones, vamos privados para que saltes directo al placer. Nuestras reseñas te dan confianza total.",
+      "features_paragraph": "Espera:",
+      "features_list_item_1": "Intérpretes ebony variadas",
+      "features_list_item_2": "Juego interactivo con juguetes",
+      "features_list_item_3": "Claridad HD",
+      "features_list_item_4": "Sesiones cam2cam",
+      "chat_all_day_title": "Chat ebony a cualquier hora",
+      "chat_all_day_paragraph_1": "Estamos obsesionados con la perfección. Nuestras selecciones garantizan altos números de intérpretes, para que patrullas al amanecer o coqueteos en el almuerzo siempre encuentren una ebony dispuesta para emociones privadas o grupales.",
+      "chat_all_day_paragraph_2": "La variedad reina: teens 18+ hasta MILFs maduras, delgadas hasta curvilíneas, amateurs hasta pornstars: cada tono de impresionante.",
+      "hd_webcams_title": "Streams ebony HD premium",
+      "hd_webcams_paragraph": "HD no es opcional. Marcamos sitios con feeds y audio superiores, perfectos para duelos cam2cam privados. ¡Abre los ojos al placer exquisito!"
+    },
+    "teenCams": {
+      "title": "Sitios prime de chat con teens",
+      "intro1": "Charlar con teens vibrantes y llenas de lujuria es pura adrenalina. ¿Encontrarlas? Complicado: hasta ahora. TopChats ha peinado la red y compilado la selección definitiva de cams teen, todo en un lugar conveniente.",
+      "intro2": "Pechos grandes, mentes pervertidas o encantos exóticos: conecta sin esfuerzo con hotties globales 18+. La mayoría de sitios son gratuitos y fáciles de usar. Prepárate para sex cams alucinantes con las estrellas jóvenes más irresistibles del planeta.",
+      "image": "/g1.jpeg",
+      "varietyTitle": "Un mundo de variedad en cams teen",
+      "varietyDesc": "Exigimos plataformas intuitivas e intérpretes diversas: todo tipo de cuerpo, color de pelo, etnia para satisfacer cualquier gusto.",
+      "varietyExpect": "Espera:",
+      "li1": "Chicas de todos los rincones del mundo",
+      "li2": "Amateurs junto a pornstars",
+      "li3": "Abundantes salas de chat gratuitas",
+      "li4": "Interacciones con juguetes inteligentes",
+      "li5": "Cientos en línea 24/7",
+      "meetTitle": "Más teens que en ningún otro lugar",
+      "meetDesc": "Diversión matutina o privados a medianoche: cientos de modelos esperan. Acceso gratuito significa conexiones instantáneas con una o varias chicas. Las posibilidades son infinitas.",
+      "hdTitle": "Acción teen HD de cerca",
+      "hdDesc": "La juventud no implica calidad amateur. Estas teens usan webcams HD profesionales, entregando imágenes y sonidos cristalinos que te hacen sentir a centímetros de distancia.",
+      "chatTitle": "Conecta con bellezas jóvenes juguetonas",
+      "chatDesc": "Actualiza tu feed diariamente o visita favoritas: estas teens 18+ amigables y de mente abierta dan la bienvenida a cualquier conversación. ¡Empieza hoy el chat con tu chica soñada!"
+    },
+    "randomCams": {
+      "title": "Mejores sitios de chat aleatorio",
+      "intro1": "¿Anhelas chats espontáneos con desconocidos? Innumerables sitios prometen emoción, pero pocos cumplen. TopChats filtra el caos y presenta las mejores plataformas de cams aleatorias para encontrar rápidamente tu pareja ideal.",
+      "intro2": "Somos cazadores incansables de talento fresco, calificamos y listamos novatos. Márkanos, suscríbete a nuestro boletín y mantente adelante con actualizaciones exclusivas y sorpresas.",
+      "image": "/g1.jpeg",
+      "findTitle": "Nuestro riguroso proceso de selección",
+      "findDesc": "Cada sitio tiene ventajas únicas: destacamos las 3 principales, usuarios promedio en línea y calificación por estrellas. Reseñas completas ofrecen análisis más profundos.",
+      "features": "Criterios clave incluyen:",
+      "li1": "Miles de usuarios activos",
+      "li2": "Filtros inteligentes de usuarios",
+      "li3": "Opciones de chat solo chicas",
+      "li4": "Cambios de cam ultrarrápidos",
+      "contributeTitle": "Moldea las clasificaciones",
+      "contributeDesc": "Tus reseñas y calificaciones refinan nuestra lista. Habla: escuchamos atentamente para coronar a los verdaderos campeones.",
+      "qualityTitle": "Solo calidad de webcam premium",
+      "qualityDesc": "¿Streams malos? Aquí no. Garantizamos HD top y audio para encuentros inmersivos.",
+      "exploreTitle": "Explora categorías emocionantes",
+      "exploreDesc": "Abraza lo aleatorio o guíalo suavemente: filtra por color de pelo, etnia y más mientras mantienes la emoción.",
+      "stayTitle": "Tu insider de cams aleatorias",
+      "stayDesc": "TopChats te mantiene al día con plataformas emergentes y tendencias. Márkanos para liderar la revolución del chat aleatorio."
+    },
+    "fetishCams": {
+      "title": "Sitios definitivos de chat fetichista",
+      "intro1": "BDSM, juegos de rol y fetiches no son tabú aquí. Explora nuestra selección elite de cams fetichistas: cuevas de roleplay, adoración de pies, bondage y más te esperan.",
+      "intro2": "Seleccionados a mano por revisores dedicados que probaron cada herramienta y detalle: solo las plataformas fetichistas más finas llegan a TopChats.",
+      "image": "/g1.jpeg",
+      "fantasiesTitle": "Cumplimiento de fetiches 24/7",
+      "fantasiesDesc": "Los fetiches son personales. Encontramos sitios que cubren cada nicho: S/M, aguas doradas, juegos de embarazo, con cientos en línea diariamente. Sumérgete; satisfacción garantizada.",
+      "fetishesInclude": "Fetiches destacados:",
+      "li1": "BDSM",
+      "li2": "Juego de roles",
+      "li3": "Fumar",
+      "li4": "Cosquillas",
+      "li5": "Pies",
+      "li6": "¡Y muchísimos más!",
+      "trustTitle": "Cams kinky que respaldamos",
+      "trustDesc": "Solo recomendamos sitios que amamos. Alta actividad, funciones únicas y pruebas exhaustivas garantizan experiencias excepcionales.",
+      "desiresTitle": "Espectáculos fetichistas en HD",
+      "desiresDesc": "La mala calidad mata la fantasía. Exigimos HD afilado como navaja para que cada detalle (brillo de látex, chasquido de látigo) se sienta real.",
+      "exploreTitle": "Desata tus fetiches ahora",
+      "exploreDesc": "De dominatrix en látex a chicas alt tatuadas: nuestras salas fetichistas transforman fantasías en realidad en vivo."
+    },
+    "voyeurCams": {
+      "title": "Sitios líderes de cams voyeur",
+      "intro1": "¿Alguna vez has fantaseado con espiar a parejas en sus momentos más íntimos? Hemos examinado las principales plataformas de cams voyeur, detallando funcionamiento, contenido y valor.",
+      "intro2": "Imagina una casa llena de jóvenes adultos calientes, cada habitación cableada para imagen y sonido. La vida diaria se vuelve ardiente: charlas de desayuno escalan a revolcones en el dormitorio, tríos y fiestas salvajes. Pasión cruda y sin guion se despliega 24/7.",
+      "image": "/g7.jpeg",
+      "listTitle": "Experiencias voyeur elite curadas",
+      "listDesc": "Satisface tu voyeur interior con:",
+      "li1": "Encuentros de parejas en el dormitorio",
+      "li2": "Momentos destacados archivados",
+      "li3": "Cams HD con audio cristalino",
+      "li4": "Vistas multi-cam",
+      "li5": "Grandes mansiones voyeur",
+      "li6": "Apartamentos privados equipados con cams",
+      "spyTitle": "Espía a parejas apasionadas en acción",
+      "spyDesc": "Priorizamos acción sexual sobre lo mundano. Visualización gratuita abunda, pero premium desbloquea escenas calientes bloqueadas: nuestras reseñas revelan si vale la pena.",
+      "mobileTitle": "Emociones voyeur en móvil 24/7",
+      "mobileDesc": "Tu teléfono se convierte en dispositivo espía. Sitios optimizados para móvil reflejan funciones de escritorio: multi-cam, zoom, navegación fluida. ¡Inicia tus aventuras de espionaje en cualquier lugar y momento!"
+    }
+  },
+  "shortcuts": {
+    "title": "Enlaces Rápidos",
+    "links": {
+      "freeChat": "Chat Gratis",
+      "sexChatSites": "Chat de Sexo",
+      "mobileSexCams": "Cámaras Móviles",
+      "adultChat": "Chat para Adultos",
+      "teenChat": "Chat para Teens",
+      "chatRoomSites": "Salas de Chat",
+      "bigTitsChat": "Tetas Grandes",
+      "voyeurCam": "Cámara Voyeur",
+      "bdsmSites": "BDSM",
+      "rouletteChatSites": "Chat Roulette",
+      "sexCams": "Cámaras de Sexo",
+      "webcamChatSites": "Chat por Webcam",
+      "randomChat": "Chat Aleatorio",
+      "camGirls": "Chicas en Cams",
+      "bbwChat": "Chat con BBW",
+      "asianChatSites": "Chat Asiático",
+      "lesbianChat": "Chat Lésbico",
+      "latinaChat": "Chat con Latinas",
+      "milfChat": "Chat con MILFs",
+      "hairyCams": "Cámaras Peludas",
+      "amateurChat": "Chat Amateur",
+      "ebonyChat": "Chat con Ebony",
+      "fetishChat": "Chat Fetichista",
+      "transsexualCams": "Cámaras Trans",
+      "gayChatSites": "Chat Gay",
+      "webcamJobSites": "Trabajos en Webcam",
+      "analChat": "Chat Anal",
+      "smokingChatSites": "Cámaras de Fumar",
+      "masturbationChat": "Masturbación",
+      "arabChat": "Chat Árabe",
+      "dirtyTalkChat": "Dirty Talk",
+      "toyChat": "Juego con Juguetes",
+      "indianChatSites": "Chat Indio",
+      "findomSites": "Findom",
+      "footFetishSites": "Fetiche de Pies"
+    }
+  },
+  "Footer": {
+    "navLinks": {
+      "Home": "Inicio",
+      "About us": "Sobre nosotros",
+      "Terms": "Términos",
+      "Cookies": "Cookies",
+      "Privacy": "Privacidad",
+      "Contact": "Contacto",
+      "Disclosure": "Divulgación",
+      "Sitemap": "Mapa del sitio",
+      "FAQ": "Preguntas frecuentes",
+      "Awards": "Premios"
+    },
+    "copyright": "© 2025 TopChats – Todos los derechos reservados"
+  },
+  "viewMoreTitle": "Ver más",
+  "youLikeTitle": "También te podría gustar",
+  "readReview": "Leer reseña",
+  "performersText": "Intérpretes",
+  "singlePage": {
+    "contents": "Saltar a",
+    "overviewVerdict": "Veredicto rápido",
+    "featuresUserBenefits": "Qué obtienes",
+    "pricingHiddenFees": "Resumen de precios",
+    "drawbacksComplaints": "Los contras",
+    "verdict": "Conclusión",
+    "featureTitle": "Características clave",
+    "userBenefits": "Por qué te encantará",
+    "getMoreLikeThis": "¿Más como esto?",
+    "emailPlaceholder": "Tu correo",
+    "signMeUp": "¡Envíame ofertas!",
+    "watchCamsNow": "¡Ver cams ahora!",
+    "pricingTitle": "Precios y letra pequeña",
+    "drawbacksTitle": "¿Algún inconveniente?",
+    "visit": "Ir al sitio",
+    "review": "Reseña completa"
+  },
+  "singlePageBySlug": {
+    "rabbitscams": {
+      "toppara": "ofrece acceso juguetón y ultrarrápido a miles de salas de cámaras en vivo, que cargan en solo segundos sin retrasos de búfer.",
+      "secppara": "Con impresionantes modelos europeas de todo el continente, sesiones privadas interactivas Cam2Cam, extensas galerías de fotos y horarios detallados, RabbitsCams es tu destino definitivo para diversión espontánea y emocionante o para construir conexiones significativas y duraderas con artistas que realmente cautivan.",
+      "pricingDescription": "Disfruta de shows públicos gratuitos ilimitados llenos de provocación e interacción; compra créditos para desbloquear sesiones privadas exclusivas y experiencias personalizadas.",
+      "hiddenFees": "Ninguna detectada",
+      "drawbacksDescription": "Se requiere una cuenta gratuita rápida para el chat de texto y la interacción completa – solo 2 minutos de configuración con verificación por correo electrónico para un acceso fluido.",
+      "excerpt": "Bellezas europeas impresionantes, diseño elegante e intuitivo, streams en HD cristalino y navegación sin esfuerzo.",
+      "overview": "RabbitsCams ofrece vistas previas instantáneas en HD al pasar el ratón sobre las miniaturas, deslumbrantes bellezas europeas en claridad de pantalla completa, sesiones íntimas Cam2Cam y perfiles ricamente detallados con reseñas auténticas de usuarios. Shows públicos gratuitos, registro ultrarrápido para chat, shows privados basados en créditos flexibles y una experiencia móvil completamente fluida garantizan diversión sin esfuerzo y emocionante sin tarifas ocultas ni sorpresas. (58 palabras)",
+      "features": [
+        "Pasa el ratón sobre las miniaturas para vistas previas en vivo instantáneas sin entrar en la sala",
+        "Accede a álbumes de fotos extensos y videos grabados profesionalmente",
+        "Recibe alertas en tiempo real cuando tus favoritos se conectan o inician shows especiales",
+        "Explora categorías detalladas y filtros avanzados como edad, idioma y fetiches",
+        "Navega por perfiles de modelos detallados con reseñas y valoraciones reales de usuarios",
+        "Consulta horarios próximos y eventos exclusivos de estrellas porno con temporizadores de cuenta regresiva"
+      ],
+      "benefits": [
+        "Calidad HD tan nítida que parece que está justo en tu habitación",
+        "Lee reseñas reales y verificadas para dar propinas e interactuar con total confianza",
+        "Revive la emoción sin conexión con medios guardados descargables y colecciones personales",
+        "Nunca te pierdas un show de tus favoritos gracias a notificaciones push",
+        "Increíblemente acogedor y guiado para principiantes con tutoriales",
+        "Experiencia fluida y receptiva en cualquier dispositivo móvil, tableta o escritorio"
+      ]
+    },
+    "liveflirt": {
+      "toppara": "vibra con energía imparable y ofrece conexiones instantáneas y electrizantes a un vasto mundo de artistas diversos y apasionados de todos los rincones del planeta.",
+      "secppara": "Desde interacciones profundas Cam2Cam y galerías curadas hasta horarios precisos y eventos comunitarios vibrantes – LiveFlirt mantiene el ánimo al máximo, ofrece navegación sin esfuerzo y un ambiente acogedor para todos los que buscan emoción genuina.",
+      "pricingDescription": "Acceso público gratuito a todas las salas en vivo con provocación y coqueteo; se necesitan créditos para chats privados, propinas y desbloqueos de contenido exclusivo.",
+      "hiddenFees": "Ninguna",
+      "drawbacksDescription": "El chat de texto y la interacción completa requieren un registro gratuito rápido que toma menos de un minuto.",
+      "excerpt": "Vibrante, altamente interactivo y lleno de estrellas globales que brillan en cada categoría.",
+      "overview": "LiveFlirt trae estrellas internacionales en HD afilado como navaja con vistas previas instantáneas al pasar el ratón, conexiones inmersivas Cam2Cam y filtros inteligentes adaptados a tus preferencias. Acceso público gratuito, registro ultrarrápido, chats basados en créditos flexibles y un diseño móvil impecable crean una experiencia de diversión vibrante, inclusiva y emocionante sin sorpresas ni costos ocultos. (59 palabras)",
+      "features": [
+        "Vistas previas instantáneas al pasar el ratón sobre miniaturas con acción en vivo en tiempo real",
+        "Sumérgete en fotos curadas y colecciones de videos de alta calidad de los mejores artistas",
+        "Recibe notificaciones instantáneas cuando tus favoritos se conectan o inician sesiones especiales",
+        "Usa filtros inteligentes para coincidencias perfectas por tipo de cuerpo, etnia y fetiche",
+        "Ve perfiles detallados con valoraciones auténticas de usuarios e historial de comentarios",
+        "Planifica con antelación con horarios precisos y eventos especiales destacados"
+      ],
+      "benefits": [
+        "Experiencias HD profundamente inmersivas que te arrastran al momento",
+        "Aprovecha las opiniones y valoraciones de usuarios para decisiones más inteligentes y satisfactorias",
+        "Construye una biblioteca personal de contenido sin conexión para disfrutarlo en cualquier momento",
+        "Siempre atrapa a tus artistas preferidos en vivo con alertas oportunas",
+        "Interfaz súper intuitiva con consejos de incorporación para principiantes",
+        "Rendimiento impecable y tiempos de carga en smartphones y tabletas"
+      ]
+    },
+    "camvibe": {
+      "toppara": "ofrece un escape exclusivo y premium con navegación fluida y elegante y una interfaz lujosa diseñada para espectadores exigentes que buscan entretenimiento de primera clase.",
+      "secppara": "Modelos profesionales seleccionados por talento y carisma, streams en Ultra HD con iluminación de calidad de estudio y sesiones privadas Cam2Cam – CamVibe eleva cada interacción a un momento refinado e inolvidable de indulgencia.",
+      "pricingDescription": "Vistas previas gratuitas y provocación pública disponibles; se requieren créditos para funciones premium, shows privados e interacciones VIP.",
+      "hiddenFees": "Ninguna",
+      "drawbacksDescription": "Las ventajas premium de alto nivel y el contenido exclusivo requieren pago, pero el registro y la navegación básica son completamente gratuitos e instantáneos.",
+      "excerpt": "Actuaciones de élite en streams de calidad de estudio afilados como navajas con elegancia refinada.",
+      "overview": "CamVibe ofrece lujo Ultra HD impresionante con modelos profesionales, inmersión en pantalla completa, privacidad segura Cam2Cam y herramientas de búsqueda precisas. Vistas previas gratuitas, registro gratuito instantáneo, acceso premium basado en créditos flexible e interfaz móvil refinada ofrecen indulgencia elitista y sofisticada sin costos ocultos ni complicaciones. (56 palabras)",
+      "features": [
+        "Vistas previas de miniaturas en vivo de un vistazo con reproducción fluida al pasar el ratón",
+        "Galerías de medios extensas con sesiones fotográficas profesionales y clips",
+        "Alertas para modelos favoritos que se conectan o lanzan contenido exclusivo",
+        "Potentes herramientas de búsqueda avanzada con etiquetas múltiples y guardado de preferencias",
+        "Perfiles enriquecidos con valoraciones detalladas de usuarios e historial de actuaciones",
+        "Horarios exclusivos y eventos de alto perfil con opciones de RSVP"
+      ],
+      "benefits": [
+        "Claridad Ultra HD impresionante con iluminación cinematográfica y detalle",
+        "Las valoraciones y reseñas te ayudan a elegir artistas de manera inteligente y confiada",
+        "Guarda y disfruta tus momentos favoritos en una bóveda de medios privada",
+        "Planifica sesiones según tu vida con integración de calendario",
+        "Interfaz refinada y fácil de usar con modo oscuro y personalización",
+        "Optimizada para visualización móvil con calidad de streaming adaptativa"
+      ]
+    },
+    "streamstar": {
+      "toppara": "prioriza el acceso completamente gratuito y una optimización móvil superior en un entorno constantemente animado, 24/7, lleno de artistas frescos y acción en tiempo real.",
+      "secppara": "Shows públicos gratuitos con potencial de interacción total, opciones Cam2Cam para conexiones más cercanas y horarios detallados – StreamStar hace todo sencillo, divertido y accesible para usuarios en cualquier dispositivo o presupuesto.",
+      "pricingDescription": "Los shows públicos son 100 % gratuitos sin límites; los créditos ofrecen mejoras privadas asequibles, propinas y acceso a contenido premium.",
+      "hiddenFees": "Ninguna",
+      "drawbacksDescription": "Una cuenta gratuita desbloquea todas las funciones, incluido el chat y los favoritos – configuración instantánea sin pago.",
+      "excerpt": "Entretenimiento gratuito interminable con maestría móvil inigualable y accesibilidad global.",
+      "overview": "StreamStar ofrece shows públicos HD gratuitos ilimitados, vistas previas en tiempo real al pasar el ratón, artistas diversos desde aficionados hasta profesionales y alertas instantáneas. Mejoras con créditos asequibles, registro gratuito, filtros completos y rendimiento móvil de primera garantizan diversión relajada y en movimiento sin tarifas ocultas, anuncios ni interrupciones. (59 palabras)",
+      "features": [
+        "Pasa el ratón para vistas previas en tiempo real con fragmentos de sonido y estadísticas en vivo",
+        "Bibliotecas de fotos y videos actualizadas diariamente por modelos activos",
+        "Alertas instantáneas de favoritos por correo, app o notificación del navegador",
+        "Filtros completos incluyendo solo gratuito/público y calidad HD",
+        "Perfiles con valoraciones de usuarios, biografía y registros de actividad recientes",
+        "Horarios detallados y eventos con notificaciones de recordatorio"
+      ],
+      "benefits": [
+        "Streams HD vívidos y confiables que cargan al instante en cualquier conexión",
+        "Reseñas y valoraciones te guían hacia las mejores experiencias gratuitas y de pago",
+        "Accede al contenido guardado sin conexión a través de tu cuenta en cualquier momento",
+        "Mantente sincronizado con cada actuación gracias a alertas inteligentes",
+        "Sin esfuerzo para usuarios primerizos con recorridos guiados y consejos",
+        "Compatibilidad móvil excepcional con controles de un toque"
+      ]
+    },
+    "flirtzone": {
+      "toppara": "vive de emoción en tiempo real, conexiones sin esfuerzo y una comunidad juguetona donde la diversión interactiva y la química espontánea se encienden en cada clic.",
+      "secppara": "Juguetes interactivos con control en tiempo real, Cam2Cam para intimidad cara a cara y una comunidad floreciente de eventos – FlirtZone enciende pura alegría, fomenta amistades y convierte cada sesión en una aventura compartida.",
+      "pricingDescription": "Shows públicos completamente gratuitos con propinas recomendadas; créditos para propinas, shows privados y activaciones de juguetes.",
+      "hiddenFees": "Ninguna",
+      "drawbacksDescription": "Los juguetes interactivos y el control privado requieren créditos, pero el registro, la navegación y el chat público son completamente gratuitos.",
+      "excerpt": "Juguetón, altamente interactivo y lleno de vida con energía comunitaria vibrante.",
+      "overview": "FlirtZone enciende alegría con juguetes interactivos de última generación, streams HD vibrantes, intimidad Cam2Cam y eventos comunitarios animados. Shows públicos gratuitos, registro gratuito instantáneo, propinas y shows privados basados en créditos, filtros inteligentes y optimización móvil completa crean diversión juguetona y profundamente conectada sin sorpresas ni cargos ocultos. (58 palabras)",
+      "features": [
+        "Al pasar el ratón sobre miniaturas se muestra acción en vivo con sonido y conteo de espectadores",
+        "Desbloquea colecciones de medios exclusivas y contenido de club de fans",
+        "Recibe alertas en línea y notificaciones previas al show para favoritos",
+        "Refina búsquedas con filtros inteligentes y preferencias guardadas",
+        "Perfiles de modelos valorados con insignias y recompensas de lealtad",
+        "Horarios y eventos comunitarios con encuestas en vivo y juegos"
+      ],
+      "benefits": [
+        "Calidad HD rica y vibrante con vistas multiángulo en salas premium",
+        "Valoraciones y comentarios de usuarios para decisiones informadas y seguras",
+        "Disfruta de medios guardados sin conexión en tu galería personal",
+        "Anticípate a cada sesión con cuentas regresivas y recordatorios",
+        "Diseño intuitivo y acogedor con elementos gamificados",
+        "Completamente optimizado para móvil con navegación por deslizamiento y entrada por voz"
+      ]
+    },
+    "webcamworld": {
+      "toppara": "celebra a artistas aficionados auténticos en un espacio sin complicaciones y genuino donde personas reales comparten momentos sin guion, sin filtros ni fachadas.",
+      "secppara": "Cam2Cam para conexiones personales, galerías que muestran belleza cotidiana y horarios para shows regulares – WebcamWorld se mantiene real, sencillo y enfocado en la interacción humana auténtica en una zona libre de juicios.",
+      "pricingDescription": "Visualización pública gratuita sin restricciones; créditos económicos para chats privados, propinas y solicitudes personalizadas.",
+      "hiddenFees": "Ninguna",
+      "drawbacksDescription": "Las funciones premium como shows privados necesitan créditos, con registro gratuito y acceso público ilimitado incluido.",
+      "excerpt": "Aficionados auténticos en HD nítido, ofreciendo entretenimiento crudo y sin filtros diariamente.",
+      "overview": "WebcamWorld se mantiene real con streams HD de aficionados, vistas previas instantáneas al pasar el ratón, visualización pública gratuita y navegación simple y limpia. Créditos económicos para Cam2Cam, registro gratuito, filtros fáciles de usar y diseño apto para móviles ofrecen alegría genuina y sin drama sin tarifas ocultas ni ventas adicionales. (57 palabras)",
+      "features": [
+        "Vistas previas en vivo instantáneas con conteo de espectadores y actividad de chat",
+        "Galerías de medios llenas de fotos personales y clips caseros",
+        "Notificaciones de favoritos entregadas por app o correo electrónico",
+        "Filtrado fácil por nuevos modelos, chat gratuito o salas en tendencia",
+        "Perfiles con valoraciones, listas de deseos y comentarios recientes",
+        "Horarios próximos con enlaces directos para agregar al calendario"
+      ],
+      "benefits": [
+        "Autenticidad en alta definición real de artistas cotidianos",
+        "Comentarios y valoraciones de usuarios para decisiones mejores y confiables",
+        "Guarda momentos para más tarde en tu colección privada",
+        "Planifica tu visualización con horarios confiables y alertas",
+        "Navegación simple y sin adornos perfecta para visitas rápidas",
+        "Diseño apto para móviles con carga rápida y controles táctiles"
+      ]
+    },
+    "livepulse": {
+      "toppara": "pulsa con energía de alto octanaje, eventos en vivo las 24 horas y una destreza móvil inigualable que lleva la emoción a dondequiera que vayas.",
+      "secppara": "Cam2Cam para intimidad instantánea, acceso a medios para revivir momentos destacados y horarios detallados – LivePulse alimenta emoción sin parar con noches temáticas, concursos y una comunidad que nunca duerme.",
+      "pricingDescription": "Shows públicos gratuitos con acceso completo al chat; créditos para acceso privado, propinas y entradas a eventos.",
+      "hiddenFees": "Ninguna",
+      "drawbacksDescription": "Extras como shows privados o votos en concursos requieren créditos; el registro y el disfrute público son completamente gratuitos.",
+      "excerpt": "Dinámico, primero en móvil y lleno de eventos de alta energía diariamente.",
+      "overview": "LivePulse funciona con eventos HD de alta energía, talento diverso desde estrellas emergentes hasta veteranos, vistas previas rápidas y uso móvil fluido. Shows públicos gratuitos, registro gratuito, extras basados en créditos, alertas en tiempo real y filtros inteligentes mantienen la acción sin parar, accesible y emocionante sin tarifas ocultas. (56 palabras)",
+      "features": [
+        "Vistas previas rápidas con estadísticas en vivo y tablas de clasificación de propinas",
+        "Bibliotecas de medios incluyendo repeticiones de eventos y momentos destacados",
+        "Alertas en línea con preferencias de notificación personalizables",
+        "Filtros de búsqueda por tipo de evento, idioma y popularidad",
+        "Perfiles detallados con historial de actuaciones y clubes de fans",
+        "Horarios de eventos con temas, premios y reglas de participación"
+      ],
+      "benefits": [
+        "Energía HD electrizante que captura cada pulso del show",
+        "Valoraciones y tablas de clasificación para confiar en los artistas más populares",
+        "Reproducción sin conexión de eventos y grabaciones privadas",
+        "Diversión programada con cuentas regresivas y recordatorios automáticos",
+        "Diseño fácil de usar con unión a eventos con un clic",
+        "Flujo sin interrupciones en móviles con streaming de bitrate adaptativo"
+      ]
+    },
+    "camconnect": {
+      "toppara": "ofrece conexiones premium con juguetes interactivos de última generación, claridad Ultra HD y un enfoque en experiencias seguras y de alta gama para usuarios sofisticados.",
+      "secppara": "Completamente interactivo con sincronización de juguetes en tiempo real, Cam2Cam privado y encriptado y soporte de conserjería 24/7 – CamConnect irradia lujo, privacidad y excelencia tecnológica en cada detalle.",
+      "pricingDescription": "Vistas previas gratuitas y provocación pública; créditos más niveles de membresía opcionales para funciones mejoradas y acceso prioritario.",
+      "hiddenFees": "Ninguna",
+      "drawbacksDescription": "Los elementos premium como control de juguetes y salas VIP requieren pago; los básicos incluyendo registro y vistas previas son gratuitos.",
+      "excerpt": "Ultra HD interactivo premium con funciones de lujo y enfoque en privacidad.",
+      "overview": "CamConnect combina Ultra HD impresionante, control preciso de juguetes, Cam2Cam seguro y diseño elegante adaptado al lujo. Vistas previas gratuitas, acceso básico gratuito, mejoras con créditos o membresía, herramientas de búsqueda precisas y perfección móvil ofrecen indulgencia interactiva lujosa sin costos ocultos. (55 palabras)",
+      "features": [
+        "Vistas previas en vivo con ángulos de múltiples cámaras en salas premium",
+        "Acceso a medios incluyendo clips en 4K y repeticiones interactivas",
+        "Alertas de favoritos con notificaciones prioritarias para VIP",
+        "Búsqueda avanzada con sugerencias de coincidencia impulsadas por IA",
+        "Perfiles valorados con reseñas verificadas e insignias de lealtad",
+        "Horarios con reserva privada y sincronización de calendario"
+      ],
+      "benefits": [
+        "Ultra HD impresionante con iluminación de estudio y cero retraso",
+        "Guiado por valoraciones e insights de IA para coincidencias perfectas",
+        "Preserva favoritos en bóvedas personales encriptadas",
+        "Planifica sin esfuerzo con herramientas de reserva integradas",
+        "Interfaz elegante con temas y diseños personalizables",
+        "Perfección móvil con retroalimentación háptica y comandos de voz"
+      ]
+    },
+    "starlive": {
+      "toppara": "fomenta un espacio vibrante y centrado en la comunidad donde shows destacados, interacciones grupales y eventos impulsados por fans crean un verdadero sentido de pertenencia y emoción.",
+      "secppara": "Cam2Cam para momentos personales, eventos temáticos con premios y streams HD nítidos – StarLive irradia poder estelar, celebra a los artistas y construye comunidades de fans duraderas a través de experiencias compartidas.",
+      "pricingDescription": "Acceso público gratuito con propinas grupales; créditos para shows privados, contenido exclusivo y participación en eventos.",
+      "hiddenFees": "Ninguna",
+      "drawbacksDescription": "Extras como chats privados o entradas a eventos necesitan créditos; registro gratuito y disfrute público incluido.",
+      "excerpt": "Eventos HD impulsados por la comunidad con trato de estrella y recompensas para fans.",
+      "overview": "StarLive construye una comunidad próspera con streams HD nítidos, vistas previas instantáneas, intimidad Cam2Cam y eventos grupales con premios. Acceso público gratuito, registro gratuito, shows privados basados en créditos, filtros robustos e interfaz lista para móvil crean diversión atractiva, social y gratificante sin complicaciones. (56 palabras)",
+      "features": [
+        "Vistas previas instantáneas con fragmentos de chat en vivo y estadísticas de propinas",
+        "Colecciones de medios incluyendo momentos destacados votados por fans y repeticiones",
+        "Sistema de alertas con invitaciones a eventos grupales",
+        "Filtros robustos por popularidad, club de fans y estado del evento",
+        "Perfiles de usuario con insignias, niveles y roles comunitarios",
+        "Horarios de eventos con temas, concursos y tablas de clasificación"
+      ],
+      "benefits": [
+        "Visualización HD nítida con sincronización para múltiples espectadores",
+        "Valoraciones y votos de fans para confianza en las estrellas principales",
+        "Disfrute sin conexión de grabaciones de eventos y exclusivos",
+        "Mantente programado con calendario comunitario y RSVP",
+        "Interfaz atractiva con gamificación y desbloqueos de logros",
+        "Lista para móvil con encuestas en vivo y chat grupal"
+      ]
+    },
+    "vibeon": {
+      "toppara": "ofrece interactividad premium en Ultra HD impresionante con integración fluida de juguetes y un ecosistema lujoso diseñado para indulgencia sensorial definitiva.",
+      "secppara": "Integración de juguetes con retroalimentación háptica, Cam2Cam en calidad impecable y soporte las 24 horas – VibeOn define opulencia, innovación y placer personalizado en el mundo de las cámaras en vivo.",
+      "pricingDescription": "Vistas previas y acceso público gratuitos; créditos y niveles VIP para interactividad completa, soporte prioritario y ventajas exclusivas.",
+      "hiddenFees": "Ninguna",
+      "drawbacksDescription": "Enfoque en interactividad premium y funciones VIP; entrada gratuita, vistas previas y chat básico disponibles para todos.",
+      "excerpt": "HD interactivo lujoso con sincronización de juguetes de última generación y trato VIP.",
+      "overview": "VibeOn ofrece streams Ultra HD inigualables, control de juguetes en tiempo real, soporte dedicado 24/7 y diseño pulido. Vistas previas gratuitas, acceso con créditos o VIP, bibliotecas de medios guardadas y excelencia móvil entregan la experiencia interactiva de lujo definitiva sin tarifas ocultas. (54 palabras)",
+      "features": [
+        "Vistas previas de miniaturas con indicadores de estado de juguetes interactivos",
+        "Galerías de medios en 4K con contenido premium descargable",
+        "Alertas en línea con notificaciones de acceso temprano para VIP",
+        "Búsqueda de precisión con etiquetas de fetiche y puntuaciones de compatibilidad",
+        "Perfiles valorados con métricas de rendimiento y lealtad de fans",
+        "Horarios con sesiones privadas y eventos exclusivos para VIP"
+      ],
+      "benefits": [
+        "Ultra HD inigualable con iluminación adaptativa y cero distorsión",
+        "Valoraciones como tu guía más recomendaciones impulsadas por IA",
+        "Biblioteca de contenido guardado con acceso sin conexión y organización",
+        "Planificación perfecta con recordatorios automáticos y reservas",
+        "Diseño pulido con control por voz y modo oscuro",
+        "Excelencia móvil con sincronización háptica de juguetes y streaming de baja latencia"
+      ]
+    },
+    "camlush": {
+      "toppara": "ofrece interactividad premium en impresionante Ultra HD, con integración fluida de juguetes y un ecosistema lujoso diseñado para la máxima indulgencia sensorial.",
+      "secppara": "Integración de juguetes con retroalimentación háptica, cam2cam en calidad impecable y soporte 24/7: VibeOn define opulencia, innovación y placer personalizado en el mundo de las cámaras en vivo.",
+      "pricingDescription": "Previsualizaciones gratuitas y acceso público; créditos y niveles VIP para interactividad completa, soporte prioritario y ventajas exclusivas.",
+      "hiddenFees": "Ninguno",
+      "drawbacksDescription": "Enfoque en interactividad premium y funciones VIP; entrada gratuita, previsualizaciones y chat básico disponibles para todos.",
+      "excerpt": "Lujoso HD interactivo con sincronización de juguetes de vanguardia y trato VIP.",
+      "overview": "VibeOn ofrece transmisiones Ultra HD inigualables, control de juguetes en tiempo real, soporte dedicado 24/7 y diseño pulido. Previsualizaciones gratuitas, acceso por créditos o VIP, bibliotecas de medios guardadas y excelencia móvil brindan la máxima experiencia interactiva de lujo sin tarifas ocultas. (54 palabras)",
+      "features": [
+        "Previsualizaciones en miniaturas con indicadores de estado de juguetes interactivos",
+        "Galerías de medios en 4K con contenido premium descargable",
+        "Alertas en línea con notificaciones de acceso anticipado VIP",
+        "Búsqueda precisa con etiquetas de fetiches y puntuaciones de compatibilidad",
+        "Perfiles calificados con métricas de rendimiento y lealtad de fans",
+        "Horarios con sesiones privadas y eventos exclusivos para VIP"
+      ],
+      "benefits": [
+        "Ultra HD inigualable con iluminación adaptativa y cero distorsión",
+        "Calificaciones como guía más recomendaciones impulsadas por IA",
+        "Biblioteca de contenido guardado con acceso sin conexión y organización",
+        "Planificación perfecta con recordatorios y reservas automáticas",
+        "Diseño pulido con control por voz y modo oscuro",
+        "Excelencia móvil con sincronización háptica de juguetes y streaming de baja latencia"
+      ]
+    },
+    "hotcams": {
+      "toppara": "ofrece interactividad premium en impresionante Ultra HD, con integración fluida de juguetes y un ecosistema lujoso diseñado para la máxima indulgencia sensorial.",
+      "secppara": "Integración de juguetes con retroalimentación háptica, cam2cam en calidad impecable y soporte 24/7: VibeOn define opulencia, innovación y placer personalizado en el mundo de las cámaras en vivo.",
+      "pricingDescription": "Previsualizaciones gratuitas y acceso público; créditos y niveles VIP para interactividad completa, soporte prioritario y ventajas exclusivas.",
+      "hiddenFees": "Ninguno",
+      "drawbacksDescription": "Enfoque en interactividad premium y funciones VIP; entrada gratuita, previsualizaciones y chat básico disponibles para todos.",
+      "excerpt": "Lujoso HD interactivo con sincronización de juguetes de vanguardia y trato VIP.",
+      "overview": "VibeOn ofrece transmisiones Ultra HD inigualables, control de juguetes en tiempo real, soporte dedicado 24/7 y diseño pulido. Previsualizaciones gratuitas, acceso por créditos o VIP, bibliotecas de medios guardadas y excelencia móvil brindan la máxima experiencia interactiva de lujo sin tarifas ocultas. (54 palabras)",
+      "features": [
+        "Previsualizaciones en miniaturas con indicadores de estado de juguetes interactivos",
+        "Galerías de medios en 4K con contenido premium descargable",
+        "Alertas en línea con notificaciones de acceso anticipado VIP",
+        "Búsqueda precisa con etiquetas de fetiches y puntuaciones de compatibilidad",
+        "Perfiles calificados con métricas de rendimiento y lealtad de fans",
+        "Horarios con sesiones privadas y eventos exclusivos para VIP"
+      ],
+      "benefits": [
+        "Ultra HD inigualable con iluminación adaptativa y cero distorsión",
+        "Calificaciones como guía más recomendaciones impulsadas por IA",
+        "Biblioteca de contenido guardado con acceso sin conexión y organización",
+        "Planificación perfecta con recordatorios y reservas automáticas",
+        "Diseño pulido con control por voz y modo oscuro",
+        "Excelencia móvil con sincronización háptica de juguetes y streaming de baja latencia"
+      ]
+    },
+    "camspark": {
+      "toppara": "ofrece interactividad premium en impresionante Ultra HD, con integración fluida de juguetes y un ecosistema lujoso diseñado para la máxima indulgencia sensorial.",
+      "secppara": "Integración de juguetes con retroalimentación háptica, cam2cam en calidad impecable y soporte 24/7: VibeOn define opulencia, innovación y placer personalizado en el mundo de las cámaras en vivo.",
+      "pricingDescription": "Previsualizaciones gratuitas y acceso público; créditos y niveles VIP para interactividad completa, soporte prioritario y ventajas exclusivas.",
+      "hiddenFees": "Ninguno",
+      "drawbacksDescription": "Enfoque en interactividad premium y funciones VIP; entrada gratuita, previsualizaciones y chat básico disponibles para todos.",
+      "excerpt": "Lujoso HD interactivo con sincronización de juguetes de vanguardia y trato VIP.",
+      "overview": "VibeOn ofrece transmisiones Ultra HD inigualables, control de juguetes en tiempo real, soporte dedicado 24/7 y diseño pulido. Previsualizaciones gratuitas, acceso por créditos o VIP, bibliotecas de medios guardadas y excelencia móvil brindan la máxima experiencia interactiva de lujo sin tarifas ocultas. (54 palabras)",
+      "features": [
+        "Previsualizaciones en miniaturas con indicadores de estado de juguetes interactivos",
+        "Galerías de medios en 4K con contenido premium descargable",
+        "Alertas en línea con notificaciones de acceso anticipado VIP",
+        "Búsqueda precisa con etiquetas de fetiches y puntuaciones de compatibilidad",
+        "Perfiles calificados con métricas de rendimiento y lealtad de fans",
+        "Horarios con sesiones privadas y eventos exclusivos para VIP"
+      ],
+      "benefits": [
+        "Ultra HD inigualable con iluminación adaptativa y cero distorsión",
+        "Calificaciones como guía más recomendaciones impulsadas por IA",
+        "Biblioteca de contenido guardado con acceso sin conexión y organización",
+        "Planificación perfecta con recordatorios y reservas automáticas",
+        "Diseño pulido con control por voz y modo oscuro",
+        "Excelencia móvil con sincronización háptica de juguetes y streaming de baja latencia"
+      ]
+    },
+    "luxecams": {
+      "toppara": "ofrece interactividad premium en impresionante Ultra HD, con integración fluida de juguetes y un ecosistema lujoso diseñado para la máxima indulgencia sensorial.",
+      "secppara": "Integración de juguetes con retroalimentación háptica, cam2cam en calidad impecable y soporte 24/7: VibeOn define opulencia, innovación y placer personalizado en el mundo de las cámaras en vivo.",
+      "pricingDescription": "Previsualizaciones gratuitas y acceso público; créditos y niveles VIP para interactividad completa, soporte prioritario y ventajas exclusivas.",
+      "hiddenFees": "Ninguno",
+      "drawbacksDescription": "Enfoque en interactividad premium y funciones VIP; entrada gratuita, previsualizaciones y chat básico disponibles para todos.",
+      "excerpt": "Lujoso HD interactivo con sincronización de juguetes de vanguardia y trato VIP.",
+      "overview": "VibeOn ofrece transmisiones Ultra HD inigualables, control de juguetes en tiempo real, soporte dedicado 24/7 y diseño pulido. Previsualizaciones gratuitas, acceso por créditos o VIP, bibliotecas de medios guardadas y excelencia móvil brindan la máxima experiencia interactiva de lujo sin tarifas ocultas. (54 palabras)",
+      "features": [
+        "Previsualizaciones en miniaturas con indicadores de estado de juguetes interactivos",
+        "Galerías de medios en 4K con contenido premium descargable",
+        "Alertas en línea con notificaciones de acceso anticipado VIP",
+        "Búsqueda precisa con etiquetas de fetiches y puntuaciones de compatibilidad",
+        "Perfiles calificados con métricas de rendimiento y lealtad de fans",
+        "Horarios con sesiones privadas y eventos exclusivos para VIP"
+      ],
+      "benefits": [
+        "Ultra HD inigualable con iluminación adaptativa y cero distorsión",
+        "Calificaciones como guía más recomendaciones impulsadas por IA",
+        "Biblioteca de contenido guardado con acceso sin conexión y organización",
+        "Planificación perfecta con recordatorios y reservas automáticas",
+        "Diseño pulido con control por voz y modo oscuro",
+        "Excelencia móvil con sincronización háptica de juguetes y streaming de baja latencia"
+      ]
+    },
+    "freecamz": {
+      "toppara": "ofrece interactividad premium en impresionante Ultra HD, con integración fluida de juguetes y un ecosistema lujoso diseñado para la máxima indulgencia sensorial.",
+      "secppara": "Integración de juguetes con retroalimentación háptica, cam2cam en calidad impecable y soporte 24/7: VibeOn define opulencia, innovación y placer personalizado en el mundo de las cámaras en vivo.",
+      "pricingDescription": "Previsualizaciones gratuitas y acceso público; créditos y niveles VIP para interactividad completa, soporte prioritario y ventajas exclusivas.",
+      "hiddenFees": "Ninguno",
+      "drawbacksDescription": "Enfoque en interactividad premium y funciones VIP; entrada gratuita, previsualizaciones y chat básico disponibles para todos.",
+      "excerpt": "Lujoso HD interactivo con sincronización de juguetes de vanguardia y trato VIP.",
+      "overview": "VibeOn ofrece transmisiones Ultra HD inigualables, control de juguetes en tiempo real, soporte dedicado 24/7 y diseño pulido. Previsualizaciones gratuitas, acceso por créditos o VIP, bibliotecas de medios guardadas y excelencia móvil brindan la máxima experiencia interactiva de lujo sin tarifas ocultas. (54 palabras)",
+      "features": [
+        "Previsualizaciones en miniaturas con indicadores de estado de juguetes interactivos",
+        "Galerías de medios en 4K con contenido premium descargable",
+        "Alertas en línea con notificaciones de acceso anticipado VIP",
+        "Búsqueda precisa con etiquetas de fetiches y puntuaciones de compatibilidad",
+        "Perfiles calificados con métricas de rendimiento y lealtad de fans",
+        "Horarios con sesiones privadas y eventos exclusivos para VIP"
+      ],
+      "benefits": [
+        "Ultra HD inigualable con iluminación adaptativa y cero distorsión",
+        "Calificaciones como guía más recomendaciones impulsadas por IA",
+        "Biblioteca de contenido guardado con acceso sin conexión y organización",
+        "Planificación perfecta con recordatorios y reservas automáticas",
+        "Diseño pulido con control por voz y modo oscuro",
+        "Excelencia móvil con sincronización háptica de juguetes y streaming de baja latencia"
+      ]
+    },
+    "camglitz": {
+      "toppara": "ofrece interactividad premium en impresionante Ultra HD, con integración fluida de juguetes y un ecosistema lujoso diseñado para la máxima indulgencia sensorial.",
+      "secppara": "Integración de juguetes con retroalimentación háptica, cam2cam en calidad impecable y soporte 24/7: VibeOn define opulencia, innovación y placer personalizado en el mundo de las cámaras en vivo.",
+      "pricingDescription": "Previsualizaciones gratuitas y acceso público; créditos y niveles VIP para interactividad completa, soporte prioritario y ventajas exclusivas.",
+      "hiddenFees": "Ninguno",
+      "drawbacksDescription": "Enfoque en interactividad premium y funciones VIP; entrada gratuita, previsualizaciones y chat básico disponibles para todos.",
+      "excerpt": "Lujoso HD interactivo con sincronización de juguetes de vanguardia y trato VIP.",
+      "overview": "VibeOn ofrece transmisiones Ultra HD inigualables, control de juguetes en tiempo real, soporte dedicado 24/7 y diseño pulido. Previsualizaciones gratuitas, acceso por créditos o VIP, bibliotecas de medios guardadas y excelencia móvil brindan la máxima experiencia interactiva de lujo sin tarifas ocultas. (54 palabras)",
+      "features": [
+        "Previsualizaciones en miniaturas con indicadores de estado de juguetes interactivos",
+        "Galerías de medios en 4K con contenido premium descargable",
+        "Alertas en línea con notificaciones de acceso anticipado VIP",
+        "Búsqueda precisa con etiquetas de fetiches y puntuaciones de compatibilidad",
+        "Perfiles calificados con métricas de rendimiento y lealtad de fans",
+        "Horarios con sesiones privadas y eventos exclusivos para VIP"
+      ],
+      "benefits": [
+        "Ultra HD inigualable con iluminación adaptativa y cero distorsión",
+        "Calificaciones como guía más recomendaciones impulsadas por IA",
+        "Biblioteca de contenido guardado con acceso sin conexión y organización",
+        "Planificación perfecta con recordatorios y reservas automáticas",
+        "Diseño pulido con control por voz y modo oscuro",
+        "Excelencia móvil con sincronización háptica de juguetes y streaming de baja latencia"
+      ]
+    },
+    "showtimecams": {
+      "toppara": "ofrece interactividad premium en impresionante Ultra HD, con integración fluida de juguetes y un ecosistema lujoso diseñado para la máxima indulgencia sensorial.",
+      "secppara": "Integración de juguetes con retroalimentación háptica, cam2cam en calidad impecable y soporte 24/7: VibeOn define opulencia, innovación y placer personalizado en el mundo de las cámaras en vivo.",
+      "pricingDescription": "Previsualizaciones gratuitas y acceso público; créditos y niveles VIP para interactividad completa, soporte prioritario y ventajas exclusivas.",
+      "hiddenFees": "Ninguno",
+      "drawbacksDescription": "Enfoque en interactividad premium y funciones VIP; entrada gratuita, previsualizaciones y chat básico disponibles para todos.",
+      "excerpt": "Lujoso HD interactivo con sincronización de juguetes de vanguardia y trato VIP.",
+      "overview": "VibeOn ofrece transmisiones Ultra HD inigualables, control de juguetes en tiempo real, soporte dedicado 24/7 y diseño pulido. Previsualizaciones gratuitas, acceso por créditos o VIP, bibliotecas de medios guardadas y excelencia móvil brindan la máxima experiencia interactiva de lujo sin tarifas ocultas. (54 palabras)",
+      "features": [
+        "Previsualizaciones en miniaturas con indicadores de estado de juguetes interactivos",
+        "Galerías de medios en 4K con contenido premium descargable",
+        "Alertas en línea con notificaciones de acceso anticipado VIP",
+        "Búsqueda precisa con etiquetas de fetiches y puntuaciones de compatibilidad",
+        "Perfiles calificados con métricas de rendimiento y lealtad de fans",
+        "Horarios con sesiones privadas y eventos exclusivos para VIP"
+      ],
+      "benefits": [
+        "Ultra HD inigualable con iluminación adaptativa y cero distorsión",
+        "Calificaciones como guía más recomendaciones impulsadas por IA",
+        "Biblioteca de contenido guardado con acceso sin conexión y organización",
+        "Planificación perfecta con recordatorios y reservas automáticas",
+        "Diseño pulido con control por voz y modo oscuro",
+        "Excelencia móvil con sincronización háptica de juguetes y streaming de baja latencia"
+      ]
+    },
+    "cambliss": {
+      "toppara": "ofrece interactividad premium en impresionante Ultra HD, con integración fluida de juguetes y un ecosistema lujoso diseñado para la máxima indulgencia sensorial.",
+      "secppara": "Integración de juguetes con retroalimentación háptica, cam2cam en calidad impecable y soporte 24/7: VibeOn define opulencia, innovación y placer personalizado en el mundo de las cámaras en vivo.",
+      "pricingDescription": "Previsualizaciones gratuitas y acceso público; créditos y niveles VIP para interactividad completa, soporte prioritario y ventajas exclusivas.",
+      "hiddenFees": "Ninguno",
+      "drawbacksDescription": "Enfoque en interactividad premium y funciones VIP; entrada gratuita, previsualizaciones y chat básico disponibles para todos.",
+      "excerpt": "Lujoso HD interactivo con sincronización de juguetes de vanguardia y trato VIP.",
+      "overview": "VibeOn ofrece transmisiones Ultra HD inigualables, control de juguetes en tiempo real, soporte dedicado 24/7 y diseño pulido. Previsualizaciones gratuitas, acceso por créditos o VIP, bibliotecas de medios guardadas y excelencia móvil brindan la máxima experiencia interactiva de lujo sin tarifas ocultas. (54 palabras)",
+      "features": [
+        "Previsualizaciones en miniaturas con indicadores de estado de juguetes interactivos",
+        "Galerías de medios en 4K con contenido premium descargable",
+        "Alertas en línea con notificaciones de acceso anticipado VIP",
+        "Búsqueda precisa con etiquetas de fetiches y puntuaciones de compatibilidad",
+        "Perfiles calificados con métricas de rendimiento y lealtad de fans",
+        "Horarios con sesiones privadas y eventos exclusivos para VIP"
+      ],
+      "benefits": [
+        "Ultra HD inigualable con iluminación adaptativa y cero distorsión",
+        "Calificaciones como guía más recomendaciones impulsadas por IA",
+        "Biblioteca de contenido guardado con acceso sin conexión y organización",
+        "Planificación perfecta con recordatorios y reservas automáticas",
+        "Diseño pulido con control por voz y modo oscuro",
+        "Excelencia móvil con sincronización háptica de juguetes y streaming de baja latencia"
+      ]
+    },
+    "glamcams": {
+      "toppara": "ofrece interactividad premium en impresionante Ultra HD, con integración fluida de juguetes y un ecosistema lujoso diseñado para la máxima indulgencia sensorial.",
+      "secppara": "Integración de juguetes con retroalimentación háptica, cam2cam en calidad impecable y soporte 24/7: VibeOn define opulencia, innovación y placer personalizado en el mundo de las cámaras en vivo.",
+      "pricingDescription": "Previsualizaciones gratuitas y acceso público; créditos y niveles VIP para interactividad completa, soporte prioritario y ventajas exclusivas.",
+      "hiddenFees": "Ninguno",
+      "drawbacksDescription": "Enfoque en interactividad premium y funciones VIP; entrada gratuita, previsualizaciones y chat básico disponibles para todos.",
+      "excerpt": "Lujoso HD interactivo con sincronización de juguetes de vanguardia y trato VIP.",
+      "overview": "VibeOn ofrece transmisiones Ultra HD inigualables, control de juguetes en tiempo real, soporte dedicado 24/7 y diseño pulido. Previsualizaciones gratuitas, acceso por créditos o VIP, bibliotecas de medios guardadas y excelencia móvil brindan la máxima experiencia interactiva de lujo sin tarifas ocultas. (54 palabras)",
+      "features": [
+        "Previsualizaciones en miniaturas con indicadores de estado de juguetes interactivos",
+        "Galerías de medios en 4K con contenido premium descargable",
+        "Alertas en línea con notificaciones de acceso anticipado VIP",
+        "Búsqueda precisa con etiquetas de fetiches y puntuaciones de compatibilidad",
+        "Perfiles calificados con métricas de rendimiento y lealtad de fans",
+        "Horarios con sesiones privadas y eventos exclusivos para VIP"
+      ],
+      "benefits": [
+        "Ultra HD inigualable con iluminación adaptativa y cero distorsión",
+        "Calificaciones como guía más recomendaciones impulsadas por IA",
+        "Biblioteca de contenido guardado con acceso sin conexión y organización",
+        "Planificación perfecta con recordatorios y reservas automáticas",
+        "Diseño pulido con control por voz y modo oscuro",
+        "Excelencia móvil con sincronización háptica de juguetes y streaming de baja latencia"
+      ]
+    },
+    "liveglam": {
+      "toppara": "ofrece interactividad premium en impresionante Ultra HD, con integración fluida de juguetes y un ecosistema lujoso diseñado para la máxima indulgencia sensorial.",
+      "secppara": "Integración de juguetes con retroalimentación háptica, cam2cam en calidad impecable y soporte 24/7: VibeOn define opulencia, innovación y placer personalizado en el mundo de las cámaras en vivo.",
+      "pricingDescription": "Previsualizaciones gratuitas y acceso público; créditos y niveles VIP para interactividad completa, soporte prioritario y ventajas exclusivas.",
+      "hiddenFees": "Ninguno",
+      "drawbacksDescription": "Enfoque en interactividad premium y funciones VIP; entrada gratuita, previsualizaciones y chat básico disponibles para todos.",
+      "excerpt": "Lujoso HD interactivo con sincronización de juguetes de vanguardia y trato VIP.",
+      "overview": "VibeOn ofrece transmisiones Ultra HD inigualables, control de juguetes en tiempo real, soporte dedicado 24/7 y diseño pulido. Previsualizaciones gratuitas, acceso por créditos o VIP, bibliotecas de medios guardadas y excelencia móvil brindan la máxima experiencia interactiva de lujo sin tarifas ocultas. (54 palabras)",
+      "features": [
+        "Previsualizaciones en miniaturas con indicadores de estado de juguetes interactivos",
+        "Galerías de medios en 4K con contenido premium descargable",
+        "Alertas en línea con notificaciones de acceso anticipado VIP",
+        "Búsqueda precisa con etiquetas de fetiches y puntuaciones de compatibilidad",
+        "Perfiles calificados con métricas de rendimiento y lealtad de fans",
+        "Horarios con sesiones privadas y eventos exclusivos para VIP"
+      ],
+      "benefits": [
+        "Ultra HD inigualable con iluminación adaptativa y cero distorsión",
+        "Calificaciones como guía más recomendaciones impulsadas por IA",
+        "Biblioteca de contenido guardado con acceso sin conexión y organización",
+        "Planificación perfecta con recordatorios y reservas automáticas",
+        "Diseño pulido con control por voz y modo oscuro",
+        "Excelencia móvil con sincronización háptica de juguetes y streaming de baja latencia"
+      ]
+    }
+  },
+  "SearchPage": {
+    "title": "Resultados de búsqueda ({count})",
+    "showing": "Coincidencias para \"{query}\"",
+    "noResults": "Nada encontrado: prueba otras palabras.",
+    "noQuery": "Escribe algo para buscar.",
+    "readReview": "Leer reseña",
+    "visit": "Visitar {title}",
+    "backToHome": "Volver al inicio",
+    "activeUsers": "+10.000 en línea"
+  },
+  "Terms": {
+    "title": "Términos de Uso",
+    "heading": "Nuestro acuerdo",
+    "lastUpdated": "Actualizado: 1 de octubre de 2018",
+
+    "sections": {
+      "acceptance": {
+        "title": "Aceptación de los términos",
+        "content": [
+          "¡Hola! Este es el trato entre tú y 4th Whale Marketing Inc. (nosotros). Al usar TopChats.com —navegar, hacer clic o registrarte— estás diciendo \"sí\" a estas reglas y a nuestra política de privacidad (en topchats.com/privacy). Si no es lo tuyo, no hay problema: simplemente cierra la pestaña.",
+          "Debes tener más de 18 años y estar de acuerdo con contenido para adultos para estar aquí. Si no, este no es el lugar para ti."
+        ]
+      },
+      "changes": {
+        "title": "Podemos ajustar estas reglas",
+        "content": [
+          "Podemos actualizar esto en cualquier momento. Los cambios entran en vigor al publicarlos. Revisa regularmente: usar el sitio significa que aceptas la versión más reciente.",
+          "Cosas legales importantes (como reglas de tribunales) no cambian retroactivamente a menos que lo digamos."
+        ]
+      },
+      "access": {
+        "title": "Usar el sitio",
+        "content": [
+          "Podemos pausar o cambiar cualquier cosa en cualquier momento sin aviso. Si está caído, no somos responsables.",
+          "Eres responsable de tu conexión a internet y de asegurarte de que cualquiera que use tu conexión conozca las reglas.",
+          "¿Necesitas registrarte? Danos información real. Seguimos nuestra política de privacidad con todo lo que compartas.",
+          "¿Eliges nombre de usuario/contraseña? Mantenlo en secreto. Avísanos ASAP si algo anda mal. Cierra sesión en computadoras compartidas.",
+          "Podemos cerrar tu cuenta en cualquier momento si rompes las reglas."
+        ]
+      },
+      "intellectualProperty": {
+        "title": "Nuestras cosas siguen siendo nuestras",
+        "content": [
+          "Todo en el sitio —texto, imágenes, código— nos pertenece o está licenciado. Puedes usarlo personalmente, pero no copiar, compartir o vender.",
+          "Permitido: caché temporal, una impresión para uso personal, descargar apps (bajo sus reglas).",
+          "No permitido: robar imágenes, eliminar avisos de copyright, usar para negocios.",
+          "¿Quieres usar algo? Escribe a privacy@topchats.com.",
+          "¿Rompiste esto? Te bloqueamos y borras lo que tomaste."
+        ]
+      },
+      "prohibitedUses": {
+        "title": "Juega limpio",
+        "content": [
+          "Usa el sitio solo de manera legal y respetuosa. Nada de:",
+          "Romper leyes, dañar menores, spam, robo de identidad o interrumpir el sitio (virus, bots, sobrecargas).",
+          "Expulsamos a cualquiera que arruine la diversión."
+        ]
+      },
+      "governingLaw": {
+        "title": "Puerto legal de origen",
+        "content": [
+          "Aplica la ley de Quebec. Los juicios se llevan a cabo en tribunales de Montreal (a menos que te persigamos en otro lugar por romper reglas). Aceptas esto."
+        ]
+      }
+    },
+
+    "footer": {
+      "companyInfo": "Operado por 4th Whale Marketing Inc., 765 Beaubien St. East, Suite 507, Montreal, Quebec, Canadá H2S 1S8.",
+      "contactInfo": "¿Preguntas? Escríbenos a"
+    },
+
+    "links": {
+      "website": "https://www.topchats.com/",
+      "privacy": "https://www.topchats.com/privacy/",
+      "email": "privacy@topchats.com"
+    }
+  },
+  "Privacy": {
+    "title": "Política de Privacidad",
+    "companyName": "4th Whale Marketing",
+    "websitePrivacyPolicy": "Cómo manejamos tu información",
+    "lastUpdated": "Última actualización: 28 de septiembre de 2018",
+
+    "sections": {
+      "introduction": {
+        "title": "Hola, tu privacidad nos importa",
+        "welcome": "¡Bienvenido! 4th Whale Marketing Inc. respeta tus datos.",
+        "respect": "Hacemos todo lo posible para mantener tu información segura. Esta política explica qué recolectamos, por qué y tus derechos.",
+        "layeredFormat": "Salta con los enlaces de abajo o lee todo."
+      },
+
+      "toc": {
+        "title": "Navegación rápida",
+        "items": [
+          "Quiénes somos",
+          "Qué recolectamos",
+          "Cómo lo obtenemos",
+          "Cómo lo usamos",
+          "Con quién compartimos",
+          "Internacional",
+          "Seguridad",
+          "Cuánto tiempo guardamos",
+          "Tus controles",
+          "No rastrear",
+          "Derechos de California",
+          "Derechos de Canadá",
+          "Derechos de la EEA",
+          "Glosario"
+        ]
+      },
+
+      "section1": {
+        "title": "Lo básico",
+        "purpose": {
+          "title": "¿Por qué esta política?",
+          "content1": "Cubre cómo manejamos tus datos en nuestros sitios, incluyendo registro o compra.",
+          "content2": "Los niños no son nuestro público: no recolectamos datos de menores.",
+          "content3": "Funciona junto con otros avisos que te damos."
+        },
+        "controller": {
+          "title": "¿Quién es responsable?",
+          "content1": "4th Whale Marketing Inc. controla tus datos.",
+          "content2": "¿Preguntas? Nuestro gerente de privacidad está aquí."
+        },
+        "contact": {
+          "title": "Habla con nosotros",
+          "content": "Contacta a nuestro gerente de privacidad:",
+          "legalEntity": "4th Whale Marketing Inc.",
+          "email": "Correo: privacy@topchats.com",
+          "postal": "765 Beaubien St. East, Suite 507, Montreal, Quebec, Canadá H2S 1S8",
+          "complaint": "Reino Unido: puedes contactar a la ICO. EEA: tu autoridad local. ¡Pero habla primero con nosotros!"
         },
         "changes": {
-          "title": "Podemos ajustar estas reglas",
-          "content": [
-            "Podemos actualizar esto en cualquier momento. Los cambios entran en vigor al publicarlos. Revisa regularmente: usar el sitio significa que aceptas la versión más reciente.",
-            "Cosas legales importantes (como reglas de tribunales) no cambian retroactivamente a menos que lo digamos."
-          ]
+          "title": "Actualizaciones e información tuya",
+          "content1": "Revisamos esto regularmente. Última actualización: 28 de sept. de 2018.",
+          "content2": "Mantén tus detalles actualizados: avísanos si algo cambia."
         },
-        "access": {
-          "title": "Usar el sitio",
-          "content": [
-            "Podemos pausar o cambiar cualquier cosa en cualquier momento sin aviso. Si está caído, no somos responsables.",
-            "Eres responsable de tu conexión a internet y de asegurarte de que cualquiera que use tu conexión conozca las reglas.",
-            "¿Necesitas registrarte? Danos información real. Seguimos nuestra política de privacidad con todo lo que compartas.",
-            "¿Eliges nombre de usuario/contraseña? Mantenlo en secreto. Avísanos ASAP si algo anda mal. Cierra sesión en computadoras compartidas.",
-            "Podemos cerrar tu cuenta en cualquier momento si rompes las reglas."
-          ]
-        },
-        "intellectualProperty": {
-          "title": "Nuestras cosas siguen siendo nuestras",
-          "content": [
-            "Todo en el sitio —texto, imágenes, código— nos pertenece o está licenciado. Puedes usarlo personalmente, pero no copiar, compartir o vender.",
-            "Permitido: caché temporal, una impresión para uso personal, descargar apps (bajo sus reglas).",
-            "No permitido: robar imágenes, eliminar avisos de copyright, usar para negocios.",
-            "¿Quieres usar algo? Escribe a privacy@topchats.com.",
-            "¿Rompiste esto? Te bloqueamos y borras lo que tomaste."
-          ]
-        },
-        "prohibitedUses": {
-          "title": "Juega limpio",
-          "content": [
-            "Usa el sitio solo de manera legal y respetuosa. Nada de:",
-            "Romper leyes, dañar menores, spam, robo de identidad o interrumpir el sitio (virus, bots, sobrecargas).",
-            "Expulsamos a cualquiera que arruine la diversión."
-          ]
-        },
-        "governingLaw": {
-          "title": "Puerto legal de origen",
-          "content": [
-            "Aplica la ley de Quebec. Los juicios se llevan a cabo en tribunales de Montreal (a menos que te persigamos en otro lugar por romper reglas). Aceptas esto."
-          ]
+        "thirdPartyLinks": {
+          "title": "Otros sitios",
+          "content": "A veces enlazamos. Sus políticas de privacidad aplican allí: no somos responsables."
         }
-      },
-  
-      "footer": {
-        "companyInfo": "Operado por 4th Whale Marketing Inc., 765 Beaubien St. East, Suite 507, Montreal, Quebec, Canadá H2S 1S8.",
-        "contactInfo": "¿Preguntas? Escríbenos a"
-      },
-  
-      "links": {
-        "website": "https://www.topchats.com/",
-        "privacy": "https://www.topchats.com/privacy/",
-        "email": "privacy@topchats.com"
       }
     },
-    "Privacy": {
-      "title": "Política de Privacidad",
-      "companyName": "4th Whale Marketing",
-      "websitePrivacyPolicy": "Cómo manejamos tu información",
-      "lastUpdated": "Última actualización: 28 de septiembre de 2018",
-  
-      "sections": {
-        "introduction": {
-          "title": "Hola, tu privacidad nos importa",
-          "welcome": "¡Bienvenido! 4th Whale Marketing Inc. respeta tus datos.",
-          "respect": "Hacemos todo lo posible para mantener tu información segura. Esta política explica qué recolectamos, por qué y tus derechos.",
-          "layeredFormat": "Salta con los enlaces de abajo o lee todo."
-        },
-  
-        "toc": {
-          "title": "Navegación rápida",
-          "items": [
-            "Quiénes somos",
-            "Qué recolectamos",
-            "Cómo lo obtenemos",
-            "Cómo lo usamos",
-            "Con quién compartimos",
-            "Internacional",
-            "Seguridad",
-            "Cuánto tiempo guardamos",
-            "Tus controles",
-            "No rastrear",
-            "Derechos de California",
-            "Derechos de Canadá",
-            "Derechos de la EEA",
-            "Glosario"
-          ]
-        },
-  
-        "section1": {
-          "title": "Lo básico",
-          "purpose": {
-            "title": "¿Por qué esta política?",
-            "content1": "Cubre cómo manejamos tus datos en nuestros sitios, incluyendo registro o compra.",
-            "content2": "Los niños no son nuestro público: no recolectamos datos de menores.",
-            "content3": "Funciona junto con otros avisos que te damos."
-          },
-          "controller": {
-            "title": "¿Quién es responsable?",
-            "content1": "4th Whale Marketing Inc. controla tus datos.",
-            "content2": "¿Preguntas? Nuestro gerente de privacidad está aquí."
-          },
-          "contact": {
-            "title": "Habla con nosotros",
-            "content": "Contacta a nuestro gerente de privacidad:",
-            "legalEntity": "4th Whale Marketing Inc.",
-            "email": "Correo: privacy@topchats.com",
-            "postal": "765 Beaubien St. East, Suite 507, Montreal, Quebec, Canadá H2S 1S8",
-            "complaint": "Reino Unido: puedes contactar a la ICO. EEA: tu autoridad local. ¡Pero habla primero con nosotros!"
-          },
-          "changes": {
-            "title": "Actualizaciones e información tuya",
-            "content1": "Revisamos esto regularmente. Última actualización: 28 de sept. de 2018.",
-            "content2": "Mantén tus detalles actualizados: avísanos si algo cambia."
-          },
-          "thirdPartyLinks": {
-            "title": "Otros sitios",
-            "content": "A veces enlazamos. Sus políticas de privacidad aplican allí: no somos responsables."
-          }
-        }
-      },
-  
-      "footer": {
-        "lastUpdated": "Actualizado el 28 de sept. de 2018. ¿Preguntas? Escribe a privacy@topchats.com"
-      }
-    },
-    "auth": {
-      "loginTitle": "¡Bienvenido de nuevo!",
-      "subTitleLogin": "Inicia sesión abajo",
-      "email": "Correo",
-      "password": "Contraseña",
-      "loginBtn": "Iniciar sesión",
-      "noAccount": "¿Nuevo aquí?",
-      "signupLink": "Registrarse",
-      "or": "o",
-      "socialGoogle": "Google",
-      "socialGithub": "GitHub",
-      "signupTitle": "Únete",
-      "subTitleSignup": "Crea una cuenta en segundos",
-      "name": "Nombre de usuario",
-      "termsAgreement": "Acepto los",
-      "termsText": "Términos y Condiciones",
-      "signupBtn": "Registrarse",
-      "haveAccount": "¿Ya eres miembro?",
-      "loginLink": "Iniciar sesión"
+
+    "footer": {
+      "lastUpdated": "Actualizado el 28 de sept. de 2018. ¿Preguntas? Escribe a privacy@topchats.com"
     }
+  },
+  "auth": {
+    "loginTitle": "¡Bienvenido de nuevo!",
+    "subTitleLogin": "Inicia sesión abajo",
+    "email": "Correo",
+    "password": "Contraseña",
+    "loginBtn": "Iniciar sesión",
+    "noAccount": "¿Nuevo aquí?",
+    "signupLink": "Registrarse",
+    "or": "o",
+    "socialGoogle": "Google",
+    "socialGithub": "GitHub",
+    "signupTitle": "Únete",
+    "subTitleSignup": "Crea una cuenta en segundos",
+    "name": "Nombre de usuario",
+    "termsAgreement": "Acepto los",
+    "termsText": "Términos y Condiciones",
+    "signupBtn": "Registrarse",
+    "haveAccount": "¿Ya eres miembro?",
+    "loginLink": "Iniciar sesión"
   }
+}

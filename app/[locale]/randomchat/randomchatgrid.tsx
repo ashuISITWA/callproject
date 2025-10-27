@@ -21,6 +21,7 @@ export default function RandomChatGrid({ category, siteKey }: Props) {
   const t2 = useTranslations();
   const messages = useMessages() as any;
 
+
   // Get features from messages (translation)
   const siteMsgFeatures: string[] =
     messages?.singlePageBySlug?.[siteKey]?.features || [];
@@ -118,7 +119,7 @@ export default function RandomChatGrid({ category, siteKey }: Props) {
                             <span className="truncate w-[280px]">{feature}</span>
                           </div>
                             ))}
-                            {siteFeatures.slice(3, 4).map((feature: string, i: number) => (
+                         {siteFeatures.slice(3, 4).map((feature: string, i: number) => (
                               <div
                             key={i}
                             className="flex items-center gap-2 "
@@ -266,9 +267,6 @@ export default function RandomChatGrid({ category, siteKey }: Props) {
              {t2("viewMoreTitle")}
           </button>
         </div>
-
-        {/* Inbox / newsletter */}
-        {/* <GetUpdateInbox /> */}
       </div>
     </section>
   );

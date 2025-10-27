@@ -99,6 +99,8 @@ export default function Header() {
 
               return (
                 <Link
+                prefetch={false}
+                onClick={() => setIsMenuOpen(false)}
                   key={key}
                   href={`/${locale}${href}`} 
                   className={`text-[14px] py-[10px] text-white hover:text-[var(--accent)] ${
@@ -116,7 +118,7 @@ export default function Header() {
       </div>
 
       {/* Desktop Black Nav Bar */}
-      <div className="hidden md:block bg-[var(--primary)] sticky top-0 z-[100]">
+      <div className="hidden lg:block bg-[var(--primary)] sticky top-0 z-[100]">
         <div className="w-full max-w-[1140px] mx-auto px-[15px]">
           <div className="flex gap-3 items-center justify-between">
             {navLinks.map(({ key, href }) => {
@@ -128,6 +130,7 @@ export default function Header() {
               return (
                 <Link
                   key={key}
+                  prefetch={false}
                   href={`/${locale}${href}`} // ✅ locale + real href
                   className={`text-[14px] py-[10px] hover:text-[var(--accent)] ${
                     isActive ? "text-[var(--accent)] hover:text-[var(--accent)]" : "text-white hover:text-[var(--accent)]"
