@@ -9,6 +9,36 @@ import HeroBanner from "@/components/banners/HeroBanner";
 
 const SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL;
 
+// Map search terms to category keywords
+const categoryMappings: Record<string, string[]> = {
+  "sex chat sites": ["sexcam", "sex"],
+  "mobile sex cams": ["sexcam", "mobile"],
+  "adult chat": ["sexcam", "adult"],
+  "chat room sites": ["chat", "room"],
+  "big tits chat": ["big", "tits", "bbw"],
+  "bdsm sites": ["fetish", "bdsm"],
+  "roulette chat sites": ["random", "roulette"],
+  "webcam chat sites": ["webcam", "chat"],
+  "cam girls": ["sexcam", "cam"],
+  "asian chat sites": ["asian"],
+  "lesbian chat": ["lesbian"],
+  "latina chat": ["latina"],
+  "hairy cams": ["hairy"],
+  "amateur chat": ["amateur"],
+  "transsexual cams": ["transsexual", "trans"],
+  "gay chat sites": ["gay"],
+  "webcam job sites": ["webcam", "job"],
+  "anal chat": ["anal"],
+  "smoking chat sites": ["smoking"],
+  "masturbation chat": ["masturbation"],
+  "arab chat": ["arab"],
+  "dirty talk chat": ["dirty", "talk"],
+  "toy chat": ["toy"],
+  "indian chat sites": ["indian"],
+  "findom sites": ["findom"],
+  "foot fetish sites": ["foot", "fetish"],
+};
+
 export default function searchList() {
   const searchParams = useSearchParams();
   const locale = useLocale();
@@ -17,31 +47,55 @@ export default function searchList() {
   const messages = useMessages(); // ✅ added this
   const query = (searchParams.get("q") || "").trim();
   const normalized = query.toLowerCase();
+  const searchWords = normalized.split(/\s+/).filter(Boolean);
+
+  // Get category keywords for the search query
+  const categoryKeywords = categoryMappings[normalized] || [];
 
   const results = normalized
     ? camSites.filter((site) => {
         const haystack = [site.title, site.slug, ...(site.categories || [])]
           .filter(Boolean)
-          .join(" \n ")
+          .join(" ")
           .toLowerCase();
-        return haystack.includes(normalized);
+
+        // Check if any category keyword matches OR if search words match
+        const categoryMatch = categoryKeywords.some((keyword) =>
+          haystack.includes(keyword)
+        );
+        const wordMatch = searchWords.some((word) => haystack.includes(word));
+
+        return categoryMatch || wordMatch;
       })
     : [];
 
   return (
     <>
-      <HeroBanner pageKey="searchBanner" subtitle={t("showing", { query })} />
+      <section className="block bg-black/3">
+        <div className="py-[40px] md:py-[60px]">
+          <div className="w-full mx-auto px-[15px]">
+            <div className="flex flex-col gap-[15px]">
+              <h1 className="md:text-[40px] lg:text-[80px] text-black font-bold text-center capitalize">
+                {query ? `Searching for: ${query}` : t("searchBanner.title")}
+              </h1>
+              <p className="text-[20px] text-black text-center">
+                {query ? t("showing", { query }) : t("searchBanner.subtitle")}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section className="block py-[40px] bg-[#fafafa] min-h-[80vh]">
         <div className="w-full max-w-[1030px] mx-auto px-[15px]">
-          <div className="mb-5">
+          {/* <div className="mb-5">
             <h1 className="text-[22px] font-semibold text-black">
               {t("title", { count: results.length })}
             </h1>
             <p className="text-[14px] text-slate-600">
               {t("showing", { query })}
             </p>
-          </div>
+          </div> */}
 
           {results.length === 0 ? (
             <div className="text-[14px] text-slate-700">

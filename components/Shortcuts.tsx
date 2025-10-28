@@ -1,47 +1,48 @@
 "use client";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 
 const chatLinks = [
-  { key: "freeChat", href: "/free-chat" },
-  { key: "sexChatSites", href: "/sex-chat-sites" },
-  { key: "mobileSexCams", href: "/mobile-sex-cams" },
-  { key: "adultChat", href: "/adult-chat" },
-  { key: "teenChat", href: "/teen-chat" },
-  { key: "chatRoomSites", href: "/chat-room-sites" },
-  { key: "bigTitsChat", href: "/big-tits-chat" },
-  { key: "voyeurCam", href: "/voyeur-cam" },
-  { key: "bdsmSites", href: "/bdsm-sites" },
-  { key: "rouletteChatSites", href: "/roulette-chat-sites" },
-  { key: "sexCams", href: "/sex-cams" },
-  { key: "webcamChatSites", href: "/webcam-chat-sites" },
-  { key: "randomChat", href: "/random-chat" },
-  { key: "camGirls", href: "/cam-girls" },
-  { key: "bbwChat", href: "/bbw-chat" },
-  { key: "asianChatSites", href: "/asian-chat-sites" },
-  { key: "lesbianChat", href: "/lesbian-chat" },
-  { key: "latinaChat", href: "/latina-chat" },
-  { key: "milfChat", href: "/milf-chat" },
-  { key: "hairyCams", href: "/hairy-cams" },
-  { key: "amateurChat", href: "/amateur-chat" },
-  { key: "ebonyChat", href: "/ebony-chat" },
-  { key: "fetishChat", href: "/fetish-chat" },
-  { key: "transsexualCams", href: "/transsexual-cams" },
-  { key: "gayChatSites", href: "/gay-chat-sites" },
-  { key: "webcamJobSites", href: "/webcam-job-sites" },
-  { key: "analChat", href: "/anal-chat" },
-  { key: "smokingChatSites", href: "/smoking-chat-sites" },
-  { key: "masturbationChat", href: "/masturbation-chat" },
-  { key: "arabChat", href: "/arab-chat" },
-  { key: "dirtyTalkChat", href: "/dirty-talk-chat" },
-  { key: "toyChat", href: "/toy-chat" },
-  { key: "indianChatSites", href: "/indian-chat-sites" },
-  { key: "findomSites", href: "/findom-sites" },
-  { key: "footFetishSites", href: "/foot-fetish-sites" },
+  { key: "freeChat", href: "/freechat" },
+  { key: "teenChat", href: "/teenchat" },
+  { key: "voyeurCam", href: "/voyeurcam" },
+  { key: "sexCams", href: "/sexcams" },
+  { key: "bbwChat", href: "/bbwchat" },
+  { key: "milfChat", href: "/milfchat" },
+  { key: "ebonyChat", href: "/ebonychat" },
+  { key: "fetishChat", href: "/fetishchat" },
+  { key: "sexChatSites", href: "/search?q=Sex%20Chat%20Sites" },
+  { key: "mobileSexCams", href: "/search?q=Mobile%20Sex%20Cams" },
+  { key: "adultChat", href: "/search?q=Adult%20Chat" },
+  { key: "chatRoomSites", href: "/search?q=Chat%20Room%20Sites" },
+  { key: "bigTitsChat", href: "/search?q=Big%20Tits%20Chat" },
+  { key: "bdsmSites", href: "/search?q=BDSM%20Sites" },
+  { key: "rouletteChatSites", href: "/search?q=Roulette%20Chat%20Sites" },
+  { key: "webcamChatSites", href: "/search?q=Webcam%20Chat%20Sites" },
+  { key: "randomChat", href: "/randomchat" },
+  { key: "camGirls", href: "/search?q=Cam%20Girls" },
+  { key: "asianChatSites", href: "/search?q=Asian%20Chat%20Sites" },
+  { key: "lesbianChat", href: "/search?q=Lesbian%20Chat" },
+  { key: "latinaChat", href: "/search?q=Latina%20Chat" },
+  { key: "hairyCams", href: "/search?q=Hairy%20Cams" },
+  { key: "amateurChat", href: "/search?q=Amateur%20Chat" },
+  { key: "transsexualCams", href: "/search?q=Transsexual%20Cams" },
+  { key: "gayChatSites", href: "/search?q=Gay%20Chat%20Sites" },
+  { key: "webcamJobSites", href: "/search?q=Webcam%20Job%20Sites" },
+  { key: "analChat", href: "/search?q=Anal%20Chat" },
+  { key: "smokingChatSites", href: "/search?q=Smoking%20Chat%20Sites" },
+  { key: "masturbationChat", href: "/search?q=Masturbation%20Chat" },
+  { key: "arabChat", href: "/search?q=Arab%20Chat" },
+  { key: "dirtyTalkChat", href: "/search?q=Dirty%20Talk%20Chat" },
+  { key: "toyChat", href: "/search?q=Toy%20Chat" },
+  { key: "indianChatSites", href: "/search?q=Indian%20Chat%20Sites" },
+  { key: "findomSites", href: "/search?q=Findom%20Sites" },
+  { key: "footFetishSites", href: "/search?q=Foot%20Fetish%20Sites" },
 ];
 
 export default function Shortcuts() {
   const t = useTranslations("shortcuts");
+  const locale = useLocale();
   return (
     <>
       <div className="block w-full py-[56px] border-t border-slate-200 bg-white">
@@ -52,15 +53,22 @@ export default function Shortcuts() {
             </h3>
 
             <div className="flex justify-center flex-wrap gap-3">
-              {chatLinks.map(({ key, href }) => (
-                <Link
-                  key={href}
-                  href={href}
-                  className="text-[12px] text-black hover:bg-white bg-[#fafafa] border border-transparent hover:border-[#fafafa] rounded-full py-[6px] px-[15px] inline-block"
-                >
-                  {t(`links.${key}`)}
-                </Link>
-              ))}
+              {chatLinks.map(({ key, href }) => {
+                // Check if href is a search link and generate it with translated text
+                const linkHref = href.startsWith("/search?q=")
+                  ? `/search?q=${encodeURIComponent(t(`links.${key}`))}`
+                  : href;
+                
+                return (
+                  <Link
+                    key={key}
+                    href={`/${locale}${linkHref}`}
+                    className="text-[12px] text-black hover:bg-white bg-[#fafafa] border border-transparent hover:border-[#fafafa] rounded-full py-[6px] px-[15px] inline-block"
+                  >
+                    {t(`links.${key}`)}
+                  </Link>
+                );
+              })}
             </div>
           </div>
         </div>

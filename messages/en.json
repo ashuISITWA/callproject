@@ -129,10 +129,6 @@
     "voyeurCam": {
       "title": "Voyeur Cam Sites 2025",
       "subtitle": "Watch authentic, unscripted live streams from the comfort and privacy of your home."
-    },
-    "searchBanner": {
-      "title": "Searching for:",
-      "subtitle": "Refine your search filters to find the perfect match or chat room for your preferences."
     }
   },
   "camPost": {
@@ -937,6 +933,10 @@
     }
   },
   "SearchPage": {
+    "searchBanner": {
+      "title": "Search - Find the Best Adult Chat Sites",
+      "subtitle": "Refine your search filters to find the perfect match or chat room for your preferences."
+    },
     "title": "Search results ({count})",
     "showing": "Matches for “{query}”",
     "noResults": "Nothing found—try different words.",
