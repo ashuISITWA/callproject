@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Check, DollarSign, Crown  } from "lucide-react";
 import { useTranslations, useLocale } from "next-intl";
+const SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL || "";
 
 interface CamPostProps {
   index: number;
@@ -49,7 +50,7 @@ export default function SexPost({
       <div className="shrink-0 w-[200px] text-center">
         <div className="h-[30px] mx-auto table">
           <img
-           src={`${SERVER_URL}${site.logo}`}
+           src={`${SERVER_URL}${logo}`}
             width={192}
             height={50}
             alt={`${title} logo`}

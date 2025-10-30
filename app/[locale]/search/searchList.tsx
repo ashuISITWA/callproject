@@ -39,7 +39,7 @@ const categoryMappings: Record<string, string[]> = {
   "foot fetish sites": ["foot", "fetish"],
 };
 
-export default function searchList() {
+export default function SearchList() {
   const searchParams = useSearchParams();
   const locale = useLocale();
   const t = useTranslations("SearchPage");

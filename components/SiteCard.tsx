@@ -14,7 +14,7 @@ export default function SiteCard({ site }: { site: Site }) {
     <div className="border rounded-md shadow-sm overflow-hidden">
       <div className="relative h-48 w-full">
         {site.image && (
-          <img
+          <Image
             src={site.image}
             alt={site.title}
             fill

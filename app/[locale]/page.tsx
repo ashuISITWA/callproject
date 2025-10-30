@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Shortcuts from "@/components/Shortcuts";
 import WeTested from "@/components/WeTested";
-import MainBanner from "@/components/banners/MainBanner";
 import YouLike from "@/components/YouLike";
 import Link from "next/link";
 import TopchatPageClient from "./topchatpageclient";

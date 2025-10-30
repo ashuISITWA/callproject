@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Check, DollarSign } from "lucide-react";
+const SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL || "";
 
 interface CamPostProps {
   index: number;
