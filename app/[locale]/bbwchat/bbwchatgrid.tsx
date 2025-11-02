@@ -20,7 +20,7 @@ export default function BbwChatGrid({ category, siteKey }: Props) {
   const messages = useMessages() as any;
   const t2 = useTranslations();
   // Get features from messages (translation)
-  const siteMsgFeatures: string[] =
+  const postlabel: string[] =
     (siteKey && messages?.singlePageBySlug?.[siteKey]?.features) || [];
 
   const realCategory = "bbw";
@@ -48,8 +48,8 @@ export default function BbwChatGrid({ category, siteKey }: Props) {
             {filteredSites.map((site, index) => {
               const slugMessages =
                 messages?.singlePageBySlug?.[site.slug] || {};
-              const siteFeatures = Array.isArray(slugMessages?.features)
-                ? slugMessages.features
+                const postlabel = Array.isArray(slugMessages?.postlabel)
+                ? (slugMessages.postlabel as string[])
                 : [];
               const performers =
                 (slugMessages?.performers as string) ||
@@ -108,33 +108,33 @@ export default function BbwChatGrid({ category, siteKey }: Props) {
                       <div className="flex flex-col lg:flex-row lg:items-center justify-between grow p-4 gap-3">
                         <div className="flex-1 flex flex-col items-start gap-3">
                           <div className="text-sm space-y-1">
-                            {siteFeatures
+                          {postlabel
                               .slice(0, 3)
-                              .map((feature: string, i: number) => (
+                              .map((postlabel: string, i: number) => (
                                 <div
                                   key={i}
                                   className="flex items-center gap-2 "
                                 >
                                   <Check size={14} className="shrink-0" />
-                                  <span className="truncate w-[180px] md:w-[280px]">
-                                    {feature}
+                                  <span className="truncate w-[180px] md:w-[280px] capitalize">
+                                    {postlabel}
                                   </span>
                                 </div>
                               ))}
-                            {siteFeatures
+                            {postlabel
                               .slice(3, 4)
-                              .map((feature: string, i: number) => (
+                              .map((postlabel: string, i: number) => (
                                 <div
                                   key={i}
-                                  className="flex items-center gap-2 "
+                                  className="flex items-center gap-2 truncate w-[180px] md:w-[280px]"
                                 >
                                   <DollarSign
                                     size={13}
                                     className="text-yellow-500 shrink-0"
                                   />
 
-                                  <span className="truncate w-[180px] md:w-[280px]">
-                                    {feature}
+                                  <span className="truncate w-[180px] md:w-[280px] capitalize">
+                                    {postlabel}
                                   </span>
                                 </div>
                               ))}
@@ -173,26 +173,26 @@ export default function BbwChatGrid({ category, siteKey }: Props) {
                     <div className="absolute inset-0 z-[7] bg-white p-[15px] hidden group-hover:block">
                       <div className="flex justify-center">
                         <div className="flex flex-col mx-auto w-auto gap-1">
-                          {siteFeatures
+                        {postlabel
                             .slice(0, 3)
-                            .map((feature: string, i: number) => (
+                            .map((postlabel: string, i: number) => (
                               <div key={i} className="flex gap-1 items-center">
                                 <Check size={13} />
                                 <span className="text-[12px] text-black capitalize truncate w-[180px]">
-                                  {feature}
+                                  {postlabel}
                                 </span>
                               </div>
                             ))}
-                          {siteFeatures
+                          {postlabel
                             .slice(3, 4)
-                            .map((feature: string, i: number) => (
+                            .map((postlabel: string, i: number) => (
                               <div key={i} className="flex gap-1 items-center">
                                 <DollarSign
                                   size={13}
                                   className="text-yellow-500"
                                 />
                                 <span className="text-[12px] text-black capitalize truncate w-[180px]">
-                                  {feature}
+                                  {postlabel}
                                 </span>
                               </div>
                             ))}
@@ -245,10 +245,10 @@ export default function BbwChatGrid({ category, siteKey }: Props) {
                             {t2("readReview")}
                           </Link>
                         </div>
-                        <Link
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          href={site.link}
+                           <Link
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href={`/out/${site.slug}`}
                           className="block mt-1 text-[13px] text-white uppercase font-medium rounded-md bg-black text-center py-[6px] transition-colors"
                         >
                           Visit {site.title}

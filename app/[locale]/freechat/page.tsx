@@ -53,7 +53,7 @@ export default function Page() {
   return (
     <>
       <HeroBanner pageKey="freeChat" />
-      <FreeChatGrid category="freecams" siteKey="rabbitscams" />
+      <FreeChatGrid category="freecams" siteKey="topsites" />
       <YouLike  category="freecams" />
       <FreechatPageClient siteKey="freeChat" />
       <Shortcuts />

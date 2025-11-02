@@ -312,8 +312,8 @@ The project uses Tailwind CSS with custom configuration:
 ```json
 {
   "id": "1",
-  "slug": "rabbitscams",
-  "title": "RabbitsCams",
+  "slug": "topsites",
+  "title": "topsites",
   "categories": ["top10chat", "sexcam", "premiumcams", "milfchat"],
   "hero": "/g1.jpeg",
   "logo": "/glogo12.png",
@@ -522,7 +522,7 @@ sites.map(site => {
 **Input:**
 ```json
 {
-  "slug": "rabbitscams",
+  "slug": "topsites",
   "country": "US",
   "targetUrl": "https://...",
   "userAgent": "...",

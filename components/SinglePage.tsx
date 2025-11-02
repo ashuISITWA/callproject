@@ -8,22 +8,6 @@ import camSites from "@/data/sites.json";
 
 const SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL || "http://localhost:3000";
 
-interface Site {
-  id: string;
-  slug: string;
-  title: string;
-  categories: string[];
-  excerpt?: string;
-  features?: string[];
-  hero: string;
-  logo: string;
-  link: string;
-  performers: string;
-  rating: number;
-  featureImage?: string;
-  benefitImage?: string;
-}
-
 interface SinglePageProps {
   pageKey?: string;
   visitUrl?: string;
@@ -76,8 +60,8 @@ export default function SinglePage({
   };
 
   // ✅ Get site data
-  const site = camSites.find((s: Site) => s.slug === pageKey) || camSites[0];
-  const slugMessages = messages?.singlePageBySlug?.[pageKey] || {};
+  const site = camSites.find((s: any) => s.slug === pageKey) || camSites[0];
+  const slugMessages = messages?.singlePageBySlug?.[pageKey] as any || {};
   const localizedFeatures: string[] = Array.isArray(slugMessages?.features)
     ? slugMessages.features
     : [];
@@ -111,7 +95,7 @@ export default function SinglePage({
                 <div className="block w-full md:w-[300px] rounded-md overflow-hidden">
                   <img
                     className="w-full h-full object-cover"
-                    src={`${SERVER_URL}${site.hero}`}
+                    src={getImageUrl(site.hero)}
                     width={300}
                     height={100}
                     alt={`${site.title} hero image`}
@@ -122,7 +106,7 @@ export default function SinglePage({
                 <div className="flex justify-center mt-[-35px]">
                   <div className="h-[45px] w-auto shadow rounded-full bg-white py-[6px] px-[20px]">
                     <img
-                      src={`${SERVER_URL}${site.logo}`}
+                      src={getImageUrl(site.logo)}
                       width={100}
                       height={100}
                       className="h-full object-contain"
@@ -253,7 +237,7 @@ export default function SinglePage({
 
               <div className="block h-[300px] rounded-md overflow-hidden">
                 <img
-                  src={getImageUrl(site.hero)}
+                  src={getImageUrl(slugMessages?.featureImage || site.featureImage)}
                   className="h-full w-full object-cover"
                   width={600}
                   height={300}
@@ -291,11 +275,11 @@ export default function SinglePage({
               
               <div className="block h-[300px] rounded-md overflow-hidden">
                 <img
-                  src={`${SERVER_URL}${site.hero}`}
+                  src={getImageUrl(slugMessages?.benefitImage || site.benefitImage)}
                   className="h-full w-full object-cover"
                   width={600}
                   height={300}
-                  alt={`${title} feature image`}
+                  alt={`${title} benefit image`}
                 />
               </div>
 
