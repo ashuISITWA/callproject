@@ -66,7 +66,7 @@ export default function SinglePage({
     ? slugMessages.features
     : [];
 
-  // ✅ Final visit URL - Use redirect system
+  // ✅ Always use /out/ route for tracking and country-based redirects
   const effectiveUrl = visitUrl || `/out/${site.slug}` || "/";
 
   // ✅ Helper function to get full image URL
@@ -78,9 +78,16 @@ export default function SinglePage({
       return imagePath;
     }
     
-    // If it's a relative path, prepend SERVER_URL
+    // If it's a relative path
     const formattedPath = imagePath.startsWith('/') ? imagePath : `/${imagePath}`;
-    return `${SERVER_URL}${formattedPath}`;
+    
+    // If SERVER_URL is set, use it; otherwise use relative path (for Next.js public folder)
+    if (SERVER_URL) {
+      return `${SERVER_URL}${formattedPath}`;
+    }
+    
+    // Return relative path (Next.js will serve from public folder)
+    return formattedPath;
   };
 
   return (
@@ -149,7 +156,7 @@ export default function SinglePage({
                     target="_blank"
                     rel="noopener noreferrer"
                     href={effectiveUrl}
-                    className="block mt-1 text-[14px] text-white uppercase font-medium rounded-md bg-black text-center py-[8px] min-w-[200px]"
+                    className="block mt-1 text-[14px] text-white uppercase font-medium rounded-md bg-black text-center p-[8px] min-w-[250px]"
                   >
                     {t("visit")} {site.title}
                   </Link>

@@ -27,51 +27,51 @@
         "tracking": true
       }
     },
-    "liveflirt": {
-      "global": "https://liveflirt.com",
+    "crazylivecams": {
+      "global": "https://www.crazylivecams.com/",
       "countries": {
-        "IN": "https://liveflirt.in",
-        "CA": "https://liveflirt.ca",
-        "UK": "https://liveflirt.co.uk",
-        "AU": "https://liveflirt.com.au",
-        "DE": "https://liveflirt.de",
-        "FR": "https://liveflirt.fr",
-        "JP": "https://liveflirt.co.jp",
-        "BR": "https://liveflirt.com.br",
-        "MX": "https://liveflirt.com.mx",
-        "ES": "https://liveflirt.es",
-        "IT": "https://liveflirt.it",
-        "NL": "https://liveflirt.nl",
-        "RU": "https://liveflirt.ru",
-        "CN": "https://liveflirt.cn",
-        "KR": "https://liveflirt.co.kr"
+        "IN": "https://www.crazylivecams.in",
+        "CA": "https://www.crazylivecams.ca",
+        "UK": "https://www.crazylivecams.co.uk",
+        "AU": "https://www.crazylivecams.com.au",
+        "DE": "https://www.crazylivecams.de",
+        "FR": "https://www.crazylivecams.fr",
+        "JP": "https://www.crazylivecams.co.jp",
+        "BR": "https://www.crazylivecams.com.br",
+        "MX": "https://www.crazylivecams.com.mx",
+        "ES": "https://www.crazylivecams.es",
+        "IT": "https://www.crazylivecams.it",
+        "NL": "https://www.crazylivecams.nl",
+        "RU": "https://www.crazylivecams.ru",
+        "CN": "https://www.crazylivecams.cn",
+        "KR": "https://www.crazylivecams.co.kr"
       },
       "metadata": {
-        "title": "Live Flirt",
+        "title": "Crazy Livecams",
         "description": "Interactive adult cam platform with live chat",
         "category": "adult",
         "enabled": true,
         "tracking": true
       }
     },
-    "camvibe": {
-      "global": "https://camvibe.com",
+    "myfreecams": {
+      "global": "https://myfreecams.com",
       "countries": {
-        "IN": "https://camvibe.in",
-        "CA": "https://camvibe.ca",
-        "UK": "https://camvibe.co.uk",
-        "AU": "https://camvibe.com.au",
-        "DE": "https://camvibe.de",
-        "FR": "https://camvibe.fr",
-        "JP": "https://camvibe.co.jp",
-        "BR": "https://camvibe.com.br",
-        "MX": "https://camvibe.com.mx",
-        "ES": "https://camvibe.es",
-        "IT": "https://camvibe.it",
-        "NL": "https://camvibe.nl",
-        "RU": "https://camvibe.ru",
-        "CN": "https://camvibe.cn",
-        "KR": "https://camvibe.co.kr"
+        "IN": "https://myfreecams.in",
+        "CA": "https://myfreecams.ca",
+        "UK": "https://myfreecams.co.uk",
+        "AU": "https://myfreecams.com.au",
+        "DE": "https://myfreecams.de",
+        "FR": "https://myfreecams.fr",
+        "JP": "https://myfreecams.co.jp",
+        "BR": "https://myfreecams.com.br",
+        "MX": "https://myfreecams.com.mx",
+        "ES": "https://myfreecams.es",
+        "IT": "https://myfreecams.it",
+        "NL": "https://myfreecams.nl",
+        "RU": "https://myfreecams.ru",
+        "CN": "https://myfreecams.cn",
+        "KR": "https://myfreecams.co.kr"
       },
       "metadata": {
         "title": "Cam Vibe",
@@ -81,54 +81,638 @@
         "tracking": true
       }
     },
-    "streamstar": {
-      "global": "https://streamstar.com",
+    "camrabbit": {
+      "global": "https://vip.camrabbit.sex.com",
       "countries": {
-        "IN": "https://streamstar.in",
-        "CA": "https://streamstar.ca",
-        "UK": "https://streamstar.co.uk",
-        "AU": "https://streamstar.com.au",
-        "DE": "https://streamstar.de",
-        "FR": "https://streamstar.fr",
-        "JP": "https://streamstar.co.jp",
-        "BR": "https://streamstar.com.br",
-        "MX": "https://streamstar.com.mx",
-        "ES": "https://streamstar.es",
-        "IT": "https://streamstar.it",
-        "NL": "https://streamstar.nl",
-        "RU": "https://streamstar.ru",
-        "CN": "https://streamstar.cn",
-        "KR": "https://streamstar.co.kr"
+        "IN": "https://vip.camrabbit.sex.in",
+        "CA": "https://vip.camrabbit.sex.ca",
+        "UK": "https://vip.camrabbit.sex.co.uk",
+        "AU": "https://vip.camrabbit.sex.com.au",
+        "DE": "https://vip.camrabbit.sex.de",
+        "FR": "https://vip.camrabbit.sex.fr",
+        "JP": "https://vip.camrabbit.sex.co.jp",
+        "BR": "https://vip.camrabbit.sex.com.br",
+        "MX": "https://vip.camrabbit.sex.com.mx",
+        "ES": "https://vip.camrabbit.sex.es",
+        "IT": "https://vip.camrabbit.sex.it",
+        "NL": "https://vip.camrabbit.sex.nl",
+        "RU": "https://vip.camrabbit.sex.ru",
+        "CN": "https://vip.camrabbit.sex.cn",
+        "KR": "https://vip.camrabbit.sex.co.kr"
       },
       "metadata": {
-        "title": "Stream Star",
+        "title": "camrabbit",
         "description": "Premium adult streaming service with HD quality",
         "category": "adult",
         "enabled": true,
         "tracking": true
       }
     },
-    "flirtzone": {
-      "global": "https://flirtzone.com",
+    "chaturbate": {
+      "global": "https://chaturbate.com",
       "countries": {
-        "IN": "https://flirtzone.in",
-        "CA": "https://flirtzone.ca",
-        "UK": "https://flirtzone.co.uk",
-        "AU": "https://flirtzone.com.au",
-        "DE": "https://flirtzone.de",
-        "FR": "https://flirtzone.fr",
-        "JP": "https://flirtzone.co.jp",
-        "BR": "https://flirtzone.com.br",
-        "MX": "https://flirtzone.com.mx",
-        "ES": "https://flirtzone.es",
-        "IT": "https://flirtzone.it",
-        "NL": "https://flirtzone.nl",
-        "RU": "https://flirtzone.ru",
-        "CN": "https://flirtzone.cn",
-        "KR": "https://flirtzone.co.kr"
+        "IN": "https://chaturbate.in",
+        "CA": "https://chaturbate.ca",
+        "UK": "https://chaturbate.co.uk",
+        "AU": "https://chaturbate.com.au",
+        "DE": "https://chaturbate.de",
+        "FR": "https://chaturbate.fr",
+        "JP": "https://chaturbate.co.jp",
+        "BR": "https://chaturbate.com.br",
+        "MX": "https://chaturbate.com.mx",
+        "ES": "https://chaturbate.es",
+        "IT": "https://chaturbate.it",
+        "NL": "https://chaturbate.nl",
+        "RU": "https://chaturbate.ru",
+        "CN": "https://chaturbate.cn",
+        "KR": "https://chaturbate.co.kr"
       },
       "metadata": {
-        "title": "Flirt Zone",
+        "title": "chaturbate",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "xlovecam": {
+      "global": "https://xlovecam.com",
+      "countries": {
+        "IN": "https://xlovecam.in",
+        "CA": "https://xlovecam.ca",
+        "UK": "https://xlovecam.co.uk",
+        "AU": "https://xlovecam.com.au",
+        "DE": "https://xlovecam.de",
+        "FR": "https://xlovecam.fr",
+        "JP": "https://xlovecam.co.jp",
+        "BR": "https://xlovecam.com.br",
+        "MX": "https://xlovecam.com.mx",
+        "ES": "https://xlovecam.es",
+        "IT": "https://xlovecam.it",
+        "NL": "https://xlovecam.nl",
+        "RU": "https://xlovecam.ru",
+        "CN": "https://xlovecam.cn",
+        "KR": "https://xlovecam.co.kr"
+      },
+      "metadata": {
+        "title": "xlovecam",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "livejasmin": {
+      "global": "https://livejasmin.com",
+      "countries": {
+        "IN": "https://livejasmin.in",
+        "CA": "https://livejasmin.ca",
+        "UK": "https://livejasmin.co.uk",
+        "AU": "https://livejasmin.com.au",
+        "DE": "https://livejasmin.de",
+        "FR": "https://livejasmin.fr",
+        "JP": "https://livejasmin.co.jp",
+        "BR": "https://livejasmin.com.br",
+        "MX": "https://livejasmin.com.mx",
+        "ES": "https://livejasmin.es",
+        "IT": "https://livejasmin.it",
+        "NL": "https://livejasmin.nl",
+        "RU": "https://livejasmin.ru",
+        "CN": "https://livejasmin.cn",
+        "KR": "https://livejasmin.co.kr"
+      },
+      "metadata": {
+        "title": "livejasmin",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "imlive": {
+      "global": "https://imlive.com",
+      "countries": {
+        "IN": "https://imlive.in",
+        "CA": "https://imlive.ca",
+        "UK": "https://imlive.co.uk",
+        "AU": "https://imlive.com.au",
+        "DE": "https://imlive.de",
+        "FR": "https://imlive.fr",
+        "JP": "https://imlive.co.jp",
+        "BR": "https://imlive.com.br",
+        "MX": "https://imlive.com.mx",
+        "ES": "https://imlive.es",
+        "IT": "https://imlive.it",
+        "NL": "https://imlive.nl",
+        "RU": "https://imlive.ru",
+        "CN": "https://imlive.cn",
+        "KR": "https://imlive.co.kr"
+      },
+      "metadata": {
+        "title": "livejasmin",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "camsoda": {
+      "global": "https://camsoda.com",
+      "countries": {
+        "IN": "https://camsoda.in",
+        "CA": "https://camsoda.ca",
+        "UK": "https://camsoda.co.uk",
+        "AU": "https://camsoda.com.au",
+        "DE": "https://camsoda.de",
+        "FR": "https://camsoda.fr",
+        "JP": "https://camsoda.co.jp",
+        "BR": "https://camsoda.com.br",
+        "MX": "https://camsoda.com.mx",
+        "ES": "https://camsoda.es",
+        "IT": "https://camsoda.it",
+        "NL": "https://camsoda.nl",
+        "RU": "https://camsoda.ru",
+        "CN": "https://camsoda.cn",
+        "KR": "https://camsoda.co.kr"
+      },
+      "metadata": {
+        "title": "camsoda",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "bongacams": {
+      "global": "https://bongacams.com",
+      "countries": {
+        "IN": "https://bongacams.in",
+        "CA": "https://bongacams.ca",
+        "UK": "https://bongacams.co.uk",
+        "AU": "https://bongacams.com.au",
+        "DE": "https://bongacams.de",
+        "FR": "https://bongacams.fr",
+        "JP": "https://bongacams.co.jp",
+        "BR": "https://bongacams.com.br",
+        "MX": "https://bongacams.com.mx",
+        "ES": "https://bongacams.es",
+        "IT": "https://bongacams.it",
+        "NL": "https://bongacams.nl",
+        "RU": "https://bongacams.ru",
+        "CN": "https://bongacams.cn",
+        "KR": "https://bongacams.co.kr"
+      },
+      "metadata": {
+        "title": "bongacams",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "flirt4free": {
+      "global": "https://flirt4free.com",
+      "countries": {
+        "IN": "https://flirt4free.in",
+        "CA": "https://flirt4free.ca",
+        "UK": "https://flirt4free.co.uk",
+        "AU": "https://flirt4free.com.au",
+        "DE": "https://flirt4free.de",
+        "FR": "https://flirt4free.fr",
+        "JP": "https://flirt4free.co.jp",
+        "BR": "https://flirt4free.com.br",
+        "MX": "https://flirt4free.com.mx",
+        "ES": "https://flirt4free.es",
+        "IT": "https://flirt4free.it",
+        "NL": "https://flirt4free.nl",
+        "RU": "https://flirt4free.ru",
+        "CN": "https://flirt4free.cn",
+        "KR": "https://flirt4free.co.kr"
+      },
+      "metadata": {
+        "title": "bongacams",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "stripchat": {
+      "global": "https://stripchat.com",
+      "countries": {
+        "IN": "https://stripchat.in",
+        "CA": "https://stripchat.ca",
+        "UK": "https://stripchat.co.uk",
+        "AU": "https://stripchat.com.au",
+        "DE": "https://stripchat.de",
+        "FR": "https://stripchat.fr",
+        "JP": "https://stripchat.co.jp",
+        "BR": "https://stripchat.com.br",
+        "MX": "https://stripchat.com.mx",
+        "ES": "https://stripchat.es",
+        "IT": "https://stripchat.it",
+        "NL": "https://stripchat.nl",
+        "RU": "https://stripchat.ru",
+        "CN": "https://stripchat.cn",
+        "KR": "https://stripchat.co.kr"
+      },
+      "metadata": {
+        "title": "bongacams",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "chatfly": {
+      "global": "https://chatfly.sex",
+      "countries": {
+        "IN": "https://chatfly.in",
+        "CA": "https://chatfly.ca",
+        "UK": "https://chatfly.co.uk",
+        "AU": "https://chatfly.com.au",
+        "DE": "https://chatfly.de",
+        "FR": "https://chatfly.fr",
+        "JP": "https://chatfly.co.jp",
+        "BR": "https://chatfly.com.br",
+        "MX": "https://chatfly.com.mx",
+        "ES": "https://chatfly.es",
+        "IT": "https://chatfly.it",
+        "NL": "https://chatfly.nl",
+        "RU": "https://chatfly.ru",
+        "CN": "https://chatfly.cn",
+        "KR": "https://chatfly.co.kr"
+      },
+      "metadata": {
+        "title": "bongacams",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "cam4": {
+      "global": "https://cam4.com",
+      "countries": {
+        "IN": "https://cam4.in",
+        "CA": "https://cam4.ca",
+        "UK": "https://cam4.co.uk",
+        "AU": "https://cam4.com.au"
+      },
+      "metadata": {
+        "title": "cam4",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "sexcamly": {
+      "global": "https://sexcamly.com",
+      "countries": {
+        "IN": "https://sexcamly.in",
+        "CA": "https://sexcamly.ca",
+        "UK": "https://sexcamly.co.uk",
+        "AU": "https://sexcamly.com.au"
+      },
+      "metadata": {
+        "title": "sexcamly",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "livecams": {
+      "global": "https://livecams.com",
+      "countries": {
+        "IN": "https://livecams.in",
+        "CA": "https://livecams.ca",
+        "UK": "https://livecams.co.uk",
+        "AU": "https://livecams.com.au"
+      },
+      "metadata": {
+        "title": "livecams",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "goadultcams": {
+      "global": "https://goadultcams.com",
+      "countries": {
+        "IN": "https://goadultcams.in",
+        "CA": "https://goadultcams.ca",
+        "UK": "https://goadultcams.co.uk",
+        "AU": "https://goadultcams.com.au"
+      },
+      "metadata": {
+        "title": "goadultcams",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "sexyoncams": {
+      "global": "https://sexyoncams.com",
+      "countries": {
+        "IN": "https://sexyoncams.in",
+        "CA": "https://sexyoncams.ca",
+        "UK": "https://sexyoncams.co.uk",
+        "AU": "https://sexyoncams.com.au"
+      },
+      "metadata": {
+        "title": "sexyoncams",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "allbbwcams": {
+      "global": "https://allbbwcams.com",
+      "countries": {
+        "IN": "https://allbbwcams.in",
+        "CA": "https://allbbwcams.ca",
+        "UK": "https://allbbwcams.co.uk",
+        "AU": "https://allbbwcams.com.au"
+      },
+      "metadata": {
+        "title": "allbbwcams",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "ebonystars": {
+      "global": "https://ebonystars.com",
+      "countries": {
+        "IN": "https://ebonystars.in",
+        "CA": "https://ebonystars.ca",
+        "UK": "https://ebonystars.co.uk",
+        "AU": "https://ebonystars.com.au"
+      },
+      "metadata": {
+        "title": "ebonystars",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "goxxxcams": {
+      "global": "https://goxxxcams.com",
+      "countries": {
+        "IN": "https://goxxxcams.in",
+        "CA": "https://goxxxcams.ca",
+        "UK": "https://goxxxcams.co.uk",
+        "AU": "https://goxxxcams.com.au"
+      },
+      "metadata": {
+        "title": "goxxxcams",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "camgirlhookups": {
+      "global": "https://goxxxcams.com",
+      "countries": {
+        "IN": "https://goxxxcams.in",
+        "CA": "https://goxxxcams.ca",
+        "UK": "https://goxxxcams.co.uk",
+        "AU": "https://goxxxcams.com.au"
+      },
+      "metadata": {
+        "title": "goxxxcams",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "streamyoung": {
+      "global": "https://streamyoung.com",
+      "countries": {
+        "IN": "https://streamyoung.in",
+        "CA": "https://streamyoung.ca",
+        "UK": "https://streamyoung.co.uk",
+        "AU": "https://streamyoung.com.au"
+      },
+      "metadata": {
+        "title": "streamyoung",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "vegascamgirls": {
+      "global": "https://vegascamgirls.com",
+      "countries": {
+        "IN": "https://vegascamgirls.in",
+        "CA": "https://vegascamgirls.ca",
+        "UK": "https://vegascamgirls.co.uk",
+        "AU": "https://vegascamgirls.com.au"
+      },
+      "metadata": {
+        "title": "vegascamgirls",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "15cams": {
+      "global": "https://15cams.com",
+      "countries": {
+        "IN": "https://15cams.in",
+        "CA": "https://15cams.ca",
+        "UK": "https://15cams.co.uk",
+        "AU": "https://15cams.com.au"
+      },
+      "metadata": {
+        "title": "15cams",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "secretfriends": {
+      "global": "https://secretfriends.com",
+      "countries": {
+        "IN": "https://secretfriends.in",
+        "CA": "https://secretfriends.ca",
+        "UK": "https://secretfriends.co.uk",
+        "AU": "https://secretfriends.com.au"
+      },
+      "metadata": {
+        "title": "secretfriends",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "luckycrush": {
+      "global": "https://luckycrush.com",
+      "countries": {
+        "IN": "https://luckycrush.in",
+        "CA": "https://luckycrush.ca",
+        "UK": "https://luckycrush.co.uk",
+        "AU": "https://luckycrush.com.au"
+      },
+      "metadata": {
+        "title": "luckycrush",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "omexxx": {
+      "global": "https://omexxx.com",
+      "countries": {
+        "IN": "https://omexxx.in",
+        "CA": "https://omexxx.ca",
+        "UK": "https://omexxx.co.uk",
+        "AU": "https://omexxx.com.au"
+      },
+      "metadata": {
+        "title": "omexxx",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "slutroulette": {
+      "global": "https://www.dscgirls.live/",
+      "countries": {
+        "IN": "https://dscgirls.in",
+        "CA": "https://dscgirls.ca",
+        "UK": "https://dscgirls.co.uk",
+        "AU": "https://dscgirls.com.au"
+      },
+      "metadata": {
+        "title": "slutroulette",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "hornymatchlive": {
+      "global": "https://www.hornymatchlive.com/",
+      "countries": {
+        "IN": "https://hornymatchlive.in",
+        "CA": "https://hornymatchlive.ca",
+        "UK": "https://hornymatchlive.co.uk",
+        "AU": "https://hornymatchlive.com.au"
+      },
+      "metadata": {
+        "title": "hornymatchlive",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "livestrip": {
+      "global": "https://www.livestrip.com/",
+      "countries": {
+        "IN": "https://livestrip.in",
+        "CA": "https://livestrip.ca",
+        "UK": "https://livestrip.co.uk",
+        "AU": "https://livestrip.com.au"
+      },
+      "metadata": {
+        "title": "livestrip",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "pregstream": {
+      "global": "https://www.pregstream.com/",
+      "countries": {
+        "IN": "https://pregstream.in",
+        "CA": "https://pregstream.ca",
+        "UK": "https://pregstream.co.uk",
+        "AU": "https://pregstream.com.au"
+      },
+      "metadata": {
+        "title": "pregstream",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "mydirtyhobby": {
+      "global": "https://www.mydirtyhobby.com/",
+      "countries": {
+        "IN": "https://mydirtyhobby.in",
+        "CA": "https://mydirtyhobby.ca",
+        "UK": "https://mydirtyhobby.co.uk",
+        "AU": "https://mydirtyhobby.com.au"
+      },
+      "metadata": {
+        "title": "mydirtyhobby",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "fetishfishcams": {
+      "global": "https://www.fetishfishcams.com/",
+      "countries": {
+        "IN": "https://fetishfishcams.in",
+        "CA": "https://fetishfishcams.ca",
+        "UK": "https://fetishfishcams.co.uk",
+        "AU": "https://fetishfishcams.com.au"
+      },
+      "metadata": {
+        "title": "fetishfishcams",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "fetishgalaxy": {
+      "global": "https://www.fetishgalaxy.com/",
+      "countries": {
+        "IN": "https://fetishgalaxy.in",
+        "CA": "https://fetishgalaxy.ca",
+        "UK": "https://fetishgalaxy.co.uk",
+        "AU": "https://fetishgalaxy.com.au"
+      },
+      "metadata": {
+        "title": "fetishgalaxy",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "voyeurhouse": {
+      "global": "https://www.voyeurhouse.com/",
+      "countries": {
+        "IN": "https://voyeurhouse.in",
+        "CA": "https://voyeurhouse.ca",
+        "UK": "https://voyeurhouse.co.uk",
+        "AU": "https://voyeurhouse.com.au"
+      },
+      "metadata": {
+        "title": "voyeurhouse",
         "description": "Interactive adult cam site with private shows",
         "category": "adult",
         "enabled": true,

@@ -27,10 +27,10 @@ export default function VoyeurCamGrid({ category, siteKey }: Props) {
   // Hardcoded category for BBW
   const realCategory = "voyeur";
 
-  // Filter sites & limit to 6
+  // Filter sites & limit to 7
   const filteredSites = camSites
     .filter((site) => site.categories?.includes(realCategory))
-    .slice(0, 6);
+    .slice(0, 7);
 
   const gridLayouts = [
     "col-span-1 sm:col-span2 md:col-span-12 lg:col-span-12",

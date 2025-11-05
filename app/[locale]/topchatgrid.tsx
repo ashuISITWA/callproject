@@ -53,6 +53,9 @@ export default function TopChatGrid({ category, siteKey }: Props) {
               site.performers ||
               "10,000+";
 
+            // Always use /out/ route for tracking and country-based redirects
+            const visitUrl = `/out/${site.slug}`;
+
             const gridClass = gridLayouts[index % gridLayouts.length];
 
             // ✅ If index is 1, return a completely different layout
@@ -144,7 +147,7 @@ export default function TopChatGrid({ category, siteKey }: Props) {
                         <Link
                           target="_blank"
                           rel="noopener noreferrer"
-                          href={`/out/${site.slug}`}
+                          href={visitUrl}
                           className="inline-block text-[13px] text-white uppercase font-medium rounded-md bg-black text-center py-[6px] transition-colors w-full md:w-[192px]"
                         >
                           Visit {site.title}
@@ -242,7 +245,7 @@ export default function TopChatGrid({ category, siteKey }: Props) {
                       <Link
                         target="_blank"
                         rel="noopener noreferrer"
-                        href={`/out/${site.slug}`}
+                        href={visitUrl}
                         className="block mt-1 text-[13px] text-white uppercase font-medium rounded-md bg-black text-center py-[6px] transition-colors"
                       >
                         Visit {site.title}
