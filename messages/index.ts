@@ -19,8 +19,7 @@ const messagesMap = {
   it,
   ru,
   zh,
-  tr,
-  ko,
+  tr
 };
 
 export default messagesMap;
