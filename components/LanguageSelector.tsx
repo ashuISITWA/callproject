@@ -13,6 +13,12 @@ const languages = [
   { code: "fr", name: "Français", flag: `${SERVER_URL}/flags/fr.svg`}, 
   { code: "de", name: "Deutsch", flag: `${SERVER_URL}/flags/de.svg`},
   { code: "es", name: "Español", flag: `${SERVER_URL}/flags/es.svg`},
+  { code: "ar", name: "العربية", flag: `${SERVER_URL}/flags/ar.svg`},
+  { code: "hi", name: "हिन्दी", flag: `${SERVER_URL}/flags/hi.svg`},
+  { code: "it", name: "Italiano", flag: `${SERVER_URL}/flags/it.svg`},
+  { code: "ru", name: "Русский", flag: `${SERVER_URL}/flags/ru.svg`},
+  { code: "zh", name: "中文", flag: `${SERVER_URL}/flags/zh.svg`},
+  { code: "tr", name: "Türkçe", flag: `${SERVER_URL}/flags/tr.svg`},
 ];
 
 export default function LanguageSelector() {
