@@ -1,33 +1,33 @@
 {
   "metadata": {
-    "title": "Top Chats",
-    "description": "Top Chats",
-    "keywords": "Top Chats"
+    "title": "Meilleurs Chats",
+    "description": "Meilleurs Chats",
+    "keywords": "Meilleurs Chats"
   },
   "SEO": {
     "Top10Chat": {
-      "Title": "Top 10 site de chat",
-      "Description": "Découvrez les meilleurs sites de chat en direct et profitez de spectacles en direct de haute qualité sur les sites de Sex Cam. Rencontrez des modèles réels dans des discussions privées.",
-      "Keywords": "Top 10 site de chat, Sex Cam, Chat Sexuel en Direct, Sex Cams Gratuits"
+      "Title": "Top 10 des sites de chat",
+      "Description": "Découvrez les meilleurs sites de chat en direct et profitez de spectacles de haute qualité sur les sites de Cam Sex. Rencontrez de vrais modèles dans des discussions privées.",
+      "Keywords": "Top 10 des sites de chat, Cam Sex, Chat Sexuel en Direct, Cams Sexe Gratuites"
     },
     "TeenChat": {
       "Title": "Chat pour Adolescents",
-      "Description": "Explorez les meilleurs sites de Chat pour Adolescents et connectez-vous instantanément avec des salles de chat en direct pour adolescents en ligne.",
+      "Description": "Explorez les meilleurs sites de chat pour adolescents et connectez-vous instantanément avec des salles de chat en direct pour ados en ligne.",
       "Keywords": "Chat pour Adolescents, Chat en Direct pour Adolescents, Salles de Chat pour Adolescents Gratuites"
     },
     "VoyeurCam": {
       "Title": "Caméra Voyeur",
-      "Description": "Regardez des moments privés en direct sur Voyeur Cam et découvrez les meilleurs sites de caméra voyeur en ligne.",
+      "Description": "Regardez des moments privés en direct sur une caméra voyeur et découvrez les meilleurs sites de caméras voyeuses en ligne.",
       "Keywords": "Caméra Voyeur, Sites Voyeurs, Caméras Voyeuses en Direct"
     },
     "SexCam": {
       "Title": "Cam Sex",
-      "Description": "Profitez de spectacles en direct de haute qualité sur les meilleurs sites de Sex Cam et rencontrez des modèles réels dans des discussions privées.",
-      "Keywords": "Cam Sex, Chat Sexuel en Direct, Sex Cams Gratuits"
+      "Description": "Profitez de spectacles en direct de haute qualité sur les meilleurs sites de Cam Sex et rencontrez de vrais modèles dans des discussions privées.",
+      "Keywords": "Cam Sex, Chat Sexuel en Direct, Cams Sexe Gratuites"
     },
     "RandomChat": {
       "Title": "Chat Aléatoire",
-      "Description": "Rencontrez des inconnus du monde entier instantanément avec Random Chat — des connexions amusantes et gratuites à tout moment.",
+      "Description": "Rencontrez des inconnus du monde entier instantanément avec le Chat Aléatoire — des connexions amusantes et gratuites à tout moment.",
       "Keywords": "Chat Aléatoire, Discuter avec des Inconnus, Chat Vidéo Aléatoire Gratuit"
     },
     "MilfChat": {
@@ -41,9 +41,9 @@
       "Keywords": "Chat Gratuit, Chat Vidéo Gratuit, Salles de Chat en Ligne Gratuites"
     },
     "FetishChat": {
-      "Title": "Chat Fétiche",
-      "Description": "Découvrez vos fantasmes avec Fetish Chat — les meilleurs endroits pour explorer le kink et les cams fétiches en direct.",
-      "Keywords": "Chat Fétiche, Chat Kink, Cams Fétiches en Direct"
+      "Title": "Chat Fétichiste",
+      "Description": "Découvrez vos fantasmes avec le Chat Fétichiste — les meilleurs endroits pour explorer le kink et les cams fétichistes en direct.",
+      "Keywords": "Chat Fétichiste, Chat Kink, Cams Fétichistes en Direct"
     },
     "EbonyChat": {
       "Title": "Chat Ébène",
@@ -52,13 +52,13 @@
     },
     "BbwChat": {
       "Title": "Chat BBW",
-      "Description": "Rencontrez et discutez en direct avec de beaux modèles BBW dans les meilleures salles de chat BBW en ligne.",
+      "Description": "Rencontrez et discutez en direct avec de beaux modèles BBW (Femmes aux Formes Généreuses) dans les meilleures salles de chat BBW en ligne.",
       "Keywords": "Chat BBW, Chat Taille Plus, Cams Live BBW"
     },
     "Terms": {
       "Title": "Conditions d'Utilisation",
-      "Description": "Lisez les Conditions d'Utilisation et comprenez les règles et politiques pour utiliser Fetish Chat.",
-      "Keywords": "Fetish Chat, Conditions d'Utilisation, Politique de Confidentialité, Accord Utilisateur"
+      "Description": "Lisez les Conditions d'Utilisation et comprenez les règles et politiques pour utiliser le Chat Fétichiste.",
+      "Keywords": "Chat Fétichiste, Conditions d'Utilisation, Politique de Confidentialité, Accord Utilisateur"
     },
     "Sites": {
       "Title": "Sites",
@@ -68,8 +68,8 @@
   },
   "Header": {
     "nav": {
-      "top10": "Top 10 Sites",
-      "sexCams": "Cams Sex",
+      "top10": "Top 10 des Sites",
+      "sexCams": "Cams Sexe",
       "freeChat": "Chat Gratuit",
       "milfChat": "Chat MILF",
       "bbwChat": "Chat BBW",
@@ -80,7 +80,7 @@
       "voyeurCam": "Cam Voyeur"
     },
     "search": {
-      "placeholder": "Recherchez n’importe quoi…",
+      "placeholder": "Rechercher…",
       "button": "Go"
     }
   },
@@ -127,7 +127,7 @@
     }
   },
   "camPost": {
-    "readReview": "Lire l’Avis Complet",
+    "readReview": "Lire l'avis complet",
     "visit": "Visiter {title}",
     "activeUsers": "En ligne maintenant"
   },
