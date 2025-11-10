@@ -161,29 +161,40 @@ export default function YouLike({ category }: YouLikeProps) {
       slug: site.slug, // <-- pass slug here
     }));
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: Math.min(4, Math.max(1, filteredCards.length)),
-    slidesToScroll: 1,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: { slidesToShow: Math.max(3, filteredCards.length) },
-      },
-      {
-        breakpoint: 768,
-        settings: { slidesToShow: Math.max(2, filteredCards.length) },
-      },
-      {
-        breakpoint:767,
-        settings: { slidesToShow: 1 },
-      },
-    ],
-  };
+    const settings = {
+      dots: false,
+      infinite: true,
+      speed: 500,
+      slidesToShow: Math.min(4, filteredCards.length),
+      slidesToScroll: 1,
+      nextArrow: <NextArrow />,
+      prevArrow: <PrevArrow />,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: Math.min(3, filteredCards.length),
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: Math.min(2, filteredCards.length),
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+           
+          },
+        },
+      ],
+    };
+    
 
   // if no cards, render nothing (or you can return a placeholder)
   if (filteredCards.length === 0) {
