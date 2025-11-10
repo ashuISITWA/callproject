@@ -1728,6 +1728,11 @@
     }
   },
   "SearchPage": {
+    "searchBanner": {
+      "title": "Buscar - Encuentra los Mejores Sitios de Chat para Adultos",
+      "subtitle": "Refina tus filtros de búsqueda para encontrar la coincidencia perfecta o sala de chat para tus preferencias.",
+      "searchingFor": "Buscando: {query}"
+    },
     "title": "Resultados de búsqueda ({count})",
     "showing": "Coincidencias para \"{query}\"",
     "noResults": "Nada encontrado: prueba otras palabras.",

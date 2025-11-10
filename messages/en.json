@@ -1722,7 +1722,8 @@
   "SearchPage": {
     "searchBanner": {
       "title": "Search - Find the Best Adult Chat Sites",
-      "subtitle": "Refine your search filters to find the perfect match or chat room for your preferences."
+      "subtitle": "Refine your search filters to find the perfect match or chat room for your preferences.",
+      "searchingFor": "Searching for: {query}"
     },
     "title": "Search results ({count})",
     "showing": "Matches for “{query}”",

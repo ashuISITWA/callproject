@@ -1,146 +1,146 @@
 {
-"metadata": {
-  "title": "Top Chats",
-  "description": "Your go-to spot for the best live chat sites",
-  "keywords": "live chat, cam sites, adult cams"
-},
-"SEO": {
-  "Top10Chat": {
-    "Title": "Top 10 Chat Sites",
-    "Description": "Check out the hottest live cam sites where real models put on steamy private shows.",
-    "Keywords": "top chat sites, sex cams, live chat, free cams"
+  "metadata": {
+    "title": "Top Chats",
+    "description": "Il tuo punto di riferimento per i migliori siti di live chat",
+    "keywords": "live chat, siti cam, webcam per adulti"
   },
-  "TeenChat": {
-    "Title": "Teen Chat Rooms",
-    "Description": "Jump into lively teen chat rooms and connect with fun, flirty young cams instantly.",
-    "Keywords": "teen chat, young cams, free teen rooms"
+  "SEO": {
+    "Top10Chat": {
+      "Title": "Top 10 Siti di Chat",
+      "Description": "Scopri i siti di live cam più hot dove modelle reali offrono spettacoli privati piccanti.",
+      "Keywords": "migliori siti chat, sex cam, live chat, webcam gratis"
+    },
+    "TeenChat": {
+      "Title": "Chat Room per Teenager",
+      "Description": "Tuffati in vivaci chat per teenager e connettiti istantaneamente con giovani webcam divertenti e civette.",
+      "Keywords": "chat teenager, webcam giovani, chat room teen gratis"
+    },
+    "VoyeurCam": {
+      "Title": "Webcam Voyeur",
+      "Description": "Sbirciare in veri momenti privati con i migliori siti di webcam voyeur online.",
+      "Keywords": "webcam voyeur, telecamere nascoste, voyeur live"
+    },
+    "SexCam": {
+      "Title": "Sex Cam",
+      "Description": "Goditi spettacoli live di alto livello e avvicinati a modelle stupende in chat private.",
+      "Keywords": "sex cam, sex live, webcam gratis"
+    },
+    "RandomChat": {
+      "Title": "Chat Random",
+      "Description": "Incontra sconosciuti casuali da tutto il mondo - gratis, veloce e pieno di sorprese!",
+      "Keywords": "chat random, chatroulette, video chat"
+    },
+    "MilfChat": {
+      "Title": "Chat MILF",
+      "Description": "Chatta con donne mature sexy sui migliori siti di webcam MILF - live e pronte per divertirsi.",
+      "Keywords": "chat MILF, webcam mature, chat cougar"
+    },
+    "FreeChat": {
+      "Title": "Chat Gratis",
+      "Description": "Nessuna registrazione, nessun costo - salta direttamente in chat live gratis e divertiti.",
+      "Keywords": "chat gratis, video chat, chat room online"
+    },
+    "FetishChat": {
+      "Title": "Chat Fetish",
+      "Description": "Esplora le tue fantasie con webcam fetish selvagge e chat BDSM live.",
+      "Keywords": "chat fetish, webcam kink, BDSM live"
+    },
+    "EbonyChat": {
+      "Title": "Chat Ebano",
+      "Description": "Connettiti con stupende modelle di colore in chat room ebano scottanti - gratis da guardare!",
+      "Keywords": "chat ebano, webcam nere, ebano live"
+    },
+    "BbwChat": {
+      "Title": "Chat BBW",
+      "Description": "Chatta live con bellezze formose BBW sui migliori siti di webcam taglie forti.",
+      "Keywords": "chat BBW, webcam formose, taglie forti live"
+    },
+    "Terms": {
+      "Title": "Termini di Servizio",
+      "Description": "Le nostre semplici regole per mantenere tutto divertente, sicuro e giusto per tutti.",
+      "Keywords": "termini, privacy, accordo utente"
+    },
+    "Sites": {
+      "Title": "Tutti i Siti",
+      "Description": "Sfoglia ogni sito di chat e webcam top che abbiamo recensito - il tuo negozio unico.",
+      "Keywords": "siti webcam, piattaforme chat, recensioni"
+    },
+    "Search": {
+      "Title": "Cerca - Trova i Migliori Siti di Chat per Adulti",
+      "Description": "Cerca e scopri i migliori siti di chat per adulti, siti webcam e piattaforme di sex chat live.",
+      "Keywords": "cerca chat adulti, trova siti webcam, ricerca siti adulti"
+    }
   },
-  "VoyeurCam": {
-    "Title": "Voyeur Cams",
-    "Description": "Peek into real private moments with the best voyeur cam sites online.",
-    "Keywords": "voyeur cams, hidden cams, live voyeur"
+  "Header": {
+    "nav": {
+      "top10": "Top 10 Siti",
+      "sexCams": "Sex Cam",
+      "freeChat": "Chat Gratis",
+      "milfChat": "Chat MILF",
+      "bbwChat": "Chat BBW",
+      "ebonyChat": "Chat Ebano",
+      "teenChat": "Chat Teenager",
+      "randomChat": "Chat Random",
+      "fetishChat": "Chat Fetish",
+      "voyeurCam": "Webcam Voyeur"
+    },
+    "search": {
+      "placeholder": "Cerca qualsiasi cosa...",
+      "button": "Vai"
+    }
   },
-  "SexCam": {
-    "Title": "Sex Cams",
-    "Description": "Enjoy top-notch live shows and get up close with gorgeous models in private chats.",
-    "Keywords": "sex cams, live sex, free cams"
+  "Banner": {
+    "top10chat": {
+      "title": "Top 10 Siti di Chat 2025",
+      "subtitle": "Scopri le piattaforme meglio valutate per l'interazione live e l'impegno comunitario di quest'anno."
+    },
+    "sexCams": {
+      "title": "Siti Sex Cam 2025",
+      "subtitle": "Esplora le migliori esperienze di webcam per adulti live con modelle da tutto il mondo."
+    },
+    "freeChat": {
+      "title": "Siti Chat Gratis 2025",
+      "subtitle": "Connettiti con nuove persone all'istante senza costi di abbonamento o spese nascoste."
+    },
+    "milfChat": {
+      "title": "Siti Chat MILF 2025",
+      "subtitle": "Trova partner mature ed esperte per conversazioni eccitanti e sofisticate."
+    },
+    "bbwChat": {
+      "title": "Siti Chat BBW 2025",
+      "subtitle": "Unisciti a una comunità accogliente che celebra le curve e le connessioni genuine."
+    },
+    "ebonyChat": {
+      "title": "Siti Chat Ebano 2025",
+      "subtitle": "Immergiti in comunità vivaci con modelle e utenti ebano bellissimi."
+    },
+    "teenChat": {
+      "title": "Siti Chat Teenager 2025",
+      "subtitle": "Incontra un pubblico più giovane in dinamiche chat room progettate per la prossima generazione. (18+)"
+    },
+    "randomChat": {
+      "title": "Siti Chat Random 2025",
+      "subtitle": "Vivi l'emozione di parlare con sconosciuti casuali con un clic."
+    },
+    "fetishChat": {
+      "title": "Siti Chat Fetish 2025",
+      "subtitle": "Tuffati in comunità di nicchia che soddisfano un'ampia varietà di interessi e fantasie specifiche."
+    },
+    "voyeurCam": {
+      "title": "Siti Webcam Voyeur 2025",
+      "subtitle": "Guarda live stream autentici e non scriptati comodamente da casa tua."
+    }
   },
-  "RandomChat": {
-    "Title": "Random Chat",
-    "Description": "Meet random strangers from anywhere—free, fast, and full of surprises!",
-    "Keywords": "random chat, chatroulette, video chat"
+  "camPost": {
+    "readReview": "Leggi Recensione",
+    "visit": "Visita {title}",
+    "activeUsers": "Online ora"
   },
-  "MilfChat": {
-    "Title": "MILF Chat",
-    "Description": "Chat with sexy mature women on the best MILF cam sites—live and ready for fun.",
-    "Keywords": "MILF chat, mature cams, cougar chat"
+  "getUpdateInbox": {
+    "title": "Vuoi le ultime offerte nella tua email?",
+    "placeholder": "La tua email",
+    "button": "Sì, iscrivimi!"
   },
-  "FreeChat": {
-    "Title": "Free Chat",
-    "Description": "No sign-up, no fees—just jump into free live chats and have a blast.",
-    "Keywords": "free chat, video chat, online rooms"
-  },
-  "FetishChat": {
-    "Title": "Fetish Chat",
-    "Description": "Explore your kinks with wild fetish cams and live BDSM chats.",
-    "Keywords": "fetish chat, kink cams, BDSM live"
-  },
-  "EbonyChat": {
-    "Title": "Ebony Chat",
-    "Description": "Connect with stunning Black models in sizzling ebony chat rooms—free to watch!",
-    "Keywords": "ebony chat, Black cams, live ebony"
-  },
-  "BbwChat": {
-    "Title": "BBW Chat",
-    "Description": "Chat live with curvy BBW beauties on the top plus-size cam sites.",
-    "Keywords": "BBW chat, curvy cams, plus-size live"
-  },
-  "Terms": {
-    "Title": "Terms of Service",
-    "Description": "Our simple rules to keep things fun, safe, and fair for everyone.",
-    "Keywords": "terms, privacy, user agreement"
-  },
-  "Sites": {
-    "Title": "All Sites",
-    "Description": "Browse every top-rated cam and chat site we've reviewed—your one-stop shop.",
-    "Keywords": "cam sites, chat platforms, reviews"
-  },
-  "Search": {
-    "Title": "Search - Find the Best Adult Chat Sites",
-    "Description": "Search and discover the top adult chat sites, cam sites, and live sex chat platforms.",
-    "Keywords": "search adult chat, find cam sites, adult sites search"
-  }
-},
-"Header": {
-  "nav": {
-    "top10": "Top 10 Sites",
-    "sexCams": "Sex Cams",
-    "freeChat": "Free Chat",
-    "milfChat": "MILF Chat",
-    "bbwChat": "BBW Chat",
-    "ebonyChat": "Ebony Chat",
-    "teenChat": "Teen Chat",
-    "randomChat": "Random Chat",
-    "fetishChat": "Fetish Chat",
-    "voyeurCam": "Voyeur Cam"
-  },
-  "search": {
-    "placeholder": "Search anything...",
-    "button": "Go"
-  }
-},
-"Banner": {
-  "top10chat": {
-    "title": "Top 10 Chat Sites 2025",
-    "subtitle": "Discover the highest-rated platforms for live interaction and community engagement this year."
-  },
-  "sexCams": {
-    "title": "Sex Cam Sites 2025",
-    "subtitle": "Explore the best live adult webcam experiences with models from around the world."
-  },
-  "freeChat": {
-    "title": "Free Chat Sites 2025",
-    "subtitle": "Connect with new people instantly without any subscription fees or hidden costs."
-  },
-  "milfChat": {
-    "title": "MILF Chat Sites 2025",
-    "subtitle": "Find mature and experienced partners for exciting and sophisticated conversations."
-  },
-  "bbwChat": {
-    "title": "BBW Chat Sites 2025",
-    "subtitle": "Join a welcoming community that celebrates curvy figures and genuine connections."
-  },
-  "ebonyChat": {
-    "title": "Ebony Chat Sites 2025",
-    "subtitle": "Immerse yourself in vibrant communities featuring beautiful ebony models and users."
-  },
-  "teenChat": {
-    "title": "Teen Chat Sites 2025",
-    "subtitle": "Meet a younger crowd in dynamic chat rooms designed for the next generation. (18+)"
-  },
-  "randomChat": {
-    "title": "Random Chat Sites 2025",
-    "subtitle": "Experience the thrill of talking to random strangers with the click of a button."
-  },
-  "fetishChat": {
-    "title": "Fetish Chat Sites 2025",
-    "subtitle": "Dive into niche communities catering to a wide variety of specific interests and kinks."
-  },
-  "voyeurCam": {
-    "title": "Voyeur Cam Sites 2025",
-    "subtitle": "Watch authentic, unscripted live streams from the comfort and privacy of your home."
-  }
-},
-"camPost": {
-  "readReview": "Read Review",
-  "visit": "Visit {title}",
-  "activeUsers": "Online now"
-},
-"getUpdateInbox": {
-  "title": "Want the latest deals in your inbox?",
-  "placeholder": "Your email",
-  "button": "Yes, sign me up!"
-},
   "weTested": {
     "topChats": {
       "title": "Abbiamo Testato Ogni Sito di Chat Per Te",
@@ -1721,7 +1721,8 @@
   "SearchPage": {
     "searchBanner": {
       "title": "Cerca - Trova i Migliori Siti di Chat per Adulti",
-      "subtitle": "Affina i filtri di ricerca per trovare la corrispondenza o la chat room perfetta per le tue preferenze."
+      "subtitle": "Affina i filtri di ricerca per trovare la corrispondenza o la chat room perfetta per le tue preferenze.",
+      "searchingFor": "Cercando: {query}"
     },
     "title": "Risultati di ricerca ({count})",
     "showing": "Risultati per \"{query}\"",

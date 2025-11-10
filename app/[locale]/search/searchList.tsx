@@ -76,7 +76,7 @@ export default function SearchList() {
           <div className="w-full mx-auto px-[15px]">
             <div className="flex flex-col gap-[15px]">
               <h1 className="md:text-[40px] lg:text-[80px] text-black font-bold text-center capitalize">
-                {query ? `Searching for: ${query}` : t("searchBanner.title")}
+                {query ? t("searchBanner.searchingFor", { query }) : t("searchBanner.title")}
               </h1>
               <p className="text-[20px] text-black text-center">
                 {query ? t("showing", { query }) : t("searchBanner.subtitle")}

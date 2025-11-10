@@ -1721,7 +1721,8 @@
   "SearchPage": {
     "searchBanner": {
       "title": "Arama - En İyi Yetişkin Sohbet Sitelerini Bulun",
-      "subtitle": "Tercihlerinize uygun mükemmel eşleşmeyi veya sohbet odasını bulmak için arama filtrelerinizi daraltın."
+      "subtitle": "Tercihlerinize uygun mükemmel eşleşmeyi veya sohbet odasını bulmak için arama filtrelerinizi daraltın.",
+      "searchingFor": "Aranıyor: {query}"
     },
     "title": "Arama sonuçları ({count})",
     "showing": "“{query}” için eşleşmeler",

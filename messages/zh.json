@@ -1722,7 +1722,8 @@
   "SearchPage": {
     "searchBanner": {
       "title": "搜索 - 寻找最佳成人聊天网站",
-      "subtitle": "优化您的搜索过滤器，找到符合您偏好的完美匹配或聊天室。"
+      "subtitle": "优化您的搜索过滤器，找到符合您偏好的完美匹配或聊天室。",
+      "searchingFor": "正在搜索: {query}"
     },
     "title": "搜索结果 ({count})",
     "showing": "匹配 \"{query}\" 的结果",

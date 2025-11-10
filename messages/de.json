@@ -1720,6 +1720,11 @@
     }
   },
   "SearchPage": {
+    "searchBanner": {
+      "title": "Suche - Finde die Besten Erwachsenen-Chat-Seiten",
+      "subtitle": "Verfeinere deine Suchfilter, um die perfekte Übereinstimmung oder den Chatraum für deine Präferenzen zu finden.",
+      "searchingFor": "Suche nach: {query}"
+    },
     "title": "Suchergebnisse ({count})",
     "showing": "Treffer für „{query}“",
     "noResults": "Nichts gefunden – probiere andere Wörter.",

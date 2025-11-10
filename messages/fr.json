@@ -1750,6 +1750,11 @@
     }
   },
   "SearchPage": {
+    "searchBanner": {
+      "title": "Recherche - Trouvez les Meilleurs Sites de Chat pour Adultes",
+      "subtitle": "Affinez vos filtres de recherche pour trouver la correspondance parfaite ou la salle de chat pour vos préférences.",
+      "searchingFor": "Recherche de: {query}"
+    },
     "title": "Résultats de recherche ({count})",
     "showing": "Correspondances pour « {query} »",
     "noResults": "Rien trouvé — essayez d’autres mots.",
