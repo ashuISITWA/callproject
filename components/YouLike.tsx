@@ -179,7 +179,7 @@ export default function YouLike({ category }: YouLikeProps) {
         settings: { slidesToShow: Math.min(2, filteredCards.length) },
       },
       {
-        breakpoint: 600,
+        breakpoint:767,
         settings: { slidesToShow: 1 },
       },
     ],
