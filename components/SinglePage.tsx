@@ -70,7 +70,7 @@ export default function SinglePage({
   const effectiveUrl = visitUrl || `/out/${site.slug}` || "/";
 
   // ✅ Helper function to get full image URL
-  const getImageUrl = (imagePath: string) => {
+  const getImageUrl = (imagePath: string | undefined) => {
     if (!imagePath) return '/images/placeholder.jpg';
     
     // If it's already a full URL, return as is
@@ -244,7 +244,7 @@ export default function SinglePage({
 
               <div className="block h-[300px] rounded-md overflow-hidden">
                 <img
-                  src={getImageUrl(slugMessages?.featureImage || site.featureImage)}
+                  src={getImageUrl((slugMessages?.featureImage as string) || site.hero)}
                   className="h-full w-full object-cover"
                   width={600}
                   height={300}
@@ -282,7 +282,7 @@ export default function SinglePage({
               
               <div className="block h-[300px] rounded-md overflow-hidden">
                 <img
-                  src={getImageUrl(slugMessages?.benefitImage || site.benefitImage)}
+                  src={getImageUrl((slugMessages?.benefitImage as string) || site.hero)}
                   className="h-full w-full object-cover"
                   width={600}
                   height={300}
