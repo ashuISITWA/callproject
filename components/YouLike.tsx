@@ -172,11 +172,11 @@ export default function YouLike({ category }: YouLikeProps) {
     responsive: [
       {
         breakpoint: 1024,
-        settings: { slidesToShow: Math.min(3, filteredCards.length) },
+        settings: { slidesToShow: Math.max(3, filteredCards.length) },
       },
       {
         breakpoint: 768,
-        settings: { slidesToShow: Math.min(2, filteredCards.length) },
+        settings: { slidesToShow: Math.max(2, filteredCards.length) },
       },
       {
         breakpoint:767,
