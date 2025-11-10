@@ -242,7 +242,7 @@ export default function SinglePage({
                 </div>
               </div>
 
-              <div className="block h-[300px] rounded-md overflow-hidden">
+              <div className="block  rounded-md overflow-hidden aspect-video">
                 <img
                   src={getImageUrl((slugMessages?.featureImage as string) || site.hero)}
                   className="h-full w-full object-cover"
@@ -280,7 +280,7 @@ export default function SinglePage({
                 </div>
               </div>
               
-              <div className="block h-[300px] rounded-md overflow-hidden">
+              <div className="block  rounded-md overflow-hidden aspect-video">
                 <img
                   src={getImageUrl((slugMessages?.benefitImage as string) || site.hero)}
                   className="h-full w-full object-cover"
