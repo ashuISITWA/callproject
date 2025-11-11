@@ -378,5 +378,25 @@
     "logo": "/voyeurhouse-logo.png",
     "performers": "5,456+",
     "rating": 5
+  },
+  {
+    "id": "37",
+    "slug": "coomeet",
+    "title": "Coomeet",
+    "categories": ["random", "stranderchat", "camchat"],
+    "hero": "/comeet.jpg",
+    "logo": "/comeet.svg",
+    "performers": "5,456+",
+    "rating": 5
+  },
+  {
+    "id": "38",
+    "slug": "chatrandom",
+    "title": "Chatrandom",
+    "categories": ["random", "stranderchat", "camchat"],
+    "hero": "/chatrandom.jpg",
+    "logo": "/chatrandom.svg",
+    "performers": "5,456+",
+    "rating": 4
   }
 ]

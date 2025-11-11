@@ -8,6 +8,7 @@ import it from "./it.json";
 import ru from "./ru.json";
 import zh from "./zh.json";
 import tr from "./tr.json";
+import nl from "./nl.json";
 
 const messagesMap = {
   en,
@@ -19,7 +20,8 @@ const messagesMap = {
   it,
   ru,
   zh,
-  tr
+  tr,
+  nl
 };
 
 export default messagesMap;

@@ -24,7 +24,7 @@ export async function generateMetadata({
   };
 
   const title = query 
-    ? `Searching for: ${query} - Find the Best Adult Chat Sites`
+    ? `${query}`
     : seoData.Title;
 
   return {

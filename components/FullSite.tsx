@@ -197,7 +197,7 @@ export default function FullSite() {
 
                       return (
                         <div
-                          key={site.id || index}
+                          key={`${category}-${site.slug || site.id || index}`}
                           className="flex flex-wrap gap-4 items-center bg-white py-[15px] px-[20px] rounded-md justify-center md:justify-between shadow"
                         >
                           {/* Thumbnail */}

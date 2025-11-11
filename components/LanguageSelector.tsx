@@ -19,6 +19,7 @@ const languages = [
   { code: "ru", name: "Русский", flag: `${SERVER_URL}/flags/ru.svg`},
   { code: "zh", name: "中文", flag: `${SERVER_URL}/flags/zh.svg`},
   { code: "tr", name: "Türkçe", flag: `${SERVER_URL}/flags/tr.svg`},
+  { code: "nl", name: "Nederlands", flag: `${SERVER_URL}/flags/nl.svg`},
 ];
 
 export default function LanguageSelector() {

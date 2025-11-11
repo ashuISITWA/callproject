@@ -718,6 +718,38 @@
         "enabled": true,
         "tracking": true
       }
+    },
+    "coomeet": {
+      "global": "https://www.coomeet.com/",
+      "countries": {
+        "IN": "https://coomeet.in",
+        "CA": "https://coomeet.ca",
+        "UK": "https://coomeet.co.uk",
+        "AU": "https://coomeet.com.au"
+      },
+      "metadata": {
+        "title": "coomeet",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "chatrandom": {
+      "global": "https://www.chatrandom.com/",
+      "countries": {
+        "IN": "https://chatrandom.in",
+        "CA": "https://chatrandom.ca",
+        "UK": "https://chatrandom.co.uk",
+        "AU": "https://chatrandom.com.au"
+      },
+      "metadata": {
+        "title": "chatrandom",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     }
   },
   "config": {

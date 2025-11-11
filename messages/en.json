@@ -1717,13 +1717,77 @@
         "Unique interface designed for observational entertainment",
         "Optimal mobile performance for real-time access"
       ]
+    },
+    "coomeet": {
+      "toppara": "Coomeet redefines adult webcam entertainment by prioritizing genuine, one-on-one connections. The platform facilitates random video chats with real people, creating an atmosphere of spontaneous and authentic interaction. It's designed for users who seek a more personal and immediate experience, moving beyond passive viewing to active participation.",
+      "secppara": "At its core, Coomeet is about serendipitous discovery and private conversations. The platform connects you directly with performers for intimate, unscripted chats. This model fosters a sense of real-time connection and exclusivity, offering a dynamic alternative to pre-recorded content or crowded public chat rooms. It's the ideal space for those who value personal chemistry and private engagement.",
+      "pricingDescription": "Coomeet offers a free tier that allows users to sample random connections. To unlock its full potential, a credit-based premium membership grants unlimited access, removes ads, provides gender filters, and enables private, one-on-one sessions for a seamless and personalized experience.",
+      "hiddenFees": "Coomeet maintains transparent pricing. All costs are clearly outlined for its credit packages and premium memberships, with no surprise charges.",
+      "drawbacksDescription": "To maintain a respectful and secure community, full access to all features, including filtering and unlimited chatting, requires a quick account registration.",
+      "excerpt": "Random video chat, one-on-one connections, live cam models, private shows, authentic interaction",
+      "overview": "Coomeet delivers instant, live connections through high-quality video chat. Discover a diverse array of performers in real-time, engage in private conversations, and build a list of favorites. With a user-friendly interface, efficient registration, and smooth mobile performance, Coomeet is built for spontaneous and intimate adult entertainment.",
+      "featureImage": "/comeet1.jpg",
+      "benefitImage": "/comeet2.jpg",
+      "features": [
+        "Random video chat for spontaneous discovery",
+        "Instant one-on-one private chat rooms",
+        "Gender and region filters to refine your search",
+        "Favorite model list for easy reconnection",
+        "Clean, intuitive interface for seamless navigation",
+        "Live text chat alongside video feeds"
+      ],
+      "postlabel": [
+        "Start a Random Chat",
+        "Enter a Private Show",
+        "Find Your Favorite",
+        "Upgrade for Full Access"
+      ],
+      "benefits": [
+        "High-definition video streaming for a crystal-clear experience",
+        "Direct, unfiltered interaction with performers",
+        "A platform focused on real-time chemistry and connection",
+        "A safe and moderated environment for all users",
+        "Optimized for desktop and mobile use"
+      ]
+    },
+    "chatrandom": {
+      "toppara": "Chatrandom is a dynamic and diverse adult chat platform that brings the excitement of chat roulette to life. It connects you with a global community of users and performers through random video and text chat, offering a fast-paced and varied social experience. It's the go-to destination for those who enjoy discovery, group interactions, and a bustling online environment.",
+      "secppara": "Chatrandom thrives on variety and community energy. Beyond one-on-one chats, the platform offers themed group chat rooms, allowing you to join conversations based on shared interests. With features like virtual masks and country-specific filters, Chatrandom provides a fun, customizable, and engaging way to explore live adult content and connect with people worldwide.",
+      "pricingDescription": "Enjoy free access to basic video chat and group rooms. A premium subscription unlocks advanced features like ad-free browsing, the ability to message men and couples, HD video quality, and priority access in chat queues for an superior experience.",
+      "hiddenFees": "Chatrandom operates with clear, upfront subscription models. There are no hidden fees, and users are notified before any auto-renewals.",
+      "drawbacksDescription": "The free experience includes advertisements and limited filtering options. Full, unrestricted access requires a premium upgrade.",
+      "excerpt": "Group chat rooms, global community, random video chat, themed interests, virtual masks",
+      "overview": "Chatrandom offers a multifaceted chat experience with instant connections to individuals and groups. Explore a wide range of public chat rooms or jump into random private video chats. With robust filtering options, fun virtual effects, and a strong focus on community, it provides an entertaining and social platform for adult interactions.",
+      "featureImage": "/chatrandom1.jpg",
+      "benefitImage": "/chatrandom2.jpg",
+      "features": [
+        "Themed group chat rooms for shared interests",
+        "Country and gender filters to control your connections",
+        "Fun virtual masks and effects for added privacy or fun",
+        "Text-based chat available alongside video",
+        "A vast and active global user base",
+        "Mobile-optimized design for chatting on the go"
+      ],
+      "postlabel": [
+        "Join a Group Room",
+        "Start Video Chatting",
+        "Apply Filters & Effects",
+        "Go Premium for More"
+      ],
+      "benefits": [
+        "Experience the energy of live group interactions",
+        "Connect with a diverse and global community",
+        "Customize your chat experience with filters and effects",
+        "A constantly refreshed pool of new people to meet",
+        "A feature-packed platform that encourages exploration and fun"
+      ]
     }
   },
   "SearchPage": {
     "searchBanner": {
-      "title": "Search - Find the Best Adult Chat Sites",
+      "title": "{query}",
       "subtitle": "Refine your search filters to find the perfect match or chat room for your preferences.",
-      "searchingFor": "Searching for: {query}"
+      "searchingFor": "{query}"
     },
     "title": "Search results ({count})",
     "showing": "Matches for “{query}”",
