@@ -398,5 +398,75 @@
     "logo": "/chatrandom.svg",
     "performers": "5,456+",
     "rating": 4
+  },
+  {
+    "id": "39",
+    "slug": "omegle",
+    "title": "Omegle",
+    "categories": ["random", "stranderchat", "camchat"],
+    "hero": "/omegle.jfif",
+    "logo": "/omegle.png",
+    "performers": "5,456+",
+    "rating": 5
+  },
+  {
+    "id": "40",
+    "slug": "ometv",
+    "title": "Ometv",
+    "categories": ["random", "stranderchat", "camchat"],
+    "hero": "/ometv.jpg",
+    "logo": "/ometv.svg",
+    "performers": "5,456+",
+    "rating": 5
+  },
+  {
+    "id": "41",
+    "slug": "strangercam",
+    "title": "Strangercam",
+    "categories": ["random", "stranderchat", "camchat"],
+    "hero": "/strangercam.jpg",
+    "logo": "/strangercamlogo.jpg",
+    "performers": "5,456+",
+    "rating": 5
+  },
+  {
+    "id": "42",
+    "slug": "chatspin",
+    "title": "chatspin",
+    "categories": ["random", "stranderchat", "camchat"],
+    "hero": "/chatspin.jpg",
+    "logo": "/chatspinlogo.svg",
+    "performers": "5,456+",
+    "rating": 5
+  },
+  {
+    "id": "43",
+    "slug": "shagle",
+    "title": "Shagle",
+    "categories": ["random", "stranderchat", "camchat"],
+    "hero": "/shagle.jpg",
+    "logo": "/shaglelogo.svg",
+    "performers": "5,456+",
+    "rating": 5
+  },
+  {
+    "id": "44",
+    "slug": "chatroulette",
+    "title": "chatroulette",
+    "categories": ["random", "stranderchat", "camchat"],
+    "hero": "/chatroulette.jpg",
+    "logo": "/chatroulettelogo.jpg",
+    "performers": "5,456+",
+    "rating": 5
+  },
+  {
+    "id": "45",
+    "slug": "flingster",
+    "title": "Flingster",
+    "categories": ["random", "stranderchat", "camchat"],
+    "hero": "/flingster.jpg",
+    "logo": "/flingsterlogo.jpg",
+    "performers": "5,456+",
+    "rating": 5
   }
 ]

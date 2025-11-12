@@ -736,7 +736,7 @@
       }
     },
     "chatrandom": {
-      "global": "https://www.chatrandom.com/",
+      "global": "https://coomeet.chat/",
       "countries": {
         "IN": "https://chatrandom.in",
         "CA": "https://chatrandom.ca",
@@ -745,6 +745,118 @@
       },
       "metadata": {
         "title": "chatrandom",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "omegle": {
+      "global": "https://www.omegle.fun/",
+      "countries": {
+        "IN": "https://omegle.in",
+        "CA": "https://omegle.ca",
+        "UK": "https://omegle.co.uk",
+        "AU": "https://omegle.com.au"
+      },
+      "metadata": {
+        "title": "omegle",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "ometv": {
+      "global": "https://ome.tv/",
+      "countries": {
+        "IN": "https://ometv.in",
+        "CA": "https://ometv.ca",
+        "UK": "https://ometv.co.uk",
+        "AU": "https://ometv.com.au"
+      },
+      "metadata": {
+        "title": "ometv",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "strangercam": {
+      "global": "https://www.strangercam.com/",
+      "countries": {
+        "IN": "https://strangercam.in",
+        "CA": "https://strangercam.ca",
+        "UK": "https://strangercam.co.uk",
+        "AU": "https://strangercam.com.au"
+      },
+      "metadata": {
+        "title": "strangercam",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "chatspin": {
+      "global": "https://www.chatspin.com/",
+      "countries": {
+        "IN": "https://chatspin.in",
+        "CA": "https://chatspin.ca",
+        "UK": "https://chatspin.co.uk",
+        "AU": "https://chatspin.com.au"
+      },
+      "metadata": {
+        "title": "chatspin",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "shagle": {
+      "global": "https://shagle.com/",
+      "countries": {
+        "IN": "https://shagle.in",
+        "CA": "https://shagle.ca",
+        "UK": "https://shagle.co.uk",
+        "AU": "https://shagle.com.au"
+      },
+      "metadata": {
+        "title": "shagle",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "chatroulette": {
+      "global": "https://chatroulette.com/",
+      "countries": {
+        "IN": "https://chatroulette.in",
+        "CA": "https://chatroulette.ca",
+        "UK": "https://chatroulette.co.uk",
+        "AU": "https://chatroulette.com.au"
+      },
+      "metadata": {
+        "title": "chatroulette",
+        "description": "Interactive adult cam site with private shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
+    },
+    "flingster": {
+      "global": "https://www.flingster.com/",
+      "countries": {
+        "IN": "https://flingster.in",
+        "CA": "https://flingster.ca",
+        "UK": "https://flingster.co.uk",
+        "AU": "https://flingster.com.au"
+      },
+      "metadata": {
+        "title": "flingster",
         "description": "Interactive adult cam site with private shows",
         "category": "adult",
         "enabled": true,
