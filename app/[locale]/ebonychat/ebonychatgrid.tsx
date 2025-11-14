@@ -27,9 +27,43 @@ export default function EbonyChatGrid({ category, siteKey }: Props) {
 
   const realCategory = "ebony";
 
-  // Filter sites & limit to 6
+  const getPerformersCount = (performers: string | undefined): number => {
+    if (!performers) return 0;
+
+    const numStr = performers.replace(/[,+\s]/g, "");
+    const num = parseInt(numStr, 10);
+    return isNaN(num) ? 0 : num;
+  };
+
   const filteredSites = camSites
-    .filter((site) => site.categories?.includes(realCategory))
+    .map((site, originalIndex) => ({ site, originalIndex }))
+    .filter(({ site }) => site.categories?.includes(realCategory))
+    .sort((a, b) => {
+      const aRating = a.site.rating || 0;
+      const bRating = b.site.rating || 0;
+      
+
+      if (aRating === bRating) {
+        const aPerformers = getPerformersCount(a.site.performers);
+        const bPerformers = getPerformersCount(b.site.performers);
+        
+
+        if (aPerformers === bPerformers) {
+          return a.originalIndex - b.originalIndex;
+        }
+        
+
+        return bPerformers - aPerformers;
+      }
+      
+
+      if (aRating === 5) return -1;
+      if (bRating === 5) return 1;
+      
+
+      return bRating - aRating;
+    })
+    .map(({ site }) => site)
     .slice(0, 7);
 
   const gridLayouts = [
@@ -173,7 +207,7 @@ export default function EbonyChatGrid({ category, siteKey }: Props) {
                   >
                     <div className="flex flex-col overflow-hidden group h-full">
                       {/* hover info */}
-                      <div className="absolute inset-0 z-[7] bg-white p-[15px] hidden group-hover:block">
+                      <div className="absolute inset-0 z-[7] bg-white px-[15px] pt-[25px] pb-[15px] hidden group-hover:block">
                         <div className="flex justify-center">
                           <div className="flex flex-col mx-auto w-auto gap-1">
                           {postlabel

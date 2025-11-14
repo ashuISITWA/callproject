@@ -38,12 +38,24 @@ export default function FullSite() {
     return `${SERVER_URL}${formatted}`;
   };
 
-  // ✅ Filtered sites if a category is selected
+  // ✅ Filtered sites if a category is selected, sorted by rating (descending), maintain original order for same ratings
   const filteredSites = selectedCategory
-    ? camSites.filter((site) =>
-        site.categories.includes(selectedCategory)
-      )
-    : camSites;
+    ? camSites
+        .map((site, originalIndex) => ({ site, originalIndex }))
+        .filter(({ site }) => site.categories.includes(selectedCategory))
+        .sort((a, b) => {
+          const ratingDiff = (b.site.rating || 0) - (a.site.rating || 0);
+          // If ratings are equal, maintain original order (first in JSON stays first)
+          return ratingDiff !== 0 ? ratingDiff : a.originalIndex - b.originalIndex;
+        })
+        .map(({ site }) => site)
+    : camSites
+        .map((site, originalIndex) => ({ site, originalIndex }))
+        .sort((a, b) => {
+          const ratingDiff = (b.site.rating || 0) - (a.site.rating || 0);
+          return ratingDiff !== 0 ? ratingDiff : a.originalIndex - b.originalIndex;
+        })
+        .map(({ site }) => site);
 
   // ✅ Get unique categories (only used if showing all)
   const allCategories = Array.from(
@@ -173,9 +185,16 @@ export default function FullSite() {
           <>
             {/* 🔹 Default: all categories grouped */}
             {allCategories.map((category) => {
-              const categorySites = filteredSites.filter((site) =>
-                site.categories.includes(category)
-              );
+              // Get sites for this category from original camSites, then sort by rating
+              const categorySites = camSites
+                .map((site, originalIndex) => ({ site, originalIndex }))
+                .filter(({ site }) => site.categories.includes(category))
+                .sort((a, b) => {
+                  const ratingDiff = (b.site.rating || 0) - (a.site.rating || 0);
+                  // If ratings are equal, maintain original order (first in JSON stays first)
+                  return ratingDiff !== 0 ? ratingDiff : a.originalIndex - b.originalIndex;
+                })
+                .map(({ site }) => site);
 
               if (categorySites.length === 0) return null;
 

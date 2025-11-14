@@ -1,49 +1,85 @@
 [
   {
     "id": "1",
-    "slug": "rabbitscams", 
-    "title": "RabbitsCams", 
-    "categories": ["top10chat", "sexcam", "milfchat", "bbw", "ebony", "teen", "random","voyeur"],
+    "slug": "rabbitscams",
+    "title": "RabbitsCams",
+    "categories": [
+      "top10chat",
+      "sexcam",
+      "milfchat",
+      "bbw",
+      "ebony",
+      "teen",
+      "random",
+      "voyeur"
+    ],
     "hero": "/g1.jpeg",
     "logo": "/glogo12.png",
     "performers": "8,347+ ",
-    "rating": 5
+    "rating": 2
   },
   {
     "id": "2",
     "slug": "crazylivecams",
     "title": "CrazyLiveCams",
-    "categories": ["top10chat", "sexcam", "ebony", "teen", "fetish","voyeur"],
+    "categories": [
+      "top10chat",
+      "sexcam",
+      "ebony",
+      "teen",
+      "fetish",
+      "voyeur"
+    ],
     "hero": "/g4.jpeg",
     "logo": "/glogo6.png",
     "performers": "7,892+ ",
-    "rating": 4
-  }, 
+    "rating": 3
+  },
   {
     "id": "3",
     "slug": "myfreecams",
     "title": "MyFreeCams",
-    "categories": ["top10chat", "freecams", "random","voyeur"],
+    "categories": [
+      "top10chat",
+      "freecams",
+      "random",
+      "voyeur"
+    ],
     "hero": "/g8.jpeg",
     "logo": "/glogo9.png",
     "performers": "6,145+ ",
-    "rating": 3
+    "rating": 1
   },
   {
     "id": "4",
     "slug": "camrabbit",
     "title": "Camrabbit",
-    "categories": ["top10chat", "milfchat","bbw", "ebony","teen", "random","voyeur"],
+    "categories": [
+      "top10chat",
+      "milfchat",
+      "bbw",
+      "ebony",
+      "teen",
+      "random",
+      "voyeur"
+    ],
     "hero": "/g10.png",
     "logo": "/glogo2.png",
     "performers": "9,234+ ",
-    "rating": 5
+    "rating": 1
   },
   {
     "id": "5",
     "slug": "chaturbate",
     "title": "Chaturbate",
-    "categories": ["top10chat", "freecams", "bbw", "ebony", "fetish","voyeur"],
+    "categories": [
+      "top10chat",
+      "freecams",
+      "bbw",
+      "ebony",
+      "fetish",
+      "voyeur"
+    ],
     "hero": "/g7.jpeg",
     "logo": "/glogo5.png",
     "performers": "5,678+ ",
@@ -53,37 +89,58 @@
     "id": "6",
     "slug": "xlovecam",
     "title": "Xlovecam",
-    "categories": ["top10chat", "bbw"],
+    "categories": [
+      "top10chat",
+      "bbw"
+    ],
     "hero": "/g9.png",
     "logo": "/glogo1.png",
     "performers": "4,567+ ",
-    "rating": 3
+    "rating": 2
   },
   {
     "id": "7",
     "slug": "livejasmin",
     "title": "Livejasmin",
-    "categories": ["top10chat", "sexcam", "freecams"],
+    "categories": [
+      "top10chat",
+      "sexcam",
+      "freecams"
+    ],
     "hero": "/g5.jpeg",
     "logo": "/glogo7.png",
     "performers": "7,123+ ",
-    "rating": 5
+    "rating": 3
   },
   {
     "id": "8",
     "slug": "imlive",
     "title": "Imlive",
-    "categories": ["top10chat", "sexcam", "milfchat"],
+    "categories": [
+      "top10chat",
+      "sexcam",
+      "milfchat"
+    ],
     "hero": "/imlive-straight-generic-1.png",
     "logo": "/new_imlive_logo_white_bg.png",
     "performers": "6,789+ ",
-    "rating": 5
+    "rating": 1
   },
   {
     "id": "9",
     "slug": "camsoda",
     "title": "Camsoda",
-    "categories": ["top10chat", "sexcam", "freecams", "milfchat", "bbw", "ebony", "teen", "fetish","voyeur"],
+    "categories": [
+      "top10chat",
+      "sexcam",
+      "freecams",
+      "milfchat",
+      "bbw",
+      "ebony",
+      "teen",
+      "fetish",
+      "voyeur"
+    ],
     "hero": "/g3.jpeg",
     "logo": "/glogo4.png",
     "performers": "9,456+ ",
@@ -93,17 +150,27 @@
     "id": "10",
     "slug": "bongacams",
     "title": "Bongacams",
-    "categories": ["top10chat", "sexcam", "freecams", "milfchat", "bbw"],
+    "categories": [
+      "top10chat",
+      "sexcam",
+      "freecams",
+      "milfchat",
+      "bbw"
+    ],
     "hero": "/g2.jpeg",
     "logo": "/glogo3.png",
     "performers": "3,891+ ",
-    "rating": 2
+    "rating": 3
   },
   {
     "id": "11",
     "slug": "flirt4free",
     "title": "Flirt4free",
-    "categories": [ "sexcam", "freecams", "fetish"],
+    "categories": [
+      "sexcam",
+      "freecams",
+      "fetish"
+    ],
     "hero": "/flirt4free-straight-generic-1.png",
     "logo": "/flirt-4-free.png",
     "performers": "5,234+ ",
@@ -113,27 +180,40 @@
     "id": "12",
     "slug": "stripchat",
     "title": "Stripchat",
-    "categories": [ "sexcam", "freecams"],
+    "categories": [
+      "sexcam",
+      "freecams"
+    ],
     "hero": "/stripchat-straight-generic-1.png",
     "logo": "/stripchat.png",
     "performers": "8,901+",
-    "rating": 4
+    "rating": 2
   },
   {
     "id": "13",
     "slug": "chatorgasm",
     "title": "Chatorgasm",
-    "categories": ["freecams"],
+    "categories": [
+      "freecams"
+    ],
     "hero": "/chatorgasm-review-top1.png",
     "logo": "/chatorgasm.png",
     "performers": "4,123+",
-    "rating": 3
+    "rating": 2
   },
   {
     "id": "14",
     "slug": "chatfly",
     "title": "Chatfly",
-    "categories": ["freecams", "milfchat", "bbw", "ebony", "teen", "fetish","voyeur"],
+    "categories": [
+      "freecams",
+      "milfchat",
+      "bbw",
+      "ebony",
+      "teen",
+      "fetish",
+      "voyeur"
+    ],
     "hero": "/Stripchat-Generic1.jpg",
     "logo": "/chatly-sex-logo-red.png",
     "performers": "6,789+",
@@ -143,47 +223,62 @@
     "id": "15",
     "slug": "cam4",
     "title": "Cam4",
-    "categories": ["freecams"],
+    "categories": [
+      "freecams"
+    ],
     "hero": "/camplace-straight-generic-1.png",
     "logo": "/cam4-logo-transparent.png",
     "performers": "7,456+",
-    "rating": 3
+    "rating": 2
   },
   {
     "id": "16",
     "slug": "sexcamly",
     "title": "Sexcamly",
-    "categories": ["milfchat", "ebony", "random"],
+    "categories": [
+      "milfchat",
+      "ebony",
+      "random"
+    ],
     "hero": "/sexcamly-straight-milf-2.jpg",
     "logo": "/sex-camly.png",
     "performers": "5,890+",
-    "rating": 4
+    "rating": 1
   },
   {
     "id": "17",
     "slug": "livecams",
     "title": "Livecams",
-    "categories": ["milfchat"],
+    "categories": [
+      "milfchat"
+    ],
     "hero": "/livecams-straight-milf-2.jpg",
     "logo": "/live-cams.png",
     "performers": "8,234+",
-    "rating": 5
+    "rating": 2
   },
   {
     "id": "18",
     "slug": "goadultcams",
     "title": "Goadultcams",
-    "categories": ["milfchat", "bbw", "ebony"],
+    "categories": [
+      "milfchat",
+      "bbw",
+      "ebony"
+    ],
     "hero": "/goadultcams-straight-milf-1.jpg",
     "logo": "/go-adult-cams.png",
     "performers": "4,567+",
-    "rating": 5
+    "rating": 1
   },
   {
     "id": "19",
     "slug": "sexyoncams",
     "title": "Sexyoncams",
-    "categories": ["milfchat", "bbw"],
+    "categories": [
+      "milfchat",
+      "bbw"
+    ],
     "hero": "/sexyoncams-straight-milf-2.jpg",
     "logo": "/sexy-on-cams2.png",
     "performers": "7,012+",
@@ -193,17 +288,21 @@
     "id": "20",
     "slug": "allbbwcams",
     "title": "Allbbwcams",
-    "categories": ["bbw"],
+    "categories": [
+      "bbw"
+    ],
     "hero": "/allbbwcams-straight-bbw-1.jpg",
     "logo": "/allbbwcams.png",
     "performers": "9,123+",
-    "rating": 5
+    "rating": 3
   },
   {
     "id": "21",
     "slug": "ebonystars",
     "title": "Ebonystars",
-    "categories": ["ebony"],
+    "categories": [
+      "ebony"
+    ],
     "hero": "/ebonystars-straight-generic-400x300-1.jpg",
     "logo": "/ebonystars.png",
     "performers": "5,345+",
@@ -213,260 +312,333 @@
     "id": "22",
     "slug": "goxxxcams",
     "title": "Goxxxcams",
-    "categories": ["ebony", "fetish"],
+    "categories": [
+      "ebony",
+      "fetish"
+    ],
     "hero": "/goxxxcams-straight-ebony-2.jpg",
     "logo": "/go-xxx-cams.png",
     "performers": "8,678+",
-    "rating": 5
+    "rating": 3
   },
   {
     "id": "23",
     "slug": "camgirlhookups",
     "title": "Camgirlhookups",
-    "categories": ["ebony", "teen"],
+    "categories": [
+      "ebony",
+      "teen"
+    ],
     "hero": "/imlive-straight-ebony-1.png",
     "logo": "/cam-girl-hookups.png",
     "performers": "4,890+",
     "rating": 5
   },
   {
-    "id": "23",
+    "id": "24",
     "slug": "streamyoung",
     "title": "Streamyoung",
-    "categories": ["teen"],
+    "categories": [
+      "teen"
+    ],
     "hero": "/streamyoung-straight-teens-3.png",
     "logo": "/stream-young.png",
     "performers": "7,567+",
-    "rating": 5
+    "rating": 1
   },
   {
-    "id": "24",
+    "id": "25",
     "slug": "vegascamgirls",
     "title": "Vegascamgirls",
-    "categories": ["teen","voyeur"],
+    "categories": [
+      "teen",
+      "voyeur"
+    ],
     "hero": "/vegascamgirls-straight-generic-1.png",
     "logo": "/vegas-cam-girls.png",
     "performers": "6,234+",
-    "rating": 2
-  },
-  {
-    "id": "25",
-    "slug": "15cams",
-    "title": "15cams",
-    "categories": ["teen"],
-    "hero": "/15cams-straight-generic-1.png",
-    "logo": "/15-cams.png",
-    "performers": "8,456+",
-    "rating": 2
-  },
-  {
-    "id": "25",
-    "slug": "secretfriends",
-    "title": "Secretfriends",
-    "categories": ["teen"],
-    "hero": "/secretfriends-straight-teens-1.png",
-    "logo": "/secret-friends.png",
-    "performers": "5,123+",
-    "rating": 2
-  },
-  {
-    "id": "26",
-    "slug": "luckycrush",
-    "title": "LuckyCrush",
-    "categories": ["random"],
-    "hero": "/luckycrush-straight-generic-1.png",
-    "logo": "/LuckyCrush-newlogo.png",
-    "performers": "7,890+",
-    "rating": 2
-  },
-  {
-    "id": "27",
-    "slug": "omexxx",
-    "title": "Omexxx",
-    "categories": ["random"],
-    "hero": "/omexxx-straight-generic-1.png",
-    "logo": "/omexxx.png",
-    "performers": "4,234+",
-    "rating": 2
-  },
-  {
-    "id": "28",
-    "slug": "slutroulette",
-    "title": "Slutroulette",
-    "categories": ["random"],
-    "hero": "/slutroulette-straight-generic-1.png",
-    "logo": "/slut-roulette.png",
-    "performers": "8,123+",
-    "rating": 2
-  },
-  {
-    "id": "29",
-    "slug": "camingle",
-    "title": "Camingle",
-    "categories": ["random"],
-    "hero": "/camingle-straight-generic-1.png",
-    "logo": "/camingle.png",
-    "performers": "6,456+",
-    "rating": 2
-  },
-  {
-    "id": "30",
-    "slug": "hornymatchlive",
-    "title": "Hornymatchlive",
-    "categories": ["random"],
-    "hero": "/hornymatchlive-straight-generic-1.png",
-    "logo": "/horny-match-live.png",
-    "performers": "9,567+",
-    "rating": 5
-  },
-  {
-    "id": "31",
-    "slug": "livestrip",
-    "title": "Livestrip",
-    "categories": ["random"],
-    "hero": "/livestrip-straight-generic-1.png",
-    "logo": "/live-strip.png",
-    "performers": "5,678+",
-    "rating": 5
-  },
-  {
-    "id": "32",
-    "slug": "pregstream",
-    "title": "Pregstream",
-    "categories": ["fetish"],
-    "hero": "/pregstream-straight-generic.jpg",
-    "logo": "/pregstream.png",
-    "performers": "7,234+",
-    "rating": 5
-  },
-  {
-    "id": "33",
-    "slug": "mydirtyhobby",
-    "title": "Mydirtyhobby",
-    "categories": ["fetish"],
-    "hero": "/mydirtyhobbystraight-fetish-4.png",
-    "logo": "/my-dirty-hobby.png",
-    "performers": "8,901+",
-    "rating": 5
-  },
-  {
-    "id": "34",
-    "slug": "fetishfishcams",
-    "title": "Fetishfishcams",
-    "categories": ["fetish"],
-    "hero": "/fetishfishcams-straight-fetish-1.png",
-    "logo": "/fetish-fish-cams.png",
-    "performers": "4,789+",
-    "rating": 5
-  },
-  {
-    "id": "35",
-    "slug": "fetishgalaxy",
-    "title": "Fetishgalaxy",
-    "categories": ["fetish"],
-    "hero": "/fetishgalaxy-straight-fetish-1.png",
-    "logo": "/fetish-galaxy.png",
-    "performers": "9,012+",
-    "rating": 5
-  },
-  {
-    "id": "36",
-    "slug": "voyeurhouse",
-    "title": "Voyeurhouse",
-    "categories": ["voyeur"],
-    "hero": "/voyeurhouse-straight-couples-1.png",
-    "logo": "/voyeurhouse-logo.png",
-    "performers": "5,456+",
-    "rating": 5
-  },
-  {
-    "id": "37",
-    "slug": "coomeet",
-    "title": "Coomeet",
-    "categories": ["random", "stranderchat", "camchat"],
-    "hero": "/comeet.jpg",
-    "logo": "/comeet.svg",
-    "performers": "5,456+",
-    "rating": 5
-  },
-  {
-    "id": "38",
-    "slug": "chatrandom",
-    "title": "Chatrandom",
-    "categories": ["random", "stranderchat", "camchat"],
-    "hero": "/chatrandom.jpg",
-    "logo": "/chatrandom.svg",
-    "performers": "5,456+",
     "rating": 4
   },
   {
+    "id": "26",
+    "slug": "15cams",
+    "title": "15cams",
+    "categories": [
+      "teen"
+    ],
+    "hero": "/15cams-straight-generic-1.png",
+    "logo": "/15-cams.png",
+    "performers": "8,456+",
+    "rating": 1
+  },
+  {
+    "id": "27",
+    "slug": "secretfriends",
+    "title": "Secretfriends",
+    "categories": [
+      "teen"
+    ],
+    "hero": "/secretfriends-straight-teens-1.png",
+    "logo": "/secret-friends.png",
+    "performers": "5,123+",
+    "rating": 1
+  },
+  {
+    "id": "28",
+    "slug": "luckycrush",
+    "title": "LuckyCrush",
+    "categories": [
+      "random"
+    ],
+    "hero": "/luckycrush-straight-generic-1.png",
+    "logo": "/LuckyCrush-newlogo.png",
+    "performers": "7,890+",
+    "rating": 1
+  },
+  {
+    "id": "29",
+    "slug": "omexxx",
+    "title": "Omexxx",
+    "categories": [
+      "random"
+    ],
+    "hero": "/omexxx-straight-generic-1.png",
+    "logo": "/omexxx.png",
+    "performers": "4,234+",
+    "rating": 1
+  },
+  {
+    "id": "30",
+    "slug": "slutroulette",
+    "title": "Slutroulette",
+    "categories": [
+      "random"
+    ],
+    "hero": "/slutroulette-straight-generic-1.png",
+    "logo": "/slut-roulette.png",
+    "performers": "8,123+",
+    "rating": 3
+  },
+  {
+    "id": "31",
+    "slug": "camingle",
+    "title": "Camingle",
+    "categories": [
+      "random"
+    ],
+    "hero": "/camingle-straight-generic-1.png",
+    "logo": "/camingle.png",
+    "performers": "6,456+",
+    "rating": 1
+  },
+  {
+    "id": "32",
+    "slug": "hornymatchlive",
+    "title": "Hornymatchlive",
+    "categories": [
+      "random"
+    ],
+    "hero": "/hornymatchlive-straight-generic-1.png",
+    "logo": "/horny-match-live.png",
+    "performers": "9,567+",
+    "rating": 1
+  },
+  {
+    "id": "33",
+    "slug": "livestrip",
+    "title": "Livestrip",
+    "categories": [
+      "random"
+    ],
+    "hero": "/livestrip-straight-generic-1.png",
+    "logo": "/live-strip.png",
+    "performers": "5,678+",
+    "rating": 1
+  },
+  {
+    "id": "34",
+    "slug": "pregstream",
+    "title": "Pregstream",
+    "categories": [
+      "fetish"
+    ],
+    "hero": "/pregstream-straight-generic.jpg",
+    "logo": "/pregstream.png",
+    "performers": "7,234+",
+    "rating": 2
+  },
+  {
+    "id": "35",
+    "slug": "mydirtyhobby",
+    "title": "Mydirtyhobby",
+    "categories": [
+      "fetish"
+    ],
+    "hero": "/mydirtyhobbystraight-fetish-4.png",
+    "logo": "/my-dirty-hobby.png",
+    "performers": "8,901+",
+    "rating": 2
+  },
+  {
+    "id": "36",
+    "slug": "fetishfishcams",
+    "title": "Fetishfishcams",
+    "categories": [
+      "fetish"
+    ],
+    "hero": "/fetishfishcams-straight-fetish-1.png",
+    "logo": "/fetish-fish-cams.png",
+    "performers": "4,789+",
+    "rating": 3
+  },
+  {
+    "id": "37",
+    "slug": "fetishgalaxy",
+    "title": "Fetishgalaxy",
+    "categories": [
+      "fetish"
+    ],
+    "hero": "/fetishgalaxy-straight-fetish-1.png",
+    "logo": "/fetish-galaxy.png",
+    "performers": "9,012+",
+    "rating": 2
+  },
+  {
+    "id": "38",
+    "slug": "voyeurhouse",
+    "title": "Voyeurhouse",
+    "categories": [
+      "voyeur"
+    ],
+    "hero": "/voyeurhouse-straight-couples-1.png",
+    "logo": "/voyeurhouse-logo.png",
+    "performers": "9,063+",
+    "rating": 2
+  },
+  {
     "id": "39",
-    "slug": "omegle",
-    "title": "Omegle",
-    "categories": ["random", "stranderchat", "camchat"],
-    "hero": "/omegle.jfif",
-    "logo": "/omegle.png",
-    "performers": "5,456+",
+    "slug": "coomeet",
+    "title": "Coomeet",
+    "categories": [
+      "random",
+      "stranderchat",
+      "camchat"
+    ],
+    "hero": "/comeet.jpg",
+    "logo": "/comeet.svg",
+    "performers": "7,040+",
     "rating": 5
   },
   {
     "id": "40",
-    "slug": "ometv",
-    "title": "Ometv",
-    "categories": ["random", "stranderchat", "camchat"],
-    "hero": "/ometv.jpg",
-    "logo": "/ometv.svg",
-    "performers": "5,456+",
-    "rating": 5
+    "slug": "chatrandom",
+    "title": "Chatrandom",
+    "categories": [
+      "random",
+      "stranderchat",
+      "camchat"
+    ],
+    "hero": "/chatrandom.jpg",
+    "logo": "/chatrandom.svg",
+    "performers": "5,731+",
+    "rating": 3
   },
   {
     "id": "41",
-    "slug": "strangercam",
-    "title": "Strangercam",
-    "categories": ["random", "stranderchat", "camchat"],
-    "hero": "/strangercam.jpg",
-    "logo": "/strangercamlogo.jpg",
-    "performers": "5,456+",
-    "rating": 5
+    "slug": "omegle",
+    "title": "Omegle",
+    "categories": [
+      "random",
+      "stranderchat",
+      "camchat"
+    ],
+    "hero": "/omegle.jfif",
+    "logo": "/omegle.png",
+    "performers": "6,793+",
+    "rating": 1
   },
   {
     "id": "42",
-    "slug": "chatspin",
-    "title": "chatspin",
-    "categories": ["random", "stranderchat", "camchat"],
-    "hero": "/chatspin.jpg",
-    "logo": "/chatspinlogo.svg",
-    "performers": "5,456+",
-    "rating": 5
+    "slug": "ometv",
+    "title": "Ometv",
+    "categories": [
+      "random",
+      "stranderchat",
+      "camchat"
+    ],
+    "hero": "/ometv.jpg",
+    "logo": "/ometv.svg",
+    "performers": "3,049+",
+    "rating": 3
   },
   {
     "id": "43",
-    "slug": "shagle",
-    "title": "Shagle",
-    "categories": ["random", "stranderchat", "camchat"],
-    "hero": "/shagle.jpg",
-    "logo": "/shaglelogo.svg",
-    "performers": "5,456+",
-    "rating": 5
+    "slug": "strangercam",
+    "title": "Strangercam",
+    "categories": [
+      "random",
+      "stranderchat",
+      "camchat"
+    ],
+    "hero": "/strangercam.jpg",
+    "logo": "/strangercamlogo.jpg",
+    "performers": "4,353+",
+    "rating": 1
   },
   {
     "id": "44",
-    "slug": "chatroulette",
-    "title": "chatroulette",
-    "categories": ["random", "stranderchat", "camchat"],
-    "hero": "/chatroulette.jpg",
-    "logo": "/chatroulettelogo.jpg",
-    "performers": "5,456+",
-    "rating": 5
+    "slug": "chatspin",
+    "title": "chatspin",
+    "categories": [
+      "random",
+      "stranderchat",
+      "camchat"
+    ],
+    "hero": "/chatspin.jpg",
+    "logo": "/chatspinlogo.svg",
+    "performers": "3,556+",
+    "rating": 1
   },
   {
     "id": "45",
+    "slug": "shagle",
+    "title": "Shagle",
+    "categories": [
+      "random",
+      "stranderchat",
+      "camchat"
+    ],
+    "hero": "/shagle.jpg",
+    "logo": "/shaglelogo.svg",
+    "performers": "7,926+",
+    "rating": 2
+  },
+  {
+    "id": "46",
+    "slug": "chatroulette",
+    "title": "chatroulette",
+    "categories": [
+      "random",
+      "stranderchat",
+      "camchat"
+    ],
+    "hero": "/chatroulette.jpg",
+    "logo": "/chatroulettelogo.jpg",
+    "performers": "7,588+",
+    "rating": 2
+  },
+  {
+    "id": "47",
     "slug": "flingster",
     "title": "Flingster",
-    "categories": ["random", "stranderchat", "camchat"],
+    "categories": [
+      "random",
+      "stranderchat",
+      "camchat"
+    ],
     "hero": "/flingster.jpg",
     "logo": "/flingsterlogo.jpg",
-    "performers": "5,456+",
-    "rating": 5
+    "performers": "9,363+",
+    "rating": 4
   }
 ]

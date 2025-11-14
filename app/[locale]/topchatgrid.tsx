@@ -17,18 +17,54 @@ export default function TopChatGrid({ category, siteKey }: Props) {
   const router = useRouter();
   const messages = useMessages() as any;
   const t = useTranslations();
-  // Get features from messages (translation)
+
   const postlabel: string[] =
     messages?.singlePageBySlug?.[siteKey]?.features || [];
 
-  const realCategory = "top10chat";
+  const realCategory = category || "top10chat";
 
-  // Filter sites & limit to 9
+
+  const getPerformersCount = (performers: string | undefined): number => {
+    if (!performers) return 0;
+
+    const numStr = performers.replace(/[,+\s]/g, "");
+    const num = parseInt(numStr, 10);
+    return isNaN(num) ? 0 : num;
+  };
+
+
   const filteredSites = camSites
-    .filter((site) => site.categories?.includes(realCategory))
+    .map((site, originalIndex) => ({ site, originalIndex }))
+    .filter(({ site }) => site.categories?.includes(realCategory))
+    .sort((a, b) => {
+      const aRating = a.site.rating || 0;
+      const bRating = b.site.rating || 0;
+      
+
+      if (aRating === bRating) {
+        const aPerformers = getPerformersCount(a.site.performers);
+        const bPerformers = getPerformersCount(b.site.performers);
+        
+
+        if (aPerformers === bPerformers) {
+          return a.originalIndex - b.originalIndex;
+        }
+        
+
+        return bPerformers - aPerformers;
+      }
+      
+
+      if (aRating === 5) return -1;
+      if (bRating === 5) return 1;
+      
+
+      return bRating - aRating;
+    })
+    .map(({ site }) => site)
     .slice(0, 7);
 
-  // 🎨 Unique grid layout classes for each card
+
   const gridLayouts = [
     "col-span-1 sm:col-span2 md:col-span-12 lg:col-span-12",
     " md:col-span-3 lg:col-span-4",
@@ -167,7 +203,7 @@ export default function TopChatGrid({ category, siteKey }: Props) {
               >
                 <div className="flex flex-col overflow-hidden group h-full">
                   {/* hover info */}
-                  <div className="absolute inset-0 z-[7] bg-white p-[15px] hidden group-hover:block">
+                  <div className="absolute inset-0 z-[7] bg-white px-[15px] pt-[25px] pb-[15px] hidden group-hover:block">
                     <div className="flex justify-center">
                       <div className="flex flex-col mx-auto w-auto gap-1">
                         {postlabel
@@ -260,10 +296,10 @@ export default function TopChatGrid({ category, siteKey }: Props) {
       </div>
 
       <div className="flex justify-center mt-8">
-        <button
-          onClick={() =>
-            router.push(`/${locale}/sites?category=${realCategory}`)
-          }
+      <button
+              onClick={() =>
+                router.push(`/${locale}/sites?category=${realCategory}`)
+              }
           type="button"
           className=" bg-[var(--primary)] text-white text-[14px] rounded-md py-[10px] px-[20px] cursor-pointer"
         >

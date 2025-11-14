@@ -145,13 +145,47 @@ export default function YouLike({ category }: YouLikeProps) {
   // cast imported JSON to SiteFull[]
   const sites = sitesData as SiteFull[];
 
-  // Filter + map to CardData (make sure to include rating)
+  const getPerformersCount = (performers: string | undefined): number => {
+    if (!performers) return 0;
+
+    const numStr = performers.replace(/[,+\s]/g, "");
+    const num = parseInt(numStr, 10);
+    return isNaN(num) ? 0 : num;
+  };
+
+  // Filter + sort + map to CardData (make sure to include rating)
   const filteredCards: CardData[] = sites
+    .map((site, originalIndex) => ({ site, originalIndex }))
     .filter(
-      (site) =>
+      ({ site }) =>
         Array.isArray(site.categories) && site.categories.includes(category)
     )
-    .map((site) => ({
+    .sort((a, b) => {
+      const aRating = a.site.rating || 0;
+      const bRating = b.site.rating || 0;
+      
+
+      if (aRating === bRating) {
+        const aPerformers = getPerformersCount(a.site.performers);
+        const bPerformers = getPerformersCount(b.site.performers);
+        
+
+        if (aPerformers === bPerformers) {
+          return a.originalIndex - b.originalIndex;
+        }
+        
+
+        return bPerformers - aPerformers;
+      }
+      
+
+      if (aRating === 5) return -1;
+      if (bRating === 5) return 1;
+      
+
+      return bRating - aRating;
+    })
+    .map(({ site }) => ({
       hero: site.hero,
       logo: site.logo,
       title: site.title,

@@ -17,10 +17,10 @@ export default function HeroBanner({ pageKey, subtitle, titleProps }: SexcamsPro
           className="py-[40px] md:py-[60px]">
           <div className="w-full mx-auto px-[15px]">
             <div className="flex flex-col gap-[15px]">
-              <h1 className="md:text-[40px] lg:text-[80px] text-black font-bold text-center capitalize">
+              <h1 className="md:text-[40px] lg:text-[80px] md:leading-[80px] leading-[60px] text-black font-bold text-center capitalize">
                 {t(`${pageKey}.title`, titleProps)}
               </h1>
-              <p className="text-[14px] md:text-[20px] text-black text-center">
+              <p className="text-[14px] md:text-[20px] md:leading-[20px] leading-[14px]  text-black text-center">
                 {subtitle || t(`${pageKey}.subtitle`)}
               </p>
             </div>
