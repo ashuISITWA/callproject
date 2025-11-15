@@ -151,50 +151,90 @@ export default function SearchList() {
   categoryKeywords = [...new Set(categoryKeywords)];
 
   const results = normalized
-    ? camSites.filter((site) => {
-        // Build haystack from English site data
-        const haystack = [site.title, site.slug, ...(site.categories || [])]
-          .filter(Boolean)
-          .join(" ")
-          .toLowerCase();
+    ? camSites
+        .map((site) => {
+          // Build haystack from English site data
+          const haystack = [site.title, site.slug, ...(site.categories || [])]
+            .filter(Boolean)
+            .join(" ")
+            .toLowerCase();
 
-        // Check if any category keyword matches OR if search words match
-        const categoryMatch = categoryKeywords.some((keyword) =>
-          haystack.includes(keyword)
-        );
-        const wordMatch = searchWords.some((word) => haystack.includes(word));
+          // Calculate relevance score
+          let relevanceScore = 0;
 
-        // Also check if query matches translated site content from ALL languages
-        let translatedMatch = false;
-        
-        // Check site content in ALL language files, not just current locale
-        Object.values(messagesMap).forEach((langMessages: any) => {
-          if (langMessages?.singlePageBySlug?.[site.slug]) {
-            const siteContent = langMessages.singlePageBySlug[site.slug];
-            const contentText = [
-              siteContent?.toppara,
-              siteContent?.secppara,
-              siteContent?.overview,
-              siteContent?.excerpt,
-              ...(Array.isArray(siteContent?.features) ? siteContent.features : []),
-            ]
-              .filter(Boolean)
-              .join(" ")
-              .toLowerCase();
+          // Check if any category keyword matches OR if search words match
+          const categoryMatch = categoryKeywords.some((keyword) =>
+            haystack.includes(keyword)
+          );
+          const wordMatch = searchWords.some((word) => haystack.includes(word));
 
-            // Check if query matches any translated content
-            if (
-              contentText.includes(normalized) ||
-              normalized.includes(contentText) ||
-              searchWords.some((word) => contentText.includes(word))
-            ) {
-              translatedMatch = true;
-            }
+          // Title exact match = highest score
+          if (site.title.toLowerCase() === normalized) {
+            relevanceScore += 100;
           }
-        });
+          // Title starts with query
+          else if (site.title.toLowerCase().startsWith(normalized)) {
+            relevanceScore += 80;
+          }
+          // Title contains query
+          else if (site.title.toLowerCase().includes(normalized)) {
+            relevanceScore += 60;
+          }
 
-        return categoryMatch || wordMatch || translatedMatch;
-      })
+          // Slug match
+          if (site.slug.toLowerCase().includes(normalized)) {
+            relevanceScore += 50;
+          }
+
+          // Category keyword match
+          if (categoryMatch) {
+            relevanceScore += 40;
+          }
+
+          // Word match in title/slug
+          if (wordMatch) {
+            relevanceScore += 30;
+          }
+
+          // Check if query matches translated site content from ALL languages
+          let translatedMatch = false;
+          
+          // Check site content in ALL language files, not just current locale
+          Object.values(messagesMap).forEach((langMessages: any) => {
+            if (langMessages?.singlePageBySlug?.[site.slug]) {
+              const siteContent = langMessages.singlePageBySlug[site.slug];
+              const contentText = [
+                siteContent?.toppara,
+                siteContent?.secppara,
+                siteContent?.overview,
+                siteContent?.excerpt,
+                ...(Array.isArray(siteContent?.features) ? siteContent.features : []),
+              ]
+                .filter(Boolean)
+                .join(" ")
+                .toLowerCase();
+
+              // Check if query matches any translated content
+              if (
+                contentText.includes(normalized) ||
+                normalized.includes(contentText) ||
+                searchWords.some((word) => contentText.includes(word))
+              ) {
+                translatedMatch = true;
+                relevanceScore += 20; // Lower score for content match
+              }
+            }
+          });
+
+          // Only include if matches
+          if (categoryMatch || wordMatch || translatedMatch) {
+            return { site, relevanceScore };
+          }
+          return null;
+        })
+        .filter((item): item is { site: typeof camSites[0]; relevanceScore: number } => item !== null)
+        .sort((a, b) => b.relevanceScore - a.relevanceScore) // Sort by relevance (highest first)
+        .map((item) => item.site) // Extract just the site objects
     : [];
 
   return (
@@ -209,7 +249,8 @@ export default function SearchList() {
                 {query ? t("searchBanner.searchingFor", { query }) : t("searchBanner.title")}
               </h1>
               <p className="text-[20px] text-black text-center">
-                {query ? t("showing", { query }) : t("searchBanner.subtitle")}
+                {/* {query ? t("showing", { query }) : t("searchBanner.subtitle")} */}
+                {t("searchBanner.subtitle")}
               </p>
             </div>
           </div>

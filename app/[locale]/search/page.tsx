@@ -1,7 +1,15 @@
 import SearchList from "./searchList";
 import type { Metadata } from "next";
 import messagesMap from "@/messages"; 
-import type { AppLocale } from "@/messages"; 
+import type { AppLocale } from "@/messages";
+
+// Helper function to capitalize text
+function capitalizeText(text: string): string {
+  return text
+    .split(" ")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .join(" ");
+}
 
 export async function generateMetadata({
   params,
@@ -23,19 +31,22 @@ export async function generateMetadata({
     Keywords: "search adult chat, find cam sites, adult sites search"
   };
 
-  // If query length is greater than 0, insert it into meta tags
+  // If query length is greater than 0, replace "Online" with search query in meta tags
   const hasQuery = query.length > 0;
   
+  // Capitalize query if it exists
+  const capitalizedQuery = hasQuery ? capitalizeText(query) : "";
+  
   const title = hasQuery 
-    ? `${query} - ${seoData.Title}`
+    ? `${capitalizedQuery} Online Chatroom | ${capitalizedQuery} Video Chat With Online Girls, Live Cam Chat!`
     : seoData.Title;
 
   const description = hasQuery
-    ? `Search results for "${query}". ${seoData.Description}`
+    ? `Welcome to ${capitalizedQuery} Camchat, Random Video Chat With Real ${capitalizedQuery} Girls. Start Datings & Flirting With ${capitalizedQuery} Beauties Over Webcam ${capitalizedQuery}.`
     : seoData.Description;
 
   const keywords = hasQuery
-    ? `${query}, ${seoData.Keywords}`
+    ? `${capitalizedQuery}, ${seoData.Keywords}`
     : seoData.Keywords;
 
   return {

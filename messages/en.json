@@ -2011,7 +2011,7 @@
     "searchBanner": {
       "title": "{query}",
       "subtitle": "Refine your search filters to find the perfect match or chat room for your preferences.",
-      "searchingFor": "{query}"
+      "searchingFor": "Search for : {query}"
     },
     "title": "Search results ({count})",
     "showing": "Matches for “{query}”",
