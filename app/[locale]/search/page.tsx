@@ -23,24 +23,35 @@ export async function generateMetadata({
     Keywords: "search adult chat, find cam sites, adult sites search"
   };
 
-  const title = query 
-    ? `${query}`
+  // If query length is greater than 0, insert it into meta tags
+  const hasQuery = query.length > 0;
+  
+  const title = hasQuery 
+    ? `${query} - ${seoData.Title}`
     : seoData.Title;
+
+  const description = hasQuery
+    ? `Search results for "${query}". ${seoData.Description}`
+    : seoData.Description;
+
+  const keywords = hasQuery
+    ? `${query}, ${seoData.Keywords}`
+    : seoData.Keywords;
 
   return {
     title: title,
-    description: seoData.Description,
-    keywords: seoData.Keywords,
+    description: description,
+    keywords: keywords,
     openGraph: {
       title: title,
-      description: seoData.Description,
+      description: description,
       type: "website",
       locale: safeLocale,
     },
     twitter: {
       card: "summary_large_image",
       title: title,
-      description: seoData.Description,
+      description: description,
     },
     robots: {
       index: true,

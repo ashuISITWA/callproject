@@ -88,7 +88,7 @@ export default function FullSite() {
                     className="flex flex-wrap gap-4 items-center bg-white py-[15px] px-[20px] rounded-md justify-center md:justify-between shadow"
                   >
                     {/* Thumbnail */}
-                    <div className="grow md:grow-0 md:basis-[300px] relative">
+                    <div className="grow md:grow-0 md:basis-[260px] relative">
                       <div className="aspect-video w-full rounded-md overflow-hidden relative">
                         <h2 className="text-black aspect-square w-[40px] absolute top-1/2 left-0 transform -translate-y-1/2 z-[3] bg-yellow-500 rounded-r-full text-center leading-[35px] font-semibold text-[14px] grid place-items-center">
                           <span className="relative">
@@ -112,7 +112,7 @@ export default function FullSite() {
                     </div>
 
                     {/* Logo + Review Link */}
-                    <div className="shrink-0 w-[200px] text-center">
+                    <div className="shrink-0 w-[150px] text-center">
                       <div className="h-[30px] mx-auto table">
                         <img
                           src={getImageUrl(site.logo)}
@@ -220,7 +220,7 @@ export default function FullSite() {
                           className="flex flex-wrap gap-4 items-center bg-white py-[15px] px-[20px] rounded-md justify-center md:justify-between shadow"
                         >
                           {/* Thumbnail */}
-                          <div className="grow md:grow-0 md:basis-[300px] relative">
+                          <div className="grow md:grow-0 md:basis-[260px] relative">
                             <div className="aspect-video w-full rounded-md overflow-hidden relative">
                               <h2 className="text-black aspect-square w-[40px] absolute top-1/2 left-0 transform -translate-y-1/2 z-[3] bg-yellow-500 rounded-r-full text-center leading-[35px] font-semibold text-[14px] grid place-items-center">
                                 <span className="relative">
@@ -244,7 +244,7 @@ export default function FullSite() {
                           </div>
 
                           {/* Logo + Review Link */}
-                          <div className="shrink-0 w-[200px] text-center">
+                          <div className="shrink-0 w-[150px] text-center">
                             <div className="h-[30px] mx-auto table">
                               <img
                                 src={getImageUrl(site.logo)}

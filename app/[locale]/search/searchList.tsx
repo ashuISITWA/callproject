@@ -6,6 +6,7 @@ import { useSearchParams } from "next/navigation";
 import { useTranslations, useLocale, useMessages } from "next-intl";
 import camSites from "@/data/sites.json";
 import HeroBanner from "@/components/banners/HeroBanner";
+import messagesMap from "@/messages";
 
 const SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL;
 
@@ -39,21 +40,119 @@ const categoryMappings: Record<string, string[]> = {
   "foot fetish sites": ["foot", "fetish"],
 };
 
+// Map Header.nav keys to category keywords
+const navKeyToCategories: Record<string, string[]> = {
+  "sexCams": ["sexcam", "sex"],
+  "freeChat": ["freecams", "free"],
+  "ebonyChat": ["ebony"],
+  "bbwChat": ["bbw"],
+  "milfChat": ["milfchat", "milf"],
+  "teenChat": ["teen"],
+  "randomChat": ["random"],
+  "fetishChat": ["fetish"],
+  "voyeurCam": ["voyeur"],
+  "top10": ["top10chat"],
+};
+
+// Function to find category keywords from language file translations
+// This checks ALL language files, not just the current locale
+function getCategoryKeywordsFromTranslations(query: string): string[] {
+  const normalizedQuery = query.toLowerCase();
+  const keywords: string[] = [];
+
+  // Check ALL language files
+  Object.values(messagesMap).forEach((messages: any) => {
+    // Check Header.nav translations
+    if (messages?.Header?.nav) {
+      const navItems = messages.Header.nav;
+      for (const [key, translatedText] of Object.entries(navItems)) {
+        const text = String(translatedText).toLowerCase();
+        // Check if query matches the translated text
+        if (
+          text.includes(normalizedQuery) ||
+          normalizedQuery.includes(text) ||
+          text === normalizedQuery
+        ) {
+          const categories = navKeyToCategories[key];
+          if (categories) {
+            keywords.push(...categories);
+          }
+        }
+      }
+    }
+
+    // Check Banner titles
+    if (messages?.Banner) {
+      const banners = messages.Banner;
+      for (const [key, bannerData] of Object.entries(banners)) {
+        if (bannerData && typeof bannerData === "object") {
+          const title = (bannerData as any)?.title?.toLowerCase() || "";
+          if (
+            title.includes(normalizedQuery) ||
+            normalizedQuery.includes(title) ||
+            title === normalizedQuery
+          ) {
+            // Map banner keys to categories
+            if (key === "sexCams") keywords.push("sexcam", "sex");
+            else if (key === "freeChat") keywords.push("freecams", "free");
+            else if (key === "ebonyChat") keywords.push("ebony");
+            else if (key === "bbwChat") keywords.push("bbw");
+            else if (key === "milfChat") keywords.push("milfchat", "milf");
+            else if (key === "teenChat") keywords.push("teen");
+            else if (key === "randomChat") keywords.push("random");
+            else if (key === "fetishChat") keywords.push("fetish");
+            else if (key === "voyeurCam") keywords.push("voyeur");
+            else if (key === "top10chat") keywords.push("top10chat");
+          }
+        }
+      }
+    }
+
+    // Check individual words in query against translations
+    const queryWords = normalizedQuery.split(/\s+/).filter(Boolean);
+    queryWords.forEach((word) => {
+      if (messages?.Header?.nav) {
+        const navItems = messages.Header.nav;
+        for (const [key, translatedText] of Object.entries(navItems)) {
+          const text = String(translatedText).toLowerCase();
+          if (text.includes(word) || word.includes(text)) {
+            const categories = navKeyToCategories[key];
+            if (categories) {
+              keywords.push(...categories);
+            }
+          }
+        }
+      }
+    });
+  });
+
+  return [...new Set(keywords)]; // Remove duplicates
+}
+
 export default function SearchList() {
   const searchParams = useSearchParams();
   const locale = useLocale();
   const t = useTranslations("SearchPage");
   const tr = useTranslations();
-  const messages = useMessages(); // ✅ added this
+  const messages = useMessages();
   const query = (searchParams.get("q") || "").trim();
   const normalized = query.toLowerCase();
   const searchWords = normalized.split(/\s+/).filter(Boolean);
 
-  // Get category keywords for the search query
-  const categoryKeywords = categoryMappings[normalized] || [];
+  // Get category keywords from English mappings
+  let categoryKeywords = categoryMappings[normalized] || [];
+
+  // Get category keywords from ALL language file translations
+  // This ensures search works in any language, regardless of current locale
+  const translationKeywords = getCategoryKeywordsFromTranslations(query);
+  categoryKeywords = [...categoryKeywords, ...translationKeywords];
+
+  // Remove duplicates
+  categoryKeywords = [...new Set(categoryKeywords)];
 
   const results = normalized
     ? camSites.filter((site) => {
+        // Build haystack from English site data
         const haystack = [site.title, site.slug, ...(site.categories || [])]
           .filter(Boolean)
           .join(" ")
@@ -65,7 +164,36 @@ export default function SearchList() {
         );
         const wordMatch = searchWords.some((word) => haystack.includes(word));
 
-        return categoryMatch || wordMatch;
+        // Also check if query matches translated site content from ALL languages
+        let translatedMatch = false;
+        
+        // Check site content in ALL language files, not just current locale
+        Object.values(messagesMap).forEach((langMessages: any) => {
+          if (langMessages?.singlePageBySlug?.[site.slug]) {
+            const siteContent = langMessages.singlePageBySlug[site.slug];
+            const contentText = [
+              siteContent?.toppara,
+              siteContent?.secppara,
+              siteContent?.overview,
+              siteContent?.excerpt,
+              ...(Array.isArray(siteContent?.features) ? siteContent.features : []),
+            ]
+              .filter(Boolean)
+              .join(" ")
+              .toLowerCase();
+
+            // Check if query matches any translated content
+            if (
+              contentText.includes(normalized) ||
+              normalized.includes(contentText) ||
+              searchWords.some((word) => contentText.includes(word))
+            ) {
+              translatedMatch = true;
+            }
+          }
+        });
+
+        return categoryMatch || wordMatch || translatedMatch;
       })
     : [];
 
@@ -125,7 +253,7 @@ export default function SearchList() {
                     className="flex flex-wrap gap-4 items-center bg-white py-[15px] px-[20px] rounded-md grow md:grow-0 md:basis-[calc(25%-1rem)] justify-center md:justify-between shadow"
                   >
                     {/* Thumbnail with index */}
-                    <div className="grow md:grow-0 md:basis-[300px]">
+                    <div className="grow md:grow-0 md:basis-[260px]">
                       <div className="aspect-video w-full rounded-md overflow-hidden relative">
                         <h2 className="text-black aspect-square w-[40px] absolute top-1/2 left-0 transform -translate-y-1/2 z-[3] bg-yellow-500 rounded-r-full text-center leading-[35px] font-semibold text-[14px] grid place-items-center">
                           <span className="relative">
@@ -149,7 +277,7 @@ export default function SearchList() {
                     </div>
 
                     {/* Logo + review link */}
-                    <div className="shrink-0 w-[200px] text-center">
+                    <div className="shrink-0 w-[150px] text-center">
                       <div className="h-[30px] mx-auto table">
                         <img
                           src={`${SERVER_URL}${site.logo}`}

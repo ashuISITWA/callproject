@@ -81,7 +81,7 @@
     },
     "search": {
       "placeholder": "Rechercher…",
-      "button": "Go"
+      "button": "Aller"
     }
   },
   "Banner": {
@@ -937,8 +937,8 @@
       "drawbacksDescription": "Les capacités interactives complètes nécessitent une procédure d'inscription brève, généralement terminée en moins d'une minute pour maintenir les standards communautaires et des interactions authentiques.",
       "excerpt": "Un assemblage international d'artistes exceptionnels dans toutes les catégories assure des découvertes fraîches à chaque visite.",
       "overview": "ChatFly vous connecte avec des talents mondiaux grâce à un streaming HD supérieur et une technologie de prévisualisation au survol innovante. La plateforme permet des interactions cam2cam significatives soutenues par des systèmes de correspondance intelligents, combinant un accès public gratuit avec une inscription efficace et des sessions privées basées sur les crédits dans une conception parfaitement réactive au mobile.",
-      "featureImage": "/chatfly-review-middle1.png",
-      "benefitImage": "/chatfly-review-bottom1.png",
+      "featureImage": "/chatfly-review-middle1.jpg",
+      "benefitImage": "/chatfly-review-bottom1.jpg",
       "features": [
         "Les prévisualisations en miniature en temps réel montrent le contenu en direct instantanément",
         "Accédez à des galeries photo organisées et des compilations vidéo",

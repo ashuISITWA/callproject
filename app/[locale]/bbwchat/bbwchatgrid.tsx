@@ -121,11 +121,11 @@ export default function BbwChatGrid({ category, siteKey }: Props) {
                                 <span>{index + 1}</span>
                               </span>
                             </h2>
-                            <div className="h-[50px]">
+                            <div className="h-[40px]">
                               <img
                                 src={`${SERVER_URL}${site.logo}`}
                                 alt={`${site.title} logo`}
-                                className="h-full w-auto max-w-[192px]"
+                                className="h-full w-auto"
                               />
                             </div>
 
@@ -264,11 +264,11 @@ export default function BbwChatGrid({ category, siteKey }: Props) {
                               <span>{index + 1}</span>
                             </span>
                           </h2>
-                          <div className="h-[50px]">
+                          <div className="h-[40px]">
                             <img
                               src={`${SERVER_URL}${site.logo}`}
                               alt={`${site.title} logo`}
-                              className="h-full w-auto max-w-[192px]"
+                              className="h-full w-auto"
                             />
                           </div>
 
