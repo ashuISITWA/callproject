@@ -133,7 +133,7 @@
   },
   "camPost": {
     "readReview": "Lees Recensie",
-    "visit": "Bezoek {title}",
+    "visit": "Chat Nu",
     "activeUsers": "Nu online"
   },
   "getUpdateInbox": {
@@ -426,7 +426,7 @@
     "watchCamsNow": "Start met Kijken!",
     "pricingTitle": "Prijzen & Kleine Lettertjes",
     "drawbacksTitle": "Zijn er Nadelen?",
-    "visit": "Naar de Site",
+    "visit": "Chat Nu",
     "review": "Volledige Recensie"
   },
   "singlePageBySlug": {
@@ -2004,20 +2004,52 @@
         "Strenge 18+ moderatie en rapportage voor veiligheid",
         "Moeiteloze toegang op elke browser of apparaat"
       ]
+    },
+    "chatlive": {
+      "toppara": "Chatlive is een gratis willekeurige videochatplatform dat je anoniem verbindt met vreemden over de hele wereld—geen account vereist. Het biedt een direct, privépad naar real-time gesprekken, waardoor toevallige nieuwsgierigheid wordt omgezet in spannende, face-to-face ontmoetingen.",
+      "secppara": "Chatlive ontsteekt spontane, één-op-één videochats door je onmiddellijk te matchen met wereldwijde vreemden voor ongefilterde, live uitwisselingen. Omzeil gescripte streams en groepsgeluid voor ruwe, onmiddellijke verbindingen die echte chemie en verrassingen ontsteken.",
+      "pricingDescription": "Chatlive is volledig gratis, met onbeperkte willekeurige videochats vanaf het begin. Verdien in-app Quids door interacties om extra's zoals topgebruikerstoegang en landfilters te ontgrendelen—geen aankopen nodig.",
+      "hiddenFees": "Chatlive draait op totale transparantie: 100% gratis zonder kosten, advertenties in chats of onverwachte kosten—alleen pure, verdienbare voordelen.",
+      "drawbacksDescription": "Om een veilige, alleen-voor-volwassenen ruimte te handhaven, moeten gebruikers strikte moderatieregels volgen die expliciete inhoud verbieden, gehandhaafd door AI en menselijk toezicht.",
+      "excerpt": "Willekeurige videomatching, onmiddellijke vreemdenlinks, live wereldwijde chats, landfilters, authentieke dialogen",
+      "overview": "Chatlive voedt snelle, hoogwaardige videoverbindingen naar diverse vreemden voor onmiddellijk plezier. Verfijn talen, debatteer ideeën of ontdek talenten; pas landfilters toe, chat via tekst indien gewenst, en gedij op een eenvoudige interface met naadloze mobiele apps.",
+      "featureImage": "/chatliv.jpg",
+      "benefitImage": "/chatliv.jpg",
+      "features": [
+        "Willekeurige videomatching voor toevallige koppelingen",
+        "Onmiddellijke één-op-één videokamers",
+        "Landfilters om wereldwijde matches te richten",
+        "Topgebruikerstoegang via verdiende Quids",
+        "Moeiteloze, geen-registratie-vereiste interface",
+        "Optionele tekstchat naast video"
+      ],
+      "postlabel": [
+        "Start Video Chat",
+        "Pas Landfilter Toe",
+        "Ontmoet Topgebruikers",
+        "Verdien Quids"
+      ],
+      "benefits": [
+        "Levendige videostreaming voor echte aanwezigheid",
+        "Ongescripte, directe wereldwijde interacties",
+        "Boost voor live rapport en ontdekking",
+        "Robuuste AI-mens moderatie voor veiligheid",
+        "Perfecte synchronisatie op mobiele apps en desktop"
+      ]
     }
   },
   "SearchPage": {
     "searchBanner": {
       "title": "Zoeken - Vind de Beste Volwassenen Chat Sites",
       "subtitle": "Verfijn je zoekfilters om de perfecte match of chatroom te vinden voor jouw voorkeuren.",
-      "searchingFor": "Zoeken naar: {query}"
+      "searchingFor": "#1 Video Chat met Meisjes {query}"
     },
     "title": "Zoekresultaten ({count})",
     "showing": "Resultaten voor \"{query}\"",
     "noResults": "Niets gevonden - probeer andere woorden.",
     "noQuery": "Typ iets om te zoeken.",
     "readReview": "Recensie Lezen",
-    "visit": "Bezoek {title}",
+    "visit": "Chat Nu",
     "backToHome": "Terug naar home",
     "activeUsers": "10.000+ online"
   },

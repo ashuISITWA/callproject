@@ -133,7 +133,7 @@
   },
   "camPost": {
     "readReview": "İncelemeyi Oku",
-    "visit": "{title} Sitesini Ziyaret Et",
+    "visit": "Şimdi Sohbet Et",
     "activeUsers": "Şu anda çevrimiçi"
   },
   "getUpdateInbox": {
@@ -426,7 +426,7 @@
     "watchCamsNow": "İzlemeye Başla!",
     "pricingTitle": "Fiyatlandırma & Detaylar",
     "drawbacksTitle": "Eksiklikleri Var mı?",
-    "visit": "Siteye Git",
+    "visit": "Şimdi Sohbet Et",
     "review": "Tam İnceleme"
   },
   "singlePageBySlug": {
@@ -2004,20 +2004,52 @@
         "Güvenlik için katı 18+ moderasyon ve raporlama",
         "Herhangi bir tarayıcı veya cihazda sorunsuz erişim"
       ]
+    },
+    "chatlive": {
+      "toppara": "Chatlive, sizi dünya çapındaki yabancılarla anonim olarak bağlayan ücretsiz rastgele video sohbet platformudur—hesap gerekmez. Gerçek zamanlı konuşmalara doğrudan, özel bir yol sunar ve gündelik merakı heyecan verici, yüz yüze karşılaşmalara dönüştürür.",
+      "secppara": "Chatlive, sizi filtrelenmemiş, canlı değişimler için anında küresel yabancılarla eşleştirerek kendiliğinden, bire bir video sohbetleri ateşler. Gerçek kimya ve sürprizleri ateşleyen ham, anında bağlantılar için senaryolu yayınları ve grup gürültüsünü atlayın.",
+      "pricingDescription": "Chatlive tamamen ücretsizdir, baştan itibaren sınırsız rastgele video sohbetlerle. Uygulama içi Quids'i etkileşimler yoluyla kazanarak üst kullanıcı erişimi ve ülke filtreleri gibi ekstraların kilidini açın—satın alma gerekmez.",
+      "hiddenFees": "Chatlive tam şeffaflıkla çalışır: %100 ücretsiz, maliyet, sohbetlerde reklam veya beklenmedik ücretler yok—sadece saf, kazanılabilir avantajlar.",
+      "drawbacksDescription": "Güvenli, yalnızca yetişkinlere özel bir alan sürdürmek için, kullanıcılar açık içeriği yasaklayan katı moderasyon kurallarına uymalıdır, AI ve insan gözetimi tarafından uygulanır.",
+      "excerpt": "Rastgele video eşleştirme, anında yabancı bağlantıları, canlı küresel sohbetler, ülke filtreleri, otantik diyaloglar",
+      "overview": "Chatlive, anında eğlence için çeşitli yabancılara hızlı, yüksek kaliteli video bağlantıları sağlar. Dilleri geliştirin, fikirleri tartışın veya yetenekleri keşfedin; ülke filtrelerini uygulayın, tercih ederseniz metin üzerinden sohbet edin ve sorunsuz mobil uygulamalarla basit bir arayüzde gelişin.",
+      "featureImage": "/chatliv.jpg",
+      "benefitImage": "/chatliv.jpg",
+      "features": [
+        "Şanslı eşleştirmeler için rastgele video eşleştirme",
+        "Anında bire bir video odaları",
+        "Küresel eşleşmeleri hedeflemek için ülke filtreleri",
+        "Kazanılan Quids aracılığıyla üst kullanıcı erişimi",
+        "Zahmetsiz, kayıt gerektirmeyen arayüz",
+        "Video yanında isteğe bağlı metin sohbeti"
+      ],
+      "postlabel": [
+        "Video Sohbet Başlat",
+        "Ülke Filtresi Uygula",
+        "Üst Kullanıcılarla Tanış",
+        "Quids Kazan"
+      ],
+      "benefits": [
+        "Gerçek varlık için canlı video akışı",
+        "Senaryosuz, doğrudan küresel etkileşimler",
+        "Canlı rapor ve keşif için artış",
+        "Güvenlik için sağlam AI-insan moderasyonu",
+        "Mobil uygulamalar ve masaüstünde mükemmel senkronizasyon"
+      ]
     }
   },
   "SearchPage": {
     "searchBanner": {
       "title": "Arama - En İyi Yetişkin Sohbet Sitelerini Bulun",
       "subtitle": "Tercihlerinize uygun mükemmel eşleşmeyi veya sohbet odasını bulmak için arama filtrelerinizi daraltın.",
-      "searchingFor": "Aranıyor: {query}"
+      "searchingFor": "#1 Kızlarla Video Sohbet {query}"
     },
     "title": "Arama sonuçları ({count})",
     "showing": "“{query}” için eşleşmeler",
     "noResults": "Hiçbir şey bulunamadı - farklı kelimeler deneyin.",
     "noQuery": "Arama yapmak için bir şeyler yazın.",
     "readReview": "İncelemeyi Oku",
-    "visit": "{title} Sitesini Ziyaret Et",
+    "visit": "Şimdi Sohbet Et",
     "backToHome": "Ana sayfaya dön",
     "activeUsers": "10.000+ çevrimiçi"
   },

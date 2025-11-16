@@ -133,7 +133,7 @@
   },
   "camPost": {
     "readReview": "Leggi Recensione",
-    "visit": "Visita {title}",
+    "visit": "Chatta Ora",
     "activeUsers": "Online ora"
   },
   "getUpdateInbox": {
@@ -426,7 +426,7 @@
     "watchCamsNow": "Inizia a Guardare!",
     "pricingTitle": "Prezzi e Condizioni",
     "drawbacksTitle": "Ci sono svantaggi?",
-    "visit": "Vai al Sito",
+    "visit": "Chatta Ora",
     "review": "Recensione Completa"
   },
   "singlePageBySlug": {
@@ -2004,20 +2004,52 @@
         "Moderazione rigorosa 18+ e reporting per sicurezza",
         "Accesso effortless su qualsiasi browser o dispositivo"
       ]
+    },
+    "chatlive": {
+      "toppara": "Chatlive è una piattaforma gratuita di chat video casuale che ti collega in modo anonimo con sconosciuti in tutto il mondo—nessun account richiesto. Offre un percorso diretto e privato verso conversazioni in tempo reale, trasformando la curiosità occasionale in incontri emozionanti faccia a faccia.",
+      "secppara": "Chatlive accende chat video spontanee uno-a-uno abbinandoti istantaneamente con sconosciuti globali per scambi live non filtrati. Evita stream scriptati e rumore di gruppo per connessioni crude e immediate che accendono chimica genuina e sorprese.",
+      "pricingDescription": "Chatlive è completamente gratuito, con chat video casuali illimitate fin dall'inizio. Guadagna Quids in-app attraverso interazioni per sbloccare extra come accesso utenti top e filtri paese—nessun acquisto necessario.",
+      "hiddenFees": "Chatlive funziona con totale trasparenza: 100% gratuito senza costi, annunci nelle chat o addebiti inaspettati—solo vantaggi puri e guadagnabili.",
+      "drawbacksDescription": "Per mantenere uno spazio sicuro solo per adulti, gli utenti devono seguire rigorose regole di moderazione che vietano contenuti espliciti, applicate da IA e supervisione umana.",
+      "excerpt": "Abbinamento video casuale, collegamenti istantanei con sconosciuti, chat globali live, filtri paese, dialoghi autentici",
+      "overview": "Chatlive alimenta connessioni video rapide e di alta qualità verso sconosciuti diversi per divertimento immediato. Affina lingue, dibatti idee o scopri talenti; applica filtri paese, chatta via testo se preferito, e prospera su un'interfaccia diretta con app mobili fluide.",
+      "featureImage": "/chatliv.jpg",
+      "benefitImage": "/chatliv.jpg",
+      "features": [
+        "Abbinamento video casuale per accoppiamenti fortuiti",
+        "Stanze video uno-a-uno istantanee",
+        "Filtri paese per mirare a corrispondenze globali",
+        "Accesso utenti top tramite Quids guadagnati",
+        "Interfaccia senza sforzo e senza registrazione richiesta",
+        "Chat di testo opzionale accanto al video"
+      ],
+      "postlabel": [
+        "Inizia Chat Video",
+        "Applica Filtro Paese",
+        "Incontra Utenti Top",
+        "Guadagna Quids"
+      ],
+      "benefits": [
+        "Streaming video vivido per presenza reale",
+        "Interazioni globali dirette e non scriptate",
+        "Spinta per rapporto live e scoperta",
+        "Moderazione robusta IA-umana per sicurezza",
+        "Sincronizzazione perfetta su app mobili e desktop"
+      ]
     }
   },
   "SearchPage": {
     "searchBanner": {
       "title": "Cerca - Trova i Migliori Siti di Chat per Adulti",
       "subtitle": "Affina i filtri di ricerca per trovare la corrispondenza o la chat room perfetta per le tue preferenze.",
-      "searchingFor": "Cercando: {query}"
+      "searchingFor": "#1 Chat Video con Ragazze {query}"
     },
     "title": "Risultati di ricerca ({count})",
     "showing": "Risultati per \"{query}\"",
     "noResults": "Nessun risultato trovato - prova con parole diverse.",
     "noQuery": "Digita qualcosa per cercare.",
     "readReview": "Leggi Recensione",
-    "visit": "Visita {title}",
+    "visit": "Chatta Ora",
     "backToHome": "Torna alla home",
     "activeUsers": "10.000+ online"
   },

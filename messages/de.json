@@ -128,7 +128,7 @@
   },
   "camPost": {
     "readReview": "Komplette Bewertung lesen",
-    "visit": "{title} besuchen",
+    "visit": "Jetzt Chatten",
     "activeUsers": "Jetzt online"
   },
   "getUpdateInbox": {
@@ -427,7 +427,7 @@
     "watchCamsNow": "Jetzt schauen!",
     "pricingTitle": "Preise & Kleingedrucktes",
     "drawbacksTitle": "Irgendwelche Haken?",
-    "visit": "Zur Seite",
+    "visit": "Jetzt Chatten",
     "review": "Komplette Bewertung"
   },
   "singlePageBySlug": {
@@ -2005,20 +2005,52 @@
         "Strenge 18+ Moderation und Reporting für Sicherheit",
         "Müheloser Zugriff auf jedem Browser oder Gerät"
       ]
+    },
+    "chatlive": {
+      "toppara": "Chatlive ist eine kostenlose zufällige Video-Chat-Plattform, die Sie anonym mit Fremden weltweit verbindet—kein Konto erforderlich. Sie bietet einen direkten, privaten Weg zu Echtzeit-Gesprächen und verwandelt gelegentliche Neugier in aufregende, persönliche Begegnungen.",
+      "secppara": "Chatlive entfacht spontane, eins-zu-eins Video-Chats, indem es Sie sofort mit globalen Fremden für ungefilterte, Live-Austausche zusammenbringt. Umgehen Sie gescriptete Streams und Gruppenlärm für rohe, sofortige Verbindungen, die echte Chemie und Überraschungen entfachen.",
+      "pricingDescription": "Chatlive ist völlig kostenlos, mit unbegrenzten zufälligen Video-Chats von Anfang an. Verdienen Sie In-App-Quids durch Interaktionen, um Extras wie Top-Benutzerzugang und Länderfilter freizuschalten—keine Käufe erforderlich.",
+      "hiddenFees": "Chatlive läuft mit vollständiger Transparenz: 100% kostenlos ohne Kosten, Werbung in Chats oder unerwartete Gebühren—nur reine, verdienbare Vorteile.",
+      "drawbacksDescription": "Um einen sicheren, nur für Erwachsene bestimmten Raum aufrechtzuerhalten, müssen Benutzer strenge Moderationsregeln befolgen, die explizite Inhalte verbieten, durch KI und menschliche Aufsicht durchgesetzt.",
+      "excerpt": "Zufällige Video-Zuordnung, sofortige Fremden-Links, Live-Global-Chats, Länderfilter, authentische Dialoge",
+      "overview": "Chatlive treibt schnelle, hochwertige Video-Verbindungen zu vielfältigen Fremden für sofortigen Spaß an. Verfeinern Sie Sprachen, debattieren Sie Ideen oder entdecken Sie Talente; wenden Sie Länderfilter an, chatten Sie per Text, wenn bevorzugt, und gedeihen Sie auf einer einfachen Benutzeroberfläche mit nahtlosen mobilen Apps.",
+      "featureImage": "/chatliv.jpg",
+      "benefitImage": "/chatliv.jpg",
+      "features": [
+        "Zufällige Video-Zuordnung für glückliche Paarungen",
+        "Sofortige eins-zu-eins Video-Räume",
+        "Länderfilter zur Zielausrichtung globaler Matches",
+        "Top-Benutzerzugang über verdiente Quids",
+        "Mühelose, anmeldungsfreie Benutzeroberfläche",
+        "Optionaler Text-Chat neben Video"
+      ],
+      "postlabel": [
+        "Video-Chat starten",
+        "Länderfilter anwenden",
+        "Top-Benutzer treffen",
+        "Quids verdienen"
+      ],
+      "benefits": [
+        "Lebendige Video-Streaming für echte Präsenz",
+        "Ungescriptete, direkte globale Interaktionen",
+        "Schub für Live-Rapport und Entdeckung",
+        "Robuste KI-Mensch-Moderation für Sicherheit",
+        "Perfekte Synchronisation auf mobilen Apps und Desktop"
+      ]
     }
   },
   "SearchPage": {
     "searchBanner": {
       "title": "Suche - Finde die Besten Erwachsenen-Chat-Seiten",
       "subtitle": "Verfeinere deine Suchfilter, um die perfekte Übereinstimmung oder den Chatraum für deine Präferenzen zu finden.",
-      "searchingFor": "Suche nach: {query}"
+      "searchingFor": "#1 Video-Chat mit Mädchen {query}"
     },
     "title": "Suchergebnisse ({count})",
     "showing": "Treffer für „{query}“",
     "noResults": "Nichts gefunden – probiere andere Wörter.",
     "noQuery": "Gib etwas ein, um zu suchen.",
     "readReview": "Bewertung lesen",
-    "visit": "{title} besuchen",
+    "visit": "Jetzt Chatten",
     "backToHome": "Zurück zur Startseite",
     "activeUsers": "10.000+ online"
   },

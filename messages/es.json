@@ -128,7 +128,7 @@
   },
   "camPost": {
     "readReview": "Leer reseña completa",
-    "visit": "Visitar {title}",
+    "visit": "Chatear Ahora",
     "activeUsers": "En línea ahora"
   },
   "getUpdateInbox": {
@@ -435,7 +435,7 @@
     "watchCamsNow": "¡Ver cams ahora!",
     "pricingTitle": "Precios y letra pequeña",
     "drawbacksTitle": "¿Algún inconveniente?",
-    "visit": "Ir al sitio",
+    "visit": "Chatear Ahora",
     "review": "Reseña completa"
   },
   "singlePageBySlug": {
@@ -2013,20 +2013,52 @@
         "Moderación estricta 18+ y reportes para seguridad",
         "Acceso sin esfuerzo en cualquier navegador o dispositivo"
       ]
+    },
+    "chatlive": {
+      "toppara": "Chatlive es una plataforma gratuita de chat de video aleatorio que te conecta de forma anónima con desconocidos de todo el mundo—sin cuenta requerida. Ofrece un camino directo y privado hacia conversaciones en tiempo real, transformando la curiosidad casual en encuentros emocionantes cara a cara.",
+      "secppara": "Chatlive enciende chats de video espontáneos uno a uno emparejándote instantáneamente con desconocidos globales para intercambios en vivo sin filtrar. Evita streams con guion y ruido grupal para conexiones crudas e inmediatas que generan química genuina y sorpresas.",
+      "pricingDescription": "Chatlive es completamente gratuito, con chats de video aleatorios ilimitados desde el principio. Gana Quids en la app a través de interacciones para desbloquear extras como acceso a usuarios top y filtros de país—sin compras necesarias.",
+      "hiddenFees": "Chatlive funciona con total transparencia: 100% gratuito sin costos, anuncios en chats o cargos inesperados—solo beneficios puros y ganables.",
+      "drawbacksDescription": "Para mantener un espacio seguro solo para adultos, los usuarios deben seguir estrictas reglas de moderación que prohíben contenido explícito, aplicadas por IA y supervisión humana.",
+      "excerpt": "Emparejamiento de video aleatorio, enlaces instantáneos con desconocidos, chats globales en vivo, filtros de país, diálogos auténticos",
+      "overview": "Chatlive impulsa conexiones de video rápidas y de alta calidad hacia diversos desconocidos para diversión inmediata. Perfecciona idiomas, debate ideas o descubre talentos; aplica filtros de país, chatea por texto si prefieres, y prospera en una interfaz directa con apps móviles fluidas.",
+      "featureImage": "/chatliv.jpg",
+      "benefitImage": "/chatliv.jpg",
+      "features": [
+        "Emparejamiento de video aleatorio para parejas fortuitas",
+        "Salas de video uno a uno instantáneas",
+        "Filtros de país para dirigirse a coincidencias globales",
+        "Acceso a usuarios top mediante Quids ganados",
+        "Interfaz sin esfuerzo y sin registro requerido",
+        "Chat de texto opcional junto al video"
+      ],
+      "postlabel": [
+        "Iniciar Chat de Video",
+        "Aplicar Filtro de País",
+        "Conocer Usuarios Top",
+        "Ganar Quids"
+      ],
+      "benefits": [
+        "Transmisión de video vívida para presencia real",
+        "Interacciones globales directas y sin guion",
+        "Impulso para rapport en vivo y descubrimiento",
+        "Moderación robusta IA-humana para seguridad",
+        "Sincronización perfecta en apps móviles y escritorio"
+      ]
     }
   },
   "SearchPage": {
     "searchBanner": {
       "title": "Buscar - Encuentra los Mejores Sitios de Chat para Adultos",
       "subtitle": "Refina tus filtros de búsqueda para encontrar la coincidencia perfecta o sala de chat para tus preferencias.",
-      "searchingFor": "Buscando: {query}"
+      "searchingFor": "#1 Chat de Video con Chicas {query}"
     },
     "title": "Resultados de búsqueda ({count})",
     "showing": "Coincidencias para \"{query}\"",
     "noResults": "Nada encontrado: prueba otras palabras.",
     "noQuery": "Escribe algo para buscar.",
     "readReview": "Leer reseña",
-    "visit": "Visitar {title}",
+    "visit": "Chatear Ahora",
     "backToHome": "Volver al inicio",
     "activeUsers": "+10.000 en línea"
   },

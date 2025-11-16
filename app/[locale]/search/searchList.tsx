@@ -129,6 +129,14 @@ function getCategoryKeywordsFromTranslations(query: string): string[] {
   return [...new Set(keywords)]; // Remove duplicates
 }
 
+// Helper function to capitalize text
+function capitalizeText(text: string): string {
+  return text
+    .split(" ")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .join(" ");
+}
+
 export default function SearchList() {
   const searchParams = useSearchParams();
   const locale = useLocale();
@@ -138,6 +146,9 @@ export default function SearchList() {
   const query = (searchParams.get("q") || "").trim();
   const normalized = query.toLowerCase();
   const searchWords = normalized.split(/\s+/).filter(Boolean);
+  
+  // Capitalize query for display
+  const capitalizedQuery = query ? capitalizeText(query) : "";
 
   // Get category keywords from English mappings
   let categoryKeywords = categoryMappings[normalized] || [];
@@ -226,14 +237,49 @@ export default function SearchList() {
             }
           });
 
+          // Get rating and performers count (like topchatgrid.tsx)
+          const rating = site.rating || 0;
+          
+          // Get performers count from site or translated messages
+          const performersText = 
+            (messages?.singlePageBySlug?.[site.slug]?.performers as string) ||
+            site.performers ||
+            "0";
+          
+          // Extract number from performers string (e.g., "8,347+ " -> 8347)
+          const getPerformersCount = (performers: string): number => {
+            if (!performers) return 0;
+            const numStr = performers.replace(/[,+\s]/g, "");
+            const num = parseInt(numStr, 10);
+            return isNaN(num) ? 0 : num;
+          };
+          
+          const performersCount = getPerformersCount(performersText);
+
           // Only include if matches
           if (categoryMatch || wordMatch || translatedMatch) {
-            return { site, relevanceScore };
+            return { site, relevanceScore, rating, performersCount };
           }
           return null;
         })
-        .filter((item): item is { site: typeof camSites[0]; relevanceScore: number } => item !== null)
-        .sort((a, b) => b.relevanceScore - a.relevanceScore) // Sort by relevance (highest first)
+        .filter((item): item is { site: typeof camSites[0]; relevanceScore: number; rating: number; performersCount: number } => item !== null)
+        .sort((a, b) => {
+          // First sort by relevance score (highest first)
+          if (b.relevanceScore !== a.relevanceScore) {
+            return b.relevanceScore - a.relevanceScore;
+          }
+          
+          // If relevance score is same, sort by rating (like topchatgrid.tsx)
+          // Rating 5 gets priority
+          if (a.rating === 5 && b.rating !== 5) return -1;
+          if (b.rating === 5 && a.rating !== 5) return 1;
+          if (a.rating !== b.rating) {
+            return b.rating - a.rating;
+          }
+          
+          // If rating is same, sort by performers count (highest first)
+          return b.performersCount - a.performersCount;
+        })
         .map((item) => item.site) // Extract just the site objects
     : [];
 
@@ -249,8 +295,9 @@ export default function SearchList() {
                 {query ? t("searchBanner.searchingFor", { query }) : t("searchBanner.title")}
               </h1>
               <p className="text-[20px] text-black text-center">
-                {/* {query ? t("showing", { query }) : t("searchBanner.subtitle")} */}
-                {t("searchBanner.subtitle")}
+                {query && capitalizedQuery
+                  ? `${capitalizedQuery} Online Chatroom | ${capitalizedQuery} Video Chat With Online Girls, Live Cam Chat!`
+                  : t("searchBanner.subtitle")}
               </p>
             </div>
           </div>

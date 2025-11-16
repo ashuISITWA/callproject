@@ -133,7 +133,7 @@
   },
   "camPost": {
     "readReview": "Read Review",
-    "visit": "Visit {title}",
+    "visit": "Chat Now",
     "activeUsers": "Online now"
   },
   "getUpdateInbox": {
@@ -427,7 +427,7 @@
     "watchCamsNow": "Start Watching!",
     "pricingTitle": "Pricing & Fine Print",
     "drawbacksTitle": "Any Catches?",
-    "visit": "Go to Site",
+    "visit": "Chat Now",
     "review": "Full Review"
   },
   "singlePageBySlug": {
@@ -2005,20 +2005,52 @@
         "Strict 18+ moderation and reporting for safety",
         "Effortless access on any browser or device"
       ]
+    },
+    "chatlive": {
+      "toppara": "Chatlive is a free random video chat platform that links you anonymously with strangers worldwide—no account required. It delivers a direct, private path to real-time conversations, turning casual curiosity into thrilling, face-to-face encounters.",
+      "secppara": "Chatlive ignites spontaneous, one-on-one video chats by matching you instantly with global strangers for unfiltered, live exchanges. Bypass scripted streams and group noise for raw, immediate connections that spark genuine chemistry and surprise.",
+      "pricingDescription": "Chatlive is completely free, with unlimited random video chats from the get-go. Earn in-app Quids through interactions to unlock extras like top user access and country filters—no purchases needed.",
+      "hiddenFees": "Chatlive runs on total transparency: 100% free with no costs, ads in chats, or unexpected charges—just pure, earnable perks.",
+      "drawbacksDescription": "To uphold a safe, adult-only space, users must follow strict moderation rules prohibiting explicit content, enforced by AI and human oversight.",
+      "excerpt": "Random video matching, instant stranger links, live global chats, country filters, authentic dialogues",
+      "overview": "Chatlive fuels rapid, high-quality video connections to diverse strangers for on-the-spot fun. Hone languages, debate ideas, or discover talents; apply country filters, chat via text if preferred, and thrive on a straightforward interface with seamless mobile apps.",
+      "featureImage": "/chatliv.jpg",
+      "benefitImage": "/chatliv.jpg",
+      "features": [
+        "Random video matching for serendipitous pairings",
+        "Instant one-on-one video rooms",
+        "Country filters to target global matches",
+        "Top users access via earned Quids",
+        "Effortless, no-signup-required interface",
+        "Optional text chat alongside video"
+      ],
+      "postlabel": [
+        "Start Video Chat",
+        "Apply Country Filter",
+        "Meet Top Users",
+        "Earn Quids"
+      ],
+      "benefits": [
+        "Vivid video streaming for real presence",
+        "Unscripted, direct global interactions",
+        "Boost for live rapport and discovery",
+        "Robust AI-human moderation for security",
+        "Perfect sync on mobile apps and desktop"
+      ]
     }
   },
   "SearchPage": {
     "searchBanner": {
       "title": "{query}",
       "subtitle": "Refine your search filters to find the perfect match or chat room for your preferences.",
-      "searchingFor": "Search for : {query}"
+      "searchingFor": "#1 Video Chat with Girls {query}"
     },
     "title": "Search results ({count})",
     "showing": "Matches for “{query}”",
     "noResults": "Nothing found—try different words.",
     "noQuery": "Type something to search.",
     "readReview": "Read Review",
-    "visit": "Visit {title}",
+    "visit": "Chat Now",
     "backToHome": "Back home",
     "activeUsers": "10,000+ online"
   },

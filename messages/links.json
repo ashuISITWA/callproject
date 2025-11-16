@@ -862,6 +862,22 @@
         "enabled": true,
         "tracking": true
       }
+    },
+    "chatlive": {
+      "global": "https://chatliv.com/",
+      "countries": {
+        "IN": "https://chatlive.in",
+        "CA": "https://chatlive.ca",
+        "UK": "https://chatlive.co.uk",
+        "AU": "https://chatlive.com.au"
+      },
+      "metadata": {
+        "title": "Chatlive",
+        "description": "Adult random chat with interest tags and anonymous interaction options",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     }
   },
   "config": {
