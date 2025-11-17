@@ -1,11 +1,13 @@
 import { getSiteBySlug } from "@/lib/sites";
 import { notFound } from "next/navigation";
 import Image from "next/image";
+import { getTranslations } from "next-intl/server";
 
-type Props = { params: Promise<{ slug: string }> };
+type Props = { params: Promise<{ locale: string; slug: string }> };
 
 export default async function SitePage({ params }: Props) {
-  const { slug } = await params;
+  const { locale, slug } = await params;
+  const t = await getTranslations({ locale, namespace: "camPost" });
   const site = await getSiteBySlug(slug);
 
   if (!site) return notFound();
@@ -33,7 +35,7 @@ export default async function SitePage({ params }: Props) {
         rel="noopener noreferrer"
         className="inline-block bg-red-500 text-white px-6 py-2 rounded"
       >
-        Visit {site.title}
+        {t("visit")}
       </a>
     </main>
   );

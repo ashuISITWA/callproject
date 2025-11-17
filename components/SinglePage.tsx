@@ -158,7 +158,8 @@ export default function SinglePage({
                     href={effectiveUrl}
                     className="block mt-1 text-[14px] text-white uppercase font-medium rounded-md bg-black text-center p-[8px] min-w-[250px]"
                   >
-                    {t("visit")} {site.title}
+                    {t("visit")} 
+                    {/* {site.title} */}
                   </Link>
                 </div>
               </div>

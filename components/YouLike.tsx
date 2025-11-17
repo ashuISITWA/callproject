@@ -106,7 +106,7 @@ const Card = ({ hero, logo, title, visitUrl, reviewUrl, rating, slug }: CardData
         href={visitUrl || "/"}
         className="block mt-1 text-[13px] text-white uppercase font-medium rounded-md bg-black text-center py-[6px]"
       >
-        Visit {title}
+       {t("visit")} 
       </Link>
 
         <Link
