@@ -1,0 +1,77 @@
+import React from "react";
+import Shortcuts from "@/components/Shortcuts";
+import SitesSlider from "@/components/SitesSlider";
+import HeroBanner from "@/components/banners/HeroBanner";
+
+  import CamGrid from "@/components/CamGrid";
+import CategoryContent from "@/components/CategoryContent";
+
+import type { Metadata } from "next";
+import messagesMap from "@/messages"; 
+import type { AppLocale } from "@/messages";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+
+  const safeLocale = (locale in messagesMap ? locale : "en") as AppLocale;
+  const messages = messagesMap[safeLocale];
+
+  // Get SEO data from indexPage.teenChat.seo (messages/en.json)
+  const localization = messages as any;
+  const categorySeoData = localization.indexPage?.teenChat?.seo || {};
+  const seoData = localization.indexPage?.seo || {};
+  const openGraphData = categorySeoData.openGraph || seoData.openGraph || {};
+
+  // Generate languages object for alternates from available locales
+  const languages: Record<string, string> = {};
+  Object.keys(messagesMap).forEach((loc) => {
+    languages[loc] = loc === "en" ? "/teenchat" : `/${loc}/teenchat`;
+  });
+
+  // Generate canonical URL
+  const canonical = locale === "en" ? "/teenchat" : `/${locale}/teenchat`;
+
+  // Replace {year} with current year in title
+  const currentYear = new Date().getFullYear();
+  const finalTitle = (categorySeoData.title || seoData.title || "Teen Chat Rooms").replace("{year}", currentYear.toString());
+  const finalOpenGraphTitle = (openGraphData.title || categorySeoData.title || seoData.title || "Teen Chat Rooms").replace("{year}", currentYear.toString());
+
+  return {
+    metadataBase: categorySeoData.metadataBase ? new URL(categorySeoData.metadataBase) : (seoData.metadataBase ? new URL(seoData.metadataBase) : new URL("https://coomeets.vercel.app")),
+    title: finalTitle,
+    description: categorySeoData.description || seoData.description || "",
+    openGraph: {
+      type: openGraphData.type || "website",
+      title: finalOpenGraphTitle,
+      description: openGraphData.description || categorySeoData.description || seoData.description || "",
+      images: openGraphData.image ? [openGraphData.image] : [],
+      url: openGraphData.url || "",
+      siteName: openGraphData.siteName || "Top Chats",
+      locale: safeLocale,
+    },
+    alternates: {
+      canonical: canonical,
+      languages: languages,
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
+}
+
+export default function Page() {
+  return (
+    <>
+      <HeroBanner pageKey="teenChat" />
+        <CamGrid category="teen" siteKey="teen" />
+      <SitesSlider category="teen" />
+      <CategoryContent category="teen" siteKey="teen" />
+      <Shortcuts />
+    </>
+  );
+}

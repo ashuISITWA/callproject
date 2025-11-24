@@ -1,6 +1,5 @@
 import SinglePage from "@/components/SinglePage";
 import type { Metadata } from "next";
-import linksData from "@/messages/links.json";
 import messagesMap from "@/messages";
 import type { AppLocale } from "@/messages";
 
@@ -22,34 +21,47 @@ export async function generateMetadata({
   const { locale, slug } = await params;
   const safeLocale = (locale in messagesMap ? locale : "en") as AppLocale;
 
-  // Get metadata from links.json (priority source)
-  const linkData = linksData.links[slug as keyof typeof linksData.links];
-  const linkMetadata = linkData?.metadata;
-
-  // Priority: links.json metadata > translated content > fallback
-  const siteTitle = linkMetadata?.title || slug;
-  const siteDescription = linkMetadata?.description || 
-    `Discover ${siteTitle} - Premium adult cam site with live performers and interactive chat.`;
-
-  // Get translated site content if available (for additional context)
+  // Get messages from language file (messages/en.json)
   const messages = messagesMap[safeLocale];
-  const slugMessages = (messages as any)?.singlePageBySlug?.[slug] || {};
   
-  // Use links.json title/description as primary, translated as fallback
-  const finalTitle = linkMetadata?.title || slugMessages?.title || slug;
-  const finalDescription = linkMetadata?.description || 
+  // Get slug-specific content from singlePageBySlug.[slug] (messages/en.json lines 632-2583)
+  // Example: singlePageBySlug.rabbitscams, singlePageBySlug.crazylivecams, etc.
+  const singlePageBySlug = (messages as any)?.singlePageBySlug || {};
+  const slugMessages = singlePageBySlug[slug] || {};
+  
+  // Extract metadata from singlePageBySlug.[slug].metadata
+  // This connects to messages/en.json singlePageBySlug.[slug].metadata.title and description
+  // Example: singlePageBySlug.rabbitscams.metadata.title (line 666)
+  //          singlePageBySlug.rabbitscams.metadata.description (line 667)
+  const slugMetadata = slugMessages?.metadata || {};
+  
+  // Priority order for title:
+  // 1. singlePageBySlug.[slug].metadata.title (from messages/en.json, e.g., line 666) - highest priority
+  // 2. slug as fallback
+  const finalTitle = (slugMetadata?.title && slugMetadata.title.trim()) ? slugMetadata.title : slug;
+
+  // Priority order for description:
+  // 1. singlePageBySlug.[slug].metadata.description (from messages/en.json, e.g., line 667) - highest priority
+  // 2. singlePageBySlug.[slug].excerpt
+  // 3. singlePageBySlug.[slug].overview
+  // 4. Default fallback
+  const finalDescription = slugMetadata?.description ||
     slugMessages?.excerpt || 
     slugMessages?.overview || 
-    siteDescription;
+    `Discover ${finalTitle} - Premium adult cam site with live performers and interactive chat.`;
+  
+  // Get category from singlePageBySlug.[slug].metadata.category
+  const finalCategory = slugMetadata?.category || "adult";
 
   // Capitalize the title
   const capitalizedTitle = capitalizeText(finalTitle);
-  const titleWithSuffix = `${capitalizedTitle} - #1 Video Chat with Girls | Official Site`;
+  const currentYear = new Date().getFullYear();
+  const titleWithSuffix = `${capitalizedTitle} - #1 Video Chat with Girls | Official Site | ${currentYear}`;
 
   return {
     title: titleWithSuffix,
     description: finalDescription,
-    keywords: `${capitalizedTitle}, ${siteTitle}, adult cam, live chat, cam site, ${linkMetadata?.category || "adult"}`,
+    keywords: `${capitalizedTitle}, ${finalTitle}, adult cam, live chat, cam site, ${finalCategory}`,
     openGraph: {
       title: titleWithSuffix,
       description: finalDescription,

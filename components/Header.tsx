@@ -56,7 +56,7 @@ export default function Header() {
                 className="flex items-center cursor-pointer text-white transition-transform duration-100 active:opacity-90 active:translate-y-0.5 w-[140px]"
               >
                 <img
-                  src={`${SERVER_URL}/logo.svg`}
+                  src={`${SERVER_URL}/logos/logo.svg`}
                   alt="logo"
                   className="w-full"
                   width={100}

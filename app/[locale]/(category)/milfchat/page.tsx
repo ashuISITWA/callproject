@@ -1,14 +1,13 @@
-import Image from "next/image";
+import React from "react";
 import Shortcuts from "@/components/Shortcuts";
 import SitesSlider from "@/components/SitesSlider";
 import HeroBanner from "@/components/banners/HeroBanner";
-import CamGrid from "@/components/CamGrid";
 
 import type { Metadata } from "next";
-import messagesMap from "@/messages";
-import type { AppLocale } from "@/messages";
+import messagesMap from "@/messages"; 
+import type { AppLocale } from "@/messages"; 
+import CamGrid from "@/components/CamGrid";
 import CategoryContent from "@/components/CategoryContent";
-
 
 export async function generateMetadata({
   params,
@@ -20,33 +19,34 @@ export async function generateMetadata({
   const safeLocale = (locale in messagesMap ? locale : "en") as AppLocale;
   const messages = messagesMap[safeLocale];
 
-  // Get SEO data from indexPage.seo (messages/en.json)
+  // Get SEO data from indexPage.milfChat.seo (messages/en.json)
   const localization = messages as any;
+  const categorySeoData = localization.indexPage?.milfChat?.seo || {};
   const seoData = localization.indexPage?.seo || {};
-  const openGraphData = seoData.openGraph || {};
+  const openGraphData = categorySeoData.openGraph || seoData.openGraph || {};
 
   // Generate languages object for alternates from available locales
   const languages: Record<string, string> = {};
   Object.keys(messagesMap).forEach((loc) => {
-    languages[loc] = loc === "en" ? "/" : `/${loc}`;
+    languages[loc] = loc === "en" ? "/milfchat" : `/${loc}/milfchat`;
   });
 
   // Generate canonical URL
-  const canonical = locale === "en" ? "/" : `/${locale}`;
+  const canonical = locale === "en" ? "/milfchat" : `/${locale}/milfchat`;
 
   // Replace {year} with current year in title
   const currentYear = new Date().getFullYear();
-  const finalTitle = (seoData.title || "Top 10 Chat Sites").replace("{year}", currentYear.toString());
-  const finalOpenGraphTitle = (openGraphData.title || seoData.title || "Top 10 Chat Sites").replace("{year}", currentYear.toString());
+  const finalTitle = (categorySeoData.title || seoData.title || "MILF Chat").replace("{year}", currentYear.toString());
+  const finalOpenGraphTitle = (openGraphData.title || categorySeoData.title || seoData.title || "MILF Chat").replace("{year}", currentYear.toString());
 
   return {
-    metadataBase: seoData.metadataBase ? new URL(seoData.metadataBase) : new URL("https://coomeets.vercel.app"),
+    metadataBase: categorySeoData.metadataBase ? new URL(categorySeoData.metadataBase) : (seoData.metadataBase ? new URL(seoData.metadataBase) : new URL("https://coomeets.vercel.app")),
     title: finalTitle,
-    description: seoData.description || "",
+    description: categorySeoData.description || seoData.description || "",
     openGraph: {
       type: openGraphData.type || "website",
       title: finalOpenGraphTitle,
-      description: openGraphData.description || seoData.description || "",
+      description: openGraphData.description || categorySeoData.description || seoData.description || "",
       images: openGraphData.image ? [openGraphData.image] : [],
       url: openGraphData.url || "",
       siteName: openGraphData.siteName || "Top Chats",
@@ -63,15 +63,13 @@ export async function generateMetadata({
   };
 }
 
-
-
-export default async function Home() {
+export default function Page() {
   return (
     <>
-      <HeroBanner pageKey="top10chat" />
-      <CamGrid category="top10chat" siteKey="topChats" />
-      <SitesSlider category="top10chat" />
-      <CategoryContent category="top10chat" siteKey="topChats" />
+      <HeroBanner pageKey="milfChat" />
+      <CamGrid category="milfchat" siteKey="milfChat"/>  
+      <SitesSlider category="milfchat"/>
+      <CategoryContent category="milfchat" siteKey="milfCams"  />
       <Shortcuts />
     </>
   );
