@@ -4,71 +4,154 @@
     "description": "En iyi canlı sohbet siteleri için birinci adresiniz",
     "keywords": "canlı sohbet, kamera siteleri, yetişkin kameralar"
   },
-  "SEO": {
-    "Top10Chat": {
-      "Title": "En İyi 10 Sohbet Sitesi",
-      "Description": "Gerçek modellerin ateşli özel şovlar yaptığı en ateşli canlı kamera sitelerini keşfedin.",
-      "Keywords": "en iyi sohbet siteleri, seks kameraları, canlı sohbet, ücretsiz kameralar"
+  "indexPage": {
+    "seo": {
+      "title": "En İyi 10 Sohbet Sitesi | #1 Kızlarla Video Sohbet | Resmi Site | {year}",
+      "description": "Gerçek modellerin buharlı özel şovlar yaptığı en ateşli canlı kam sitelerini keşfedin.",
+      "openGraph": {
+        "type": "website",
+        "title": "En İyi 10 Sohbet Sitesi",
+        "description": "Gerçek modellerin buharlı özel şovlar yaptığı en ateşli canlı kam sitelerini keşfedin.",
+        "image": "https://example.com/og-image.jpg",
+        "url": "https://example.com",
+        "siteName": "Top Chats"
+      },
+      "metadataBase": "https://coomeets.vercel.app"
     },
-    "TeenChat": {
-      "Title": "Genç Sohbet Odaları",
-      "Description": "Canlı genç sohbet odalarına atlayın ve eğlenceli, flörtöz genç kameralarla anında bağlantı kurun.",
-      "Keywords": "genç sohbet, genç kameralar, ücretsiz genç odalar"
+    "sexCam": {
+      "seo": {
+        "title": "Seks Kamları | #1 Kızlarla Video Sohbet | Resmi Site | {year}",
+        "description": "Birinci sınıf canlı şovların tadını çıkarın ve özel sohbetlerde muhteşem modellere yaklaşın.",
+        "openGraph": {
+          "type": "website",
+          "title": "Seks Kamları",
+          "description": "Birinci sınıf canlı şovların tadını çıkarın ve özel sohbetlerde muhteşem modellere yaklaşın.",
+          "image": "https://example.com/og-image.jpg",
+          "url": "https://example.com",
+          "siteName": "Top Chats"
+        },
+        "metadataBase": "https://coomeets.vercel.app"
+      }
     },
-    "VoyeurCam": {
-      "Title": "Voyeur Kameralar",
-      "Description": "En iyi voyeur kamera siteleriyle gerçek özel anlara göz atın.",
-      "Keywords": "voyeur kameralar, gizli kameralar, canlı voyeur"
+    "freeChat": {
+      "seo": {
+        "title": "Ücretsiz Sohbet | #1 Kızlarla Video Sohbet | Resmi Site | {year}",
+        "description": "Kayıt yok, ücret yok—sadece ücretsiz canlı sohbetlere atlayın ve eğlenin.",
+        "openGraph": {
+          "type": "website",
+          "title": "Ücretsiz Sohbet",
+          "description": "Kayıt yok, ücret yok—sadece ücretsiz canlı sohbetlere atlayın ve eğlenin.",
+          "image": "https://example.com/og-image.jpg",
+          "url": "https://example.com",
+          "siteName": "Top Chats"
+        },
+        "metadataBase": "https://coomeets.vercel.app"
+      }
     },
-    "SexCam": {
-      "Title": "Seks Kameraları",
-      "Description": "Birinci sınıf canlı şovların tadını çıkarın ve muhteşem modellerle özel sohbetlerde yakınlaşın.",
-      "Keywords": "seks kameraları, canlı seks, ücretsiz kameralar"
+    "milfChat": {
+      "seo": {
+        "title": "MILF Sohbet | #1 Kızlarla Video Sohbet | Resmi Site | {year}",
+        "description": "En iyi MILF kam sitelerinde seksi olgun kadınlarla sohbet edin—canlı ve eğlenceye hazır.",
+        "openGraph": {
+          "type": "website",
+          "title": "MILF Sohbet",
+          "description": "En iyi MILF kam sitelerinde seksi olgun kadınlarla sohbet edin—canlı ve eğlenceye hazır.",
+          "image": "https://example.com/og-image.jpg",
+          "url": "https://example.com",
+          "siteName": "Top Chats"
+        },
+        "metadataBase": "https://coomeets.vercel.app"
+      }
     },
-    "RandomChat": {
-      "Title": "Rastgele Sohbet",
-      "Description": "Her yerden rastgele yabancılarla tanışın—ücretsiz, hızlı ve sürprizlerle dolu!",
-      "Keywords": "rastgele sohbet, chatroulette, video sohbet"
+    "bbwChat": {
+      "seo": {
+        "title": "BBW Sohbet | #1 Kızlarla Video Sohbet | Resmi Site | {year}",
+        "description": "En iyi büyük beden kam sitelerinde kıvrımlı BBW güzelleriyle canlı sohbet edin.",
+        "openGraph": {
+          "type": "website",
+          "title": "BBW Sohbet",
+          "description": "En iyi büyük beden kam sitelerinde kıvrımlı BBW güzelleriyle canlı sohbet edin.",
+          "image": "https://example.com/og-image.jpg",
+          "url": "https://example.com",
+          "siteName": "Top Chats"
+        },
+        "metadataBase": "https://coomeets.vercel.app"
+      }
     },
-    "MilfChat": {
-      "Title": "MILF Sohbet",
-      "Description": "En iyi MILF kamera sitelerinde seksi olgun kadınlarla sohbet edin—canlı ve eğlenceye hazır.",
-      "Keywords": "MILF sohbet, olgun kameralar, cougar sohbet"
+    "ebonyChat": {
+      "seo": {
+        "title": "Ebony Sohbet | #1 Kızlarla Video Sohbet | Resmi Site | {year}",
+        "description": "Ateşli ebony sohbet odalarında çarpıcı siyahi modellerle bağlantı kurun—izlemek ücretsiz!",
+        "openGraph": {
+          "type": "website",
+          "title": "Ebony Sohbet",
+          "description": "Ateşli ebony sohbet odalarında çarpıcı siyahi modellerle bağlantı kurun—izlemek ücretsiz!",
+          "image": "https://example.com/og-image.jpg",
+          "url": "https://example.com",
+          "siteName": "Top Chats"
+        },
+        "metadataBase": "https://coomeets.vercel.app"
+      }
     },
-    "FreeChat": {
-      "Title": "Ücretsiz Sohbet",
-      "Description": "Kayıt yok, ücret yok—sadece ücretsiz canlı sohbetlere atlayın ve eğlenin.",
-      "Keywords": "ücretsiz sohbet, video sohbet, çevrimiçi odalar"
+    "teenChat": {
+      "seo": {
+        "title": "Genç Sohbet Odaları | #1 Kızlarla Video Sohbet | Resmi Site | {year}",
+        "description": "Canlı genç sohbet odalarına atlayın ve eğlenceli, flörtöz genç kamlarla anında bağlantı kurun.",
+        "openGraph": {
+          "type": "website",
+          "title": "Genç Sohbet Odaları",
+          "description": "Canlı genç sohbet odalarına atlayın ve eğlenceli, flörtöz genç kamlarla anında bağlantı kurun.",
+          "image": "https://example.com/og-image.jpg",
+          "url": "https://example.com",
+          "siteName": "Top Chats"
+        },
+        "metadataBase": "https://coomeets.vercel.app"
+      }
     },
-    "FetishChat": {
-      "Title": "Fetiş Sohbet",
-      "Description": "Vahşi fetiş kameraları ve canlı BDSM sohbetleriyle takıntılarınızı keşfedin.",
-      "Keywords": "fetiş sohbet, fetiş kameralar, canlı BDSM"
+    "randomChat": {
+      "seo": {
+        "title": "Rastgele Sohbet | #1 Kızlarla Video Sohbet | Resmi Site | {year}",
+        "description": "Her yerden rastgele yabancılarla tanışın—ücretsiz, hızlı ve sürprizlerle dolu!",
+        "openGraph": {
+          "type": "website",
+          "title": "Rastgele Sohbet",
+          "description": "Her yerden rastgele yabancılarla tanışın—ücretsiz, hızlı ve sürprizlerle dolu!",
+          "image": "https://example.com/og-image.jpg",
+          "url": "https://example.com",
+          "siteName": "Top Chats"
+        },
+        "metadataBase": "https://coomeets.vercel.app"
+      }
     },
-    "EbonyChat": {
-      "Title": "Siyahi Sohbet",
-      "Description": "Kızaran siyahi sohbet odalarında çarpıcı Siyahi modellerle bağlantı kurun—izlemek ücretsiz!",
-      "Keywords": "siyahi sohbet, siyahi kameralar, canlı siyahi"
+    "fetishChat": {
+      "seo": {
+        "title": "Fetiş Sohbet | #1 Kızlarla Video Sohbet | Resmi Site | {year}",
+        "description": "Vahşi fetiş kamları ve canlı BDSM sohbetleriyle fetişlerinizi keşfedin.",
+        "openGraph": {
+          "type": "website",
+          "title": "Fetiş Sohbet",
+          "description": "Vahşi fetiş kamları ve canlı BDSM sohbetleriyle fetişlerinizi keşfedin.",
+          "image": "https://example.com/og-image.jpg",
+          "url": "https://example.com",
+          "siteName": "Top Chats"
+        },
+        "metadataBase": "https://coomeets.vercel.app"
+      }
     },
-    "BbwChat": {
-      "Title": "BBW Sohbet",
-      "Description": "En iyi büyük beden kamera sitelerinde kıvrımlı BBW güzelleriyle canlı sohbet edin.",
-      "Keywords": "BBW sohbet, kıvrımlı kameralar, büyük beden canlı"
-    },
-    "Terms": {
-      "Title": "Kullanım Şartları",
-      "Description": "Herkes için işleri eğlenceli, güvenli ve adil tutmak için basit kurallarımız.",
-      "Keywords": "şartlar, gizlilik, kullanıcı sözleşmesi"
-    },
-    "Sites": {
-      "Title": "Tüm Siteler",
-      "Description": "İncelediğimiz her birinci sınıf kamera ve sohbet sitesine göz atın—tek durak alışveriş noktanız.",
-      "Keywords": "kamera siteleri, sohbet platformları, incelemeler"
-    },
-    "Search": {
-      "Title": "Arama - En İyi Yetişkin Sohbet Sitelerini Bulun",
-      "Description": "En iyi yetişkin sohbet sitelerini, kamera sitelerini ve canlı seks sohbet platformlarını arayın ve keşfedin.",
-      "Keywords": "yetişkin sohbet arama, kamera siteleri bul, yetişkin siteler arama"
+    "voyeurCam": {
+      "seo": {
+        "title": "Voyeur Kamları | #1 Kızlarla Video Sohbet | Resmi Site | {year}",
+        "description": "En iyi voyeur kam siteleriyle gerçek özel anlara göz atın.",
+        "openGraph": {
+          "type": "website",
+          "title": "Voyeur Kamları",
+          "description": "En iyi voyeur kam siteleriyle gerçek özel anlara göz atın.",
+          "image": "https://example.com/og-image.jpg",
+          "url": "https://example.com",
+          "siteName": "Top Chats"
+        },
+        "metadataBase": "https://coomeets.vercel.app"
+      }
     }
   },
   "Header": {

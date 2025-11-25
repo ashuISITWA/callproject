@@ -4,71 +4,154 @@
     "description": "Jouw plek voor de beste live chat sites",
     "keywords": "live chat, cam sites, volwassen cams"
   },
-  "SEO": {
-    "Top10Chat": {
-      "Title": "Top 10 Chat Sites",
-      "Description": "Bekijk de heetste live cam sites waar echte modellen spannende privéshows geven.",
-      "Keywords": "top chat sites, sex cams, live chat, gratis cams"
+  "indexPage": {
+    "seo": {
+      "title": "Top 10 Chat Sites | #1 Video Chat met Meisjes | Officiële Site | {year}",
+      "description": "Bekijk de heetste live cam sites waar echte modellen pikante privéshows geven.",
+      "openGraph": {
+        "type": "website",
+        "title": "Top 10 Chat Sites",
+        "description": "Bekijk de heetste live cam sites waar echte modellen pikante privéshows geven.",
+        "image": "https://example.com/og-image.jpg",
+        "url": "https://example.com",
+        "siteName": "Top Chats"
+      },
+      "metadataBase": "https://coomeets.vercel.app"
     },
-    "TeenChat": {
-      "Title": "Tiener Chatrooms",
-      "Description": "Spring in levendige tiener chatrooms en maak direct contact met leuke, flirterige jonge cams.",
-      "Keywords": "tiener chat, jonge cams, gratis tiener kamers"
+    "sexCam": {
+      "seo": {
+        "title": "Sex Cams | #1 Video Chat met Meisjes | Officiële Site | {year}",
+        "description": "Geniet van eersteklas live shows en kom dichtbij prachtige modellen in privéchats.",
+        "openGraph": {
+          "type": "website",
+          "title": "Sex Cams",
+          "description": "Geniet van eersteklas live shows en kom dichtbij prachtige modellen in privéchats.",
+          "image": "https://example.com/og-image.jpg",
+          "url": "https://example.com",
+          "siteName": "Top Chats"
+        },
+        "metadataBase": "https://coomeets.vercel.app"
+      }
     },
-    "VoyeurCam": {
-      "Title": "Voyeur Cams",
-      "Description": "Gluur naar echte privémomenten met de beste voyeur cam sites online.",
-      "Keywords": "voyeur cams, verborgen cams, live voyeur"
+    "freeChat": {
+      "seo": {
+        "title": "Gratis Chat | #1 Video Chat met Meisjes | Officiële Site | {year}",
+        "description": "Geen aanmelding, geen kosten—spring gewoon in gratis live chats en geniet ervan.",
+        "openGraph": {
+          "type": "website",
+          "title": "Gratis Chat",
+          "description": "Geen aanmelding, geen kosten—spring gewoon in gratis live chats en geniet ervan.",
+          "image": "https://example.com/og-image.jpg",
+          "url": "https://example.com",
+          "siteName": "Top Chats"
+        },
+        "metadataBase": "https://coomeets.vercel.app"
+      }
     },
-    "SexCam": {
-      "Title": "Sex Cams",
-      "Description": "Geniet van eersteklas live shows en kom dichtbij prachtige modellen in privéchats.",
-      "Keywords": "sex cams, live sex, gratis cams"
+    "milfChat": {
+      "seo": {
+        "title": "MILF Chat | #1 Video Chat met Meisjes | Officiële Site | {year}",
+        "description": "Chat met sexy volwassen vrouwen op de beste MILF cam sites—live en klaar voor plezier.",
+        "openGraph": {
+          "type": "website",
+          "title": "MILF Chat",
+          "description": "Chat met sexy volwassen vrouwen op de beste MILF cam sites—live en klaar voor plezier.",
+          "image": "https://example.com/og-image.jpg",
+          "url": "https://example.com",
+          "siteName": "Top Chats"
+        },
+        "metadataBase": "https://coomeets.vercel.app"
+      }
     },
-    "RandomChat": {
-      "Title": "Willekeurige Chat",
-      "Description": "Ontmoet willekeurige vreemden van overal - gratis, snel en vol verrassingen!",
-      "Keywords": "willekeurige chat, chatroulette, video chat"
+    "bbwChat": {
+      "seo": {
+        "title": "BBW Chat | #1 Video Chat met Meisjes | Officiële Site | {year}",
+        "description": "Chat live met weelderige BBW schoonheden op de beste plus-size cam sites.",
+        "openGraph": {
+          "type": "website",
+          "title": "BBW Chat",
+          "description": "Chat live met weelderige BBW schoonheden op de beste plus-size cam sites.",
+          "image": "https://example.com/og-image.jpg",
+          "url": "https://example.com",
+          "siteName": "Top Chats"
+        },
+        "metadataBase": "https://coomeets.vercel.app"
+      }
     },
-    "MilfChat": {
-      "Title": "MILF Chat",
-      "Description": "Chat met sexy volwassen vrouwen op de beste MILF cam sites - live en klaar voor plezier.",
-      "Keywords": "MILF chat, volwassen cams, cougar chat"
+    "ebonyChat": {
+      "seo": {
+        "title": "Ebony Chat | #1 Video Chat met Meisjes | Officiële Site | {year}",
+        "description": "Maak contact met prachtige zwarte modellen in sizzling ebony chat rooms—gratis te bekijken!",
+        "openGraph": {
+          "type": "website",
+          "title": "Ebony Chat",
+          "description": "Maak contact met prachtige zwarte modellen in sizzling ebony chat rooms—gratis te bekijken!",
+          "image": "https://example.com/og-image.jpg",
+          "url": "https://example.com",
+          "siteName": "Top Chats"
+        },
+        "metadataBase": "https://coomeets.vercel.app"
+      }
     },
-    "FreeChat": {
-      "Title": "Gratis Chat",
-      "Description": "Geen aanmelding, geen kosten - spring gewoon in gratis live chats en heb plezier.",
-      "Keywords": "gratis chat, video chat, online kamers"
+    "teenChat": {
+      "seo": {
+        "title": "Tiener Chat Rooms | #1 Video Chat met Meisjes | Officiële Site | {year}",
+        "description": "Spring in levendige tiener chat rooms en maak direct contact met leuke, flirterige jonge cams.",
+        "openGraph": {
+          "type": "website",
+          "title": "Tiener Chat Rooms",
+          "description": "Spring in levendige tiener chat rooms en maak direct contact met leuke, flirterige jonge cams.",
+          "image": "https://example.com/og-image.jpg",
+          "url": "https://example.com",
+          "siteName": "Top Chats"
+        },
+        "metadataBase": "https://coomeets.vercel.app"
+      }
     },
-    "FetishChat": {
-      "Title": "Fetish Chat",
-      "Description": "Verken je kinks met wilde fetish cams en live BDSM chats.",
-      "Keywords": "fetish chat, kink cams, BDSM live"
+    "randomChat": {
+      "seo": {
+        "title": "Willekeurige Chat | #1 Video Chat met Meisjes | Officiële Site | {year}",
+        "description": "Ontmoet willekeurige vreemden van overal—gratis, snel en vol verrassingen!",
+        "openGraph": {
+          "type": "website",
+          "title": "Willekeurige Chat",
+          "description": "Ontmoet willekeurige vreemden van overal—gratis, snel en vol verrassingen!",
+          "image": "https://example.com/og-image.jpg",
+          "url": "https://example.com",
+          "siteName": "Top Chats"
+        },
+        "metadataBase": "https://coomeets.vercel.app"
+      }
     },
-    "EbonyChat": {
-      "Title": "Ebony Chat",
-      "Description": "Maak contact met prachtige zwarte modellen in sizzling ebony chatrooms - gratis om te kijken!",
-      "Keywords": "ebony chat, zwarte cams, live ebony"
+    "fetishChat": {
+      "seo": {
+        "title": "Fetisj Chat | #1 Video Chat met Meisjes | Officiële Site | {year}",
+        "description": "Verken je voorkeuren met wilde fetisj cams en live BDSM chats.",
+        "openGraph": {
+          "type": "website",
+          "title": "Fetisj Chat",
+          "description": "Verken je voorkeuren met wilde fetisj cams en live BDSM chats.",
+          "image": "https://example.com/og-image.jpg",
+          "url": "https://example.com",
+          "siteName": "Top Chats"
+        },
+        "metadataBase": "https://coomeets.vercel.app"
+      }
     },
-    "BbwChat": {
-      "Title": "BBW Chat",
-      "Description": "Chat live met curvy BBW schoonheden op de top plus-size cam sites.",
-      "Keywords": "BBW chat, curvy cams, plus-size live"
-    },
-    "Terms": {
-      "Title": "Servicevoorwaarden",
-      "Description": "Onze eenvoudige regels om het leuk, veilig en eerlijk te houden voor iedereen.",
-      "Keywords": "voorwaarden, privacy, gebruikersovereenkomst"
-    },
-    "Sites": {
-      "Title": "Alle Sites",
-      "Description": "Bekijk elke top-gewaardeerde cam en chat site die we hebben beoordeeld - je one-stop shop.",
-      "Keywords": "cam sites, chat platforms, recensies"
-    },
-    "Search": {
-      "Title": "Zoeken - Vind de Beste Volwassen Chat Sites",
-      "Description": "Zoek en ontdek de top volwassen chat sites, cam sites en live sex chat platforms.",
-      "Keywords": "zoek volwassen chat, vind cam sites, volwassen sites zoeken"
+    "voyeurCam": {
+      "seo": {
+        "title": "Voyeur Cams | #1 Video Chat met Meisjes | Officiële Site | {year}",
+        "description": "Glimkijk in echte privémomenten met de beste voyeur cam sites online.",
+        "openGraph": {
+          "type": "website",
+          "title": "Voyeur Cams",
+          "description": "Glimkijk in echte privémomenten met de beste voyeur cam sites online.",
+          "image": "https://example.com/og-image.jpg",
+          "url": "https://example.com",
+          "siteName": "Top Chats"
+        },
+        "metadataBase": "https://coomeets.vercel.app"
+      }
     }
   },
   "Header": {

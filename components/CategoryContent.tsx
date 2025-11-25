@@ -32,7 +32,7 @@ export default function CategoryContent({ category, siteKey }: Props) {
                         </div>
 
                         <div className="shrink-0">
-                            <div className="inline-block w-[300px] rounded-md overflow-hidden">
+                            <div className="inline-block w-[300px] aspect-video rounded-md overflow-hidden">
                                 <img
                                     src={`${SERVER_URL}${t("categoryImage")}`}
                                     width={300}

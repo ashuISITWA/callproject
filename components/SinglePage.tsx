@@ -99,7 +99,7 @@ export default function SinglePage({
             <div className="flex flex-col sticky top-[100px]">
               <div className="flex flex-col gap-2">
                 {/* Hero image */}
-                <div className="block w-full md:w-[300px] rounded-md overflow-hidden">
+                <div className="block w-full md:w-[300px] aspect-video rounded-md overflow-hidden">
                   <img
                     className="w-full h-full object-cover"
                     src={getImageUrl(site.hero)}

@@ -4,71 +4,154 @@
     "description": "寻找最佳在线聊天网站的首选之地",
     "keywords": "在线聊天, 视频聊天网站, 成人视频聊天"
   },
-  "SEO": {
-    "Top10Chat": {
-      "Title": "十大聊天网站",
-      "Description": "探索最火热的在线视频聊天网站，真实模特为您呈现私密激情表演。",
-      "Keywords": "顶级聊天网站, 性爱视频聊天, 在线聊天, 免费视频聊天"
+  "indexPage": {
+    "seo": {
+      "title": "十大聊天网站 | #1 与女孩视频聊天 | 官方网站 | {year}",
+      "description": "查看最热门的真人直播网站，真实模特为您呈现火辣的私人表演。",
+      "openGraph": {
+        "type": "website",
+        "title": "十大聊天网站",
+        "description": "查看最热门的真人直播网站，真实模特为您呈现火辣的私人表演。",
+        "image": "https://example.com/og-image.jpg",
+        "url": "https://example.com",
+        "siteName": "Top Chats"
+      },
+      "metadataBase": "https://coomeets.vercel.app"
     },
-    "TeenChat": {
-      "Title": "青少年聊天室",
-      "Description": "加入充满活力的青少年聊天室，立即与有趣、调情的年轻视频模特连接。",
-      "Keywords": "青少年聊天, 年轻视频模特, 免费青少年房间"
+    "sexCam": {
+      "seo": {
+        "title": "性爱直播 | #1 与女孩视频聊天 | 官方网站 | {year}",
+        "description": "享受一流的现场表演，在私人聊天中与美丽的模特近距离接触。",
+        "openGraph": {
+          "type": "website",
+          "title": "性爱直播",
+          "description": "享受一流的现场表演，在私人聊天中与美丽的模特近距离接触。",
+          "image": "https://example.com/og-image.jpg",
+          "url": "https://example.com",
+          "siteName": "Top Chats"
+        },
+        "metadataBase": "https://coomeets.vercel.app"
+      }
     },
-    "VoyeurCam": {
-      "Title": "偷窥视频聊天",
-      "Description": "通过最佳偷窥视频网站窥视真实的私密时刻。",
-      "Keywords": "偷窥视频, 隐藏摄像头, 实时偷窥"
+    "freeChat": {
+      "seo": {
+        "title": "免费聊天 | #1 与女孩视频聊天 | 官方网站 | {year}",
+        "description": "无需注册，无需费用—直接加入免费直播聊天，尽情享受。",
+        "openGraph": {
+          "type": "website",
+          "title": "免费聊天",
+          "description": "无需注册，无需费用—直接加入免费直播聊天，尽情享受。",
+          "image": "https://example.com/og-image.jpg",
+          "url": "https://example.com",
+          "siteName": "Top Chats"
+        },
+        "metadataBase": "https://coomeets.vercel.app"
+      }
     },
-    "SexCam": {
-      "Title": "性爱视频聊天",
-      "Description": "享受顶级的现场表演，在私密聊天中与性感模特近距离接触。",
-      "Keywords": "性爱视频聊天, 实时性爱, 免费视频聊天"
+    "milfChat": {
+      "seo": {
+        "title": "熟女聊天 | #1 与女孩视频聊天 | 官方网站 | {year}",
+        "description": "在最好的MILF直播网站上与性感成熟女性聊天—现场直播，随时准备享受乐趣。",
+        "openGraph": {
+          "type": "website",
+          "title": "熟女聊天",
+          "description": "在最好的MILF直播网站上与性感成熟女性聊天—现场直播，随时准备享受乐趣。",
+          "image": "https://example.com/og-image.jpg",
+          "url": "https://example.com",
+          "siteName": "Top Chats"
+        },
+        "metadataBase": "https://coomeets.vercel.app"
+      }
     },
-    "RandomChat": {
-      "Title": "随机聊天",
-      "Description": "与来自世界各地的陌生人免费、快速、充满惊喜地相遇！",
-      "Keywords": "随机聊天, 随机视频聊天, 视频聊天"
+    "bbwChat": {
+      "seo": {
+        "title": "大码美女聊天 | #1 与女孩视频聊天 | 官方网站 | {year}",
+        "description": "在顶级大码直播网站上与曲线优美的BBW美女进行实时聊天。",
+        "openGraph": {
+          "type": "website",
+          "title": "大码美女聊天",
+          "description": "在顶级大码直播网站上与曲线优美的BBW美女进行实时聊天。",
+          "image": "https://example.com/og-image.jpg",
+          "url": "https://example.com",
+          "siteName": "Top Chats"
+        },
+        "metadataBase": "https://coomeets.vercel.app"
+      }
     },
-    "MilfChat": {
-      "Title": "熟女聊天",
-      "Description": "在最佳熟女视频聊天网站上与性感成熟女性聊天——实时在线，随时准备玩乐。",
-      "Keywords": "熟女聊天, 成熟女性视频聊天, 熟女聊天"
+    "ebonyChat": {
+      "seo": {
+        "title": "黑人美女聊天 | #1 与女孩视频聊天 | 官方网站 | {year}",
+        "description": "在火热的黑人聊天室中与令人惊艳的黑人模特联系—免费观看！",
+        "openGraph": {
+          "type": "website",
+          "title": "黑人美女聊天",
+          "description": "在火热的黑人聊天室中与令人惊艳的黑人模特联系—免费观看！",
+          "image": "https://example.com/og-image.jpg",
+          "url": "https://example.com",
+          "siteName": "Top Chats"
+        },
+        "metadataBase": "https://coomeets.vercel.app"
+      }
     },
-    "FreeChat": {
-      "Title": "免费聊天",
-      "Description": "无需注册，无需费用——只需加入免费在线聊天，尽情享受。",
-      "Keywords": "免费聊天, 视频聊天, 在线房间"
+    "teenChat": {
+      "seo": {
+        "title": "青少年聊天室 | #1 与女孩视频聊天 | 官方网站 | {year}",
+        "description": "跳入充满活力的青少年聊天室，立即与有趣、调皮的年轻主播联系。",
+        "openGraph": {
+          "type": "website",
+          "title": "青少年聊天室",
+          "description": "跳入充满活力的青少年聊天室，立即与有趣、调皮的年轻主播联系。",
+          "image": "https://example.com/og-image.jpg",
+          "url": "https://example.com",
+          "siteName": "Top Chats"
+        },
+        "metadataBase": "https://coomeets.vercel.app"
+      }
     },
-    "FetishChat": {
-      "Title": "恋物癖聊天",
-      "Description": "通过狂野的恋物癖视频聊天和实时BDSM聊天探索您的性癖好。",
-      "Keywords": "恋物癖聊天, 性癖视频聊天, BDSM直播"
+    "randomChat": {
+      "seo": {
+        "title": "随机聊天 | #1 与女孩视频聊天 | 官方网站 | {year}",
+        "description": "与来自世界各地的随机陌生人相遇—免费、快速、充满惊喜！",
+        "openGraph": {
+          "type": "website",
+          "title": "随机聊天",
+          "description": "与来自世界各地的随机陌生人相遇—免费、快速、充满惊喜！",
+          "image": "https://example.com/og-image.jpg",
+          "url": "https://example.com",
+          "siteName": "Top Chats"
+        },
+        "metadataBase": "https://coomeets.vercel.app"
+      }
     },
-    "EbonyChat": {
-      "Title": "黑人美女聊天",
-      "Description": "在火热的黑人美女聊天室中与惊艳的黑人模特连接——免费观看！",
-      "Keywords": "黑人美女聊天, 黑人视频模特, 实时黑人美女"
+    "fetishChat": {
+      "seo": {
+        "title": "恋物聊天 | #1 与女孩视频聊天 | 官方网站 | {year}",
+        "description": "通过狂野的恋物直播和现场BDSM聊天探索您的特殊癖好。",
+        "openGraph": {
+          "type": "website",
+          "title": "恋物聊天",
+          "description": "通过狂野的恋物直播和现场BDSM聊天探索您的特殊癖好。",
+          "image": "https://example.com/og-image.jpg",
+          "url": "https://example.com",
+          "siteName": "Top Chats"
+        },
+        "metadataBase": "https://coomeets.vercel.app"
+      }
     },
-    "BbwChat": {
-      "Title": "大码美女聊天",
-      "Description": "在顶级大码美女视频聊天网站上与曲线优美的丰满美女实时聊天。",
-      "Keywords": "大码美女聊天, 曲线美女视频聊天, 大码直播"
-    },
-    "Terms": {
-      "Title": "服务条款",
-      "Description": "我们简单的规则，确保每个人的体验有趣、安全、公平。",
-      "Keywords": "条款, 隐私, 用户协议"
-    },
-    "Sites": {
-      "Title": "所有网站",
-      "Description": "浏览我们评测过的每个顶级视频聊天网站——您的一站式商店。",
-      "Keywords": "视频聊天网站, 聊天平台, 评测"
-    },
-    "Search": {
-      "Title": "搜索 - 寻找最佳成人聊天网站",
-      "Description": "搜索并发现顶级成人聊天网站、视频聊天网站和实时性爱聊天平台。",
-      "Keywords": "搜索成人聊天, 寻找视频聊天网站, 成人网站搜索"
+    "voyeurCam": {
+      "seo": {
+        "title": "偷窥直播 | #1 与女孩视频聊天 | 官方网站 | {year}",
+        "description": "通过最好的在线偷窥直播网站窥探真实的私人时刻。",
+        "openGraph": {
+          "type": "website",
+          "title": "偷窥直播",
+          "description": "通过最好的在线偷窥直播网站窥探真实的私人时刻。",
+          "image": "https://example.com/og-image.jpg",
+          "url": "https://example.com",
+          "siteName": "Top Chats"
+        },
+        "metadataBase": "https://coomeets.vercel.app"
+      }
     }
   },
   "Header": {
