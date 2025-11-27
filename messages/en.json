@@ -721,8 +721,6 @@
       "drawbacksDescription": "Full chat functionality requires a brief registration that takes under a minute, ensuring a quality community experience for all users.",
       "excerpt": "A global roster of dazzling performers across every category, ensuring fresh discoveries with every visit.",
       "overview": "CrazyLiveCams connects you with international stars through crisp HD streams and innovative hover previews. The platform facilitates meaningful cam2cam interactions supported by intelligent matching filters, combining free public access with quick registration and credit-based privates in a mobile-optimized design.",
-      "featureImage": "/images/03.jpg",
-      "benefitImage": "/images/04.jpg",
       "features": [
         "Real-time thumbnail previews show live action instantly",
         "Access curated photo sets and video collections",
@@ -731,6 +729,8 @@
         "Comprehensive profiles with user feedback history",
         "Advanced scheduling with highlighted premium events"
       ],
+      "featureImage": "/images/03.jpg",
+      "benefitImage": "/images/04.jpg",
       "postlabel": [
         "Navigate diverse categories",
         "Engage in premium shows",
@@ -881,6 +881,8 @@
       "drawbacksDescription": "Full interactive capabilities require a brief registration with email verification, typically completed within two minutes to maintain community quality and security standards.",
       "excerpt": "Exceptional European talent, intuitive interface design, pristine HD streaming, and effortless discovery define the XLoveCam experience.",
       "overview": "XLoveCam delivers premium entertainment through instant HD hover previews, stunning European performers in full-screen brilliance, and intimate cam2cam connectivity. Detailed profiles with genuine user feedback complement free public shows, rapid registration, credit-based private sessions, and flawless cross-device performance.",
+      "featureImage": "/images/11.jpg",
+      "benefitImage": "/images/12.jpg",
       "features": [
         "Instant live previews activate when hovering over thumbnails",
         "Extensive personal media collections for each performer",
@@ -889,8 +891,6 @@
         "Comprehensive model profiles with community ratings",
         "Upcoming event schedules with countdown indicators"
       ],
-      "featureImage": "/images/11.jpg",
-      "benefitImage": "/images/12.jpg",
       "postlabel": [
         "Browse extensive categories",
         "Join premium private shows",
@@ -1081,6 +1081,8 @@
       "drawbacksDescription": "Full interactive functionality requires a simple registration process with email confirmation, typically completed within two minutes to maintain platform security and community standards.",
       "excerpt": "Premium European performers, streamlined interface design, high-definition streaming, and intuitive navigation characterize the BongaCams advantage.",
       "overview": "BongaCams offers premium entertainment through instant HD hover previews, exceptional European artists in full-screen clarity, and personal cam2cam connections. Comprehensive profiles with authentic user reviews complement free public shows, quick registration, credit-based private access, and seamless cross-platform performance.",
+      "featureImage": "/images/21.jpg",
+      "benefitImage": "/images/22.jpg",
       "features": [
         "Live previews instantly activate when hovering over thumbnails",
         "Extensive personal media archives for each performer",
@@ -1089,8 +1091,6 @@
         "Detailed model profiles featuring community ratings",
         "Upcoming performance schedules with countdown displays"
       ],
-      "featureImage": "/images/21.jpg",
-      "benefitImage": "/images/22.jpg",
       "postlabel": [
         "Browse extensive categories",
         "Join premium private shows",
@@ -1681,6 +1681,8 @@
       "drawbacksDescription": "Full interactive features require a quick registration process with email verification, typically completed within two minutes to maintain the platform's premium standards.",
       "excerpt": "Las Vegas-style entertainment, glamorous performers, premium production quality, and sophisticated adult experiences.",
       "overview": "VegasCamGirls delivers luxury adult entertainment through instant HD previews, Vegas-inspired performers in full-screen brilliance, and intimate cam2cam connections. Detailed profiles with authentic reviews complement free public shows, efficient registration, credit-based VIP sessions, and seamless mobile access for premium entertainment enthusiasts.",
+      "featureImage": "/images/51.jpg",
+      "benefitImage": "/images/52.jpg",
       "features": [
         "Instant Vegas-style previews on thumbnail hover",
         "Access glamorous photo collections and professional videos",
@@ -1689,8 +1691,7 @@
         "Detailed Vegas-inspired model profiles with user ratings",
         "Scheduling for special events and VIP performances"
       ],
-      "featureImage": "/images/51.jpg",
-      "benefitImage": "/images/52.jpg",
+
       "postlabel": [
         "Browse Vegas-style categories",
         "Join VIP private shows",

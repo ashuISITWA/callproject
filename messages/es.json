@@ -685,8 +685,8 @@
         "Perfiles detallados de modelos con comentarios y calificaciones de la comunidad",
         "Horarios de espectáculos próximos con temporizadores de cuenta regresiva para eventos especiales"
       ],
-      "featureImage": "/rabbitscams-review-middle1.png",
-      "benefitImage": "/rabbitscams-review-bottom1.png",
+      "featureImage": "/images/01.jpg",
+      "benefitImage": "/images/02.jpg",
       "postlabel": [
         "Navega por selecciones extensas de categorías",
         "Únete a actuaciones exclusivas doradas y privadas",
@@ -700,7 +700,14 @@
         "Alertas personalizadas nunca te dejan perder tus espectáculos favoritos",
         "Guías y tutoriales amigables para principiantes",
         "Rendimiento perfecto en todos los dispositivos"
-      ]
+      ],
+      "metadata": {
+        "title": "Rabbit Scams",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "crazylivecams": {
       "toppara": "CrazyLiveCams estalla con energía contagiosa, conectándote instantáneamente con artistas apasionados de todo el mundo. La plataforma irradia emoción desde el momento en que entras, con una interfaz dinámica diseñada para compromiso inmediato y conexiones espontáneas que se sienten tanto auténticas como emocionantes.",
@@ -710,8 +717,8 @@
       "drawbacksDescription": "La funcionalidad completa de chat requiere un registro breve que toma menos de un minuto, asegurando una experiencia comunitaria de calidad para todos los usuarios.",
       "excerpt": "Un elenco global de artistas deslumbrantes en todas las categorías, asegurando descubrimientos frescos con cada visita.",
       "overview": "CrazyLiveCams te conecta con estrellas internacionales a través de transmisiones HD nítidas y vistas previas innovadoras al pasar el cursor. La plataforma facilita interacciones cam2cam significativas respaldadas por filtros de coincidencia inteligentes, combinando acceso público gratuito con registro rápido y sesiones privadas basadas en créditos en un diseño optimizado para móviles.",
-      "featureImage": "/crazylivecams-review-middle1.png",
-      "benefitImage": "/crazylivecams-review-bottom1.png",
+      "featureImage": "/images/03.jpg",
+      "benefitImage": "/images/04.jpg",
       "features": [
         "Las vistas previas de miniaturas en tiempo real muestran acción en vivo instantáneamente",
         "Accede a conjuntos de fotos curados y colecciones de video",
@@ -733,7 +740,14 @@
         "Nunca te pierdas actuaciones con notificaciones inteligentes",
         "Diseño intuitivo con incorporación útil",
         "Rendimiento impecable en móviles y tabletas"
-      ]
+      ],
+      "metadata": {
+        "title": "CrazyLiveCams",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "myfreecams": {
       "toppara": "MyFreeCams ofrece un escape sofisticado con su interfaz pulida y navegación refinada diseñada para espectadores exigentes. Esta plataforma eleva el entretenimiento adulto a una forma de arte, enfocándose en la excelencia estética, valores de producción profesional y conexiones significativas más allá de las experiencias típicas de cámara.",
@@ -743,8 +757,8 @@
       "drawbacksDescription": "Si bien las funciones premium comprensiblemente tienen costos, la navegación básica y el registro permanecen completamente gratuitos, permitiéndote apreciar la calidad antes de comprometerte.",
       "excerpt": "Actuaciones de élite entregadas en transmisiones de calidad de estudio dentro de un ambiente de sofisticación refinada.",
       "overview": "MyFreeCams se especializa en experiencias de lujo Ultra HD con modelos profesionales, inmersión de pantalla completa y conexiones privadas seguras. Las herramientas de búsqueda de precisión ayudan a encontrar artistas ideales, mientras que las vistas previas gratuitas, registro instantáneo, créditos flexibles y diseño móvil elegante crean una experiencia premium sin complicaciones.",
-      "featureImage": "/myfreecams-review-middle1.png",
-      "benefitImage": "/myfreecams-review-bottom1.png",
+      "featureImage": "/images/05.jpg",
+      "benefitImage": "/images/06.jpg",
       "features": [
         "Vistas previas en vivo activadas suavemente al pasar el cursor",
         "Galerías de medios profesionales y clips exclusivos",
@@ -766,7 +780,14 @@
         "Integración de calendario para programación fácil",
         "Interfaz elegante con opciones de personalización",
         "Transmisión adaptativa para dispositivos móviles"
-      ]
+      ],
+      "metadata": {
+        "title": "MyFreeCams",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "camrabbit": {
       "toppara": "CamRabbit defiende el acceso completamente gratuito con optimización móvil excepcional, creando una comunidad vibrante 24/7 llena de talento fresco e interacciones espontáneas. Construida para usuarios modernos que valoran la accesibilidad, la plataforma ofrece rendimiento consistente en todos los dispositivos mientras mantiene el entretenimiento completamente gratuito.",
@@ -776,8 +797,8 @@
       "drawbacksDescription": "El acceso completo a funciones requiere registro gratuito, aunque este proceso es instantáneo y no requiere información de pago, manteniendo barreras mínimas de entrada.",
       "excerpt": "Entretenimiento gratuito ilimitado combinado con rendimiento móvil superior y accesibilidad global.",
       "overview": "La oferta principal de CamRabbit incluye espectáculos públicos HD gratuitos ilimitados mejorados por vistas previas al pasar el cursor en tiempo real y artistas diversos desde aficionados hasta profesionales. Las alertas instantáneas mantienen a los usuarios informados, mientras que las actualizaciones de créditos asequibles, filtros completos y excelente rendimiento móvil aseguran entretenimiento sin frustraciones.",
-      "featureImage": "/camrabbit-middle1.png",
-      "benefitImage": "/camrabbit-review-bottom1.png",
+      "featureImage": "/images/07.jpg",
+      "benefitImage": "/images/08.jpg",
       "features": [
         "Vistas previas al pasar el cursor con fragmentos de audio y estadísticas en vivo",
         "Colecciones de medios personales actualizadas regularmente",
@@ -799,7 +820,14 @@
         "Alertas inteligentes para seguimiento de actuaciones",
         "Tours guiados amigables para principiantes",
         "Controles móviles optimizados"
-      ]
+      ],
+      "metadata": {
+        "title": "CamRabbit",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "chaturbate": {
       "toppara": "Chaturbate prospera con energía espontánea y conexiones auténticas, cultivando una comunidad juguetona donde la diversión interactiva y la química genuina florecen. La plataforma se siente más como un ecosistema social que un directorio, difuminando los límites entre artista y audiencia para experiencias únicamente atractivas.",
@@ -809,8 +837,8 @@
       "drawbacksDescription": "Las funciones interactivas avanzadas requieren compras de créditos, aunque la navegación, el registro y la participación en chat público permanecen completamente gratuitos.",
       "excerpt": "Entretenimiento juguetón y altamente interactivo que estalla con espíritu comunitario y conexiones espontáneas.",
       "overview": "Chaturbate integra juguetes interactivos en transmisiones HD vibrantes mientras facilita la intimidad cam2cam y eventos comunitarios. El modelo combina espectáculos públicos gratuitos, registro instantáneo e interacciones basadas en créditos con filtros inteligentes y optimización móvil para una experiencia únicamente conectada.",
-      "featureImage": "/chaturbate-review-middle1.png",
-      "benefitImage": "/chaturbate-review-bottom1.png",
+      "featureImage": "/images/09.jpg",
+      "benefitImage": "/images/10.jpg",
       "features": [
         "Vistas previas de miniaturas con audio y métricas de espectadores",
         "Contenido exclusivo del club de fans y colecciones de medios",
@@ -832,7 +860,14 @@
         "Alertas de cuenta regresiva para sesiones programadas",
         "Interfaz intuitiva gamificada",
         "Optimizado para móviles con controles de voz"
-      ]
+      ],
+      "metadata": {
+        "title": "Chaturbate",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "xlovecam": {
       "toppara": "XLoveCam establece el estándar para entretenimiento adulto de respuesta rápida, ofreciendo acceso ultrarrápido a una red extensa de sesiones de cámara en vivo. La arquitectura optimizada de la plataforma asegura carga de salas casi instantánea y cero buffering, transformando tu navegación en compromiso inmediato con transiciones fluidas entre descubrimiento e interacción.",
@@ -850,8 +885,8 @@
         "Perfiles completos de modelos con calificaciones de la comunidad",
         "Horarios de eventos próximos con indicadores de cuenta regresiva"
       ],
-      "featureImage": "/xlovecam-review-middle1.png",
-      "benefitImage": "/xlovecam-review-bottom1.png",
+      "featureImage": "/images/11.jpg",
+      "benefitImage": "/images/12.jpg",
       "postlabel": [
         "Navega por categorías extensas",
         "Únete a espectáculos privados premium",
@@ -865,7 +900,14 @@
         "Las alertas inteligentes aseguran que nunca te pierdas favoritos",
         "Ambiente acogedor con guías útiles",
         "Rendimiento consistente en todos los dispositivos"
-      ]
+      ],
+      "metadata": {
+        "title": "XLoveCam",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "livejasmin": {
       "toppara": "LiveJasmin irradia con energía dinámica, conectándote instantáneamente con una comunidad global de artistas apasionados. La plataforma pulsa con emoción desde el momento en que llegas, con una interfaz diseñada para compromiso inmediato que transforma la navegación casual en conexiones significativas con talento internacional.",
@@ -875,8 +917,8 @@
       "drawbacksDescription": "La funcionalidad completa de chat requiere un proceso de registro rápido, típicamente completado en menos de un minuto para asegurar la calidad de la comunidad y las interacciones auténticas.",
       "excerpt": "Una red mundial de artistas excepcionales en todas las categorías, asegurando descubrimientos frescos con cada visita.",
       "overview": "LiveJasmin te conecta con talento global a través de transmisión HD superior y tecnología innovadora de vista previa al pasar el cursor. La plataforma facilita interacciones cam2cam significativas respaldadas por sistemas de coincidencia inteligentes, combinando acceso público gratuito con registro rápido y sesiones privadas basadas en créditos en un ambiente perfectamente optimizado para móviles.",
-      "featureImage": "/livejasmin-review-middle1.png",
-      "benefitImage": "/livejasmin-review-bottom1.png",
+      "featureImage": "/images/13.jpg",
+      "benefitImage": "/images/14.jpg",
       "features": [
         "Las vistas previas de miniaturas en tiempo real muestran contenido en vivo instantáneamente",
         "Accede a colecciones de fotos curadas y archivos de video",
@@ -898,7 +940,14 @@
         "Notificaciones inteligentes para seguimiento de actuaciones",
         "Diseño fácil de usar con orientación útil",
         "Rendimiento perfecto en dispositivos móviles y tabletas"
-      ]
+      ],
+      "metadata": {
+        "title": "LiveJasmin",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "camconnect": {
       "toppara": "CamConnect presenta una experiencia de entretenimiento elevada a través de diseño sofisticado y navegación refinada creada para espectadores exigentes. Esta plataforma trasciende el entretenimiento adulto convencional enfatizando la excelencia estética, la artesanía profesional y el compromiso significativo en cada interacción.",
@@ -908,8 +957,8 @@
       "drawbacksDescription": "Si bien las funciones premium tienen costos apropiados, la exploración básica y el registro permanecen completamente gratuitos, permitiéndote apreciar la calidad antes de hacer compromisos.",
       "excerpt": "Actuaciones premium entregadas en transmisiones de calidad de difusión dentro de un ambiente de sofisticación refinada.",
       "overview": "CamConnect se especializa en experiencias de lujo Ultra HD con modelos profesionales, inmersión de pantalla completa y conexiones privadas seguras. Las herramientas de búsqueda de precisión ayudan a localizar artistas ideales, mientras que las vistas previas gratuitas, registro instantáneo, créditos flexibles y diseño móvil elegante crean una experiencia superior sin complicaciones.",
-      "featureImage": "/camconnect-review-middle1.png",
-      "benefitImage": "/camconnect-review-bottom1.png",
+      "featureImage": "/images/15.jpg",
+      "benefitImage": "/images/16.jpg",
       "features": [
         "Vistas previas en vivo activadas fluidamente al pasar el cursor",
         "Galerías de medios profesionales con contenido exclusivo",
@@ -931,7 +980,14 @@
         "Integración de calendario para planificación fácil",
         "Interfaz sofisticada con personalización",
         "Transmisión adaptativa para optimización móvil"
-      ]
+      ],
+      "metadata": {
+        "title": "CamConnect",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "imlive": {
       "toppara": "Imlive defiende el acceso completamente gratuito con rendimiento móvil excepcional, creando una comunidad vibrante las 24 horas llena de talento fresco e interacciones espontáneas. Diseñada para usuarios contemporáneos que valoran la accesibilidad, la plataforma ofrece excelencia consistente en todos los dispositivos mientras mantiene el entretenimiento básico completamente gratuito.",
@@ -941,8 +997,8 @@
       "drawbacksDescription": "El acceso completo a funciones requiere registro gratuito, aunque este proceso es inmediato y no requiere información financiera, manteniendo barreras mínimas de entrada.",
       "excerpt": "Entretenimiento gratuito ilimitado combinado con rendimiento móvil superior y accesibilidad universal.",
       "overview": "La oferta principal de Imlive incluye espectáculos públicos HD gratuitos ilimitados mejorados por vistas previas al pasar el cursor en tiempo real y artistas diversos que van desde entusiastas aficionados hasta artistas profesionales. Las notificaciones instantáneas mantienen a los usuarios informados, mientras que las actualizaciones de créditos asequibles, filtros completos y excelente rendimiento móvil garantizan entretenimiento sin frustraciones.",
-      "featureImage": "/imlive-review-middle1.png",
-      "benefitImage": "/imlive-review-bottom1.png",
+      "featureImage": "/images/17.jpg",
+      "benefitImage": "/images/18.jpg",
       "features": [
         "Vistas previas al pasar el cursor con muestras de audio y métricas en vivo",
         "Colecciones de medios personales actualizadas regularmente",
@@ -964,7 +1020,14 @@
         "Alertas inteligentes para monitoreo de actuaciones",
         "Guías de orientación amigables para principiantes",
         "Interacción móvil optimizada"
-      ]
+      ],
+      "metadata": {
+        "title": "Imlive",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "camsoda": {
       "toppara": "Camsoda prospera con energía espontánea y conexiones auténticas, nutriendo una comunidad juguetona donde el disfrute interactivo y la química genuina florecen. La plataforma funciona más como una red social que un simple directorio, difuminando los límites tradicionales entre artista y audiencia para experiencias únicamente atractivas.",
@@ -974,8 +1037,8 @@
       "drawbacksDescription": "Las funciones interactivas avanzadas requieren compras de créditos, aunque la navegación, el registro y la participación en chat público permanecen completamente gratuitos y accesibles.",
       "excerpt": "Entretenimiento juguetón y altamente interactivo que estalla con espíritu comunitario y conexiones espontáneas.",
       "overview": "Camsoda integra juguetes interactivos en transmisiones HD vibrantes mientras facilita la intimidad cam2cam y eventos comunitarios. El modelo combina espectáculos públicos gratuitos, registro instantáneo e interacciones basadas en créditos con filtros inteligentes y optimización móvil para una experiencia únicamente conectada.",
-      "featureImage": "/camsoda-review-middle1.png",
-      "benefitImage": "/camsoda-review-bottom1.png",
+      "featureImage": "/images/19.jpg",
+      "benefitImage": "/images/20.jpg",
       "features": [
         "Vistas previas de miniaturas con audio y métricas de audiencia",
         "Contenido exclusivo de miembros y colecciones de medios",
@@ -997,7 +1060,14 @@
         "Alertas de programación para sesiones planificadas",
         "Interfaz intuitiva atractiva",
         "Optimizado para móviles con controles modernos"
-      ]
+      ],
+      "metadata": {
+        "title": "Camsoda",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "bongacams": {
       "toppara": "BongaCams sobresale en ofrecer entretenimiento adulto de respuesta rápida con entrada inmediata a miles de sesiones de transmisión en vivo. La infraestructura optimizada para rendimiento de la plataforma asegura acceso a salas casi instantáneo y elimina interrupciones de buffering, creando un viaje fluido desde la curiosidad inicial hasta la participación activa en interacciones en vivo vibrantes.",
@@ -1015,8 +1085,8 @@
         "Perfiles detallados de modelos con calificaciones de la comunidad",
         "Horarios de actuaciones próximas con pantallas de cuenta regresiva"
       ],
-      "featureImage": "/bongacams-review-middle1.png",
-      "benefitImage": "/bongacams-review-bottom1.png",
+      "featureImage": "/images/21.jpg",
+      "benefitImage": "/images/22.jpg",
       "postlabel": [
         "Navega por categorías extensas",
         "Únete a espectáculos privados premium",
@@ -1030,7 +1100,14 @@
         "Las notificaciones inteligentes previenen perder favoritos",
         "Ambiente amigable para principiantes con orientación",
         "Rendimiento consistente en todas las plataformas"
-      ]
+      ],
+      "metadata": {
+        "title": "BongaCams",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "flirt4free": {
       "toppara": "Flirt4Free genera una atmósfera electrizante que inmediatamente te conecta con una red mundial de artistas apasionados. La plataforma irradia energía dinámica desde tu primera visita, con una interfaz diseñada para compromiso rápido que transforma la exploración casual en conexiones globales significativas.",
@@ -1040,8 +1117,8 @@
       "drawbacksDescription": "Las capacidades completas de chat requieren un proceso de registro breve, usualmente completado en menos de un minuto para asegurar la calidad de la comunidad y las interacciones genuinas.",
       "excerpt": "Una constelación internacional de talento excepcional en todas las categorías garantiza descubrimientos frescos con cada visita.",
       "overview": "Flirt4Free te conecta con artistas globales a través de transmisión HD superior y tecnología innovadora de vista previa al pasar el cursor. La plataforma permite interacciones cam2cam significativas respaldadas por algoritmos de coincidencia inteligentes, combinando acceso público gratuito con registro eficiente y sesiones privadas basadas en créditos en un ambiente perfectamente adaptable a móviles.",
-      "featureImage": "/flirt4free-review-middle1.png",
-      "benefitImage": "/flirt4free-review-bottom1.png",
+      "featureImage": "/images/23.jpg",
+      "benefitImage": "/images/24.jpg",
       "features": [
         "Las vistas previas de miniaturas en tiempo real muestran contenido en vivo inmediatamente",
         "Accede a conjuntos de fotos organizados y compilaciones de video",
@@ -1063,7 +1140,14 @@
         "Alertas inteligentes para seguimiento de actuaciones",
         "Diseño orientado al usuario con orientación útil",
         "Rendimiento óptimo en dispositivos móviles y tabletas"
-      ]
+      ],
+      "metadata": {
+        "title": "Flirt4Free",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "stripchat": {
       "toppara": "Stripchat genera una energía contagiosa que inmediatamente te vincula con una comunidad global de artistas entusiastas. La plataforma vibra con emoción desde el momento en que llegas, presentando una interfaz creada para compromiso instantáneo que convierte la navegación casual en encuentros internacionales memorables.",
@@ -1073,8 +1157,8 @@
       "drawbacksDescription": "Las funciones interactivas completas requieren un procedimiento de registro rápido, típicamente terminado en menos de un minuto para preservar la integridad de la comunidad y los compromisos sinceros.",
       "excerpt": "Una red mundial de artistas notables en todos los géneros asegura nuevos descubrimientos con cada exploración.",
       "overview": "Stripchat te vincula con talento internacional a través de transmisión HD excelente y funcionalidad inteligente de vista previa al pasar el cursor. La plataforma apoya encuentros cam2cam significativos mejorados por sistemas de coincidencia inteligentes, fusionando acceso público gratuito con registro rápido y sesiones privadas basadas en créditos en un entorno completamente adaptado a móviles.",
-      "featureImage": "/stripchat-review-middle1.png",
-      "benefitImage": "/stripchat-review-bottom1.png",
+      "featureImage": "/images/25.jpg",
+      "benefitImage": "/images/26.jpg",
       "features": [
         "Las vistas previas de miniaturas inmediatas muestran contenido en vivo en tiempo real",
         "Accede a colecciones de fotografías organizadas y archivos de video",
@@ -1096,7 +1180,14 @@
         "Sistemas de notificación inteligentes para gestión de horarios",
         "Diseño intuitivo con introducción acogedora",
         "Rendimiento superior en dispositivos portátiles"
-      ]
+      ],
+      "metadata": {
+        "title": "Stripchat",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "chatorgasm": {
       "toppara": "ChatOrgasm crea un ambiente emocionante que instantáneamente te conecta con una comunidad internacional de artistas apasionados. La plataforma emana energía vibrante desde tu entrada inicial, con una interfaz diseñada para interacción inmediata que convierte la navegación casual en experiencias globales memorables.",
@@ -1106,8 +1197,8 @@
       "drawbacksDescription": "La funcionalidad completa de chat requiere un proceso de registro rápido, generalmente completado en menos de un minuto para asegurar la calidad de la comunidad y los intercambios auténticos.",
       "excerpt": "Una colección global de artistas destacados en todos los estilos promete nuevos hallazgos con cada sesión.",
       "overview": "ChatOrgasm te conecta con talento mundial a través de transmisión HD premium y capacidades innovadoras de vista previa al pasar el cursor. La plataforma facilita interacciones cam2cam significativas impulsadas por tecnología de coincidencia inteligente, combinando acceso público gratuito con registro eficiente y sesiones privadas basadas en créditos en un marco completamente optimizado para móviles.",
-      "featureImage": "/chatorgasm-review-middle1.png",
-      "benefitImage": "/chatorgasm-review-bottom1.png",
+      "featureImage": "/images/27.jpg",
+      "benefitImage": "/images/28.jpg",
       "features": [
         "Las vistas previas de miniaturas instantáneas muestran acción en vivo inmediatamente",
         "Accede a álbumes de fotografías curados y colecciones de video",
@@ -1129,7 +1220,14 @@
         "Sistemas de notificación inteligentes para seguimiento de eventos",
         "Diseño fácil de usar con orientación útil",
         "Rendimiento excelente en plataformas móviles"
-      ]
+      ],
+      "metadata": {
+        "title": "ChatOrgasm",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "chatfly": {
       "toppara": "ChatFly genera una atmósfera enérgica que rápidamente te vincula con una red mundial de artistas entusiastas. La plataforma proyecta vitalidad dinámica desde tu primera visita, presentando una interfaz diseñada para compromiso rápido que transforma la exploración casual en encuentros internacionales significativos.",
@@ -1139,8 +1237,8 @@
       "drawbacksDescription": "Las capacidades interactivas completas requieren un procedimiento de registro breve, típicamente terminado en menos de un minuto para mantener los estándares de la comunidad y las interacciones genuinas.",
       "excerpt": "Una asamblea internacional de artistas excepcionales en todas las categorías asegura descubrimientos frescos con cada visita.",
       "overview": "ChatFly te conecta con talento global a través de transmisión HD superior y tecnología innovadora de vista previa al pasar el cursor. La plataforma permite interacciones cam2cam significativas respaldadas por sistemas de coincidencia inteligentes, combinando acceso público gratuito con registro eficiente y sesiones privadas basadas en créditos en un diseño perfectamente adaptable a móviles.",
-      "featureImage": "/chatfly-review-middle1.jpg",
-      "benefitImage": "/chatfly-review-bottom1.jpg",
+      "featureImage": "/images/29.jpg",
+      "benefitImage": "/images/30.jpg",
       "features": [
         "Las vistas previas de miniaturas en tiempo real muestran contenido en vivo instantáneamente",
         "Accede a galerías de fotos organizadas y compilaciones de video",
@@ -1162,7 +1260,14 @@
         "Alertas inteligentes para seguimiento de actuaciones",
         "Diseño centrado en el usuario con orientación útil",
         "Rendimiento óptimo en dispositivos móviles y tabletas"
-      ]
+      ],
+      "metadata": {
+        "title": "ChatFly",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "cam4": {
       "toppara": "Cam4 genera una atmósfera electrizante que inmediatamente te conecta con una comunidad mundial de artistas apasionados. La plataforma irradia energía dinámica desde tu primera visita, con una interfaz diseñada para compromiso rápido que transforma la exploración casual en encuentros internacionales memorables.",
@@ -1172,8 +1277,8 @@
       "drawbacksDescription": "Las capacidades completas de chat requieren un proceso de registro breve, usualmente completado en menos de un minuto para asegurar la calidad de la comunidad y las interacciones genuinas.",
       "excerpt": "Una constelación internacional de talento excepcional en todas las categorías garantiza descubrimientos frescos con cada visita.",
       "overview": "Cam4 te conecta con artistas globales a través de transmisión HD superior y tecnología innovadora de vista previa al pasar el cursor. La plataforma permite interacciones cam2cam significativas respaldadas por algoritmos de coincidencia inteligentes, combinando acceso público gratuito con registro eficiente y sesiones privadas basadas en créditos en un ambiente perfectamente adaptable a móviles.",
-      "featureImage": "/cam4-review-middle1.png",
-      "benefitImage": "/cam4-review-bottom1.png",
+      "featureImage": "/images/31.jpg",
+      "benefitImage": "/images/32.jpg",
       "features": [
         "Las vistas previas de miniaturas en tiempo real muestran contenido en vivo inmediatamente",
         "Accede a conjuntos de fotos organizados y compilaciones de video",
@@ -1195,7 +1300,14 @@
         "Alertas inteligentes para seguimiento de actuaciones",
         "Diseño orientado al usuario con orientación útil",
         "Rendimiento óptimo en dispositivos móviles y tabletas"
-      ]
+      ],
+      "metadata": {
+        "title": "Cam4",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "sexcamly": {
       "toppara": "SexCamLy crea un ambiente emocionante que instantáneamente te conecta con una red internacional de artistas entusiastas. La plataforma proyecta energía vibrante desde tu entrada inicial, presentando una interfaz creada para interacción inmediata que convierte la navegación casual en experiencias globales significativas.",
@@ -1205,8 +1317,8 @@
       "drawbacksDescription": "La funcionalidad completa de chat requiere un proceso de registro rápido, generalmente completado en menos de un minuto para asegurar la calidad de la comunidad y los intercambios auténticos.",
       "excerpt": "Una colección global de artistas destacados en todos los estilos promete nuevos hallazgos con cada sesión.",
       "overview": "SexCamLy te conecta con talento mundial a través de transmisión HD premium y capacidades innovadoras de vista previa al pasar el cursor. La plataforma facilita interacciones cam2cam significativas impulsadas por tecnología de coincidencia inteligente, combinando acceso público gratuito con registro eficiente y sesiones privadas basadas en créditos en un marco completamente optimizado para móviles.",
-      "featureImage": "/sexcamly-review-middle1.png",
-      "benefitImage": "/sexcamly-review-bottom1.png",
+      "featureImage": "/images/33.jpg",
+      "benefitImage": "/images/34.jpg",
       "features": [
         "Las vistas previas instantáneas de miniaturas muestran acción en vivo inmediatamente",
         "Accede a álbumes de fotografías curados y colecciones de video",
@@ -1228,7 +1340,14 @@
         "Sistemas de notificación inteligentes para seguimiento de eventos",
         "Diseño fácil de usar con orientación útil",
         "Rendimiento excelente en plataformas móviles"
-      ]
+      ],
+      "metadata": {
+        "title": "SexCamLy",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "livecams": {
       "toppara": "LiveCams genera una energía contagiosa que rápidamente te vincula con una comunidad mundial de artistas apasionados. La plataforma emana vitalidad dinámica desde tu primera visita, con una interfaz diseñada para compromiso rápido que transforma la exploración casual en encuentros internacionales memorables.",
@@ -1238,8 +1357,8 @@
       "drawbacksDescription": "Las capacidades interactivas completas requieren un procedimiento de registro breve, típicamente terminado en menos de un minuto para mantener los estándares de la comunidad y las interacciones genuinas.",
       "excerpt": "Una asamblea internacional de artistas excepcionales en todas las categorías asegura descubrimientos frescos con cada visita.",
       "overview": "LiveCams te conecta con talento global a través de transmisión HD superior y tecnología innovadora de vista previa al pasar el cursor. La plataforma permite interacciones cam2cam significativas respaldadas por sistemas de coincidencia inteligentes, combinando acceso público gratuito con registro eficiente y sesiones privadas basadas en créditos en un diseño perfectamente adaptable a móviles.",
-      "featureImage": "/livecams-review-middle1.png",
-      "benefitImage": "/livecams-review-bottom1.png",
+      "featureImage": "/images/35.jpg",
+      "benefitImage": "/images/36.jpg",
       "features": [
         "Las vistas previas de miniaturas en tiempo real muestran contenido en vivo instantáneamente",
         "Accede a galerías de fotos organizadas y compilaciones de video",
@@ -1261,7 +1380,14 @@
         "Alertas inteligentes para seguimiento de actuaciones",
         "Diseño centrado en el usuario con orientación útil",
         "Rendimiento óptimo en dispositivos móviles y tabletas"
-      ]
+      ],
+      "metadata": {
+        "title": "LiveCams",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "goadultcams": {
       "toppara": "GoAdultCams crea una atmósfera convincente que inmediatamente te conecta con una red global extensa de artistas apasionados. La plataforma proyecta vitalidad enérgica desde tu acceso inicial, con una interfaz diseñada para compromiso rápido que transforma la navegación casual en experiencias internacionales significativas.",
@@ -1271,8 +1397,8 @@
       "drawbacksDescription": "Las funciones interactivas completas requieren un procedimiento de registro rápido, típicamente terminado en menos de un minuto para preservar la integridad de la comunidad y los compromisos sinceros.",
       "excerpt": "Una red mundial de artistas notables en todos los géneros asegura nuevos descubrimientos con cada exploración.",
       "overview": "GoAdultCams te vincula con talento internacional a través de transmisión HD excelente y funcionalidad inteligente de vista previa al pasar el cursor. La plataforma apoya encuentros cam2cam significativos mejorados por sistemas de coincidencia inteligentes, fusionando acceso público gratuito con registro rápido y sesiones privadas basadas en créditos en un entorno completamente adaptado a móviles.",
-      "featureImage": "/goadultcams-review-middle1.png",
-      "benefitImage": "/goadultcams-review-bottom1.png",
+      "featureImage": "/images/37.jpg",
+      "benefitImage": "/images/38.jpg",
       "features": [
         "Las vistas previas inmediatas de miniaturas muestran contenido en vivo en tiempo real",
         "Accede a colecciones de fotografías organizadas y archivos de video",
@@ -1294,7 +1420,14 @@
         "Sistemas de notificación inteligentes para gestión de horarios",
         "Diseño intuitivo con introducción acogedora",
         "Rendimiento superior en dispositivos portátiles"
-      ]
+      ],
+      "metadata": {
+        "title": "SexyOnCams",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "sexyoncams": {
       "toppara": "SexyOnCams genera una atmósfera enérgica que rápidamente te vincula con una red mundial de artistas entusiastas. La plataforma irradia energía dinámica desde tu primera visita, presentando una interfaz creada para compromiso inmediato que transforma la exploración casual en encuentros internacionales memorables.",
@@ -1304,8 +1437,8 @@
       "drawbacksDescription": "Las capacidades interactivas completas requieren un proceso de registro breve, típicamente completado en menos de un minuto para mantener la calidad de la comunidad y los intercambios auténticos.",
       "excerpt": "Una selección internacional de talento excepcional en todas las categorías asegura descubrimientos frescos con cada sesión.",
       "overview": "SexyOnCams te conecta con artistas globales a través de transmisión HD premium y tecnología innovadora de vista previa al pasar el cursor. La plataforma facilita interacciones cam2cam significativas respaldadas por sistemas de coincidencia inteligentes, combinando acceso público gratuito con registro eficiente y sesiones privadas basadas en créditos en un ambiente completamente optimizado para móviles.",
-      "featureImage": "/sexyoncams-review-middle1.png",
-      "benefitImage": "/sexyoncams-review-bottom1.png",
+      "featureImage": "/images/39.jpg",
+      "benefitImage": "/images/40.jpg",
       "features": [
         "Las vistas previas de miniaturas en tiempo real muestran contenido en vivo instantáneamente",
         "Accede a colecciones de fotos curadas y compilaciones de video",
@@ -1327,7 +1460,14 @@
         "Las notificaciones inteligentes previenen perder favoritos",
         "Ambiente amigable para principiantes con orientación",
         "Rendimiento consistente en todas las plataformas"
-      ]
+      ],
+      "metadata": {
+        "title": "AllBBWCams",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "allbbwcams": {
       "toppara": "AllBBWCams celebra la belleza de artistas curvilíneas, creando un espacio acogedor dedicado a entusiastas del entretenimiento de tallas grandes. La plataforma inmediatamente te da la bienvenida a una comunidad cálida donde modelos de figura completa muestran su confianza y encanto, ofreciendo conexiones genuinas a través de una interfaz diseñada para navegación sin esfuerzo y compromiso instantáneo.",
@@ -1345,8 +1485,8 @@
         "Perfiles detallados de modelos BBW con calificaciones y comentarios de la comunidad",
         "Horarios próximos para eventos y espectáculos de artistas de tallas grandes"
       ],
-      "featureImage": "/allbbwcams-review-middle2.jpg",
-      "benefitImage": "/allbbwcams-review-bottom1.jpg",
+      "featureImage": "/images/41.jpg",
+      "benefitImage": "/images/42.jpg",
       "postlabel": [
         "Navega por categorías BBW",
         "Únete a espectáculos privados de tallas grandes",
@@ -1360,7 +1500,14 @@
         "Alertas inteligentes para tus modelos curvilíneas favoritas",
         "Ambiente acogedor para entusiastas BBW",
         "Rendimiento consistente en todos los dispositivos"
-      ]
+      ],
+      "metadata": {
+        "title": "Ebonystars",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "ebonystars": {
       "toppara": "Ebonystars brilla como un destino principal para entretenimiento negro y étnico, creando una atmósfera electrizante que celebra la belleza diversa y la riqueza cultural. La plataforma inmediatamente te conecta con artistas impresionantes de color a través de una interfaz diseñada para compromiso rápido y conexiones culturales auténticas.",
@@ -1370,8 +1517,8 @@
       "drawbacksDescription": "Las capacidades interactivas completas requieren un proceso de registro breve, típicamente terminado en menos de un minuto para asegurar la autenticidad de la comunidad.",
       "excerpt": "Entretenimiento negro principal, modelos étnicas diversas, riqueza cultural y atmósfera comunitaria inclusiva.",
       "overview": "Ebonystars ofrece entretenimiento étnico excepcional a través de vistas previas HD instantáneas, artistas impresionantes de color en brillantez de pantalla completa y conexiones personales cam2cam. Perfiles detallados con comentarios genuinos complementan espectáculos públicos gratuitos, registro eficiente, acceso privado basado en créditos y rendimiento móvil perfecto para entusiastas del entretenimiento multicultural.",
-      "featureImage": "/ebonystars-review-middle1.jpg",
-      "benefitImage": "/ebonystars-review-bottom2.jpg",
+      "featureImage": "/images/43.jpg",
+      "benefitImage": "/images/44.jpg",
       "features": [
         "Vistas previas en tiempo real de artistas étnicas al pasar el cursor sobre las miniaturas",
         "Accede a colecciones de medios curadas de modelos diversas",
@@ -1393,7 +1540,14 @@
         "Notificaciones para artistas étnicas favoritas",
         "Interfaz inclusiva que da la bienvenida a todas las preferencias",
         "Rendimiento móvil óptimo para acceso sobre la marcha"
-      ]
+      ],
+      "metadata": {
+        "title": "GoXXXCams",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "goxxxcams": {
       "toppara": "GoXXXCams ofrece entretenimiento adulto intenso a través de una plataforma de alto rendimiento diseñada para entusiastas de contenido explícito. El sitio inmediatamente te sumerge en un mundo de actuaciones hardcore e interacciones explícitas, con una interfaz optimizada para acceso rápido al contenido adulto más atrevido disponible.",
@@ -1403,8 +1557,8 @@
       "drawbacksDescription": "El acceso completo a contenido explícito requiere un proceso de registro rápido, típicamente completado en dos minutos para verificar edad y preferencias.",
       "excerpt": "Entretenimiento adulto hardcore, actuaciones explícitas, contenido aventurero y experiencias interactivas intensas.",
       "overview": "GoXXXCams proporciona entretenimiento explícito premium a través de vistas previas HD instantáneas, artistas aventureras en claridad de pantalla completa y conexiones íntimas cam2cam. Perfiles detallados con reseñas auténticas complementan espectáculos públicos gratuitos, registro rápido, sesiones privadas basadas en créditos y acceso móvil perfecto para entusiastas de contenido adulto.",
-      "featureImage": "/goxxxcams-review-middle1.png",
-      "benefitImage": "/goxxxcams-review-bottom1.png",
+      "featureImage": "/images/45.jpg",
+      "benefitImage": "/images/46.jpg",
       "features": [
         "Vistas previas explícitas instantáneas al pasar el cursor sobre las miniaturas",
         "Accede a colecciones extensas de medios adultos y videos",
@@ -1426,7 +1580,14 @@
         "Notificaciones inteligentes para artistas hardcore favoritas",
         "Interfaz fácil de usar para navegación de contenido adulto",
         "Rendimiento consistente en todas las plataformas"
-      ]
+      ],
+      "metadata": {
+        "title": "CamGirlHookups",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "camgirlhookups": {
       "toppara": "CamGirlHookups crea una plataforma de conexión auténtica diseñada para interacciones genuinas con modelos de cámara aficionadas y profesionales. El sitio inmediatamente te introduce a una comunidad diversa de artistas reales a través de una interfaz optimizada para conexiones personales y encuentros espontáneos.",
@@ -1436,8 +1597,8 @@
       "drawbacksDescription": "Las funciones interactivas completas requieren un proceso de registro rápido, típicamente completado en menos de un minuto para asegurar la autenticidad de la comunidad.",
       "excerpt": "Conexiones auténticas con modelos, interacciones genuinas, artistas aficionadas y profesionales, y construcción de relaciones reales.",
       "overview": "CamGirlHookups ofrece conexiones significativas a través de vistas previas HD instantáneas, artistas auténticas en claridad de pantalla completa e interacciones personales cam2cam. Perfiles detallados con comentarios genuinos de usuarios complementan espectáculos públicos gratuitos, registro eficiente, sesiones privadas basadas en créditos y acceso móvil perfecto para entretenimiento enfocado en relaciones.",
-      "featureImage": "/camgirlhookups-review-middle1.png",
-      "benefitImage": "/camgirlhookups-review-bottom1.png",
+      "featureImage": "/images/47.jpg",
+      "benefitImage": "/images/48.jpg",
       "features": [
         "Vistas previas instantáneas de artistas auténticas al pasar el cursor",
         "Accede a colecciones de medios personales de modelos reales",
@@ -1459,7 +1620,14 @@
         "Alertas inteligentes para artistas auténticas favoritas",
         "Interfaz fácil de usar para conexiones reales",
         "Rendimiento móvil óptimo para acceso en cualquier momento"
-      ]
+      ],
+      "metadata": {
+        "title": "StreamYoung",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "streamyoung": {
       "toppara": "StreamYoung ofrece entretenimiento fresco y juvenil a través de una plataforma vibrante dedicada a nuevos y emergentes artistas jóvenes adultos. El sitio inmediatamente te conecta con la próxima generación de talento de cámara a través de una interfaz diseñada para descubrir estrellas en ascenso y energía juvenil.",
@@ -1469,8 +1637,8 @@
       "drawbacksDescription": "Las capacidades interactivas completas requieren un proceso de registro rápido verificado por edad, típicamente completado en dos minutos para asegurar cumplimiento y calidad de la comunidad.",
       "excerpt": "Entretenimiento juvenil, talento joven emergente, energía fresca y estilos de actuación modernos.",
       "overview": "StreamYoung ofrece entretenimiento contemporáneo a través de vistas previas HD instantáneas, artistas jóvenes adultos en claridad de pantalla completa y conexiones personales cam2cam. Perfiles detallados con comentarios auténticos complementan espectáculos públicos gratuitos, registro eficiente, sesiones privadas basadas en créditos y acceso móvil perfecto para fanáticos del entretenimiento juvenil.",
-      "featureImage": "/streamyoung-review-middle1.png",
-      "benefitImage": "/streamyoung-review-bottom1.png",
+      "featureImage": "/images/49.jpg",
+      "benefitImage": "/images/50.jpg",
       "features": [
         "Vistas previas instantáneas de artistas jóvenes al pasar el cursor sobre las miniaturas",
         "Accede a colecciones de medios de talento emergente y contenido",
@@ -1492,7 +1660,14 @@
         "Notificaciones inteligentes para estrellas en ascenso favoritas",
         "Interfaz moderna diseñada para usuarios contemporáneos",
         "Rendimiento móvil consistente para audiencias juveniles"
-      ]
+      ],
+      "metadata": {
+        "title": "VegasCamGirls",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "vegascamgirls": {
       "toppara": "VegasCamGirls lleva la emoción de Sin City directamente a tu pantalla, ofreciendo entretenimiento adulto premium con un estilo Las Vegas. La plataforma captura la energía vibrante de la vida nocturna de Vegas a través de una interfaz diseñada para acceso instantáneo a actuaciones de alta calidad e interacciones con modelos glamorosas.",
@@ -1510,8 +1685,8 @@
         "Perfiles detallados de modelos inspiradas en Vegas con calificaciones de usuarios",
         "Programación para eventos especiales y actuaciones VIP"
       ],
-      "featureImage": "/vegascamgirls-review-middle1.png",
-      "benefitImage": "/vegascamgirls-review-bottom1.png",
+      "featureImage": "/images/51.jpg",
+      "benefitImage": "/images/52.jpg",
       "postlabel": [
         "Navega por categorías estilo Vegas",
         "Únete a espectáculos privados VIP",
@@ -1525,7 +1700,14 @@
         "Alertas inteligentes para artistas de lujo favoritas",
         "Interfaz sofisticada diseñada para experiencias premium",
         "Rendimiento consistente en todos los dispositivos"
-      ]
+      ],
+      "metadata": {
+        "title": "15Cams",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "15cams": {
       "toppara": "15Cams ofrece entretenimiento adulto simplificado a través de una plataforma enfocada diseñada para conexiones eficientes e interacciones diversas con artistas. El sitio proporciona acceso inmediato a una selección curada de actuaciones en vivo a través de una interfaz optimizada para navegación rápida y compromiso instantáneo.",
@@ -1535,8 +1717,8 @@
       "drawbacksDescription": "Las capacidades interactivas completas requieren un proceso de registro breve, típicamente terminado en menos de un minuto para asegurar la calidad de la comunidad y las interacciones auténticas.",
       "excerpt": "Entretenimiento adulto diverso, conexiones eficientes, selección variada de artistas y navegación fácil de usar.",
       "overview": "15Cams ofrece entretenimiento completo a través de vistas previas HD instantáneas, artistas diversas en claridad de pantalla completa e interacciones personales cam2cam. Perfiles detallados con comentarios genuinos de usuarios complementan espectáculos públicos gratuitos, registro rápido, sesiones privadas basadas en créditos y rendimiento móvil perfecto para entusiastas del entretenimiento adulto.",
-      "featureImage": "/15cams-review-middle1.png",
-      "benefitImage": "/15cams-review-bottom1.png",
+      "featureImage": "/images/53.jpg",
+      "benefitImage": "/images/54.jpg",
       "features": [
         "Vistas previas en tiempo real de artistas diversas al pasar el cursor",
         "Accede a colecciones variadas de medios y contenido de video",
@@ -1558,7 +1740,14 @@
         "Notificaciones inteligentes para artistas favoritas",
         "Interfaz eficiente diseñada para navegación fácil",
         "Rendimiento móvil óptimo para acceso flexible"
-      ]
+      ],
+      "metadata": {
+        "title": "SecretFriends",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "secretfriends": {
       "toppara": "SecretFriends crea una atmósfera íntima para conexiones adultas discretas y experiencias de entretenimiento privadas. La plataforma enfatiza la confidencialidad y las interacciones personales a través de una interfaz diseñada para navegación segura y relaciones significativas con modelos.",
@@ -1568,8 +1757,8 @@
       "drawbacksDescription": "Las funciones interactivas completas requieren un proceso de registro seguro, típicamente completado en dos minutos para asegurar la confidencialidad de la plataforma y la privacidad del usuario.",
       "excerpt": "Entretenimiento discreto, conexiones confidenciales, interacciones privadas y atmósfera comunitaria confiable.",
       "overview": "SecretFriends ofrece entretenimiento privado a través de vistas previas HD seguras, artistas confiables en claridad de pantalla completa y conexiones confidenciales cam2cam. Perfiles detallados con comentarios verificados de usuarios complementan espectáculos públicos gratuitos, registro seguro, sesiones privadas basadas en créditos y acceso móvil protegido para entusiastas del entretenimiento discreto.",
-      "featureImage": "/secretfriends-review-middle1.png",
-      "benefitImage": "/secretfriends-review-bottom1.png",
+      "featureImage": "/images/55.jpg",
+      "benefitImage": "/images/56.jpg",
       "features": [
         "Vistas previas discretas al pasar el cursor sobre miniaturas seguras",
         "Accede a colecciones de medios privadas y contenido exclusivo",
@@ -1591,7 +1780,14 @@
         "Alertas discretas para artistas privadas preferidas",
         "Interfaz segura diseñada para uso confidencial",
         "Rendimiento móvil protegido para acceso privado"
-      ]
+      ],
+      "metadata": {
+        "title": "LuckyCrush",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "luckycrush": {
       "toppara": "LuckyCrush revoluciona el entretenimiento adulto con conexiones de video aleatorias y encuentros internacionales espontáneos. La plataforma crea experiencias emocionantes e impredecibles a través de una interfaz diseñada para chats de video instantáneos e interacciones globales con modelos.",
@@ -1601,8 +1797,8 @@
       "drawbacksDescription": "Las funciones completas de interacción de video requieren un proceso de registro rápido, típicamente completado en menos de un minuto para asegurar participación diversa de la comunidad.",
       "excerpt": "Conexiones de video aleatorias, diversidad internacional, encuentros espontáneos y experiencias de entretenimiento global.",
       "overview": "LuckyCrush ofrece entretenimiento único a través de coincidencia de video instantánea, artistas internacionales en calidad HD e interacciones espontáneas cam2cam. Perfiles completos con comentarios globales de usuarios complementan conexiones aleatorias gratuitas, registro eficiente, funciones premium basadas en créditos y rendimiento móvil perfecto para buscadores de entretenimiento aventureros.",
-      "featureImage": "/luckycrush-review-middle1.png",
-      "benefitImage": "/luckycrush-review-bottom1.png",
+      "featureImage": "/images/57.jpg",
+      "benefitImage": "/images/58.jpg",
       "features": [
         "Coincidencia de video aleatoria con artistas internacionales",
         "Accede a colecciones de medios globales y contenido cultural",
@@ -1624,7 +1820,14 @@
         "Alertas inteligentes para artistas globales favoritas",
         "Interfaz innovadora diseñada para conexiones aleatorias",
         "Rendimiento móvil óptimo para acceso espontáneo"
-      ]
+      ],
+      "metadata": {
+        "title": "OmeXXX",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "omexxx": {
       "toppara": "OmeXXX delivers intense adult entertainment through a platform specializing in explicit content and adventurous performances. The site provides immediate access to hardcore entertainment through an interface designed for adult content enthusiasts seeking the most daring experiences available.",
@@ -1634,8 +1837,8 @@
       "drawbacksDescription": "Full explicit content access requires a quick age-verified registration process, typically completed within two minutes to ensure compliance and community standards.",
       "excerpt": "Explicit adult entertainment, adventurous performances, intense interactions, and hardcore content specialization.",
       "overview": "OmeXXX provides premium explicit entertainment through instant HD previews, adventurous performers in full-screen clarity, and intense cam2cam connections. Detailed profiles with authentic reviews complement free public shows, efficient registration, credit-based private sessions, and seamless mobile access for adult content enthusiasts.",
-      "featureImage": "/omexxx-review-middle1.png",
-      "benefitImage": "/omexxx-review-bottom1.png",
+      "featureImage": "/images/59.jpg",
+      "benefitImage": "/images/60.jpg",
       "features": [
         "Instant explicit previews on thumbnail hover",
         "Access extensive adult media collections and videos",
@@ -1657,7 +1860,14 @@
         "Smart notifications for favorite hardcore performers",
         "User-friendly interface for adult content navigation",
         "Consistent performance across all platforms"
-      ]
+      ],
+      "metadata": {
+        "title": "SlutRoulette",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "slutroulette": {
       "toppara": "SlutRoulette delivers spontaneous adult entertainment through a unique random matching system that creates exciting, unpredictable encounters. The platform specializes in instant video connections and adventurous interactions through an interface designed for thrill-seeking users who enjoy the excitement of chance encounters.",
@@ -1667,8 +1877,8 @@
       "drawbacksDescription": "Full video interaction capabilities require a quick registration process, typically completed in under a minute to ensure diverse community participation and platform security.",
       "excerpt": "Random video matching, spontaneous encounters, adventurous interactions, and thrilling chance-based entertainment.",
       "overview": "SlutRoulette provides unique adult entertainment through instant random matching, diverse performers in HD quality, and spontaneous video interactions. Comprehensive profiles with user feedback complement free random connections, efficient registration, credit-based premium features, and seamless mobile performance for adventure-seeking users.",
-      "featureImage": "/slutroulette-review-middle1.png",
-      "benefitImage": "/slutroulette-review-bottom1.png",
+      "featureImage": "/images/61.jpg",
+      "benefitImage": "/images/62.jpg",
       "features": [
         "Random video matching with diverse performers",
         "Access spontaneous media collections and content",
@@ -1690,7 +1900,14 @@
         "Smart alerts for favorite matching experiences",
         "Innovative interface designed for random encounters",
         "Optimal mobile performance for on-the-go access"
-      ]
+      ],
+      "metadata": {
+        "title": "Camingle",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "camingle": {
       "toppara": "Camingle creates meaningful adult connections through a platform designed for genuine interactions and relationship-building entertainment. The site emphasizes authentic engagement and personal chemistry through an interface optimized for users seeking more than just casual encounters.",
@@ -1700,8 +1917,8 @@
       "drawbacksDescription": "Full interactive features require a brief registration process, typically completed within two minutes to ensure community authenticity and user compatibility.",
       "excerpt": "Genuine connections, meaningful interactions, relationship-focused entertainment, and authentic engagement.",
       "overview": "Camingle delivers connection-based entertainment through instant HD previews, compatible performers in full-screen clarity, and personal cam2cam interactions. Detailed profiles with genuine user feedback complement free public shows, efficient registration, credit-based private sessions, and seamless mobile access for relationship-oriented users.",
-      "featureImage": "/camingle-review-middle1.png",
-      "benefitImage": "/camingle-review-bottom1.png",
+      "featureImage": "/images/63.jpg",
+      "benefitImage": "/images/64.jpg",
       "features": [
         "Instant previews of compatible performers on hover",
         "Access personal media collections and connection content",
@@ -1723,7 +1940,14 @@
         "Smart alerts for compatible performer availability",
         "User-friendly interface designed for genuine engagement",
         "Consistent performance across all platforms"
-      ]
+      ],
+      "metadata": {
+        "title": "HornyMatchLive",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "hornymatchlive": {
       "toppara": "HornyMatchLive specializes in compatibility-based adult entertainment through advanced matching algorithms and personalized performer connections. The platform creates tailored entertainment experiences through an interface designed for users seeking specific preferences and compatible interactions.",
@@ -1733,8 +1957,8 @@
       "drawbacksDescription": "Full compatibility features require a detailed preference setup during registration, typically completed within two minutes to ensure accurate matching results.",
       "excerpt": "Compatibility matching, personalized entertainment, advanced algorithms, and tailored interaction experiences.",
       "overview": "HornyMatchLive delivers personalized entertainment through intelligent matching technology, compatible performers in HD quality, and customized cam2cam interactions. Detailed profiles with preference-based feedback complement free basic matching, efficient registration, credit-based premium features, and seamless mobile performance for users seeking tailored experiences.",
-      "featureImage": "/hornymatchlive-review-middle1.png",
-      "benefitImage": "/hornymatchlive-review-bottom1.png",
+      "featureImage": "/images/65.jpg",
+      "benefitImage": "/images/66.jpg",
       "features": [
         "Advanced compatibility matching algorithms",
         "Access personalized media collections and content",
@@ -1756,7 +1980,14 @@
         "Smart alerts for perfect match availability",
         "Advanced interface designed for personalized experiences",
         "Optimal mobile performance for customized access"
-      ]
+      ],
+      "metadata": {
+        "title": "LiveStrip",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "livestrip": {
       "toppara": "LiveStrip delivers high-energy adult entertainment through a platform specializing in dynamic performances and interactive strip shows. The site captures the excitement of live adult entertainment through an interface designed for users who enjoy performance-based interactions and visual entertainment.",
@@ -1766,8 +1997,8 @@
       "drawbacksDescription": "Full interactive performance features require a quick registration process, typically completed in under a minute to ensure community engagement and platform security.",
       "excerpt": "Live strip performances, visual entertainment, dynamic shows, and performance-based interactions.",
       "overview": "LiveStrip delivers performance entertainment through instant HD previews, dynamic performers in full-screen clarity, and interactive visual sessions. Detailed profiles with performance reviews complement free public shows, efficient registration, credit-based private performances, and seamless mobile access for entertainment enthusiasts.",
-      "featureImage": "/livestrip-review-middle1.png",
-      "benefitImage": "/livestrip-review-bottom1.png",
+      "featureImage": "/images/67.jpg",
+      "benefitImage": "/images/68.jpg",
       "features": [
         "Instant performance previews on thumbnail hover",
         "Access visual media collections and show content",
@@ -1789,7 +2020,14 @@
         "Smart alerts for favorite performance schedules",
         "Dynamic interface designed for visual entertainment",
         "Consistent performance across all viewing platforms"
-      ]
+      ],
+      "metadata": {
+        "title": "PregStream",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "pregstream": {
       "toppara": "PregStream offers specialized adult entertainment through a platform dedicated to pregnancy-themed content and expecting performer interactions. The site provides a unique niche experience through an interface designed for users with specific interests in maternity-themed adult entertainment.",
@@ -1799,8 +2037,8 @@
       "drawbacksDescription": "Full interactive features require a quick registration process, typically completed within two minutes to ensure community standards and platform appropriateness.",
       "excerpt": "Pregnancy-themed entertainment, expecting performers, specialized content, and niche adult experiences.",
       "overview": "PregStream delivers specialized entertainment through instant HD previews, expecting performers in full-screen clarity, and personal cam2cam interactions. Detailed profiles with niche-specific feedback complement free public shows, efficient registration, credit-based private sessions, and seamless mobile access for users with specific interests.",
-      "featureImage": "/pregstream-review-middle1.png",
-      "benefitImage": "/pregstream-review-bottom1.png",
+      "featureImage": "/images/69.jpg",
+      "benefitImage": "/images/70.jpg",
       "features": [
         "Instant previews of expecting performers on hover",
         "Access specialized media collections and content",
@@ -1822,7 +2060,14 @@
         "Smart alerts for favorite expecting performers",
         "Specialized interface designed for niche interests",
         "Consistent performance across all access points"
-      ]
+      ],
+      "metadata": {
+        "title": "MyDirtyHobby",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "mydirtyhobby": {
       "toppara": "MyDirtyHobby creates an authentic space for amateur adult entertainment and genuine personal connections. The platform celebrates real people and authentic interactions through an interface designed for users who appreciate amateur performers and personal storytelling in their adult entertainment experiences.",
@@ -1832,8 +2077,8 @@
       "drawbacksDescription": "Full interactive features require a quick registration process, typically completed within two minutes to ensure community authenticity and user verification.",
       "excerpt": "Amateur entertainment, genuine connections, authentic performers, and personal storytelling experiences.",
       "overview": "MyDirtyHobby delivers authentic amateur entertainment through instant HD previews, genuine performers in full-screen clarity, and personal cam2cam interactions. Detailed profiles with personal stories complement free public shows, efficient registration, credit-based private sessions, and seamless mobile access for users seeking real connections.",
-      "featureImage": "/mydirtyhobby-review-middle1.png",
-      "benefitImage": "/mydirtyhobby-review-bottom1.png",
+      "featureImage": "/images/71.jpg",
+      "benefitImage": "/images/72.jpg",
       "features": [
         "Instant previews of amateur performers on hover",
         "Access personal diaries and authentic media collections",
@@ -1855,7 +2100,14 @@
         "Smart alerts for favorite amateur performers",
         "User-friendly interface designed for genuine connections",
         "Consistent performance across all access platforms"
-      ]
+      ],
+      "metadata": {
+        "title": "FetishFishCams",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "fetishfishcams": {
       "toppara": "FetishFishCams dives deep into specialized fetish entertainment through a platform dedicated to niche interests and alternative adult experiences. The site provides a safe space for exploration of diverse fetishes through an interface designed for users with specific kinks and alternative preferences.",
@@ -1865,8 +2117,8 @@
       "drawbacksDescription": "Full fetish-specific features require a quick registration process, typically completed within two minutes to ensure community understanding and appropriate content matching.",
       "excerpt": "Fetish-specific entertainment, niche interests, alternative experiences, and specialized kink exploration.",
       "overview": "FetishFishCams delivers specialized fetish entertainment through instant HD previews, understanding performers in full-screen clarity, and personal cam2cam interactions. Detailed fetish profiles with community feedback complement free public shows, efficient registration, credit-based private sessions, and seamless mobile access for fetish enthusiasts.",
-      "featureImage": "/fetishfishcams-review-middle1.png",
-      "benefitImage": "/fetishfishcams-review-bottom1.png",
+      "featureImage": "/images/73.jpg",
+      "benefitImage": "/images/74.jpg",
       "features": [
         "Instant previews of fetish-specific performances",
         "Access specialized media collections and fetish content",
@@ -1888,7 +2140,14 @@
         "Smart alerts for preferred fetish performers",
         "Specialized interface designed for alternative interests",
         "Optimal mobile performance for discreet access"
-      ]
+      ],
+      "metadata": {
+        "title": "FetishGalaxy",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "fetishgalaxy": {
       "toppara": "FetishGalaxy explores the vast universe of alternative adult entertainment through a comprehensive platform dedicated to diverse fetishes and kink experiences. The site offers an expansive collection of specialized content through an interface designed for users seeking broad exploration of alternative adult interests.",
@@ -1898,8 +2157,8 @@
       "drawbacksDescription": "Full alternative entertainment features require a quick registration process, typically completed within two minutes to ensure appropriate content matching and community standards.",
       "excerpt": "Comprehensive fetish entertainment, diverse kink experiences, alternative exploration, and broad specialized interests.",
       "overview": "FetishGalaxy delivers extensive alternative entertainment through instant HD previews, diverse performers in full-screen clarity, and personal cam2cam interactions. Comprehensive fetish profiles with broad community feedback complement free public shows, efficient registration, credit-based private sessions, and seamless mobile access for diverse exploration.",
-      "featureImage": "/fetishgalaxy-review-middle1.png",
-      "benefitImage": "/fetishgalaxy-review-bottom1.png",
+      "featureImage": "/images/75.jpg",
+      "benefitImage": "/images/76.jpg",
       "features": [
         "Instant previews of diverse fetish performances",
         "Access comprehensive media collections and alternative content",
@@ -1921,7 +2180,14 @@
         "Smart alerts for diverse fetish performer availability",
         "Expansive interface designed for multiple interests",
         "Consistent performance across all exploration platforms"
-      ]
+      ],
+      "metadata": {
+        "title": "VoyeurHouse",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "voyeurhouse": {
       "toppara": "VoyeurHouse offers unique observational adult entertainment through a platform specializing in authentic daily life content and real-time personal experiences. The site provides genuine insight into performers' daily lives through an interface designed for users who appreciate observational and authentic adult content.",
@@ -1931,8 +2197,8 @@
       "drawbacksDescription": "Full observational features require a quick registration process, typically completed within two minutes to ensure community respect and appropriate content standards.",
       "excerpt": "Observational entertainment, authentic daily life, real-time experiences, and genuine personal content.",
       "overview": "VoyeurHouse delivers unique observational entertainment through instant HD previews, authentic performers in real-time clarity, and personal observational interactions. Detailed authentic profiles with community feedback complement free public observations, efficient registration, credit-based private viewing, and seamless mobile access for observational enthusiasts.",
-      "featureImage": "/voyeurhouse-review-middle1.png",
-      "benefitImage": "/voyeurhouse-review-bottom1.png",
+      "featureImage": "/images/77.jpg",
+      "benefitImage": "/images/78.jpg",
       "features": [
         "Instant previews of authentic daily life content",
         "Access observational media collections and real-time content",
@@ -1954,7 +2220,14 @@
         "Smart alerts for favorite authentic performers",
         "Unique interface designed for observational entertainment",
         "Optimal mobile performance for real-time access"
-      ]
+      ],
+      "metadata": {
+        "title": "Coomeet",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "coomeet": {
       "toppara": "Coomeet redefine el entretenimiento de webcam para adultos al priorizar conexiones genuinas uno a uno. La plataforma facilita chats de video aleatorios con personas reales, creando una atmósfera de interacción espontánea y auténtica. Está diseñada para usuarios que buscan una experiencia más personal e inmediata, pasando de la visualización pasiva a la participación activa.",
@@ -1964,8 +2237,8 @@
       "drawbacksDescription": "Para mantener una comunidad respetuosa y segura, el acceso completo a todas las funciones, incluyendo filtrado y chat ilimitado, requiere un registro de cuenta rápido.",
       "excerpt": "Chat de video aleatorio, conexiones uno a uno, modelos de cam en vivo, shows privados, interacción auténtica",
       "overview": "Coomeet ofrece conexiones en vivo instantáneas a través de chat de video de alta calidad. Descubre una diversa gama de intérpretes en tiempo real, participa en conversaciones privadas y construye una lista de favoritos. Con una interfaz amigable para el usuario, registro eficiente y rendimiento móvil fluido, Coomeet está construido para entretenimiento adulto espontáneo e íntimo.",
-      "featureImage": "/comeet1.jpg",
-      "benefitImage": "/comeet2.jpg",
+      "featureImage": "/images/79.jpg",
+      "benefitImage": "/images/80.jpg",
       "features": [
         "Chat de video aleatorio para descubrimientos espontáneos",
         "Salas de chat privadas uno a uno instantáneas",
@@ -1986,7 +2259,14 @@
         "Una plataforma enfocada en la química y conexión en tiempo real",
         "Un entorno seguro y moderado para todos los usuarios",
         "Optimizado para uso en escritorio y móvil"
-      ]
+      ],
+      "metadata": {
+        "title": "ChatRandom",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "chatrandom": {
       "toppara": "Chatrandom es una plataforma de chat para adultos dinámica y diversa que da vida a la emoción de la ruleta de chat. Te conecta con una comunidad global de usuarios e intérpretes a través de chats de video y texto aleatorios, ofreciendo una experiencia social rápida y variada. Es el destino principal para aquellos que disfrutan del descubrimiento, interacciones grupales y un entorno en línea bullicioso.",
@@ -1996,8 +2276,8 @@
       "drawbacksDescription": "La experiencia gratuita incluye anuncios y opciones de filtrado limitadas. El acceso completo e irrestricto requiere una actualización premium.",
       "excerpt": "Salas de chat grupales, comunidad global, chat de video aleatorio, intereses temáticos, máscaras virtuales",
       "overview": "Chatrandom ofrece una experiencia de chat multifacética con conexiones instantáneas a individuos y grupos. Explora una amplia gama de salas de chat públicas o salta a chats de video privados aleatorios. Con opciones de filtrado robustas, efectos virtuales divertidos y un fuerte enfoque en la comunidad, proporciona una plataforma entretenida y social para interacciones adultas.",
-      "featureImage": "/chatrandom1.jpg",
-      "benefitImage": "/chatrandom2.jpg",
+      "featureImage": "/images/81.jpg",
+      "benefitImage": "/images/82.jpg",
       "features": [
         "Salas de chat grupales temáticas para intereses compartidos",
         "Filtros de país y género para controlar tus conexiones",
@@ -2018,7 +2298,14 @@
         "Personaliza tu experiencia de chat con filtros y efectos",
         "Un pool constantemente renovado de nuevas personas para conocer",
         "Una plataforma repleta de funciones que fomenta la exploración y diversión"
-      ]
+      ],
+      "metadata": {
+        "title": "Omegle",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "omegle": {
       "toppara": "Omegle es una plataforma de chat en línea gratuita que te conecta anónimamente con extraños de todo el mundo. Ofrece una forma simple y privada de conocer gente nueva y participar en conversaciones en tiempo real, pasando de la visualización pasiva a la interacción activa.",
@@ -2028,8 +2315,8 @@
       "drawbacksDescription": "Para fomentar una comunidad segura y respetuosa, las funciones premium como filtros y chats ilimitados requieren registro de cuenta rápido.",
       "excerpt": "Chat de video aleatorio, conexiones uno a uno, interacciones en vivo, sesiones privadas, compromiso genuino",
       "overview": "Omegle proporciona chats de video instantáneos y de alta calidad para conexiones con extraños en vivo. Explora usuarios diversos en tiempo real, disfruta de charlas privadas y guarda favoritos. Su interfaz intuitiva, registro rápido y optimización móvil entregan entretenimiento adulto espontáneo.",
-      "featureImage": "/omegle1.jfif",
-      "benefitImage": "/omegle2.jpg",
+      "featureImage": "/images/83.jpg",
+      "benefitImage": "/images/84.jpg",
       "features": [
         "Chat de video aleatorio para encuentros inesperados",
         "Salas privadas uno a uno instantáneas",
@@ -2050,7 +2337,14 @@
         "Énfasis en la química personal en tiempo real",
         "Plataforma moderada para seguridad del usuario",
         "Compatibilidad fluida en escritorio y móvil"
-      ]
+      ],
+      "metadata": {
+        "title": "OmeTV",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "ometv": {
       "toppara": "OmeTV es una plataforma de chat de video gratuita que te empareja anónimamente con extraños de todo el mundo. Ofrece un espacio directo y privado para charlas en tiempo real, convirtiendo el desplazamiento pasivo en interacciones uno a uno animadas.",
@@ -2060,8 +2354,8 @@
       "drawbacksDescription": "Para asegurar seguridad y respeto, filtros avanzados y acceso ilimitado requieren registro de cuenta gratuito rápido.",
       "excerpt": "Chat de video aleatorio, emparejamientos instantáneos, extraños en vivo, salas privadas, vibras auténticas",
       "overview": "OmeTV sirve enlaces de video relámpago y de alta calidad a personas reales globalmente. Salta a chats espontáneos, aplica filtros inteligentes, guarda favoritos y disfruta de un diseño elegante primero para móvil construido para diversión impulsiva orientada a adultos.",
-      "featureImage": "/ome1.jpg",
-      "benefitImage": "/ome1.jpg",
+      "featureImage": "/images/85.jpg",
+      "benefitImage": "/images/86.jpg",
       "features": [
         "Emparejamiento de video aleatorio para conexiones sorpresa",
         "Salas de chat privadas instantáneas",
@@ -2082,7 +2376,14 @@
         "Enfoque en chispa personal instantánea",
         "Moderado activamente para seguridad",
         "Rendimiento impecable en móvil y escritorio"
-      ]
+      ],
+      "metadata": {
+        "title": "StrangerCam",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "strangercam": {
       "toppara": "StrangerCam es una plataforma de chat de video en línea gratuita que te enlaza anónimamente con extraños de todo el mundo—sin registros necesarios. Proporciona un camino directo y privado para conversaciones en tiempo real, transformando la navegación inactiva en compromisos vibrantes y directos.",
@@ -2092,8 +2393,8 @@
       "drawbacksDescription": "Para un espacio seguro y civil, herramientas mejoradas como filtros personalizados y sesiones interminables requieren creación de cuenta rápida y sin costo.",
       "excerpt": "Enlaces de video aleatorios, encuentros con extraños instantáneos, intercambios en vivo, rincones privados, conexiones reales",
       "overview": "StrangerCam entrega chats de video rápidos y cristalinos para conectar con extraños globales en vivo. Sumérgete en charlas sin filtros, ajusta búsquedas con filtros, marca favoritos y regocíjate en un diseño sin complicaciones optimizado para escapadas adultas rápidas y listas para móvil.",
-      "featureImage": "/strangercam1.jpg",
-      "benefitImage": "/strangercam2.jpg",
+      "featureImage": "/images/87.jpg",
+      "benefitImage": "/images/88.jpg",
       "features": [
         "Emparejamiento de video aleatorio para encuentros serendípicos",
         "Espacios privados uno a uno fluidos",
@@ -2114,7 +2415,14 @@
         "Reflejo en rapport en vivo y eléctrico",
         "Comunidad salvaguardada con moderación",
         "Sincronización sin esfuerzo en dispositivos"
-      ]
+      ],
+      "metadata": {
+        "title": "ChatSpin",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "chatspin": {
       "toppara": "Chatspin es una app de chat de video aleatorio gratuita que te empareja anónimamente con extraños de todo el mundo—sin registro necesario. Entrega una puerta rápida y privada a conversaciones en tiempo real, volteando el desplazamiento pasivo en conexiones instantáneas y atractivas.",
@@ -2124,8 +2432,8 @@
       "drawbacksDescription": "Aunque completamente accesible sin registro, se anima a los usuarios a revisar y aceptar directrices básicas de seguridad para mantener interacciones respetuosas y seguras.",
       "excerpt": "Coincidencias de video aleatorias, máscaras AI anónimas, chats con extraños en vivo, invitaciones privadas, momentos auténticos",
       "overview": "Chatspin impulsa enlaces de video ultra-rápidos y de alta calidad a extraños globales para diversión espontánea. Aplica filtros ingeniosos, enmascara tu rostro para privacidad extra, invita a privados y disfruta de una interfaz muerta-simple que es amigable para móvil y lista para vibras adultas casuales.",
-      "featureImage": "/chatspin1.jpg",
-      "benefitImage": "/chatspin2.jpg",
+      "featureImage": "/images/89.jpg",
+      "benefitImage": "/images/90.jpg",
       "features": [
         "Emparejamiento de video aleatorio para encuentros sorpresa",
         "Máscaras faciales impulsadas por AI para anonimato total",
@@ -2146,7 +2454,14 @@
         "Emoción en tiempo real y toque personal",
         "Consejos de seguridad integrados para diversión sin preocupaciones",
         "Juego fluido en móvil o escritorio"
-      ]
+      ],
+      "metadata": {
+        "title": "Shagle",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "shagle": {
       "toppara": "Shagle es una plataforma de chat en línea gratuita que te conecta anónimamente con extraños de todo el mundo. Ofrece una forma simple y privada de conocer gente nueva y participar en conversaciones en tiempo real, pasando de la visualización pasiva a la interacción activa.",
@@ -2156,8 +2471,8 @@
       "drawbacksDescription": "Para fomentar una comunidad segura y respetuosa, las funciones premium como filtros y chats ilimitados requieren registro de cuenta rápido.",
       "excerpt": "Chat de video aleatorio, conexiones uno a uno, interacciones en vivo, sesiones privadas, compromiso genuino",
       "overview": "Shagle proporciona chats de video instantáneos y de alta calidad para conexiones con extraños en vivo. Explora usuarios diversos en tiempo real, disfruta de charlas privadas y guarda favoritos. Su interfaz intuitiva, registro rápido y optimización móvil entregan entretenimiento adulto espontáneo.",
-      "featureImage": "/shagle1.jpg",
-      "benefitImage": "/shagle2.jpg",
+      "featureImage": "/images/91.jpg",
+      "benefitImage": "/images/92.jpg",
       "features": [
         "Chat de video aleatorio para encuentros inesperados",
         "Salas privadas uno a uno instantáneas",
@@ -2178,7 +2493,14 @@
         "Énfasis en la química personal en tiempo real",
         "Plataforma moderada para seguridad del usuario",
         "Compatibilidad fluida en escritorio y móvil"
-      ]
+      ],
+      "metadata": {
+        "title": "Chatroulette",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "chatroulette": {
       "toppara": "Chatroulette es una plataforma de chat de video aleatorio gratuita que te enlaza anónimamente con extraños de todo el mundo—sin cuenta requerida. Entrega un camino directo y privado a conversaciones en tiempo real, convirtiendo la curiosidad casual en encuentros emocionantes cara a cara.",
@@ -2188,8 +2510,8 @@
       "drawbacksDescription": "Para mantener un espacio seguro solo para adultos, los usuarios deben seguir reglas estrictas de moderación que prohíben contenido explícito, aplicadas por IA y supervisión humana.",
       "excerpt": "Emparejamiento de video aleatorio, enlaces con extraños instantáneos, chats globales en vivo, filtros de país, diálogos auténticos",
       "overview": "Chatroulette alimenta conexiones de video rápidas y de alta calidad a extraños diversos para diversión inmediata. Afina idiomas, debate ideas o descubre talentos; aplica filtros de país, chatea vía texto si prefieres y prospera en una interfaz directa con apps móviles fluidas.",
-      "featureImage": "/chatroulette1.jpg",
-      "benefitImage": "/chatroulette2.jpg",
+      "featureImage": "/images/93.jpg",
+      "benefitImage": "/images/94.jpg",
       "features": [
         "Emparejamiento de video aleatorio para emparejamientos serendípicos",
         "Salas de video uno a uno instantáneas",
@@ -2210,7 +2532,14 @@
         "Impulso para rapport en vivo y descubrimiento",
         "Moderación robusta IA-humana para seguridad",
         "Sincronización perfecta en apps móviles y escritorio"
-      ]
+      ],
+      "metadata": {
+        "title": "Flingster",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "flingster": {
       "toppara": "Flingster es una plataforma de chat de video para adultos gratuita que te empareja anónimamente con extraños de todo el mundo—sin registro requerido. Crea un espacio directo y privado para conversaciones coquetas en tiempo real, evolucionando de visualización en solitario a intercambios en vivo exhilarantes.",
@@ -2220,8 +2549,8 @@
       "drawbacksDescription": "Para desbloquear perks premium como filtros avanzados y efectos AR, se necesita verificación de cuenta rápida para asegurar un entorno seguro 18+ para adultos.",
       "excerpt": "Coincidencias de video aleatorias, chats adultos anónimos, filtros faciales AR, enfoque en género/ubicación, flirteos en vivo",
       "overview": "Flingster enciende enlaces de video instantáneos y de alta calidad a extraños globales para diversión adulta espontánea. Sumérgete en emparejamientos aleatorios, aplica filtros premium, experimenta con máscaras AR y chatea vía texto si prefieres—todo en un diseño elegante basado en navegador optimizado para navegadores de escritorio y móvil.",
-      "featureImage": "/flingster1.jpg",
-      "benefitImage": "/flingster2.jpg",
+      "featureImage": "/images/95.jpg",
+      "benefitImage": "/images/96.jpg",
       "features": [
         "Emparejamiento de video aleatorio para sorpresas emocionantes",
         "Salas de video uno a uno anónimas instantáneas",
@@ -2242,7 +2571,14 @@
         "Enfoque en conexiones en vivo impulsadas por deseo",
         "Moderación estricta 18+ y reportes para seguridad",
         "Acceso sin esfuerzo en cualquier navegador o dispositivo"
-      ]
+      ],
+      "metadata": {
+        "title": "ChatLive",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     },
     "chatlive": {
       "toppara": "Chatlive es una plataforma gratuita de chat de video aleatorio que te conecta de forma anónima con desconocidos de todo el mundo—sin cuenta requerida. Ofrece un camino directo y privado hacia conversaciones en tiempo real, transformando la curiosidad casual en encuentros emocionantes cara a cara.",
@@ -2252,8 +2588,8 @@
       "drawbacksDescription": "Para mantener un espacio seguro solo para adultos, los usuarios deben seguir estrictas reglas de moderación que prohíben contenido explícito, aplicadas por IA y supervisión humana.",
       "excerpt": "Emparejamiento de video aleatorio, enlaces instantáneos con desconocidos, chats globales en vivo, filtros de país, diálogos auténticos",
       "overview": "Chatlive impulsa conexiones de video rápidas y de alta calidad hacia diversos desconocidos para diversión inmediata. Perfecciona idiomas, debate ideas o descubre talentos; aplica filtros de país, chatea por texto si prefieres, y prospera en una interfaz directa con apps móviles fluidas.",
-      "featureImage": "/chatliv.jpg",
-      "benefitImage": "/chatliv.jpg",
+      "featureImage": "/images/97.jpg",
+      "benefitImage": "/images/98.jpg",
       "features": [
         "Emparejamiento de video aleatorio para parejas fortuitas",
         "Salas de video uno a uno instantáneas",
@@ -2274,7 +2610,14 @@
         "Impulso para rapport en vivo y descubrimiento",
         "Moderación robusta IA-humana para seguridad",
         "Sincronización perfecta en apps móviles y escritorio"
-      ]
+      ],
+      "metadata": {
+        "title": "ChatLive",
+        "description": "Live adult webcam platform featuring amateur performers and interactive shows",
+        "category": "adult",
+        "enabled": true,
+        "tracking": true
+      }
     }
   },
   "SearchPage": {
