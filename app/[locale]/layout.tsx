@@ -8,6 +8,9 @@ import Footer from "@/components/Footer";
 import MetaMaskErrorBoundary from "@/components/MetaMaskErrorBoundary";
 import Script from "next/script";
 
+const SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL || "https://next.x-u.cc";
+
+
 export async function generateMetadata({
   params,
 }: {
@@ -32,7 +35,14 @@ export async function generateMetadata({
     description: metadata.description,
     keywords: metadata.keywords || "chat, rooms, online, cam girls",
     icons: {
-      icon: "/images/ficon.jpg",
+      icon: [
+        {
+          url: `${SERVER_URL}/images/ficon.jpg`,
+          type: "image/jpeg",
+        },
+      ],
+      shortcut: `${SERVER_URL}/images/ficon.jpg`,
+      apple: `${SERVER_URL}/images/ficon.jpg`,
     },
     openGraph: {
       title: metadata.title,
