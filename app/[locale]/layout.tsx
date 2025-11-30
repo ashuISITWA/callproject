@@ -3,12 +3,14 @@ import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
 import type { Metadata } from "next";
+import { headers } from "next/headers";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import MetaMaskErrorBoundary from "@/components/MetaMaskErrorBoundary";
 import Script from "next/script";
 
 const SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL || "https://next.x-u.cc";
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://x-chats.com";
 
 
 export async function generateMetadata({
@@ -30,7 +32,24 @@ export async function generateMetadata({
 
   const metadata = messages.metadata;
 
+  // Get current pathname from headers (set by middleware)
+  const headersList = await headers();
+  const pathname = headersList.get("x-pathname") || "";
+  
+  // Construct the current page URL based on pathname
+  // Note: Individual pages will override this URL with their specific URLs
+  let currentUrl = BASE_URL;
+  if (pathname && pathname !== "/") {
+    // Pathname already includes locale (e.g., /en/bbwchat or /fr/bbwchat)
+    // Just prepend BASE_URL
+    currentUrl = `${BASE_URL}${pathname}`;
+  } else {
+    // Fallback: construct URL based on locale only
+    currentUrl = locale === "en" ? BASE_URL : `${BASE_URL}/${locale}`;
+  }
+
   return {
+    metadataBase: new URL(BASE_URL),
     title: metadata.title,
     description: metadata.description,
     keywords: metadata.keywords || "chat, rooms, online, cam girls",
@@ -44,11 +63,22 @@ export async function generateMetadata({
       shortcut: `${SERVER_URL}/images/ficon.jpg`,
       apple: `${SERVER_URL}/images/ficon.jpg`,
     },
+    // Layout provides default Open Graph, but individual pages will override with their specific URLs
     openGraph: {
-      title: metadata.title,
-      description: metadata.description,
       type: "website",
       locale: locale,
+      url: currentUrl, // This will be overridden by page-specific URLs
+      siteName: "Top Chats",
+      title: metadata.title, // This will be overridden by page-specific titles
+      description: metadata.description, // This will be overridden by page-specific descriptions
+      images: [
+        {
+          url: `${BASE_URL}/images/og-image.jpg`,
+          width: 1200,
+          height: 630,
+          alt: metadata.title,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
@@ -56,11 +86,12 @@ export async function generateMetadata({
       description: metadata.description,
     },
     alternates: {
-      canonical: `/${locale}`,
+      canonical: locale === "en" ? "/" : `/${locale}`,
       languages: {
-        en: "/en",
+        en: "/",
         de: "/de",
         fr: "/fr",
+        es: "/es",
       },
     },
   };

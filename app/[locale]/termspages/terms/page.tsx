@@ -1,5 +1,6 @@
 import React from "react";
 import type { Metadata } from "next";
+import { headers } from "next/headers";
 import messagesMap from "@/messages";
 import type { AppLocale } from "@/messages";
 import Link from "next/link";
@@ -22,20 +23,43 @@ export async function generateMetadata({
     Keywords: "Fetish Chat, Terms of Service, Privacy Policy, User Agreement",
   };
 
+  // Generate full page URL dynamically
+  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://x-chats.com";
+  const headersList = await headers();
+  const pathname = headersList.get("x-pathname") || "";
+  
+  // Use pathname if available, otherwise construct from locale
+  let pageUrl = `${BASE_URL}/termspages/terms`;
+  if (pathname && pathname !== "/") {
+    pageUrl = `${BASE_URL}${pathname}`;
+  } else {
+    pageUrl = locale === "en" ? `${BASE_URL}/termspages/terms` : `${BASE_URL}/${locale}/termspages/terms`;
+  }
+
   return {
+    metadataBase: new URL(BASE_URL),
     title: seoData.Title,
     description: seoData.Description,
     keywords: seoData.Keywords,
     openGraph: {
-      title: seoData.Title,
-      description: seoData.Description,
       type: "website",
       locale: safeLocale,
+      url: pageUrl,
+      siteName: "Top Chats",
+      title: seoData.Title,
+      description: seoData.Description,
+      images: [{
+        url: `${BASE_URL}/images/og-image.jpg`,
+        width: 1200,
+        height: 630,
+        alt: seoData.Title,
+      }],
     },
     twitter: {
       card: "summary_large_image",
       title: seoData.Title,
       description: seoData.Description,
+      images: [`${BASE_URL}/images/og-image.jpg`],
     },
     robots: {
       index: true,

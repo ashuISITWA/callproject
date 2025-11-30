@@ -3,6 +3,7 @@ import Shortcuts from "@/components/Shortcuts";
 import SitesSlider from "@/components/SitesSlider";
 import HeroBanner from "@/components/banners/HeroBanner";
 import type { Metadata } from "next";
+import { headers } from "next/headers";
 import messagesMap from "@/messages"; 
 import type { AppLocale } from "@/messages"; 
 import CamGrid from "@/components/CamGrid";
@@ -32,6 +33,19 @@ export async function generateMetadata({
 
   // Generate canonical URL
   const canonical = locale === "en" ? "/freechat" : `/${locale}/freechat`;
+  
+  // Generate full page URL dynamically
+  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://x-chats.com";
+  const headersList = await headers();
+  const pathname = headersList.get("x-pathname") || "";
+  
+  // Use pathname if available, otherwise construct from locale and category
+  let pageUrl = `${BASE_URL}/freechat`;
+  if (pathname && pathname !== "/") {
+    pageUrl = `${BASE_URL}${pathname}`;
+  } else {
+    pageUrl = locale === "en" ? `${BASE_URL}/freechat` : `${BASE_URL}/${locale}/freechat`;
+  }
 
   // Replace {year} with current year in title
   const currentYear = new Date().getFullYear();
@@ -39,17 +53,28 @@ export async function generateMetadata({
   const finalOpenGraphTitle = (openGraphData.title || categorySeoData.title || seoData.title || "Free Chat").replace("{year}", currentYear.toString());
 
   return {
-    metadataBase: categorySeoData.metadataBase ? new URL(categorySeoData.metadataBase) : (seoData.metadataBase ? new URL(seoData.metadataBase) : new URL("https://coomeets.vercel.app")),
+    metadataBase: categorySeoData.metadataBase ? new URL(categorySeoData.metadataBase) : (seoData.metadataBase ? new URL(seoData.metadataBase) : new URL(BASE_URL)),
     title: finalTitle,
     description: categorySeoData.description || seoData.description || "",
     openGraph: {
       type: openGraphData.type || "website",
       title: finalOpenGraphTitle,
       description: openGraphData.description || categorySeoData.description || seoData.description || "",
-      images: openGraphData.image ? [openGraphData.image] : [],
-      url: openGraphData.url || "",
+      images: openGraphData.image ? [openGraphData.image] : [{
+        url: `${BASE_URL}/images/og-image.jpg`,
+        width: 1200,
+        height: 630,
+        alt: finalOpenGraphTitle,
+      }],
+      url: openGraphData.url || pageUrl,
       siteName: openGraphData.siteName || "Top Chats",
       locale: safeLocale,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: finalOpenGraphTitle,
+      description: openGraphData.description || categorySeoData.description || seoData.description || "",
+      images: openGraphData.image ? [openGraphData.image] : [`${BASE_URL}/images/og-image.jpg`],
     },
     alternates: {
       canonical: canonical,

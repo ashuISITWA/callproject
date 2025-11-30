@@ -1,5 +1,6 @@
 import SearchList from "./searchList";
 import type { Metadata } from "next";
+import { headers } from "next/headers";
 import messagesMap from "@/messages"; 
 import type { AppLocale } from "@/messages";
 
@@ -51,20 +52,43 @@ export async function generateMetadata({
     ? `${capitalizedQuery}, ${seoData.Keywords}`
     : seoData.Keywords;
 
+  // Generate full page URL dynamically
+  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://x-chats.com";
+  const headersList = await headers();
+  const pathname = headersList.get("x-pathname") || "";
+  
+  // Use pathname if available, otherwise construct from locale
+  let pageUrl = `${BASE_URL}/search`;
+  if (pathname && pathname !== "/") {
+    pageUrl = `${BASE_URL}${pathname}${hasQuery ? `?q=${encodeURIComponent(query)}` : ""}`;
+  } else {
+    pageUrl = locale === "en" ? `${BASE_URL}/search${hasQuery ? `?q=${encodeURIComponent(query)}` : ""}` : `${BASE_URL}/${locale}/search${hasQuery ? `?q=${encodeURIComponent(query)}` : ""}`;
+  }
+
   return {
+    metadataBase: new URL(BASE_URL),
     title: title,
     description: description,
     keywords: keywords,
     openGraph: {
-      title: title,
-      description: description,
       type: "website",
       locale: safeLocale,
+      url: pageUrl,
+      siteName: "Top Chats",
+      title: title,
+      description: description,
+      images: [{
+        url: `${BASE_URL}/images/og-image.jpg`,
+        width: 1200,
+        height: 630,
+        alt: title,
+      }],
     },
     twitter: {
       card: "summary_large_image",
       title: title,
       description: description,
+      images: [`${BASE_URL}/images/og-image.jpg`],
     },
     robots: {
       index: true,

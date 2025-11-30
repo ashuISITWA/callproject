@@ -361,7 +361,7 @@ The project uses Tailwind CSS with custom configuration:
   },
   "links": {
     "slug": {
-      "global": "https://example.com",
+      "global": "https://x-chats.com",
       "countries": {
         "US": "https://us.example.com",
         "UK": "https://uk.example.com"
